@@ -1,0 +1,7 @@
+* here we go
+$a=3$
+* another thing
+$b=4$
+\begin{equation}
+a=3+2
+\end{equation}

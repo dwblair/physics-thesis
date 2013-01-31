@@ -1,0 +1,47 @@
+% Created 2011-12-21 Wed 18:32
+\documentclass[11pt]{article}
+\usepackage[AUTO]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fixltx2e}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{soul}
+\usepackage{textcomp}
+\usepackage{marvosym}
+\usepackage{wasysym}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\tolerance=1000
+\providecommand{\alert}[1]{\textbf{#1}}
+
+\title{test1}
+\author{Don Blair}
+\date{\today}
+\hypersetup{
+  pdfkeywords={},
+  pdfsubject={},
+  pdfcreator={Emacs Org-mode version 7.7}}
+
+\begin{document}
+
+\maketitle
+
+\setcounter{tocdepth}{3}
+\tableofcontents
+\vspace*{1cm}
+\section{here we go}
+\label{sec-1}
+
+$a=3$
+\section{another thing}
+\label{sec-2}
+
+$b=4$
+\begin{equation}
+a=3+2
+\end{equation}
+
+\end{document}
