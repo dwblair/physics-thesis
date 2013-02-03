@@ -1,0 +1,56 @@
+;; RefTeX parse info file
+;; File: /Users/dwblair/Documents/physics/writing/diameter/diam1.tex
+;; User: dwblair (Don Blair)
+
+(set reftex-docstruct-symbol '(
+
+
+(xr nil "\\\\\\\\\\\\")
+
+(index-tags)
+
+(is-multi nil)
+
+(bibview-cache)
+
+(master-dir . "/Users/dwblair/Documents/physics/writing/diameter/")
+
+(label-numbers)
+
+(bof "/Users/dwblair/Documents/physics/writing/diameter/diam1.tex")
+
+(toc "toc" "    1 Introduction" "/Users/dwblair/Documents/physics/writing/diameter/diam1.tex" nil 2 "1" "\\section{Introduction}" 1006)
+
+(toc "toc" "    2 Potts Model Simulations" "/Users/dwblair/Documents/physics/writing/diameter/diam1.tex" nil 2 "2" "\\section{Potts Model Simulations}" 3099)
+
+(toc "toc" "      2.1 The Potts Model" "/Users/dwblair/Documents/physics/writing/diameter/diam1.tex" nil 3 "2.1" "\\subsection{The Potts Model}" 3253)
+
+(toc "toc" "      2.2 Swendsen Wang Algorithm" "/Users/dwblair/Documents/physics/writing/diameter/diam1.tex" nil 3 "2.2" "\\subsection{Swendsen Wang Algorithm}" 3778)
+
+(toc "toc" "      2.3 Algorithms for determining the chemical distance and the diameter" "/Users/dwblair/Documents/physics/writing/diameter/diam1.tex" nil 3 "2.3" "\\subsection{Algorithms for determining the chemical distance and the diameter}" 4708)
+
+(toc "toc" "    3 What I want" "/Users/dwblair/Documents/physics/writing/diameter/diam1.tex" nil 2 "3" "\\section{What I want}" 5706)
+
+(toc "toc" "    3 What I want" "/Users/dwblair/Documents/physics/writing/diameter/diam1.tex" nil 2 "3" "\\section{What I want}" 5706)
+
+(toc "toc" "      3.1 Details of simulation" "/Users/dwblair/Documents/physics/writing/diameter/diam1.tex" nil 3 "3.1" "\\subsection{Details of simulation}" 6462)
+
+(toc "toc" "        3.1.1 autocorrelation time \\& independence" "/Users/dwblair/Documents/physics/writing/diameter/diam1.tex" nil 4 "3.1.1" "\\subsubsection{autocorrelation time \\& independence}" 6498)
+
+(toc "toc" "        3.1.2 scaling methods, detail" "/Users/dwblair/Documents/physics/writing/diameter/diam1.tex" nil 4 "3.1.2" "\\subsubsection{scaling methods, detail}" 6759)
+
+(toc "toc" "    4 Results and Discussion" "/Users/dwblair/Documents/physics/writing/diameter/diam1.tex" nil 2 "4" "\\section{Results and Discussion}" 6920)
+
+(toc "toc" "      4.1 Results" "/Users/dwblair/Documents/physics/writing/diameter/diam1.tex" nil 3 "4.1" "\\subsection{Results}" 6954)
+
+("tab:dminD2d" "t" "{\\bf Results for 2D Potts Model.} Scaling exponent for the chemical distance ($d_{min}$) and for the" "/Users/dwblair/Documents/physics/writing/diameter/diam1.tex" nil)
+
+("tab:dminD3d" "t" "{\\bf (DUMMY NUMBERS) Results for 3D Potts Model.} Scaling exponent for the chemical distance ($d_{mi" "/Users/dwblair/Documents/physics/writing/diameter/diam1.tex" t)
+
+(toc "toc" "    5 Bibliography" "/Users/dwblair/Documents/physics/writing/diameter/diam1.tex" nil 2 "5" "\\section{Bibliography}" 9091)
+
+(bib "/Users/dwblair/Documents/physics/writing/bibfiles/dwbreferences.bib")
+
+(eof "/Users/dwblair/Documents/physics/writing/diameter/diam1.tex")
+))
+

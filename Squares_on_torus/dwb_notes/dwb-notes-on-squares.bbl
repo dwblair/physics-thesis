@@ -1,0 +1,142 @@
+\begin{thebibliography}{10}
+
+\bibitem{Wojciechowski2004}
+KW~Wojciechowski and D.~Frenkel.
+\newblock {TETRATIC PHASE IN THE PLANAR HARD SQUARE SYSTEM?}
+\newblock {\em Computational Methods in Science and Technology},
+  10(2):235--255, 2004.
+
+\bibitem{Rintoul1996}
+Md~Rintoul and S~Torquato.
+\newblock {Metastability and Crystallization in Hard-Sphere Systems.}
+\newblock {\em Physical review letters}, 77(20):4198--4201, November 1996.
+
+\bibitem{Sturgeon1992}
+Kathy~S. Sturgeon and Frank~H. Stillinger.
+\newblock {Cavities in the hard-disk crystal: A Monte Carlo simulation study}.
+\newblock {\em The Journal of Chemical Physics}, 96(6):4651, 1992.
+
+\bibitem{Rintoul1996a}
+M.~D. Rintoul and S.~Torquato.
+\newblock {Computer simulations of dense hard-sphere systems}.
+\newblock {\em The Journal of Chemical Physics}, 105(20):9258, 1996.
+
+\bibitem{Donev2006}
+Aleksandar Donev, Joshua Burton, F.H. Stillinger, and Salvatore Torquato.
+\newblock {Tetratic order in the phase behavior of a hard-rectangle system}.
+\newblock {\em Physical Review B}, 73(5):054109, 2006.
+
+\bibitem{Liu2005}
+Jiwen Liu and Erik Luijten.
+\newblock {Generalized geometric cluster algorithm for fluid simulation}.
+\newblock {\em Physical Review E}, 71(6):1--12, June 2005.
+
+\bibitem{Frenkel1996}
+Daan Frenkel and Berend Smit.
+\newblock {\em {Understanding molecular simulation: from algorithms to
+  applications}}.
+\newblock Academic Press, Inc. Orlando, FL, USA, September 1996.
+
+\bibitem{Shell2009}
+Shell.
+\newblock {Monte Carlo simulations in other ensembles}.
+\newblock 2009.
+
+\bibitem{Odriozola2009}
+Gerardo Odriozola.
+\newblock {Replica exchange Monte Carlo applied to hard spheres.}
+\newblock {\em The Journal of chemical physics}, 131(14):144107, 2009.
+
+\bibitem{Machta2010}
+J~Machta.
+\newblock {Strengths and Weaknesses of Parallel Tempering}.
+\newblock {\em Bulletin of the American Physical Society}, 55:1--18, 2010.
+
+\bibitem{Machta2011}
+J~Machta and R.S. Ellis.
+\newblock {Monte Carlo Methods for Rough Free Energy Landscapes: Population
+  Annealing and Parallel Tempering}.
+\newblock {\em Arxiv preprint arXiv:1104.1138}, 2011.
+
+\bibitem{Shiu1986}
+P.~Shiu.
+\newblock {Counting sums of two squares: the Meissel-Lehmer method}.
+\newblock {\em Mathematics of Computation}, 47(175):351--351, September 1986.
+
+\bibitem{Reztsov1997}
+A.V. Reztsov and I.H. Sloan.
+\newblock {On 2D packings of cubes in the torus}.
+\newblock {\em Proceedings of the American Mathematical Society},
+  125(1):17--26, 1997.
+
+\bibitem{Decaudin2004}
+Philippe Decaudin and F.~Neyret.
+\newblock {Packing square tiles into one texture}.
+\newblock {\em Eurographics (short papers)}, pages 49--52, 2004.
+
+\bibitem{Sikiric}
+Mathieu~Dutour Sikiric, Yoshiaki Itoh, and Alexei Poyarkov.
+\newblock {I . Torus cube tilings and packings}.
+
+\bibitem{Dickinson2011}
+William Dickinson, Daniel Guillot, Anna Keaton, and Sandi Xhumari.
+\newblock {Optimal packings of up to five equal circles on a square flat
+  torus}.
+\newblock {\em Beitr$\backslash$$\backslash$"age zur Algebra und
+  Geometrie/Contributions to Algebra and Geometry}, pages 1--19, May 2011.
+
+\bibitem{Kocay2001}
+William Kocay, Daniel Neilson, and Ryan Szypowski.
+\newblock {Drawing graphs on the torus}.
+\newblock {\em Ars Combinatoria}, 59:259--278, 2001.
+
+\bibitem{Zhao2011}
+Kun Zhao, Robijn Bruinsma, and T.G. Mason.
+\newblock {Entropic crystal–crystal transitions of Brownian squares}.
+\newblock {\em Proceedings of the National Academy of Sciences}, 108(7):2684,
+  2011.
+
+\bibitem{Boucheron2000}
+S.~Boucheron, W.~Fernandez de~la Vega, W.~Fernandez, and De~La Vega.
+\newblock {On A Square Packing Problem}, 2000.
+
+\bibitem{Sikiric2010}
+Mathieu~Dutour Sikiri\'{c} and Yoshiaki Itoh.
+\newblock {Combinatorial cube packings in the cube and the torus}.
+\newblock {\em European Journal of Combinatorics}, 31(2):517--534, February
+  2010.
+
+\bibitem{Gensane2004}
+Thierry Gensane and Philippe Ryckelynck.
+\newblock {Improved Dense Packings of Congruent Squares in a Square}.
+\newblock {\em Discrete \& Computational Geometry}, 34(1):97--109, October
+  2004.
+
+\bibitem{Wagon1994}
+S.~Wagon.
+\newblock {Fourteen proofs of a result about tiling a rectangle}.
+\newblock In {\em The lighter side of mathematics: proceedings of the
+  Eug\`{e}ne Strens Memorial Conference on Recreational Mathematics \& Its
+  History}, page 113. The Mathematical Association of America, 1994.
+
+\bibitem{DutourSikiric2007}
+M.~{Dutour Sikiric}, Y.~Itoh, and Alexei Poyarkov.
+\newblock {Cube packings, second moment and holes}.
+\newblock {\em European journal of combinatorics}, 28(3):715--725, 2007.
+
+\bibitem{Baumert1970}
+Baumert.
+\newblock {A Combinatorial Packing Problem}, 1970.
+
+\bibitem{Duparcmeur1995}
+L.~Duparcmeur, A.~Gervois, and J.~Troadec.
+\newblock {Dense periodic packings of regular polygons}.
+\newblock {\em Journal de Physique I}, 5(12):1539--1550, 1995.
+
+\bibitem{Chung2009}
+Fan Chung and Ron Graham.
+\newblock {Packing equal squares into a large square}.
+\newblock {\em Journal of Combinatorial Theory, Series A}, 116(6):1167--1175,
+  August 2009.
+
+\end{thebibliography}

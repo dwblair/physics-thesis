@@ -1,0 +1,377 @@
+% Created 2010-07-05 Mon 12:48
+\documentclass{umthesis}
+
+\usepackage{tocloft}
+\renewcommand{\contentsname}{Thesis Outline: Don Blair}
+\renewcommand{\cftdotsep}{10000}
+
+% \setlength{\cftsecindent}{2.0em} 
+% \setlength{\cftsubsecnumwidth}{3.0em} 
+
+% \setlength{\cftsubsubsecindent}{6.0em} 
+\setlength{\cftsubsubsecnumwidth}{2.2em} 
+\setlength{\cftparaindent}{9.3em}
+\setlength{\cftparanumwidth}{1.0em} 
+\renewcommand{\thesubsubsection}{(\alph{subsubsection})}
+\renewcommand{\theparagraph}{--}
+
+
+\title{Draft of diameter paper}
+\author{Don Blair}
+\date{05 July 2010}
+
+\begin{document}
+
+
+%\renewcommand{\cftdot}{\ensuremath{\ast}}
+
+\setcounter{tocdepth}{5}
+
+%\renewcommand{\thesubsubsection}{(\alph{subsubsection})}
+%\renewcommand{\theparagraph}{(\roman{paragraph})}
+
+%\renewcommand{\@dotsep}{10000}
+%\renewcommand{\@tocrmarg}{2.55em plus1fil}
+
+%\renewcommand{\cftsecdotsep}{\cftnodots}
+%\renewcommand{\cftchapdotsep}{\cftnodots}
+%\renewcommand{\dotsep}{100000}
+%\renewcommand{\@dotsep}{10000}
+
+
+\tableofcontents
+%\addtocontents{toc}{\cftpagenumbersoff{chapter}}
+
+\vspace*{1cm}
+\title{ \emph{Physicae Auscultationes}}
+\author{D. W. Blair}
+\date{September 2010}
+
+\copyrightyear{2010}
+\bachelors{B.Sc.}{University of Massachusetts Amherst}
+\masters{M.Sc.}{University of Massachusettds Amherst}
+%\secondmasters{M.Ed.}{Antioch College}
+%\priordoctorate{M.D.}{University of Never-never-land}
+% \committeechair{B. B. Bahh}
+\cochairs{B. B. Bahh}{I. M. A. Wolf}
+\firstreader{Little Bo Peep}
+\secondreader{R. U. Sheepish}
+\thirdreader{Bill Shepherd}
+\fourthreader{Mary Lamb}   % Optional
+%\fifthreader{}            % Optional
+%\sixthreader{}            % Optional
+\departmentchair{Don Candela}
+\departmentname{Physics Department}
+
+
+%\frontmatter
+%\maketitle
+%\copyrightpage
+%\signaturepage
+
+
+%\begin{dedication}
+%  \begin{center}
+%    \emph{To those little lost sheep.}
+%  \end{center}
+%\end{dedication}
+
+%\chapter{Acknowledgments}
+%Acknowledgements.
+
+%\begin{abstract} 
+%Test of abstract
+%\end{abstract}
+
+
+%\tableofcontents                % Table of contents -- ADD BACK (and uncomment 'OPTIONS' line at top) for umthesis style TOC
+%\settocdepth{subparagraph}
+
+%\listoftables                   % List of Tables -- ADD BACK IN
+%\listoffigures                  % List of Figures -- ADD BACK IN
+\mainmatter
+
+%\unnumberedchapter{Introduction}
+%Why on earth do I want to study sheep anyway?
+
+
+\chapter{Melting A}
+\label{sec-1}
+\section{Background re: melting}
+\label{sec-1.1}
+\subsection{Theories of melting, 3D, 2D, bulk}
+\label{sec-1.1.1}
+\subsubsection{3D crystallites w/ stable surfaces melt from within via Born melting}
+\label{sec-1.1.1.1}
+
+     \texttt{CLOSED:} \textit{2010-07-04 Sun 15:28}\newline
+In this case, melting can be viewed as nucleation and growth of fluid phase within the solid.
+\paragraph{or yet another structure.}
+\label{sec-1.1.1.1.1}
+\begin{itemize}
+
+\item or even another\\
+\label{sec-1.1.1.1.1.1}%
+\end{itemize} % ends low level
+\subsubsection{2D large crystallites melt by two-step process via hexatic phase}
+\label{sec-1.1.1.2}
+\subsubsection{2D finite crystallites melt from perimeter}
+\label{sec-1.1.1.3}
+\paragraph{if melt from perimeter, dN/dt goes as $N^{1/2}$}
+\label{sec-1.1.1.3.1}
+\subsection{Expectations for 2D finite crystallites}
+\label{sec-1.1.2}
+\section{Experiment of Savage et. al}
+\label{sec-1.2}
+\subsection{Setup}
+\label{sec-1.2.1}
+\subsection{Tuneable Depletion potential}
+\label{sec-1.2.2}
+\subsection{Results}
+\label{sec-1.2.3}
+\subsubsection{N vs. t}
+\label{sec-1.2.3.1}
+\subsubsection{$< psi6 >^2$ vs. N}
+\label{sec-1.2.3.2}
+\subsubsection{$C_6$ vs. N, by layer}
+\label{sec-1.2.3.3}
+\subsubsection{No dependence of fast-melting feature on initial cluster size or melting rate}
+\label{sec-1.2.3.4}
+\section{Simulations}
+\label{sec-1.3}
+\subsection{Motivation}
+\label{sec-1.3.1}
+\subsection{GROMACS System}
+\label{sec-1.3.2}
+\subsection{Brownian dynamics}
+\label{sec-1.3.3}
+\subsection{Simulated Depletion Potential}
+\label{sec-1.3.4}
+\subsection{Simulated Lennard-Jones Potential}
+\label{sec-1.3.5}
+\subsection{Results}
+\label{sec-1.3.6}
+\subsubsection{N vs. t}
+\label{sec-1.3.6.1}
+\subsubsection{$< psi6 >^2$ vs. N}
+\label{sec-1.3.6.2}
+\subsubsection{$C_6$ vs. N, by layer}
+\label{sec-1.3.6.3}
+\subsubsection{mean-square fluctuations in bond lengths}
+\label{sec-1.3.6.4}
+\subsubsection{N vs. t for Lennard-Jones potential}
+\label{sec-1.3.6.5}
+\subsubsection{Phase diagram showing lack of fluid phase with short-range potential}
+\label{sec-1.3.6.6}
+\subsection{Discussion}
+\label{sec-1.3.7}
+\chapter{Melting B}
+\label{sec-2}
+\section{Background}
+\label{sec-2.1}
+\subsection{Colloids: macroscopic system analogous to atomic system}
+\label{sec-2.1.1}
+\subsubsection{similarites:}
+\label{sec-2.1.1.1}
+\paragraph{some phase behavior and phase transitions}
+\label{sec-2.1.1.1.1}
+\paragraph{can investiage atomic behavior via analogy}
+\label{sec-2.1.1.1.2}
+\subsubsection{differences:}
+\label{sec-2.1.1.2}
+\paragraph{novel phases and phase behavior}
+\label{sec-2.1.1.2.1}
+\paragraph{superheated metastable states}
+\label{sec-2.1.1.2.2}
+\paragraph{interparticle potential readily modified}
+\label{sec-2.1.1.2.3}
+\begin{itemize}
+
+\item short-range repulsion, long-range repulsion, short-range repulsion and long-range attraction\\
+\label{sec-2.1.1.2.3.1}%
+\end{itemize} % ends low level
+\subsection{Experiment by Savage et. al: novel melting kinetics}
+\label{sec-2.1.2}
+\subsubsection{system: hard spheres with short-range attraction (relative to diameter)}
+\label{sec-2.1.2.1}
+\subsubsection{experiment details}
+\label{sec-2.1.2.2}
+\subsubsection{two-stage melting process}
+\label{sec-2.1.2.3}
+\paragraph{first melts from perimeter until reaches critical size}
+\label{sec-2.1.2.3.1}
+\paragraph{then breaks up into dense amorphous phase, which is unstable and rapidly evaporates}
+\label{sec-2.1.2.3.2}
+\paragraph{crossover occurs at typical 'magic size'}
+\label{sec-2.1.2.3.3}
+\paragraph{experiments: magic size \~{} 20-30 particles}
+\label{sec-2.1.2.3.4}
+\paragraph{simulations: magic size \~{} 40-50 particles}
+\label{sec-2.1.2.3.5}
+\paragraph{little dependence on temperature in experiment}
+\label{sec-2.1.2.3.6}
+\paragraph{(?) no dependence on temp in simulation?}
+\label{sec-2.1.2.3.7}
+\subsubsection{possible explanations ruled out:}
+\label{sec-2.1.2.4}
+\paragraph{'fast melting' behavior means rate not limited by thermal breaking of bonds}
+\label{sec-2.1.2.4.1}
+\begin{itemize}
+
+\item (since this would go as $N^(1/2)$\\
+\label{sec-2.1.2.4.1.1}%
+\end{itemize} % ends low level
+\paragraph{density decreases as crystallites shrink: melting kinetics not governed by surface tension}
+\label{sec-2.1.2.4.2}
+\begin{itemize}
+
+\item (?) does this contradict lacoste's argument?\\
+\label{sec-2.1.2.4.2.1}%
+\item (?) can i get data re: surface tension from tony, from simulations?\\
+\label{sec-2.1.2.4.2.2}%
+\end{itemize} % ends low level
+\paragraph{melting behavior not history dependent}
+\label{sec-2.1.2.4.3}
+\begin{itemize}
+
+\item no dependence on initial cluster size, melting rate in experiment\\
+\label{sec-2.1.2.4.3.1}%
+\item (?) no dependence in simulation ?\\
+\label{sec-2.1.2.4.3.2}%
+\end{itemize} % ends low level
+\subsubsection{not classical nucleation of liquid within solid below critical crystal size}
+\label{sec-2.1.2.5}
+\paragraph{energetically unfavorable given positive surface energy}
+\label{sec-2.1.2.5.1}
+\paragraph{positive difference between chemical potentials of two phases}
+\label{sec-2.1.2.5.2}
+\paragraph{(?) understand this argument, relevant equations}
+\label{sec-2.1.2.5.3}
+\subsection{Our hypothesis:  thermally-activated defects enhance melting rate}
+\label{sec-2.1.3}
+\subsubsection{thermal introduction of disclinations favorable after critical size}
+\label{sec-2.1.3.1}
+\subsubsection{presence of disclinations leads to concentration of stress}
+\label{sec-2.1.3.2}
+\subsubsection{stress can be released through propagation of cracks}
+\label{sec-2.1.3.3}
+\subsubsection{cracks propagate or not depending on range of potential}
+\label{sec-2.1.3.4}
+\subsubsection{short-range, 'brittle' potential allow cracks to propagate}
+\label{sec-2.1.3.5}
+\subsubsection{longer-range, 'ductile' potential doesn't}
+\label{sec-2.1.3.6}
+\subsubsection{(?) is notion of a 'crack' in a liquid droplet sensible?}
+\label{sec-2.1.3.7}
+\subsection{Simulations yield same result re:}
+\label{sec-2.1.4}
+\subsection{Hypothesis: thermally-activated defects enhance melting rate in short-range, 2D system}
+\label{sec-2.1.5}
+\subsection{Evidence:}
+\label{sec-2.1.6}
+\subsubsection{Disclinations are implicated in breakup}
+\label{sec-2.1.6.1}
+\paragraph{GROMACS BD simulations, using depletion-like potential (from Part A)}
+\label{sec-2.1.6.1.1}
+\paragraph{exhibit fast-melting (from Part A)}
+\label{sec-2.1.6.1.2}
+\paragraph{order parameter decreases sharply (Part A)}
+\label{sec-2.1.6.1.3}
+\paragraph{ave disclination 'charge' reaches +1 at the magic size}
+\label{sec-2.1.6.1.4}
+\subsubsection{Disclinations and two-stage melting affected by range of potential}
+\label{sec-2.1.6.2}
+\paragraph{Own BD simulations with screened Coulomb potential}
+\label{sec-2.1.6.2.1}
+\paragraph{Tune range of potential, short- and long-range (lambda values?)}
+\label{sec-2.1.6.2.2}
+\paragraph{Short-range: x percent fast melting; long-range: y percent fast melting; x>>y}
+\label{sec-2.1.6.2.3}
+\section{Simulation Methods}
+\label{sec-2.2}
+\subsection{Gromacs system}
+\label{sec-2.2.1}
+
+Here's a good test. \cite{Deng2009}
+\subsection{Brownian Dynamics}
+\label{sec-2.2.2}
+\subsection{Characteristics of Simulated Depletion Potential}
+\label{sec-2.2.3}
+\subsection{Initial configurations}
+\label{sec-2.2.4}
+\section{Results}
+\label{sec-2.3}
+\subsection{N vs t}
+\label{sec-2.3.1}
+\subsection{Order vs. N}
+\label{sec-2.3.2}
+\subsection{Breakdown by layers}
+\label{sec-2.3.3}
+\section{Conclusions}
+\label{sec-2.4}
+\chapter{Diameter of Random Clusters}
+\label{sec-3}
+\section{Background}
+\label{sec-3.1}
+\section{Simulations}
+\label{sec-3.2}
+\section{Results}
+\label{sec-3.3}
+\chapter{Phase Transitions in Computational Complexity}
+\label{sec-4}
+\section{Background}
+\label{sec-4.1}
+\subsection{Constraint Satisfaction Problems (CSP)}
+\label{sec-4.1.1}
+\subsubsection{Examples}
+\label{sec-4.1.1.1}
+\paragraph{kSAT}
+\label{sec-4.1.1.1.1}
+\paragraph{Graph-coloring}
+\label{sec-4.1.1.1.2}
+\paragraph{Spin models}
+\label{sec-4.1.1.1.3}
+\paragraph{error-correcting codes}
+\label{sec-4.1.1.1.4}
+\subsubsection{Observation of threshold behavior in CSP}
+\label{sec-4.1.1.2}
+\subsubsection{Difficulties in tackling phase behavior of CSP}
+\label{sec-4.1.1.3}
+\subsection{Proposal: study complexity of percolation model}
+\label{sec-4.1.2}
+\section{Percolation}
+\label{sec-4.2}
+\subsection{The Model}
+\label{sec-4.2.1}
+\subsection{Background / applications}
+\label{sec-4.2.2}
+\section{PRAM}
+\label{sec-4.3}
+\subsection{Applications in comp sci}
+\label{sec-4.3.1}
+\subsection{PRIORITY CRCW}
+\label{sec-4.3.2}
+\section{Parallel Algorithm for Percolation}
+\label{sec-4.4}
+\section{Results}
+\label{sec-4.5}
+\subsection{D$_2$ vs. p for several system sizes L}
+\label{sec-4.5.1}
+\subsection{log(D$_2$) vs. log(L)}
+\label{sec-4.5.2}
+\subsection{Distribution of cluster sizes}
+\label{sec-4.5.3}
+\subsubsection{logarithmic or power law? (power law --> algorithm will often fail)}
+\label{sec-4.5.3.1}
+
+
+
+\bibliographystyle{plain}
+\bibliography{/home/dwblair/Dropbox/dwbdocs/physics/writing/bibfiles/combo}
+
+ 
+    
+
+    
+
+\end{document}

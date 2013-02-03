@@ -1,0 +1,185 @@
+% Created 2010-07-01 Thu 15:06
+\documentclass{article}
+
+
+\title{thesisdraft2b}
+\author{Don Blair}
+\date{01 July 2010}
+
+\begin{document}
+
+
+
+\setcounter{tocdepth}{3}
+\tableofcontents
+\vspace*{1cm}
+\chapter{Melting A}
+\label{sec-1}
+\section{Background re: melting}
+\label{sec-1.1}
+\subsection{Theories of melting, 3D, 2D, bulk}
+\label{sec-1.1.1}
+\begin{itemize}
+
+\item 3D crystallites w/ stable surfaces melt from within via Born melting\\
+\label{sec-1.1.1.1}%
+In this case, melting can be viewed as nucleation and growth of fluid phase within the solid.
+
+\item 2D large crystallites melt by two-step process via hexatic phase\\
+\label{sec-1.1.1.2}%
+\item 2D finite crystallites melt from perimeter
+\label{sec-1.1.1.3}%
+\begin{itemize}
+
+\item if melt from perimeter, dN/dt goes as $N^{1/2}$\\
+\label{sec-1.1.1.3.1}%
+\end{itemize} % ends low level
+\end{itemize} % ends low level
+\subsection{Expectations for 2D finite crystallites}
+\label{sec-1.1.2}
+\section{Experiment of Savage et. al}
+\label{sec-1.2}
+\subsection{Setup}
+\label{sec-1.2.1}
+\subsection{Tunable Depletion potential}
+\label{sec-1.2.2}
+\subsection{Results}
+\label{sec-1.2.3}
+\begin{itemize}
+
+\item N vs. t\\
+\label{sec-1.2.3.1}%
+\item $< psi6 >^2$ vs. N\\
+\label{sec-1.2.3.2}%
+\item $C_6$ vs. N, by layer\\
+\label{sec-1.2.3.3}%
+\item No dependence of fast-melting feature on initial cluster size or melting rate\\
+\label{sec-1.2.3.4}%
+\end{itemize} % ends low level
+\section{Simulations}
+\label{sec-1.3}
+\subsection{Motivation}
+\label{sec-1.3.1}
+\subsection{GROMACS System}
+\label{sec-1.3.2}
+\subsection{Brownian dynamics}
+\label{sec-1.3.3}
+\subsection{Simulated Depletion Potential}
+\label{sec-1.3.4}
+\subsection{Simulated Lennard-Jones Potential}
+\label{sec-1.3.5}
+\subsection{Results}
+\label{sec-1.3.6}
+\begin{itemize}
+
+\item N vs. t\\
+\label{sec-1.3.6.1}%
+\item $< psi6 >^2$ vs. N\\
+\label{sec-1.3.6.2}%
+\item $C_6$ vs. N, by layer\\
+\label{sec-1.3.6.3}%
+\item mean-square fluctuations in bond lengths\\
+\label{sec-1.3.6.4}%
+\item N vs. t for Lennard-Jones potential\\
+\label{sec-1.3.6.5}%
+\item Phase diagram showing lack of fluid phase with short-range potential\\
+\label{sec-1.3.6.6}%
+\end{itemize} % ends low level
+\subsection{Discussion}
+\label{sec-1.3.7}
+\chapter{Melting B}
+\label{sec-2}
+\section{Background}
+\label{sec-2.1}
+\subsection{Hypothesis: thermally-activated defects enhance melting rate in short-range 2D system}
+\label{sec-2.1.1}
+\section{Simulation Methods}
+\label{sec-2.2}
+\subsection{Gromacs system}
+\label{sec-2.2.1}
+\subsection{Brownian Dynamics}
+\label{sec-2.2.2}
+\subsection{Characteristics of Simulated Depletion Potential}
+\label{sec-2.2.3}
+\subsection{Initial configurations}
+\label{sec-2.2.4}
+\section{Results}
+\label{sec-2.3}
+\subsection{N vs t}
+\label{sec-2.3.1}
+\subsection{Order vs. N}
+\label{sec-2.3.2}
+\subsection{Breakdown by layers}
+\label{sec-2.3.3}
+\section{Conclusions}
+\label{sec-2.4}
+\chapter{Diameter of Random Clusters}
+\label{sec-3}
+\section{Background}
+\label{sec-3.1}
+\section{Simulations}
+\label{sec-3.2}
+\section{Results}
+\label{sec-3.3}
+\chapter{Phase Transitions in Computational Complexity}
+\label{sec-4}
+\section{Background}
+\label{sec-4.1}
+\subsection{Constraint Satisfaction Problems (CSP)}
+\label{sec-4.1.1}
+\begin{itemize}
+
+\item Examples
+\label{sec-4.1.1.1}%
+\begin{itemize}
+
+\item kSAT\\
+\label{sec-4.1.1.1.1}%
+\item Graph-coloring\\
+\label{sec-4.1.1.1.2}%
+\item Spin models\\
+\label{sec-4.1.1.1.3}%
+\item error-correcting codes\\
+\label{sec-4.1.1.1.4}%
+\end{itemize} % ends low level
+
+\item Observation of threshold behavior in CSP\\
+\label{sec-4.1.1.2}%
+\item Difficulties in tackling phase behavior of CSP\\
+\label{sec-4.1.1.3}%
+\end{itemize} % ends low level
+\subsection{Proposal: study complexity of percolation model}
+\label{sec-4.1.2}
+\section{Percolation}
+\label{sec-4.2}
+\subsection{The Model}
+\label{sec-4.2.1}
+\subsection{Background / applications}
+\label{sec-4.2.2}
+\section{PRAM}
+\label{sec-4.3}
+\subsection{Applications in comp sci}
+\label{sec-4.3.1}
+\subsection{PRIORITY CRCW}
+\label{sec-4.3.2}
+\section{Parallel Algorithm for Percolation}
+\label{sec-4.4}
+\section{Results}
+\label{sec-4.5}
+\subsection{D$_2$ vs. p for several system sizes L}
+\label{sec-4.5.1}
+\subsection{log(D$_2$) vs. log(L)}
+\label{sec-4.5.2}
+\subsection{Distribution of cluster sizes}
+\label{sec-4.5.3}
+\begin{itemize}
+
+\item logarithmic or power law? (power law --> algorithm will often fail)\\
+\label{sec-4.5.3.1}%
+\bibliographystyle{plain}
+\bibliography{/home/dwblair/Dropbox/dwbdocs/physics/writing/bibfiles/combo}
+
+ 
+\end{itemize} % ends low level
+
+\end{document}

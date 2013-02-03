@@ -1,0 +1,26 @@
+% Created 2009-02-25 Wed 22:58
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+
+
+\title{diamtables}
+\author{Donald Blair}
+\date{25 February 2009}
+
+\begin{document}
+
+\maketitle
+
+\setcounter{tocdepth}{3}
+\tableofcontents
+
+\begin{tabular}{lllll}
+ dim  &  q  &  L_{min}  &  d_{min}  &  D_{min}  \\
+\hline
+      &     &           &           &           \\
+\end{tabular}
+
+
+\end{document}

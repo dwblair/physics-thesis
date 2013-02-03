@@ -1,0 +1,145 @@
+#+LaTeX_CLASS: article
+#+STARTUP: hideblocks
+##+OPTIONS: toc:nil author:nil t:nil
+#+TITLE: Draft of diameter paper
+#+BEGIN_LaTeX:
+%\tableofcontents
+%\settocdepth{subparagraph}
+#+END_LaTeX
+
+* Melting A
+** Background re: melting
+*** Theories of melting, 3D, 2D, bulk
+**** 3D crystallites w/ stable surfaces melt from within via Born melting
+     CLOSED: [2010-07-04 Sun 15:28]
+In this case, melting can be viewed as nucleation and growth of fluid phase within the solid.
+***** or yet another structure.
+****** or even another
+**** 2D large crystallites melt by two-step process via hexatic phase
+**** 2D finite crystallites melt from perimeter
+***** if melt from perimeter, dN/dt goes as $N^{1/2}$
+*** Expectations for 2D finite crystallites    
+** Experiment of Savage et. al
+*** Setup
+*** Tuneable Depletion potential
+*** Results
+**** N vs. t
+**** $< psi6 >^2$ vs. N
+**** $C_6$ vs. N, by layer
+**** No dependence of fast-melting feature on initial cluster size or melting rate
+** Simulations
+*** Motivation
+*** GROMACS System
+*** Brownian dynamics
+*** Simulated Depletion Potential
+*** Simulated Lennard-Jones Potential
+*** Results
+**** N vs. t
+**** $< psi6 >^2$ vs. N
+**** $C_6$ vs. N, by layer
+**** mean-square fluctuations in bond lengths
+**** N vs. t for Lennard-Jones potential
+**** Phase diagram showing lack of fluid phase with short-range potential
+*** Discussion
+* Melting B
+** Background
+*** Colloids: macroscopic system analogous to atomic system
+**** similarites:
+***** some phase behavior and phase transitions
+***** can investiage atomic behavior via analogy
+**** differences:
+***** novel phases and phase behavior
+***** superheated metastable states
+***** interparticle potential readily modified
+****** short-range repulsion, long-range repulsion, short-range repulsion and long-range attraction
+*** Experiment by Savage et. al: novel melting kinetics
+**** system: hard spheres with short-range attraction (relative to diameter)
+**** experiment details
+**** two-stage melting process
+***** first melts from perimeter until reaches critical size
+***** then breaks up into dense amorphous phase, which is unstable and rapidly evaporates
+***** crossover occurs at typical 'magic size'
+***** experiments: magic size ~ 20-30 particles
+***** simulations: magic size ~ 40-50 particles
+***** little dependence on temperature in experiment
+***** (?) no dependence on temp in simulation?
+**** possible explanations ruled out:
+***** 'fast melting' behavior means rate not limited by thermal breaking of bonds
+****** (since this would go as $N^(1/2)$
+***** density decreases as crystallites shrink: melting kinetics not governed by surface tension
+****** (?) does this contradict lacoste's argument?
+****** (?) can i get data re: surface tension from tony, from simulations?
+***** melting behavior not history dependent
+****** no dependence on initial cluster size, melting rate in experiment
+****** (?) no dependence in simulation ?
+**** not classical nucleation of liquid within solid below critical crystal size
+***** energetically unfavorable given positive surface energy
+***** positive difference between chemical potentials of two phases
+***** (?) understand this argument, relevant equations
+*** Our hypothesis:  thermally-activated defects enhance melting rate
+**** thermal introduction of disclinations favorable after critical size
+**** presence of disclinations leads to concentration of stress
+**** stress can be released through propagation of cracks
+**** cracks propagate or not depending on range of potential
+**** short-range, 'brittle' potential allow cracks to propagate
+**** longer-range, 'ductile' potential doesn't
+**** (?) is notion of a 'crack' in a liquid droplet sensible?
+*** Simulations yield same result re:
+*** Hypothesis: thermally-activated defects enhance melting rate in short-range, 2D system
+*** Evidence:
+**** Disclinations are implicated in breakup
+***** GROMACS BD simulations, using depletion-like potential (from Part A)
+***** exhibit fast-melting (from Part A)
+***** order parameter decreases sharply (Part A)
+***** ave disclination 'charge' reaches +1 at the magic size
+**** Disclinations and two-stage melting affected by range of potential
+***** Own BD simulations with screened Coulomb potential
+***** Tune range of potential, short- and long-range (lambda values?)
+***** Short-range: x percent fast melting; long-range: y percent fast melting; x>>y
+** Simulation Methods
+*** Gromacs system
+Here's a good test. \cite{Deng2009}
+*** Brownian Dynamics
+*** Characteristics of Simulated Depletion Potential
+*** Initial configurations
+** Results
+*** N vs t
+*** Order vs. N
+*** Breakdown by layers
+** Conclusions
+* Diameter of Random Clusters
+** Background
+** Simulations
+** Results
+* Phase Transitions in Computational Complexity
+** Background
+*** Constraint Satisfaction Problems (CSP)
+**** Examples
+***** kSAT
+***** Graph-coloring
+***** Spin models
+***** error-correcting codes
+**** Observation of threshold behavior in CSP
+**** Difficulties in tackling phase behavior of CSP
+*** Proposal: study complexity of percolation model
+** Percolation
+*** The Model
+*** Background / applications
+** PRAM
+*** Applications in comp sci
+*** PRIORITY CRCW
+** Parallel Algorithm for Percolation    
+** Results    
+*** D_2 vs. p for several system sizes L
+*** log(D_2) vs. log(L)
+*** Distribution of cluster sizes
+**** logarithmic or power law? (power law --> algorithm will often fail)
+
+
+\bibliographystyle{plain}
+\bibliography{/home/dwblair/Dropbox/dwbdocs/physics/writing/bibfiles/combo}
+
+ 
+    
+
+    

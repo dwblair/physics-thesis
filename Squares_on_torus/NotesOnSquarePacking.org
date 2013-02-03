@@ -1,0 +1,21 @@
+* Notes on the Squares on the Torus literature
+
+** Density of Sum of Squares
+- Presentation re: density of sum of squares: http://www.math.uiuc.edu/~pppollac/3talk-CNTA.pdf
+- Density of sum of squares via central limit theorem: http://www.sjsu.edu/faculty/watkins/CLText.htm
+- Mathworld / Wolfram article on Landau-Ramanujan Constant: http://mathworld.wolfram.com/Landau-RamanujanConstant.html
+- Online discussion re: density of sum of squares: http://www.math.niu.edu/~rusin/known-math/93_back/2squares
+- 
+** Packing Squares on the Torus is NP Hard
+- MAIN REFERENCE:  "Packing Squares into a Square", Leung, Tam, Young, Chin -- Journal of Parallel and Distributed Computing 10, pp 271-275, 1990 -- NOT ONLINE?!
+- "Packing 2x2 unit squares into grid polygons is NP Complete" http://cccg.ca/proceedings/2009/cccg09_09.pdf
+- The Open Problems Project: Packing Unit Squares in a Simple Polygon: http://maven.smith.edu/~orourke/TOPP/P56.html
+- Worse-case analysis of fast heuristics of packings squares into a square: http://www.sciencedirect.com/science/article/pii/0304397595001840
+- Master's thesis on treemaps (includes discussion of proof of NP-completeness of square packing problem) http://www.mpi-inf.mpg.de/~vdweele/download/treemaps.pdf
+- Circle Packing for Origami Design is hard http://erikdemaine.org/papers/DiskPacking_Origami5/paper.pdf
+** Packing Squares in Squares 
+- "On Packing Squares into a Rectangle" http://www.or.uni-bonn.de/~hougardy/paper/SquarePacking.pdf
+- "Optimal Rectangle Packing: New Results" http://citeseer.ist.psu.edu/viewdoc/download;jsessionid=D0495E1AF4C7540BA5338A5458373144?doi=10.1.1.140.200&rep=rep1&type=pdf
+- Joseph Malkevitch on Geometric Packing: http://www.york.cuny.edu/~malk/tidbits/tidbit-geometric-packing.html
+
+[Include math papers found thus far, here]

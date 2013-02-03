@@ -1,0 +1,181 @@
+#+LaTeX_CLASS: thesis
+#+OPTIONS: toc:nil author:nil t:nil
+#+TITLE: Draft of diameter paper
+#+BEGIN_LaTeX:
+\title{ \emph{Physicae Auscultationes}}
+\author{D. W. Blair}
+\date{September 2010}
+
+\copyrightyear{2010}
+\bachelors{B.Sc.}{University of Massachusetts Amherst}
+\masters{M.Sc.}{University of Massachusetts Amherst}
+%\secondmasters{M.Ed.}{Antioch College}
+%\priordoctorate{M.D.}{University of Never-never-land}
+% \committeechair{B. B. Bahh}
+\cochairs{B. B. Bahh}{I. M. A. Wolf}
+\firstreader{Little Bo Peep}
+\secondreader{R. U. Sheepish}
+\thirdreader{Bill Shepherd}
+\fourthreader{Mary Lamb}   % Optional
+%\fifthreader{}            % Optional
+%\sixthreader{}            % Optional
+\departmentchair{Don Candela}
+\departmentname{Physics Department}
+
+
+\frontmatter
+\maketitle
+%\copyrightpage
+%\signaturepage
+
+
+%\begin{dedication}
+%  \begin{center}
+%    \emph{To those little lost sheep.}
+%  \end{center}
+%\end{dedication}
+
+%\chapter{Acknowledgments}
+%Acknowledgements.
+
+%\begin{abstract} 
+%Test of abstract
+%\end{abstract}
+
+\tableofcontents                % Table of contents
+%\listoftables                   % List of Tables -- ADD BACK IN
+%\listoffigures                  % List of Figures -- ADD BACK IN
+\mainmatter
+
+%\unnumberedchapter{Introduction}
+%Why on earth do I want to study sheep anyway?
+
+#+END_LaTeX
+
+* Melting: Part A (science paper)
+** Background
+*** theory of 2-D melting
+**** bulk: hexatic, two-stage
+**** for finite crystallites: melting dominated by surface
+**** range of potential as issue
+**** imaging small crystallites difficult before savage's technique
+** Experiments by Savage et. al
+** Depletion potential
+*** range ~ 10 % of particle diameter
+*** observation: sublimation at steady rate until characteristic size, then enhanced melting
+*** Figure: N vs t (Fig 2. from savage et. al)
+*** Figure: Q_6 vs t (Fig 3. from savage et. al)
+** Simulations
+** Motivation
+*** confirm that odd hydrodynamics didn't play a role
+*** explore role of range of potential on melting
+** Simulation algorithm / details
+*** brownian dynamics simulation
+**** theory
+**** algorithm
+**** form of the interaction potential used
+***** A-O depletion model
+***** 'Blairium' -- A-O, but avoid infinite Brownian dynamics force
+*** phase diagram exploration
+** Results
+*** short-range potential (~10%)
+**** N vs. t
+**** Q_6 vs. t
+**** Q_6 vs. N
+*** longer-range potential (~80%)
+** Discussion
+** Future work
+*** 3D
+*** curved surfaces
+*** non-spherical molecules
+* Melting: Part B (moumita)
+** Background
+*** Reference to experimental work and theory work in melting A chapter
+*** Theory: range of potential controls brittle/ductile transition
+**** brittle / ductile theory
+*** When crystallites are sufficiently brittle, melting is mediated by defects
+**** alternative melting models
+** Theory
+*** Determine energy cost, E, of creating a disclination on flat 2D Membrane
+*** For thermally-activated disclinations, K_B T ~ E
+*** Disclinations create internal stresses: relieved by cracking
+*** potential energy penalty, V, of crack in 2D sheet
+*** minimize V to find critical crack length, l_c(Y,gamma)
+*** estimate Y, gamma for simulations
+*** use these to find a, critical average interparticle separation
+*** this allows us to find a critical potential range, a
+** Simluations
+*** Brownian dynamics background (refer to previous)
+*** My code (include in thesis) vs. Gromacs
+*** New form of the interparticle potential
+**** plot for short-range, longer-range
+*** Phase behavior / melting temperature
+**** brittle
+**** ductile
+*** Results
+**** For Brittle and Ductile cases:
+***** N vs. t
+***** Q_6 vs. (N-N*)
+***** Q_6 vs. (N-N*)
+***** Ave. topological charge vs. (N-N*)
+** Discussion
+**** Alternative theories: e.g. Lacoste
+** Code
+* Diameter of Random Clusters
+** Background
+*** Applications and physical realizations of the potts model
+*** Interesting properties of potts model clusters
+**** mass
+**** perimeter
+**** chemical distance
+***** literature review
+****** applications
+***** current understanding
+***** no established relationship to other scaling exponents
+**** diameter
+***** graph theoretic definition
+***** applications
+****** relevant to efficiency of simulations
+****** communication on a potts network
+***** mean field expectations
+*** Review of potts model
+**** overview
+**** phase behavior for q=1,2,3,4, D=1,2,3,4,infinite
+** Simulations
+*** swendsen wang algorithm
+*** method: determining chemical distance
+**** review methods in literature
+**** proposed trick
+**** our method (useful when periodic boundaries)
+**** estimated algorithmic complexity
+*** simulation details
+**** autocorrelation time / independence
+**** scaling methods
+** Results
+*** 2D q=1,2,3,4
+*** 3D q=1,2
+*** 4D q=2
+* Phase Transitions in Computational Complexity
+** Background
+*** Constraint Satisfaction Problems (CSP)
+**** Examples
+***** kSAT
+***** Graph-coloring
+***** Spin models
+***** error-correcting codes
+**** Observation of threshold behavior in CSP
+**** Difficulties in tackling phase behavior of CSP
+*** Proposal: study complexity of percolation model
+** Percolation
+*** The Model
+*** Background / applications
+** PRAM
+*** Applications in comp sci
+*** PRIORITY CRCW
+** Parallel Algorithm for Percolation
+** Results
+*** D_2 vs. p for several system sizes L
+*** log(D_2) vs. log(L)
+*** Distribution of cluster sizes
+**** logarithmic or power law? (power law --> algorithm will often fail)
+

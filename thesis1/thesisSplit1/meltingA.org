@@ -1,0 +1,63 @@
+#+LaTeX_CLASS: thesis
+#+STARTUP: hideblocks
+##+OPTIONS: toc:nil author:nil t:nil
+#+TITLE: Draft of diameter paper
+#+BEGIN_LaTeX:
+
+\title{ \emph{Physicae Auscultationes}}
+\author{D. W. Blair}
+\date{September 2010}
+
+\copyrightyear{2010}
+\bachelors{B.Sc.}{University of Massachusetts Amherst}
+\masters{M.Sc.}{University of Massachusettds Amherst}
+%\secondmasters{M.Ed.}{Antioch College}
+%\priordoctorate{M.D.}{University of Never-never-land}
+% \committeechair{B. B. Bahh}
+\cochairs{B. B. Bahh}{I. M. A. Wolf}
+\firstreader{Little Bo Peep}
+\secondreader{R. U. Sheepish}
+\thirdreader{Bill Shepherd}
+\fourthreader{Mary Lamb}   % Optional
+%\fifthreader{}            % Optional
+%\sixthreader{}            % Optional
+\departmentchair{Don Candela}
+\departmentname{Physics Department}
+
+
+%\frontmatter
+%\maketitle
+%\copyrightpage
+%\signaturepage
+
+
+%\begin{dedication}
+%  \begin{center}
+%    \emph{To those little lost sheep.}
+%  \end{center}
+%\end{dedication}
+
+%\chapter{Acknowledgments}
+%Acknowledgements.
+
+%\begin{abstract} 
+%Test of abstract
+%\end{abstract}
+
+
+%\tableofcontents                % Table of contents -- ADD BACK (and uncomment 'OPTIONS' line at top) for umthesis style TOC
+%\settocdepth{subparagraph}
+
+%\listoftables                   % List of Tables -- ADD BACK IN
+%\listoffigures                  % List of Figures -- ADD BACK IN
+\mainmatter
+
+%\unnumberedchapter{Introduction}
+%Why on earth do I want to study sheep anyway?
+
+#+END_LaTeX
+
+Test.
+
+\bibliographystyle{plain}
+\bibliography{/home/dwblair/Dropbox/dwbdocs/physics/writing/bibfiles/combo}

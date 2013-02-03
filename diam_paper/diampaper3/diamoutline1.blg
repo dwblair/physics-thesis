@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.6)
+The top-level auxiliary file: diamoutline1.aux
+The style file: plain.bst
+Database file #1: /home/dwblair/Dropbox/dwbdocs/physics/writing/bibfiles/combo.bib
+Warning--empty journal in Deng2010
+Warning--empty year in Nachmiasa
+You've used 11 entries,
+            2118 wiz_defined-function locations,
+            619 strings with 5776 characters,
+and the built_in function-call counts, 3341 in all, are:
+= -- 324
+> -- 149
+< -- 2
++ -- 60
+- -- 48
+* -- 220
+:= -- 584
+add.period$ -- 33
+call.type$ -- 11
+change.case$ -- 56
+chr.to.int$ -- 0
+cite$ -- 13
+duplicate$ -- 134
+empty$ -- 259
+format.name$ -- 48
+if$ -- 686
+int.to.chr$ -- 0
+int.to.str$ -- 11
+missing$ -- 12
+newline$ -- 58
+num.names$ -- 22
+pop$ -- 48
+preamble$ -- 1
+purify$ -- 46
+quote$ -- 0
+skip$ -- 93
+stack$ -- 0
+substring$ -- 184
+swap$ -- 22
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 42
+warning$ -- 2
+while$ -- 37
+width$ -- 13
+write$ -- 121
+(There were 2 warnings)

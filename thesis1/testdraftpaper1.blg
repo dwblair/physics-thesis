@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: testdraftpaper1.aux
+The style file: plain.bst
+Database file #1: testdraftpaper1Notes.bib
+Database file #2: /home/dwblair/Dropbox/dwbdocs/physics/writing/bibfiles/combo.bib
+Warning--empty journal in Deng2009
+You've used 1 entry,
+            2118 wiz_defined-function locations,
+            548 strings with 4728 characters,
+and the built_in function-call counts, 460 in all, are:
+= -- 42
+> -- 28
+< -- 1
++ -- 11
+- -- 10
+* -- 34
+:= -- 81
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 8
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 16
+empty$ -- 27
+format.name$ -- 10
+if$ -- 92
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 1
+newline$ -- 8
+num.names$ -- 2
+pop$ -- 10
+preamble$ -- 1
+purify$ -- 7
+quote$ -- 0
+skip$ -- 13
+stack$ -- 0
+substring$ -- 21
+swap$ -- 5
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 4
+warning$ -- 1
+while$ -- 5
+width$ -- 2
+write$ -- 12
+(There was 1 warning)

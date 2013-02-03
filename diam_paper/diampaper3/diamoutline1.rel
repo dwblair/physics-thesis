@@ -1,0 +1,104 @@
+;; RefTeX parse info file
+;; File: /home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex
+;; User: dwblair (Don Blair)
+
+(set reftex-docstruct-symbol '(
+
+
+(xr nil "\\\\\\\\\\\\")
+
+(index-tags)
+
+(is-multi nil)
+
+(bibview-cache ("Wu82" . "Wu 1982, {Potts} Model, Rev. Mod. Phys. 54:235") ("Bax" . "Baxter 1973, Potts Model at Critical Temperature, J. Phys. C 6:L445") ("Leath" . "Leath 1976, Cluster Size Boundary Distribution near, prb 14:5046") ("Paul2001" . "Paul etal. 2001, Percolation threshold  Fisher exponent, Physical Review E 64:1") ("Gr99" . "Grassberger 1995, Pair connectedness shortest path scaling, jpa 32:6233") ("SaSo97" . "Salas & Sokal 1997, Dynam. crit. behav. {S}w. {W}ang, jsp 87:1") ("Deng2009" . "Deng etal. 2009, New crit. expon. perc. rand., 1") ("Mendeley2009a" . "Mendeley 2009, Getting Started with Mendeley, in: Mendeley Desktop"))
+
+(master-dir . "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/")
+
+(label-numbers)
+
+(bof "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex")
+
+(toc "toc" "    1 Background" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" nil 2 "1" "\\section{Background}" 844)
+
+("sec-1" "s" "% the bible: [ The ``Sokal Bible'' is located here: \\cite{SaSo97} ] % brief definitions The Potts mo" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" nil)
+
+(toc "toc" "        1.0.1 Mean Field Expectations" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" nil 4 "1.0.1" "\\subsubsection{Mean Field Expectations}" 2795)
+
+(toc "toc" "    2 Methods" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" nil 2 "2" "\\section{Methods}" 3358)
+
+(toc "toc" "      2.1 Swedsen-Wang Algorithm" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" nil 3 "2.1" "\\subsection{Swedsen-Wang Algorithm}" 3377)
+
+(toc "toc" "      2.2 Leath Growth For Measuring Chemical Distance and Diameter" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" nil 3 "2.2" "\\subsection{Leath Growth For Measuring Chemical Distance and Diameter}" 4263)
+
+(toc "toc" "      2.3 Special Techniques for q=1 diameter measurement" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" nil 3 "2.3" "\\subsection{Special Techniques for q=1 diameter measurement}" 5853)
+
+(toc "toc" "      2.4 Data Analysis Methodology" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" nil 3 "2.4" "\\subsection{Data Analysis Methodology}" 9951)
+
+(toc "toc" "        2.4.1 Methods a la Sokal" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" nil 4 "2.4.1" "\\subsubsection{Methods a la Sokal}" 10143)
+
+(toc "toc" "        2.4.2 autocorrelation time \\& independence" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" nil 4 "2.4.2" "\\subsubsection{autocorrelation time \\& independence}" 10180)
+
+(toc "toc" "        2.4.3 scaling methods, detail" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" nil 4 "2.4.3" "\\subsubsection{scaling methods, detail}" 11157)
+
+(toc "toc" "    3 Results" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" nil 2 "3" "\\section{Results}" 11666)
+
+("tab:dminD2d" "t" "{\\bf Results for 2D Potts Model.} Scaling exponent for the chemical distance ($d_{min}$) and for the" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" nil)
+
+("tab:dminD2d" "t" "{\\bf Results for 2D Potts Model.} Scaling exponent for the chemical distance ($d_{min}$) and for the" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" nil)
+
+(toc "toc" "    4 Figures" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" nil 2 "4" "\\section{Figures}" 13005)
+
+("fig:definitions" "f" "A typical percolation cluster is shown. The chemical distance, or shortest path, between two arbitra" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" nil)
+
+("sec-2.4.1.1" "s" "% " "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" t)
+
+("sec-2.4.1.2" "s" "% " "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" t)
+
+("sec-2.4.2" "s" "% \\begin{description} % " "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" t)
+
+("sec-2.4.2.1" "s" "% " "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" t)
+
+("sec-2.4.2.2" "s" "% " "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" t)
+
+("sec-2.4.3" "s" "% \\begin{description} % " "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" t)
+
+("sec-2.4.3.1" "s" "% " "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" t)
+
+("sec-2.4.4" "s" "% \\section{Old Intro} %  % \\subsection{Background to the Potts Model} % \\label{sec-3.1} % \\subsectio" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" t)
+
+("sec-3" "s" "% \\subsection{Background to the Potts Model} %  % \\subsection{Tests of the Potts Model} % \\label{sec" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" t)
+
+("sec-3.1" "s" "% \\subsection{Tests of the Potts Model} %  % \\subsection{This is all we need to know} % \\label{sec-3" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" t)
+
+("sec-3.2" "s" "% \\subsection{This is all we need to know} %  % \\subsection{Not much more syntax highlighting} % \\la" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" t)
+
+("sec-3.3" "s" "% \\subsection{Not much more syntax highlighting} %  % \\subsubsection{Big test} % \\label{sec-3.4.1} %" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" t)
+
+("sec-3.4" "s" "% \\subsubsection{Big test} %  % \\subsubsection{Other test} % \\label{sec-3.4.2} % \\subsubsection{Fini" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" t)
+
+("sec-3.4.1" "s" "% \\subsubsection{Other test} %  % \\subsubsection{Finish the damn outline} % \\label{sec-3.4.3} % The " "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" t)
+
+("sec-3.4.2" "s" "% \\subsubsection{Finish the damn outline} %  % The Potts Model, initially introduced as a generaliza" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" t)
+
+("sec-3.4.3" "s" "% The Potts Model, initially introduced as a generalization of the 2-state Ising Model to $q$ possib" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" t)
+
+("sec-4" "s" "% \\subsection{type 1} %  % \\subsection{type 2} % \\label{sec-4.2} % \\subsubsection{sub-sub} % \\label{" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" t)
+
+("sec-4.1" "s" "% \\subsection{type 2} %  % \\subsubsection{sub-sub} % \\label{sec-4.2.1} % \\begin{figure}[htp] % \\cent" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" t)
+
+("sec-4.2" "s" "% \\subsubsection{sub-sub} %  % \\begin{figure}[htp] % \\centering % \\includegraphics[width=.85\\textwid" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" t)
+
+("sec-4.2.1" "s" "% \\begin{figure}[htp] % \\centering % \\includegraphics[width=.85\\textwidth]{boot} % \\caption{$d_{min}" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" t)
+
+("fig:1" "f" "$d_{min}$ for D=2, q=1." "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" t)
+
+(toc "toc" "    5 Bibliography" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" nil 2 "5" "\\section{Bibliography}" 18147)
+
+("sec-5" "s" "\\bibliographystyle{plain} %\\bibliography{/home/dwblair/Dropbox/dwbdocs/physics/writing/bibfiles/dwbr" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex" nil)
+
+(bib "/home/dwblair/Dropbox/dwbdocs/physics/writing/bibfiles/combo.bib")
+
+(eof "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamoutline1.tex")
+))
+

@@ -1,0 +1,22 @@
+#+LATEX_CLASS: paper
+#+TITLE: test
+#+AUTHOR: Pop
+#+OPTIONS: author:nil creator:nil toc:nil
+#+LATEX_HEADER: \documentclass[pre,preprint]{revtex4}
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage{epsfig}
+#+LATEX_HEADER: \usepackage{amssymb,amsmath}
+#+LATEX_HEADER: \usepackage{bm}
+#+LATEX_HEADER: \usepackage{pdfsync}
+#+LATEX_HEADER: \newcommand{\lb}{{\langle}}
+#+LATEX_HEADER: \newcommand{\rb}{{\rangle}}
+
+\author{Donald Blair}
+
+* Introduction
+I like the idea of writing the code like this, so that I don't really need to worry about it.
+** other ideas
+But then I have some other points to make.
+** some stupid things
+
+* the other

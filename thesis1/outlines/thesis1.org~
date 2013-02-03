@@ -1,0 +1,31 @@
+#+LaTeX_CLASS: draft
+#+LATEX_HEADER: \newcommand{\lb}{{\langle}}
+#+LATEX_HEADER: \newcommand{\rb}{{\rangle}}
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage{epsfig}
+#+LATEX_HEADER: \usepackage{amssymb,amsmath}
+#+LATEX_HEADER: \usepackage{bm}
+#+LATEX_HEADER: \usepackage{pdfsync}
+#+TITLE: Draft of diameter paper
+#+BEGIN_LaTeX:
+\title{Thesis outline}
+\author{Don Blair}
+%\author{Jon Machta}
+%\affiliation{Department of Physics, University of Massachusetts, Amherst, MA 01003-3720}
+%\begin {abstract}
+%Here's a little abstract
+%\end{abstract}
+\maketitle{}
+#+END_LaTeX
+
+Here's the big test
+* Test 1
+** Test 2
+*** Test 3
+**** Test 4
+* Test 2
+\cite{OsSo04}
+
+* Bibliography
+\bibliographystyle{plain}
+\bibliography{/home/dwblair/Dropbox/dwbdocs/physics/writing/bibfiles/combo}

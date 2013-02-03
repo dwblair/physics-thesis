@@ -1,0 +1,60 @@
+\begin{thebibliography}{10}
+
+\bibitem{Bax}
+R.~J. Baxter.
+\newblock Potts model at the critical temperature.
+\newblock {\em J. Phys. C}, 6:L445, 1973.
+
+\bibitem{Deng2010}
+Youjin Deng, Wei Zhang, Timothy~M Garoni, Alan~D Sokal, and Andrea Sportiello.
+\newblock {Some geometric critical exponents for percolation and the
+  random-cluster model}.
+\newblock {\em Physical Review E}, 81(2):16--19, 2010.
+
+\bibitem{FoKa}
+C.~M. Fortuin and P.~M. Kasteleyn.
+\newblock On the random-cluster model.
+\newblock {\em Physica}, 57:536, 1972.
+
+\bibitem{Gr99}
+P.~Grassberger.
+\newblock Pair connectedness and shortest-path scaling in critical percolation.
+\newblock {\em J. Phys. A: Math. Gen.}, 32:6233, 1995.
+
+\bibitem{Leath}
+P.~Leath.
+\newblock Cluster size and boundary distribution near percolation threshold.
+\newblock {\em Phys. Rev. B}, 14:5046, 1976.
+
+\bibitem{Met}
+N.~Metropolis, M.N. Rosenbluth, A.H. Teller, and E.~Teller.
+\newblock Equation of state calculations by fast computing machines.
+\newblock {\em J.Chem.Phys.}, 21:1087, 1953.
+
+\bibitem{Nachmiasa}
+Asaf Nachmias and Yuval Peres.
+\newblock {Critical random graphs: diameter and mixing time}.
+\newblock {\em Time}, pages 1--18.
+
+\bibitem{NeBa99}
+M.~E.~J. Newman and G.~T. Barkema.
+\newblock {\em Monte Carlo Methods in Statistical Physics}.
+\newblock Oxford, Oxford, 1999.
+
+\bibitem{Paul2001}
+Gerald Paul, Robert~M. Ziff, and H.~Eugene Stanley.
+\newblock {Percolation threshold, Fisher exponent, and shortest path exponent
+  for four and five dimensions}.
+\newblock {\em Physical Review E}, 64(2):1--8, 2001.
+
+\bibitem{SwWA}
+R.~H. Swendsen and J.-S. Wang.
+\newblock Nonuniversal critical dynamics in {Monte} {Carlo} simulations.
+\newblock {\em Phys. Rev. Lett.}, 58:86, 1987.
+
+\bibitem{Wu82}
+F.~Y. Wu.
+\newblock The {Potts} model.
+\newblock {\em Rev. Mod. Phys.}, 54:235, 1982.
+
+\end{thebibliography}

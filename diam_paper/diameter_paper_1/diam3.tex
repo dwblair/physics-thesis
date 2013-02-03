@@ -1,0 +1,139 @@
+
+%\documentclass[pre,preprint,showpacs,nofootinbib]{revtex4}
+\documentclass[pre,preprint]{revtex4}
+%\documentclass[article]{revtex4}
+\usepackage{graphicx}
+\usepackage{epsfig}
+%\usepackage{dcolumn}
+\usepackage{amssymb,amsmath}
+\usepackage{bm}
+\usepackage{pdfsync}
+\usepackage{hyperref}
+
+%\usepackage{pstricks}
+\usepackage{pst-func,pstricks-add}
+\usepackage{pst-pdf}
+
+\newcommand{\lb}{{\langle}}
+\newcommand{\rb}{{\rangle}}
+
+
+
+\begin{document}
+
+\title{The Diameter and Chemical Distance of Random Clusters}
+
+\author{Don Blair}
+\author{Jon Machta}
+
+\affiliation{Department of Physics, University of Massachusetts, Amherst, MA 01003.}
+\date{\today}
+
+
+\begin{abstract}
+ A relatively unexplored geometric property of Potts models clusters is their ``diameter'', $D$ -- the longest shortest path between any two points on the cluster. We report numerical results for the fractal dimension of the diameter, $D_{min}$ and the fractal dimension of the chemical distance, $d_{min}$, for 2D critical Potts clusters with $q=1,2,3,4,5$. We find that $D_{min} = d_{min}$ within numerical error.
+\end{abstract}
+
+\maketitle 
+
+\section{Introduction} 
+\section{Potts Model Simulations}
+{\it Topics: Swedsen Wang; Determining the chemical distance; determining the diameter; autocorrelation time; scaling}
+
+\subsection{The Potts Model} 
+\subsection{Swendsen Wang Algorithm} %% DONE
+
+We performed Monte Carlo simulations of critical $q$-state Potts model clusters in 2D and 3D using the Swendsen-Wang algorithm (SW) \cite{SwWa86, NeBa99}.  
+
+The SW algorithm, which is itself based on the work of Fortuin and Kasteleyn \cite{FoKa}, works by first introducing bonds between neighboring spins, with probability 
+
+\begin{equation}
+p(\sigma_i,\sigma_j) = \delta_{\sigma_i, \sigma_j} (1-e^{-K}),
+\end{equation}  
+thus creating clusters of bonded spins.   All clusters thus formed are then, with probability 1/2, flipped by choosing a random spin value from the $q$ possible values, and assigning this value to all sites in the cluster.  Such cluster-flipping algorithms dramatically reduce critical slowing down in computer simulations of spin models, as compared with algorithms that flip each spin individually \cite{NeBa99} (e.g. the Metropolis algorithm \cite{Met}). 
+
+\subsection{Algorithms for determining the chemical distance and the diameter} %% DONE
+
+The average chemical distance $\langle l \rangle$ for each lattice size $L$ was determined in the following manner. The largest cluster in the lattice was identified, and a randomly chosen site $A$ on this cluster was used as the initial seed for a Leath growth (CITE) process, which amounts to a breadth-first growth along cluster bonds.   Each iteration $i$ of the Leath growth process covers all sites at chemical shell $i$;  once the Leath process has covered all $N$ sites in the cluster, the chemical distance $l$ between the seed site, $A$, and any other site, $B$, is thus equal to the chemical shell on which site $B$ resides.  We chose $B$ at random from the sites on the largest possible chemical shell reached from site $A$ on the cluster.  The chemical distance between $A$ and $B$ chosen in this manner was then averaged over the largest cluster in all of the lattice realizations considered.  
+\subsection{Details of simulation}
+
+\subsubsection{autocorrelation time \& independence}
+We measured the autocorrelation time for each L and q.  We then chose intervals such that the samples were deemed to be statistically independent.
+(As a check, we also performed the block method technique.)
+
+\begin{pspicture}(-5.25,-5.25)(5.25,5.25)%
+  \pscircle*[linecolor=cyan]{5}
+  \psgrid[subgriddiv=0,gridcolor=lightgray,gridlabels=0pt]
+  \Huge\sffamily\bfseries
+  \rput(-4.5,4.5){A} \rput(4.5,4.5){B}
+  \rput(-4.5,-4.5){C}\rput(4.5,-4.5){D}
+  \rput(0,0){pst-pdf}
+  \rmfamily
+  \rput(0,-3.8){PSTricks}
+  \rput(0,3.8){\LaTeX}
+\end{pspicture}
+
+
+\subsubsection{scaling methods, detail}
+We chose the fit with the lowest L (max no. of points) and highest Q value for each fit.
+
+(Alternative methods? See Sokal)
+
+\section{Results and Discussion}
+
+\subsection{Results}
+Using these methods we were able to determine through numerical simulations the scaling exponents for the chemical distance $d_{min}$ and for the diameter $D_{min}$ for system sizes $L \times  L$, $4 \le L \le 128$ in 2D and   $4 \le L \le X$ in 3D.  The results of these simulations (see Tables \ref{tab:dminD2d} and \ref{tab:dminD3d}) indicate that $d_{min}$ and $D_{min}$ are equivalent to within error .  
+%[[ Reasons we might have expected this?]] 
+
+%For larger $L$, determining $D$ becomes computationally prohibitive; we therefore use our results for $d_{min}$ as a tentative surrogate for $D_{min}$ in this regime.  
+
+%\subsection{2D Potts Model}
+
+%[[ Discuss details of fitting, with results shown for  different Ans\"{a}tze; finite-size corrections]]
+
+[Mean field limit?]
+
+
+%\section{Figures}
+
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{| l | l | l | l | l | l | l |}
+\hline
+$q$ & 1 & 2 & 3 & 4 & 5\\
+\hline
+$d_{min}$ & 1.127(3) & 1.0911(2) & 1.063(1) & 1.023(7) & (1.000) \\
+%%$quality:$ &  & 0.99 & 0.96 & \\
+\hline
+$D_{min}$ & 1.129(2) & 1.087(8) & 1.060(2) & 1.025(2)& (1.000) \\
+
+\hline
+\end{tabular}
+\caption{\label{tab:dminD2d} {\bf Results for 2D Potts Model.} Scaling exponent for the chemical distance ($d_{min}$) and for the diameter ($D_{min}$) for the 2D Potts model with various values of $q$, with system size L=4, 8, 16, 32, 48, 64, 96, 128.}
+\end{center}
+\end{table}
+
+%\subsection{Results for 3D Potts Model}
+
+%[[ Discuss details of fitting, with results shown for  different Ans\"{a}tze; finite-size corrections]]
+
+%\begin{table}[h]
+%\begin{center}
+%\begin{tabular}{| l | l | l | l | l | l | l |}
+%\hline
+%$q$ & 1 & 2 & 3 & 4 \\
+%\hline
+%$d_{min}$ & 1.127(3) & 1.0911(2) & 1.060(1) & 1.023(7) \\
+%\hline
+%$D_{min}$ & 1.129(2) & 1.09(1) & 1.059(2) & 1.025(2) \\
+%\hline{}
+%\end{tabular}
+%\caption{\label{tab:dminD3d} {\bf (DUMMY NUMBERS) Results for 3D Potts Model.} Scaling exponent for the chemical distance ($d_{min}$) and for the diameter ($D_{min}$) for the 3D Potts model with various values of $q$, with system size L=4, 8, 16, 32, 48, 64, 96, 128.}
+%\end{center}
+%\end{table}
+
+\section{Bibliography}
+\bibliographystyle{apsrev}
+\bibliography{../bibfiles/dwbreferences}{}
+
+\end{document}

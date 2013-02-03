@@ -1,0 +1,67 @@
+#+STARTUP: hidestars
+
+* Annotated Bibliography
+
+** Hard Particle / Square / Sphere Simulations
+- Wojciechowski and Frenkel, "Tetratic Phase in the Hard Square System?" \cite{Wojciechowski2004} 
+- Torquato, "Metastability and crystallization in hard sphere systems" \cite{Rintoul1996}
+- Sturgeon and Stillinger, "Cavities in the hard-disk crystal: A Monte Carlo simulation study" \cite{Sturgeon1992} -- The rigid-disk crystal near close packing
+- Rintoul and Torquato, "Computer Simulations of dense hard-sphere systems" \cite{Rintoul1996a}
+- Bernard, Krauth, and Wilson, "Event-chain Monte Carlo Algorithms for hard-sphere systems"
+- Donev, Burton, Stillinger, Torquato, "Tetratic order in the phase behavior of a hard-rectangle system" \cite{Donev2006}
+- Liu and Luijten, "Generalized geometric cluster algorithm for fluid simulation" \cite{Liu2005}
+- Frenkel "Monte Carlo Methods in Various Ensembles" \cite{Frenkel1996}
+- Shell, Lecture notes, "Monte Carlo simulations in other ensembles" \cite{Shell2009}
+- Odriozola,  "Replica Exchange Monte Carlo Applied to Hard Spheres"  \cite{Odriozola2009}
+
+** Parallel Tempering / Population Annealing
+- Machta, "Strengths and Weaknesses of Parallel Tempering"  \cite{Machta2010}
+- Machta and Ellis, "Monte Carlo Methods for Rough Free Energy Landscapes: Population Annealing and Parallel Tempering" \cite{Machta2011}
+- Odriozola,  "Replica Exchange Monte Carlo Applied to Hard Spheres"  \cite{Odriozola2009}
+
+** Density of Sum of Two Squares
+- Shiu "Counting Sums of Two Squares: The Meissel-Lehmer Method" \cite{Shiu1986}
+
+** Squares on the Torus 
+- Reztsov and Sloan, "On 2D Packings of Cubes in the Torus" -- (The "Floor - Floor" result) \cite{Reztsov1997}
+- Decaudin and Neyret, "Packing Square Tiles into One Texture"  (computer graphics "sum of squares" result) \cite{Decaudin2004}
+- Sikiric, Itoh, Poyarkov, "Torus Cube Packings" \cite{Sikiric} -- presentation, packing cubes on the torus (oriented)
+
+** Circles and Graphs on the Torus
+- Dickinson, Guillot, Keaton, Xhumari  "Optimal packings of up to five equal circles on a square flat torus" \cite{Dickinson2011}
+- Kocay, Neilson, Szypowski, "Drawing Graphs on the Torus" -- Algorithm for constructing a straight line drawing with no crossing on a rectangular representation of the torus \cite{Kocay2001}
+
+** Square Packing -- Experiment
+- Zhao, Bruinsma, and Mason, "Entropic crystal-crystal transitions of Brownian squares" \cite{Zhao2011}
+
+** Square and Rectangle Packing - Theory 
+- Boucheron and Vega, "On a square packing Problem" -- the asymptotic behavior of packings as n tends toward infinity \cite{Boucheron2000}
+- Sikicric and Itoh, "Combinatorial cube packings in the cube and the torus" -- sequential random packing of cubes \cite{Sikiric2010}
+- Gensane and Ryckelynck, "Improved Dense Packings of Congruent Squares in a Square" -- theory and 'billiard' algorithm \cite{Gensane2004}
+- Wagon, "Fourteen Proofs of a Result About Tiling a Rectangle" \cite{Wagon1994} -- tiling rectangles with rectangles
+- Dutour, Itoh, Poyarkov, "Cube Packings, second moment, and holes" \cite{DutourSikiric2007}
+- Baumert et al., , "A combinatorial Packing Problem" \cite{Baumert1970} -- The efficient packing of squares of side two in the p x p torus
+- Duparcmeur, Gervois, and Troadec (1995) "Dense Periodic Packings of Regular Polygons \cite{Duparcmeur1995}
+- Chung and Graham,  "Packing Equal Squares into a Large Square" \cite{Chung2009} -- theory / analytics -- UNORIENTED version -- method seems applicable to torus? 
+
+* Overview: Square Packing on the Torus
+** Background
+
+*** Square Packings in Squares
+**** Motivations: computer science
+**** NP-Completenness
+**** Analytical Work
+**** Related Numerical Work
+
+*** Circle Packings on the Torus
+**** Analytical work
+**** Numerical work
+
+*** Square Packings on the Torus
+**** Motivations
+***** Compression
+**** Density of sum of squares
+**** NP-Completeness?
+
+\bibliographystyle{unsrt}
+\bibliography{squares}

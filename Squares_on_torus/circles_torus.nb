@@ -1,0 +1,143 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      3933,        134]
+NotebookOptionsPosition[      3419,        111]
+NotebookOutlinePosition[      3777,        127]
+CellTagsIndexPosition[      3734,        124]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["\<\
+Can circles pack a torus hexagonally?\
+\>", "Section",
+ CellChangeTimes->{{3.517673920183372*^9, 3.5176739237884293`*^9}, {
+  3.524520370294531*^9, 3.524520426019175*^9}}],
+
+Cell[BoxData[
+ RowBox[{"eqnone", ":=", 
+  RowBox[{
+   RowBox[{"n1", "^", "2"}], " ", "+", " ", 
+   RowBox[{"n2", "^", "2"}], "+", 
+   RowBox[{"n1", " ", "n2"}], "-", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"n3", "^", "2"}], " ", "+", " ", 
+     RowBox[{"n4", "^", "2"}], "+", 
+     RowBox[{"n3", " ", "n4"}]}], ")"}]}]}]], "Input",
+ CellChangeTimes->{{3.524514303605852*^9, 3.524514400353731*^9}}],
+
+Cell[BoxData[
+ RowBox[{"eqndot", ":=", 
+  RowBox[{
+   RowBox[{"n1", " ", "n3"}], " ", "+", " ", 
+   RowBox[{"n2", " ", "n4"}], " ", "+", 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"n1", " ", "n4"}], " ", "+", 
+      RowBox[{"n2", " ", "n3"}]}], ")"}], "/", "2"}]}]}]], "Input",
+ CellChangeTimes->{{3.524514407661826*^9, 3.524514441113003*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FindInstance", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"eqnone", "\[Equal]", "0"}], ",", 
+     RowBox[{"eqndot", "\[Equal]", "0"}], ",", 
+     RowBox[{"n1", ">", "0"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"n1", ",", "n2", ",", "n3", ",", "n4"}], "}"}], ",", "Integers"}],
+   "]"}]], "Input",
+ CellChangeTimes->{{3.524514470852467*^9, 3.5245145174974327`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"FindInstance", "::", "nsmet"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"The methods available to FindInstance are insufficient to \
+find the requested instances or prove they do not exist. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/FindInstance\\\", ButtonNote -> \
+\\\"FindInstance::nsmet\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.52451453502597*^9}],
+
+Cell[BoxData[
+ RowBox[{"FindInstance", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       SuperscriptBox["n1", "2"], "+", 
+       RowBox[{"n1", " ", "n2"}], "+", 
+       SuperscriptBox["n2", "2"], "-", 
+       SuperscriptBox["n3", "2"], "-", 
+       RowBox[{"n3", " ", "n4"}], "-", 
+       SuperscriptBox["n4", "2"]}], "\[Equal]", "0"}], ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"n1", " ", "n3"}], "+", 
+       RowBox[{"n2", " ", "n4"}], "+", 
+       RowBox[{
+        FractionBox["1", "2"], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"n2", " ", "n3"}], "+", 
+          RowBox[{"n1", " ", "n4"}]}], ")"}]}]}], "\[Equal]", "0"}], ",", 
+     RowBox[{"n1", ">", "0"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"n1", ",", "n2", ",", "n3", ",", "n4"}], "}"}], ",", "Integers"}],
+   "]"}]], "Output",
+ CellChangeTimes->{3.5245145025298758`*^9, 3.524514535038548*^9}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{740, 867},
+WindowMargins->{{230, Automatic}, {Automatic, 68}},
+FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (February 23, \
+2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 181, 4, 67, "Section"],
+Cell[763, 28, 401, 11, 27, "Input"],
+Cell[1167, 41, 359, 10, 27, "Input"],
+Cell[CellGroupData[{
+Cell[1551, 55, 411, 11, 27, "Input"],
+Cell[1965, 68, 499, 10, 40, "Message"],
+Cell[2467, 80, 924, 27, 73, "Output"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

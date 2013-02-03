@@ -1,0 +1,7 @@
+* intro and background
+** brief definition of quantities
+** expected scaling
+** mean field expectation
+** special method for q=1 
+* results
+* figures

@@ -1,0 +1,19 @@
+#+LaTeX_CLASS: draft
+#+STARTUP: hideblocks
+#+OPTIONS: toc:nil author:nil t:nil
+#+BEGIN_LaTeX:
+
+Diameter of Random Clusters
+
+\begin{abstract}
+ A relatively unexplored geometric property of Potts models clusters is their ``diameter'', $D$ -- the longest shortest path between any two points on the cluster. We report numerical results for the fractal dimension of the diameter, $D_{min}$ and the fractal dimension of the chemical distance, $d_{min}$, for 2D critical Potts clusters with $q=1,2,3,4,5$. We find that $D_{min} = d_{min}$ within numerical error. Test. Test2. Test3.
+\end{abstract}
+
+\title {Test Title}
+\author{D. W. Blair}
+\maketitle
+#+END_LaTeX
+* Test 3
+Here we go.
+Another way.
+Test 3.

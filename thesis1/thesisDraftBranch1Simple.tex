@@ -1,0 +1,184 @@
+% Created 2011-03-16 Wed 16:41
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fixltx2e}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{soul}
+\usepackage{textcomp}
+\usepackage{marvosym}
+\usepackage{wasysym}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\tolerance=1000
+\providecommand{\alert}[1]{\textbf{#1}}
+
+\title{thesisDraftBranch1Simple}
+\author{Donald Blair}
+\date{16 March 2011}
+
+\begin{document}
+
+\maketitle
+
+\setcounter{tocdepth}{3}
+\tableofcontents
+\vspace*{1cm}
+\section{thesis}
+\label{sec-1}
+\subsection{Melting A}
+\label{sec-1_1}
+\subsubsection{Background re: melting}
+\label{sec-1_1_1}
+\begin{itemize}
+
+\item Review of theories of melting, 3D, 2D, bulk\\
+\label{sec-1_1_1_1}%
+\item Expectations for 2D finite crystallites\\
+\label{sec-1_1_1_2}%
+\end{itemize} % ends low level
+\subsubsection{Experiment of Savage et. al}
+\label{sec-1_1_2}
+\begin{itemize}
+
+\item Setup\\
+\label{sec-1_1_2_1}%
+\item Tuneable Depletion potential\\
+\label{sec-1_1_2_2}%
+\item Results\\
+\label{sec-1_1_2_3}%
+\end{itemize} % ends low level
+\subsubsection{Simulations}
+\label{sec-1_1_3}
+\begin{itemize}
+
+\item Motivation\\
+\label{sec-1_1_3_1}%
+\item Justification for using Brownian dynamics\\
+\label{sec-1_1_3_2}%
+\item GROMACS Simulations\\
+\label{sec-1_1_3_3}%
+\item Simulated Depletion Potential\\
+\label{sec-1_1_3_4}%
+\item Simulated Lennard-Jones Potential\\
+\label{sec-1_1_3_5}%
+\item Results\\
+\label{sec-1_1_3_6}%
+\item Discussion\\
+\label{sec-1_1_3_7}%
+\end{itemize} % ends low level
+\subsection{Melting B}
+\label{sec-1_2}
+\subsubsection{Background}
+\label{sec-1_2_1}
+\begin{itemize}
+
+\item Colloids: macroscopic system analogous to atomic system\\
+\label{sec-1_2_1_1}%
+\item Experiment by Savage et. al: novel melting kinetics\\
+\label{sec-1_2_1_2}%
+\item Our hypothesis:  thermally-activated defects enhance melting rate\\
+\label{sec-1_2_1_3}%
+\item Evidence for hypothesis\\
+\label{sec-1_2_1_4}%
+\item Background Theory\\
+\label{sec-1_2_1_5}%
+\end{itemize} % ends low level
+\subsubsection{Methods}
+\label{sec-1_2_2}
+\begin{itemize}
+
+\item Re-analyze data from GROMACS, Part A\\
+\label{sec-1_2_2_1}%
+\item New Brownian Dynamics Simulation Code\\
+\label{sec-1_2_2_2}%
+\item Analysis methods\\
+\label{sec-1_2_2_3}%
+\end{itemize} % ends low level
+\subsubsection{Results / Figures}
+\label{sec-1_2_3}
+\begin{itemize}
+
+\item N vs t\\
+\label{sec-1_2_3_1}%
+\item Order vs. N\\
+\label{sec-1_2_3_2}%
+\item Breakdown by layers\\
+\label{sec-1_2_3_3}%
+\item Average disclination charge\\
+\label{sec-1_2_3_4}%
+\item Phase diagram for various ranges of potential\\
+\label{sec-1_2_3_5}%
+\end{itemize} % ends low level
+\subsubsection{Discussion}
+\label{sec-1_2_4}
+\subsection{Diameter of Random Clusters}
+\label{sec-1_3}
+\subsubsection{Introduction}
+\label{sec-1_3_1}
+\subsubsection{Potts Model \cite{Wu82}}
+\label{sec-1_3_2}
+\subsubsection{Chemical Distance}
+\label{sec-1_3_3}
+\subsubsection{Diameter}
+\label{sec-1_3_4}
+\subsubsection{Swendesen-Wang Algorithm}
+\label{sec-1_3_5}
+\subsubsection{Determining the Chem Distance and Diameter}
+\label{sec-1_3_6}
+\subsubsection{Procedure for $q>1$}
+\label{sec-1_3_7}
+\subsubsection{Procedure for $q>1$}
+\label{sec-1_3_8}
+\subsubsection{Simulation Details}
+\label{sec-1_3_9}
+\subsection{Phase Transitions in Computational Complexity}
+\label{sec-1_4}
+\subsubsection{Background}
+\label{sec-1_4_1}
+\begin{itemize}
+
+\item Constraint Satisfaction Problems (CSP)\\
+\label{sec-1_4_1_1}%
+\item Proposal: study complexity of percolation model\\
+\label{sec-1_4_1_2}%
+\end{itemize} % ends low level
+\subsubsection{Percolation}
+\label{sec-1_4_2}
+\begin{itemize}
+
+\item The Model\\
+\label{sec-1_4_2_1}%
+\item Background / applications\\
+\label{sec-1_4_2_2}%
+\end{itemize} % ends low level
+\subsubsection{PRAM}
+\label{sec-1_4_3}
+\begin{itemize}
+
+\item Applications in comp sci\\
+\label{sec-1_4_3_1}%
+\item PRIORITY CRCW\\
+\label{sec-1_4_3_2}%
+\end{itemize} % ends low level
+\subsubsection{Parallel Algorithm for Percolation}
+\label{sec-1_4_4}
+\subsubsection{Results}
+\label{sec-1_4_5}
+\begin{itemize}
+
+\item D$_2$ vs. p for several system sizes L\\
+\label{sec-1_4_5_1}%
+\item log(D$_2$) vs. log(L)\\
+\label{sec-1_4_5_2}%
+\item Distribution of cluster sizes\\
+\label{sec-1_4_5_3}%
+\end{itemize} % ends low level
+\subsubsection{Discussion}
+\label{sec-1_4_6}
+
+\end{document}

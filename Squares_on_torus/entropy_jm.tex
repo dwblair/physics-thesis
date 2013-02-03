@@ -1,0 +1,41 @@
+ \documentclass[preprint,aps]{revtex4}
+\usepackage{graphicx}
+
+\newcommand{\ax}{{\bf a}_1}
+\newcommand{\ay}{{\bf a}_2}
+\newcommand{\Ax}{{\bf A}_1}
+\newcommand{\Ay}{{\bf A}_2}
+
+\begin{document}
+\title{Packing Squares in a Torus}
+
+\author{D. Blair}
+\email[]{dwblair@physics.umass.edu}
+\affiliation{Department of Physics,
+University of Massachusetts,
+Amherst, MA 01003-3720, USA}
+
+\author{J. Machta}
+\email[]{machta@physics.umass.edu}
+\affiliation{Department of Physics,
+University of Massachusetts,
+Amherst, MA 01003-3720, USA}
+\affiliation{Santa Fe Institute, 1399 Hyde Park Rd, Santa Fe, NM 87501, USA}
+
+\author{C. Santangelo}
+\email[]{santangelo@physics.umass.edu}
+\affiliation{Department of Physics,
+University of Massachusetts,
+Amherst, MA 01003-3720, USA}
+ 
+ The main contributions to the entropy of the various Bravais and non-Bravais lattice configurations for $N \leq 27$ are readily assessed. 
+ For a Bravais lattice packing, there are no non-trivial continuous symmetries and thus there is no entropy.  However, one can construct density-one packings from the Bravais lattice packings by shifting rows relative to one another.  For example, if $N$ is a perfect square then each row can be arbitrarily shifted and, ignoring overall shifts of the lattice, the entropy is proportional  ($\sqrt{N}-1$).  Note that either rows or columns may be shifted but not both for density-one packings.  More generally, rows are free to shift unless the contraints of periodicity forbid it.  Periodicity forbids two rows from shifting relative to one another if some linear combination of torus lattice vectors connects the rows.  Suppose that rows are aligned in the $\hat{\bf x}$-direction.  Then, two rows are constrained to their relative positions in the Bravais lattice configuration if there are integers $a$ and $b$ such that $a \mathbf{A}_1 + b \mathbf{A}_2$ connects the two rows. Thus, rows separated by $a n_2 + b n_4$ are locked (see Eq.\ \ref{eqn:Ana} and Fig.\  \ref{fig:aligned} (b)).
+% As discussed previously in the Section \ref{sec:bricklayer}, for commensurate Bravais lattice configurations, different rows of the solutions have a fixed shift given by $c = - (n_1 n_2 + n_3 n_4)/(n_2^2 + n_4^2)$. This has ramifications for the packing entropy, since we may now no longer arbitrarily shift rows. In Fig. \ref{fig:gb} (a), the lattice vectors are shown on a schematic representation of a gapped bricklayer configuration. 
+%Two rows are locked with respect to each other when a linear combination of the torus primitive vectors $\mathbf{A}_1= n_1 \ax + n_2 \ay$ and $\mathbf{A}_2= n_3 \ax + n_4 \ay$ (Equations \ref{eqn:Ana}) points between the two rows (see Fig. \ref{fig:aligned} (b)). 
+Bezout's Lemma \cite{Jones1998} states that this integer linear combination can be made equal to, but not smaller than, $g$, where $g$ is the greatest common divisor of $n_2$ and $n_4$ (assuming that both $n_2$ and $n_4$ are nonzero). Thus, the set of rows can be divided into $|n_4|/g$ groups, each of which can be arbitrarily shifted, and the entropy is proportional to $|n_4|/g-1$.
+%The greatest common divisor of $|n_2|$ and $|n_4|$, $g=\textrm{gcd}(|n_2|,|n_4|)$, tells us that every $g^{th}$ row is locked. 
+%Choosing $\mathbf{A}_2$ such that $|n_4|>|n_2|$, we find that the entropy of such commensurate Bravais lattice configurations is proportional to $|n_4|/g$.  
+Note that if $|n_2|$ and $|n_4|$ are mutually prime, all rows are locked and this contribution to the entropy of the configuration vanishes. There are two other sources of entropy for packing related to Bravais lattice packings. The gapped bricklayer configurations (Section \ref{sec:bricklayer}) allow squares within a row to shift perpendicular to the row axis (see Figures \ref{fig:gb} and \ref{fig:n22}), and this ``poor workmanship'' contribution to the entropy will be roughly proportional to the free volume of the configuration.  The density-one configurations with defects ($n_2^2+n_4^2-k$), discussed in Section \ref{sec:defects}, also possess finite entropy, since the hole(s) created by the $k$ missing squares may be moved throughout the lattice, or split along a row; and for $k>1$, holes can appear in different rows.
+In contrast, the unusual, non-Bravais lattice packings of the  $N=12$ and $N=23$ exhibit no entropy.
+
+\end{document}

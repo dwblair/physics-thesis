@@ -1,0 +1,45 @@
+Editor's Edits:
+
+1. Caption for Figure 3, page 6
+
+2. Check Raedler on page 12
+
+page 14:
+
+3. check details for any journal references that do not have a blue link
+
+4. author 16,17,24 -- provide page / article number
+
+5. author 25,26: year?
+
+jon's edits:
+
+1. please change density-1 to density-one
+
+2. please reneame section 2, "Analysis of packings", to "Analysis of packings and numerical results"
+
+3. Since there is only one table, can we please refer to the table as "the table", and remove the "1" everywhere, including its caption.  For example, in the middle and bottom of page 3, "table 1" becomes "the table"
+
+(#!!!!) Section 2.2.2: the number "23" in the title should not be italicized
+
+4. At the end of section 2.2.2. I prefer to remove the parentheses and add a comma. (As a rule I don't like to use
+parentheses when the parenthetical phrase is part of the argument): "typical simulation result, which clearly has
+not yet fully converged."
+
+5. Section 2.3: remove extra space after the "To summarize"
+
+6. Bottom of page 13: the additional subscript "i" should appear in the tan-1 expression. (BE MORE SPECIFIC).  Alos, in the last sentence, "orientational" should be replaced by "rotational"
+
+7. There are two sentences with the same meaning in the last paragraph.  Please delete the sentence "Are there other densest packing on a torus similar ... N=12".
+
+8. Ref 15 should be edited to reflect:
+
+@article{PhysRevLett.107.215503,
+volume = {107},
+journal = {Phys. Rev. Lett.},
+author = {Ras, Tadeus and Schilling, Rolf and Weigel, Martin},
+title = {Regular Packings on Periodic Lattices},
+year = {2011},
+pages = {215503}
+}
+

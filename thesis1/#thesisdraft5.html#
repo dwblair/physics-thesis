@@ -1,0 +1,677 @@
+1<ol class='xoxo'>
+  <li>Introduction</li>
+  <li>Melting A
+    <ol>
+      <li>Background re: melting
+	<ol>
+	  <li>Review of theories of melting, 3D, 2D, bulk
+	    <ol>
+	      <li>3D crystallites w/ stable surfaces melt from within via Born melting</li>
+	      <li>2D large crystallites melt by two-step process via hexatic phase</li>
+	      <li>2D finite crystallites melt from perimeter
+		<ol>
+		  <li>if melt from perimeter, dN/dt goes as $N^{1/2}$</li>
+		</ol>
+	      </li>
+	    </ol>
+	  </li>
+	  <li>Expectations for 2D finite crystallites    </li>
+	</ol>
+      </li>
+      <li>Experiment of Savage et. al
+	<ol>
+	  <li>Setup</li>
+	  <li>Tuneable Depletion potential</li>
+	  <li>Results
+	    <ol>
+	      <li>N vs. t</li>
+	      <li>$< psi6 >^2$ vs. N</li>
+	      <li>$C_6$ vs. N, by layer</li>
+	      <li>No dependence of fast-melting feature on initial cluster size or melting rate</li>
+	      </ol>
+	    </li>
+	  </ol>
+	</li>
+      <li>Simulations
+	<ol>
+	  <li>Motivation
+	    <ol>
+	      <li>Rule out any hydrodynamic effects causing fast-melting</li>
+	      <li>Determine whether range of potential plays role in fast melting</li>
+	    </ol>
+	  </li>
+	  <li>Justification for using Brownian dynamics</li>
+	  <li>GROMACS Simulations
+	    <ol>
+	      <li>Brownian dynamics option</li>
+	      <li>Equation of motion: 
+		<ol>
+		  <li>$\frac{d^2 r_i}{dt^2}  = - \sum_j \frac{\partial{U(r_{ij})}}{{\partial r}}  - \Gamma  \frac{d r_i}{dt} + W_i (t)$</li>
+		</ol>
+	      </li>
+	      <li>Interparticle 'depletion' potential
+		<ol>
+		  <li>Mimics that in experiment</li>
+		  <li>$U(r)=0$ for $r > r_0$</li>
+		  <li>$U(r)=4/(10r-9)^{12} -  400 a_0 (r-r_0)^2$ for $r \le r_0$</li>
+		</ol>
+	      </li>
+	      <li>Temperature</li>
+	      <li>Effective well depth: $3.5 k_B T$</li>
+	      <li>Time step: $2.5 \times 10^{-5}$ (in GROMACS time units)</li>
+	      <li>$N=100$ particles</li>
+	      <li>periodic box of size $L = 18.0 \sigma$</li>
+	      <li>particle area fraction of $24\%$</li>
+	    </ol>
+	  </li>
+	  <li>Simulated Depletion Potential
+	    <ol>
+	      <li>A-O Model</li>
+	      <li>Lennard-Jones repulsion, to avoid discontinuity in simulation</li>
+	      <li>Mimics that in experiment</li>
+	      <li>$U(r)=0$ for $r > r_0$</li>
+	      <li>$U(r)=4/(10r-9)^{12} -  400 a_0 (r-r_0)^2$ for $r \le r_0$</li>
+	    </ol>
+	  </li>
+	  <li>Simulated Lennard-Jones Potential</li>
+	  <li>Results
+	    <ol>
+	      <li>N vs. t</li>
+	      <li>$< psi6 >^2$ vs. N</li>
+	      <li>$C_6$ vs. N, by layer</li>
+	      <li>mean-square fluctuations in bond lengths</li>
+	      <li>N vs. t for Lennard-Jones potential</li>
+	      <li>Phase diagram showing lack of fluid phase with short-range potential</li>
+	      </ol>
+	    </li>
+	  <li>Discussion</li>
+	  </ol>
+	</li>
+      </ol>
+      </li>
+      <li>Melting B
+	<ol>
+	  <li>Background
+	    <ol>
+	      <li>Colloids: macroscopic system analogous to atomic system
+		<ol>
+		  <li>similarites:
+		    <ol>
+		      <li>some phase behavior and phase transitions</li>
+		      <li>can investiage atomic behavior via analogy</li>
+		    </ol>
+		  </li>
+		  <li>differences:
+		    <ol>
+		      <li>novel phases and phase behavior</li>
+		      <li>superheated metastable states</li>
+		      <li>interparticle potential readily modified
+			<ol>
+			  <li>short-range repulsion, long-range repulsion, short-range repulsion and long-range attraction</li>
+			</ol>
+		      </li>
+		    </ol>
+		  </li>
+		</ol>
+	      </li>
+	      <li>Experiment by Savage et. al: novel melting kinetics
+		<ol>
+		  <li>system: hard spheres with short-range attraction (relative to diameter)</li>
+		  <li>experiment details</li>
+		  <li>two-stage melting process
+		    <ol>
+		      <li>first melts from perimeter until reaches critical size</li>
+		      <li>then breaks up into dense amorphous phase, which is unstable and rapidly evaporates</li>
+		      <li>crossover occurs at typical 'magic size'</li>
+		      <li>experiments: magic size ~ 20-30 particles</li>
+		      <li>simulations: magic size ~ 40-50 particles</li>
+		      <li>little dependence on temperature in experiment</li>
+		      <li>(?) no dependence on temp in simulation?</li>
+		    </ol>
+		  </li>
+		  <li>Several possible explanations are ruled out:
+		    <ol>
+		      <li>'fast melting' behavior means rate not limited by thermal breaking of bonds
+			<ol>
+			  <li>(since this would go as $N^(1/2)$</li>
+			</ol>
+		      </li>
+		      <li>density decreases as crystallites shrink: melting kinetics not governed by surface tension
+			<ol>
+			  <li>(?) does this contradict lacoste's argument?</li>
+			  <li>(?) can i get data re: surface tension from tony, from simulations?</li>
+			</ol>
+		      </li>
+		      <li>melting behavior not history dependent
+			<ol>
+			  <li>no dependence on initial cluster size, melting rate in experiment</li>
+			  <li>(?) no dependence in simulation ?</li>
+			</ol>
+		      </li>
+		      <li>not classical nucleation of liquid within solid below critical crystal size
+			<ol>
+			  <li>energetically unfavorable given positive surface energy</li>
+			  <li>positive difference between chemical potentials of two phases</li>
+			  <li>(?) understand this argument, relevant equations</li>
+			</ol>
+		      </li>
+		    </ol>
+		  </li>
+		</ol>
+	      </li>
+	      <li>Our hypothesis:  thermally-activated defects enhance melting rate
+		<ol>
+		  <li>thermal introduction of disclinations favorable after critical size</li>
+		  <li>presence of disclinations leads to concentration of stress</li>
+		  <li>stress can be released through propagation of cracks</li>
+		  <li>cracks propagate or not depending on range of potential</li>
+		  <li>short-range, 'brittle' potential allow cracks to propagate</li>
+		  <li>longer-range, 'ductile' potential doesn't</li>
+		  <li>(?) is notion of a 'crack' in a liquid droplet sensible?</li>
+		</ol>
+	      </li>
+	      <li>Evidence for hypothesis
+		<ol>
+		  <li>Disclinations are implicated in breakup
+		    <ol>
+		      <li>GROMACS BD simulations, using depletion-like potential (from Part A)</li>
+		      <li>exhibit fast-melting (from Part A)</li>
+		      <li>order parameter decreases sharply (Part A)</li>
+		      <li>ave disclination 'charge' reaches +1 at the magic size</li>
+		    </ol>
+		  </li>
+		  <li>Disclinations and two-stage melting affected by range of potential
+		    <ol>
+		      <li>Own BD simulations with screened Coulomb potential</li>
+		      <li>Tune range of potential, short- and long-range (lambda values?)</li>
+		      <li>Short-range: x percent fast melting; long-range: y percent fast melting; $x>>y$</li>
+		    </ol>
+		  </li>
+		</ol>
+	      </li>
+	      <li>Background Theory
+		<ol>
+		  <li>Energy cost for creating a disclination
+		    <ol>
+		      <li>Assume flate 2D membrane w/ Young's modulus Y, etc</li>
+		      <li>Ref (10), (11)</li>
+		    </ol>
+		  </li>
+		  <li>Griffith criterion for spontaneous crack propagation
+		    <ol>
+		      <li>Assume crack of length, l</li>
+		      <li>Potential energy of the sheet, $V$</li>
+		      <li>surface enrgy per unit length, $V_o$</li>
+		      <li>Crack of length $\ell$</li>
+		      <li>Crack is perpendicular to circumferential component $\sigma_{\theta \theta}$ of the disclination induced mechanical stress</li>
+		      <li>Potential energy of the sheet: $V =-\frac{\pi \ell^2 {\sigma_{\theta \theta}}^2 (1-\nu^2)}{4 Y} + 2 \gamma \ell + V_0$</li>
+		      <li>$\nu$ is the Poisson Ratio</li>
+		      <li>$Y$ is the Young's modulus</li>
+		      <li>$\gamma$ is the surface energy per unit length</li>
+		      <li>$V_0$ is the elastic energy in the absence of any cracks, or applied stres</li>
+		    </ol>
+		  </li>
+		  <li>Minimize $V$, get:
+		    <ol>
+		      <li>$\ell_c = \frac{ 4 Y \gamma}{\pi {\sigma_{\theta \theta}}^2 (1-\nu^2)}$</li>
+		      <li>Cracks with length $\ell \ge \ell_c$ will grow to lower their energy</li>
+		      <li>Cracks with length $\ell < \ell_c$ will heal</li>
+						     </ol>
+		  </li>
+		  <li>'Hoop stress': $\sigma_{\theta \theta}$
+		    <ol>
+		      <li>Hoop stress causes cracks to open up</li>
+		      <li>Obtain it from Airy stress function $\chi(r)$  \cite{seung} at a distance $r$ from a positive disclination at the center of a two dimensional membrane of radius $R$ </li>
+		      <li>$\chi(r) =  \frac{Y s}{8 \pi} r^2   \left ( \ln \frac{r}{R} - \frac{1}{2} \right )$</li>
+		      <li>The hoop stress is the circumferential component of the stress tensor $\sigma$</li>
+		      <li>Given by $\sigma_{\theta \theta}= \frac{\partial^2 \chi}{\partial r^2}=  \frac{Y}{12} \left(1 + \ln \frac{r}{R} \right )$.</li>
+		    </ol>
+		  </li>
+		  <li>When critical crack length is ~= a lattice spacing, even a single disclination can rupture crystallite.</li>
+		  <li>Substituting  $\sigma_{\theta \theta}$ in expression for criticla crack size, we get:
+		    <ol>
+		      <li>$\ell_c = \frac{ 4 Y \gamma 144}{\pi (1-\nu^2) Y^2 (1+ \ln \frac{r}{R})^2} \approx \frac{576 \gamma}{\pi Y}$</li>
+		      <li>assuming $\nu^2 << 1$ and $r \sim R$</li>
+					     <li>So, when $Y >> \gamma$, the prob'l'y of the crystallite rupturing is greater.</li>
+		      </ol>
+		    </li>
+		  <li>Estimation of $Y$ and $\gamma$ for our system
+		    <ol>
+		      <li>$Y = - \frac{2}{\sqrt{3}} U^{''}(r)|_{r=a}$</li>
+		      <li>where $a$ is equilibrium separation between the particles forming the cluster</li>
+		      <li>consider a hexagonal cluster with each side of dimension $M a$</li>
+		      <li>distance of an interfacial line from the center of mass of the cluster is proportional to the interfacial energy of this line</li>
+		      <li>Therefore, $\gamma M  \frac{\sqrt{3}}{2} a  =  6 M U(a)$ becomes  $\gamma  = \frac{4\sqrt{3} U(a)}{a}$</li>
+		      <li>So, critical length  $\ell_c \approx  \frac{- 576 \times 6}{\pi a} \frac{U(a)}{U''(a)}$</li>
+		    </ol>
+		  </li>
+		  <li>Resulting predictions:
+		    <ol>
+		      <li>for the 'depletion' potential, $l_c=0.35 a$</li>
+		      <li>for screened coloumb, for the potential in Eq.(\ref{potential-brittleductile}), $l_c \approx \frac{1100}{a} \frac{\lambda^2 (a-\sigma)}{-a+\sigma+2\lambda}$ where $a=\lambda+\sigma$</li>
+		      <li>when  $\sigma=1$ and $\lambda=0.2$,  the critical crack length  is very large: $l_c \approx 30.6 a$</li>
+		      <li>when $\lambda=0.014$, the critical crack length is a fraction of the lattice spacing, {\it viz}, $l_c \approx 0.21a$</li>
+		      <li>Only a single net disclination required to rupture cluster for short-range potential</li>
+		    </ol>
+		  </li>
+		  <li>the energy required to introduce a disclination at the center of the crystallite is $E \approx 0.0014 N U_0 (\lambda + \sigma)^2/\lambda^2$, for the potential in Eq.\ref{potential-brittleductile} </li>
+		  <li>cost of introducing a disclination is $\propto 1/\lambda^2$ for  $\sigma >> \lambda$</li>
+		      <li>this cost increases reapidly with decreasing potential range</li>
+		      <li>suggests the existence of a lower bound on the range of the potential for thermal activation of disclinations</li>
+		      <li>These two competing effects imply that the crossover in the melting rate can arise due to the presence of disclinations only at an optimum range of values for the range of the inter-particle interaction potential</li>
+		      </ol>
+		    </li>
+		  </ol>
+		</li>
+	      <li>Methods
+		<ol>
+		  <li>Re-analyze data from GROMACS, Part A</li>
+		  <li>New Brownian Dynamics Simulation Code
+		    <ol>
+		      <li>Screened Coloumb Potential
+			<ol>
+			  <li>$U(r)=\frac{U_0 (r-\sigma)}{\lambda} e^{-(r-\sigma)/\lambda}$</li>
+			</ol>
+		      </li>
+		      <li>Equation of motion: $\frac{d^2 r_i}{dt^2}  = - \sum_j \frac{\partial{U(r_{ij})}}{{\partial r}}  - \Gamma  \frac{d r_i}{dt} + W_i (t)$</li>
+		      <li>Random number generator: Gaussian distr.</li>
+		      <li>Cell method for nearest neighbor determination</li>
+		      <li>Periodic boundary conditions</li>
+		    </ol>
+		  </li>
+		  <li>Analysis methods
+		    <ol>
+		      <li>Criterion for 'break in slope'</li>
+		      <li>Finding the 'melting temperature'</li>
+		      <li>Generating 'equilibrium' initial configurations</li>
+		      <li>Determining the disclination charge
+			<ol>
+			  <li>Voronoi, Delaunay code</li>
+			</ol>
+		      </li>
+		    </ol>
+		  </li>
+		</ol>
+	      </li>
+	      <li>Results / Figures
+		<ol>
+		  <li>N vs t</li>
+		  <li>Order vs. N</li>
+		  <li>Breakdown by layers</li>
+		  <li>Average disclination charge</li>
+		  <li>Phase diagram for various ranges of potential</li>
+		</ol>
+	      </li>
+	      <li>Discussion</li>
+	      </ol>
+	    </li>
+	  <li>Diameter of Random Clusters
+	    <ol>
+	      <li>Introduction
+		<ol>
+		  <li>Potts Model \cite{Wu82}
+		    <ol>
+		      <li>Generalization of Ising Model to $q$ spin states</li>
+		      <li>Applications
+			<ol>
+			  <li>Conformal Field Theory</li>
+			  <li>Percolation Theory</li>
+			  <li>Knot Theory</li>
+			  <li>Mathematical Biology</li>
+			  <li>Complex Networks</li>
+			  <li>SLE</li>
+			</ol>
+		      </li>
+		      <li>$H=-K \displaystyle\sum_{\lb i,j r} \delta_{\sigma_i, \sigma_j}$</li>
+		      <li>Rich phase diagram</li>
+		      <li>Mapped onto Random Cluster model for $q \ge 0$
+			<ol>
+			  <li>$q = 1 \to$ Percolation</li>
+			  <li>$q = 2 \to$ Ising</li>
+			</ol>
+		      </li>
+		      <li>For $q \le 4$, the model exhibits For $q \le 4$, the model exhibits a second-order phase transition at the critical point a second-order phase transition at the critical point</li>
+		      <li>For $q>4$, the transition is first order \cite{Bax}</li>
+		    </ol>
+		  </li>
+		  <li>Chemical Distance
+		    <ol>
+		      <li>Until recently, only studied for Potts $q=1$</li>
+		      <li>Scaling: $< l > \propto r^{d_{min}}$</li>
+		      <li>We extend study to $q=1,2,3,4$ 2D Potts Model</li>
+		      <li>Use S-W algorithm to generate bonds, clusters</li>
+		      <li>Bondscorrespond to spin correlations via Random Cluster Model</li>
+		      </ol>
+		    </li>
+		  <li>Diameter
+		    <ol>
+		      <li>$w$, which we define as the longest of all the shortest paths between sites on a cluster</li>
+		      <li>Applications / connections
+			<ol>
+			  <li>maximum transport time</li>
+			  <li>correlation lengths</li>
+			  <li>scaling: $< w > \propto r^{w_{min}}$</li>
+			  </ol>
+			</li>
+		      <li>hypothesis: $d_{min}$ equal to $w_{min}$</li>
+		      <li>Algorithm
+			<ol>
+			  <li>Finding all-pairs shortest paths goes as $O(N^2)$</li>
+			  <li>We suggest a novel, more efficient algorithm</li>
+			</ol>
+		      </li>
+		      <li>Mean Field predictions
+			<ol>
+			  <li>At or above critical dim, MFT should apply</li>
+			  <li>underlying graph of connected sites that form the critical cluster should be well approximated by a complete graph of n vertices</li>
+			  <li>complete graph:  simple graph in which every pair of vertices is connected by an edge</li>
+			  <li>Shown by Nachmias \cite{Nachmiasa} that diam of complete graph at criticality scales as $w(n) \propto n^{1/3}$</li>
+			</ol>
+		      </li>
+		      <li>We simulate $q=2, D=4$ Potts to assess MFT predictions
+			<ol>
+			  <li>Since the mapping of the complete (linear) graph to the Potts random graph in 4D is $L^4=n$, $w(L) \propto L^{4/3}$; thus, we may expect that $w_{min}$ should equal $4/3$ for $q=2$ in $4D$.</li>
+			</ol>
+		      </li>
+		      </ol>
+		    </li>
+		  </ol>
+		  </li>
+		  <li>Methods
+		    <ol>
+		      <li>Swendesen-Wang Algorithm
+			<ol>
+			  <li>SW algorithm \cite{SwWA} used to generate statistics for models, create the bond-paths studied here</li>
+			  <li>Based on work of Fortuin and Kasteleyn \cite{FoKa}</li>
+			  <li>Procedure:
+			    <ol>
+			      <li>Introduce bonds with probability $p(\sigma_i,\sigma_j) = \delta_{\sigma_i, \sigma_j} (1-e^{-K})$</li>
+			      <li>Create clusters of bonded spins</li>
+			      <li>Choose one of $q$ possible spin states and assign to all sites in the cluster</li>
+			    </ol>
+			  </li>
+			  <li>Reduces critical slowing relative to algorithms that flip individaul spins \cite{NeBa99}, e.g. Metropolis algoirithm \cite{Met}</li>
+			  <li>Bonds introduced in SW algorithm correspond to correlations among spins</li>
+			  <li>We study paths along bonds in these clusters</li>
+			</ol>
+		      </li>
+		      <li>Determining the Chem Distance and Diameter
+			<ol>
+			  <li>Review of Previous methods
+			    <ol>
+			      <li>Stanley, Grassberger \cite{Gr99}, Leath, Paul \cite{Paul2001}, etc.</li>
+			      <li>Memory considerations, two seeds, etc.</li>
+			    </ol>
+			  </li>
+			  <li>Leath growth \cite{Leath}
+			    <ol>
+			      <li>using a random number generator, one assigns all the bonds associated with the seed site the status ``occupied'' or ``unoccupied'' with probability $p$</li>
+			      <li>If a bond is assigned ``occupied'' status, the site to which this bond connects is deemed a ``growth site'', and is added to cluster.</li>
+			      <li>All the sites thus added to the cluster in this round form a ``chemical shell'' of distance $l$ from the seed site.</li>
+			      <li>This process is then continued for subsequent generations of growth trials, each associated with a larger chemical shell; the growth process stops naturally when one of the growth rounds generates no new growth sites.</li>
+			      <li>(Note: sites not added to the cluster in a particular round get another chance to be added to the cluster in subsequent rounds; but, once added, are no longer considered as possible growth sites.)</li>
+			    </ol>
+			  </li>
+			  <li>Leath growth most appropriate for what we're measuring
+			    <ol>
+			      <li>Can't use two-seed method; we must find all possible paths</li>
+			    </ol>
+			  </li>
+			</ol>
+		      </li>
+		      <li>Procedure for $q>1$
+			<ol>
+			  <li>Generate a new cluster configuration using the Swendsen-Wang algorithm (see above) with periodic boundary conditions. The identification of connected clusters in this steps allows us to determine the largest cluster in the system.</li>
+			  <li>Choose a random site $s$ on this cluster as the seed site.</li>
+			  <li>Beginning with the seed site $s$, determine all sites in the largest cluster by ``growing'' along satisfied cluster bonds (this process does not change the bonds that were determined in step 1).</li>
+			  <li>The chemical shell reached in the final step of this growth process, $shell_{final}$, is considered to be the randomly-chosen chemical distance on the largest critical cluster, and is added to our statistics for the chemical distance.</li>
+			  <li>All the $i$ sites at the end of this growth process whose nearest neighbors are all occupied are deemed to be perimeter sites, $p_i$.  This set includes all of the external perimeter sites of the cluster.</li>
+			  <li>A similar Leath growth process is preformed using each of the perimeter sites as seeds, and ${shell_{final}}_i$ from each of these growth processes is stored.</li>
+			  <li>The diameter for the largest cluster is then $max\{{shell_{final}}_i\}$</li>
+			  <li>This method for finding the diameter is an improvement over the naive $N^2$ algorithm for solving the all-pairs maximum shortest path problem on the paths formed along cluster bonds. It is expected to scale as $O(pN)$, where $p$ is the number of perimeter sites on the largest critical cluster.</li>
+			</ol>
+		      </li>
+		      <li>Procedure for $q>1$
+			<ol>
+			  <li>For $q=1$, it is possible to grow a cluster from a seed site.</li>
+			  <li>Diameter must have its endpoints on perimeter sites</li>
+			  <li>Any ``pins'', or singly-connected paths on the external perimeter of the cluster, contain sites that can be eliminated as possible diameter endpoints</li>
+			  <li>Straightforward to show that the existence of such a ``pin'' also allows us to eliminate as candidate diameter endpoints that lie within the ``body'' of the cluster as well</li>
+			  <li>'Proof' of / argument for the algorithm:
+			    <ol>
+			      <li>$P$: the set of all sites on the pin $P$</li>
+			      <li>let $p_{tip}$: the site that is the outermost tip of a given pin (i.e., the site with only one nearest neighbor) and $p_{attach}$ the site that attaches this pin to the body of the cluster (i.e., a site with more than 2 nearest neighbors)</li>
+			      <li>Imagine that we were to include as a candidate site in $S$ some site from $P$ that was not $p_{tip}$, resulting in a candidate diameter $D'$; it would be immediately clear that rejecting this site in favor of $p_{tip}$ would result in a new candidate diameter $D''>D'$.  We can therefore exclude all sites in in $P$ that are closer than $p_{tip}$ to $S$.</li>
+			      <li>(?) Similar considerations (PROVE THIS?) allow us to additionally exclude from $S$ all sites in $N$ that have a chemical distance from $p_{attach}$ less than or equal to the chemical distance between $p_{tip}$ and $p_{attach}$ (i.e., the length of the pin).</li>
+			      <li>Initiate, for every site i$s$ in $S$, a ``Leath growth'' search that examines the chemical distance between along the cluster between $s$ and every other site on the cluster, terminating when all cluster sites have been examined.</li>
+			      <li>The maximum chemical distance found across all such searches is then $D$.</li>
+			      <li>We thus need only consider a relatively small proportion [quantify this proportion, on average] of cluster sites as possible diameter endpoints, greatly reducing the number of ``Leath scans'' required in order to determine the diameter exactly</li>
+			      <li>Note that this method does not work for periodic boundary conditions, however; we must therefore grow clusters from a seed site, retaining only those clusters that do not grow to touch the boundaries of the lattice.</li>
+			    </ol>
+			  </li>
+			  <li>Procedure
+			    <ol>
+			      <li>Choose a growth seed site in the center of the lattice</li>
+			      <li>Perform a Leath growth from this site until the cluster dies, or reaches the boundaries of the maximum lattice size of $L_{max}$. If any cluster site borders $L_{max}$, begin again at step 1.</li>
+			      <li>Identify all the perimeter sites in the cluster by choosing all sites in the final growth step that are perimeter sites (i.e., those that have less than the maximum number of allowed nearest neighbors).  In this geometry, all the sites in the final chemical shell will be external perimeter sites.</li>
+			      <li>Identify all the ``pins'' among these perimeter sites by performing a Leath growth from each pin site until one finds a site that is not singly-connected.  All of the sites in the ``neck'' of the pin are eliminated from consideration as diameter endpoints.</li>
+			      <li>Beginning from the point of attachment of the pin to the body of the cluster, continue the Leath scan until one has achieved a chemical shell equal to the distance (along sites) between the point of attachment and the end of the pin.  All of sites thus scanned are also eliminated from consideration as diameter endpoints.</li>
+			      <li>Perform Leath growths from all of the remaining perimeter sites $p_i$, collecting the maximum chemical shells reached in each instance; the largest of these chemical shells is then the diameter of the cluster.</li>
+			    </ol>
+			  </li>
+			  <li>Comparison with 'regular' Leath growth method
+			    <ol>
+			      <li>We compared this method to the method described for $q>1$, and found that the fraction of perimeter sites eliminated as candidates for diameter endpoints was approximately $X\%$ in our runs with $L_{max}=XX$.</li>
+			    </ol>
+			  </li>
+			  <li>Label update procedure</li>
+			</ol>
+		      </li>
+		      <li>Simulation Details
+			<ol>
+			  <li>Overview
+			    <ol>
+			      <li>We used the Swendsen-Wang algorithm to simulate Potts Models 2D at criticality for values of $L$ between 8 and $L_{max}$ for our  measurements of $l$, and 4 and $L_{max}$ for our measurements of $w$.  For $q=2$ in 4D, $L$ ranged between 4 and $L_{max3}$.  All simulations began in a random configuration.</li>
+			    </ol>
+			  </li>
+			  <li>Values of $p_{add}$ used
+			    <ol>
+			      <li>For $q=1$ in 2D, $p_{add}$ is known exactly (REF).  For $q=2,3,4$ in 2D, $p_{add}$ = $X$ (REF), $X$ (REF), and $X$ (REF), respectively. For $q=2$ in 4D, $p_{add}=X$ (REF).</li>
+			    </ol>
+			  </li>
+			  <li>Thermalization
+			    <ol>
+			      <li>For $q>1$, the simulations require some time to achieve an equilibrium state, and should therefore be thermalized. Accordingly, each simulation for system size $L$ was run for at least $X \tau_{int,m}$ before measurements were taken, where $\tau_{int,m}$ was the estimated integrated autocorrelation time for the mass of the largest cluster for that value of $L$.</li>
+			      <li>A table of integrated autocorrelation times for the largest system sizes measured is provided (Table)</li>
+			    </ol>
+			  </li>
+			  <li>Run times
+			    <ol>
+			      <li>In 2D, our simulations were run for a length of $X \tau_{int,m}$; for measurements of $w$, and for $X  \tau_{int,m}$ for measurements of $l$.</li>
+			      <li>For our 4D, $q=2$ measurements, simulations were run for a length of $X \tau_{int,m}$ for our measurements of $l$.</li>
+			      <li>Some of our simulations consisted of a single, long run; others were the result of combining data from several runs begun from different initial random number generator seeds.</li>
+			    </ol>
+			  </li>
+			  <li>Random Number Generator
+			    <ol>
+			      <li>Random numbers for the simluations were generated using the Mersenne Twister method (REF:  Matsumoto + Nishimura 1998), with parameters chosen to provide a period of at least $X$ (determine this)</li>
+			    </ol>
+			  </li>
+			  <li>Tests of the algorithm
+			    <ol>
+			      <li>As a check on our simulation methods, we also measured the mass of the largest cluster for each lattice size $L$ in order to determine the fractal dimension.  The agreement betwen our values and the latest from the literature was good</li>
+			    </ol>
+			  </li>
+			  <li>CPU Time
+			    <ol>
+			      <li>The CPU time for simulations measuring the diameter $w$ was approximately $X L^2 \mu s /$ iteration; for $l$ it was approximately $X L^2 \mu s /$ iteration, when run on the </li>
+			    </ol>
+			  </li>
+			</ol>
+		      </li>
+		    </ol>
+		  </li>
+		  <li>Data Analysis
+		    <ol>
+		      <li>Blocking Method
+			<ol>
+			  <li>We used the 'blocking' method \cite{NeBa99} to extract the proper standard deviation for chemical distance and diameter from our measurements.</li>
+			  <li>This method works by clustering the measurements of the quantity $O$ into blocks of size $s$; the average of $O$ is then found for each block independently;  the standard deviation in $O$ is then taken to be the standard deviation in these block averages</li>
+			  <li>$\sigma=\sqrt{ \frac{< m^2 > - < m >  ^2}{n-1}}$, where $n$ is the number of blocks</li>
+			    </ol>
+			  </li>
+			  <li>Fitting Methods
+			    <ol>
+			      <li>For $q=1,2,3$, we attempted fits using the Ans\"{a}tze $y=aL^b$ and $y=aL^b+L/c$, including in the fit data points down to $L$ value of $L_{min}$, where $L_{min}$ was the smallest value of $L$ that still yielded a reasonable goodness-of-fit value, $Q$ </li>
+			      <li>The fitting form $y=aL^b$ provided the best fits for all values of $q$.</li>
+			      <li>For $q=4$, we also attempted a fit of the form $y=A+B \log L$; the fit was not as good as the Ans\"{a}tz $y=aL^b$.</li>
+			    </ol>
+			  </li>
+			</ol>
+		      </li>
+		    </ol>
+		  </li>
+		  <li>Results and Discussion
+		    <ol>
+		      <li>Comparison, chem dist and diameter</li>
+		      <li>Comparison of results with those of Deng et. al
+			<ol>
+			  <li>Our numerical results appear to match the conjecture of Deng et al. \cite{Deng2010} within error for $q=1$ and $q=2$; for $q=3$, we find [wait until results of new blocking analysis are in].  For $q=4$, we were unable to find a fit of high quality; but our results seem to support Deng et. al's conjecture</li>
+			</ol>
+		      </li>
+		      <li>Discussion of systematic errors</li>
+		    </ol>
+		  </li>
+		</ol>
+	      </li>
+	    </ol>
+	  </li>
+	  <li>Phase Transitions in Computational Complexity
+	    <ol>
+	      <li>Background
+		<ol>
+		  <li>Constraint Satisfaction Problems (CSP)
+		    <ol>
+		      <li>Examples
+			<ol>
+			  <li>kSAT</li>
+			  <li>Graph-coloring</li>
+			  <li>Spin models</li>
+			  <li>error-correcting codes</li>
+			</ol>
+		      </li>
+		      <li>Observation of threshold behavior in CSP</li>
+		      <li>Difficulties in tackling phase behavior of CSP</li>
+		    </ol>
+		  </li>
+		  <li>Proposal: study complexity of percolation model</li>
+		</ol>
+	      </li>
+	      <li>Percolation
+		<ol>
+		  <li>The Model</li>
+		  <li>Background / applications</li>
+		</ol>
+	      </li>
+	      <li>PRAM
+		<ol>
+		  <li>Applications in comp sci</li>
+		  <li>PRIORITY CRCW</li>
+		</ol>
+	      </li>
+	      <li>Parallel Algorithm for Percolation    </li>
+	      <li>Results    
+		<ol>
+		  <li>D_2 vs. p for several system sizes L</li>
+		  <li>log(D_2) vs. log(L)</li>
+		  <li>Distribution of cluster sizes
+		    <ol>
+		      <li>logarithmic or power law? (power law --> algorithm will often fail)</li>
+								 </ol>
+								 </li>
+								 </ol>
+								 </li>
+								 <li>Discussion</li>
+								 </ol>
+								 </li>
+								 <li>Packing Squares in a Torus
+								   <ol>
+								     <li>Background
+								       <ol>
+									 <li>Polygon packing problems
+									   <ol>
+									     <li>Granular media</li>
+									     <li>Number theory</li>
+									     <li>Biology</li>
+									     <li>Computer Science</li>
+									   </ol>
+									 </li>
+									 <li>Square packing</li>
+									 <li>Periodic potentials and packings of hard objects</li>
+								       </ol>
+								     </li>
+								     <li>Theory
+								       <ol>
+									 <li>Commensurate Bravais Lattice Solutions
+									   <ol>
+									     <li>Density one packings</li>
+									     <li>Lattice packings with vacancies</li>
+									     <li>Bricklayer packings with gaps</li>
+									   </ol>
+									 </li>
+									 <li>Non-Bravais Lattice Packings
+									   <ol>
+									     <li>Gapped bricklayer with domino bricks, N=22</li>
+									     <li>Lattice of .5 x .5 holes, N=12 and N=23</li>
+									     <li>Lattice of skew squares embedded in a square lattice, N=21</li>
+									   </ol>
+									 </li>
+								       </ol>
+								     </li>
+								     <li>Numerical methods
+								       <ol>
+									 <li>Monte Carlo, NPT ensemble</li>
+									 <li>Related hard particle simulation techniques
+									   <ol>
+									     <li>Krauth</li>
+									   </ol>
+									 </li>
+									 <li>Simulated Annealing</li>
+									 <li>Population Annealing</li>
+									 <li>Equilibration procedure</li>
+									 <li>Performance</li>
+									 <li>Libraries / tools used</li>
+									 <li>Visualization</li>
+								       </ol>
+								     </li>
+								     <li>Results / Figures / Table of Results</li>
+								     <li>Discussion / Open Questions
+								       <ol>
+									 <li>Overview of results</li>
+									 <li>Frequency of density one packings</li>
+									 <li>Packing density approaches 1 as N goes to infinity</li>
+									 <li>Contributions to the entropy
+									   <ol>
+									     <li>Bravais lattice packings</li>
+									     <li>Non-Bravais lattice packings</li>
+									   </ol>
+									 </li>
+									 <li>Predicting likely configurations using the entropy
+									   <ol>
+									     <li>Argument due to James</li>
+									   </ol>
+									 </li>
+									 <li>Thermodynamic limit preserves rotational symmetry</li>
+									 <li>Open questions
+									   <ol>
+									     <li>How common are densest packings with squares in different orientations, like N=21?</li>
+									     <li>What motifs dominate for large N?</li>
+									     <li>Are the 1/2 x 1/2 motifs exhibited for other N?</li>
+									     <li>Relevance to colloid simulations?</li>
+									   </ol>
+									 </li>
+								       </ol>
+								     </li>
+								   </ol>
+								 </li>
+								 </ol>

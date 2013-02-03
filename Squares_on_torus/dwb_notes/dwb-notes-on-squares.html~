@@ -1,0 +1,37 @@
+<ol class='xoxo'>
+  <li>Annotated bibliography</li>
+  <li>Square Packing on the Torus
+    <ol>
+      <li>Background
+	<ol>
+	  <li>Square Packings in Squares
+	    <ol>
+	      <li>Motivations: computer science</li>
+	      <li>NP-Completenness</li>
+	      <li>Analytical Work</li>
+	      <li>Related Numerical Work</li>
+	    </ol>
+	  </li>
+	  <li>Circle Packings on the Torus
+	    <ol>
+	      <li>Analytical work</li>
+	      <li>Numerical work</li>
+	    </ol>
+	  </li>
+	  <li>Square Packings on the Torus
+	    <ol>
+	      <li>Motivations
+		<ol>
+		  <li>Compression</li>
+		</ol>
+	      </li>
+	      <li>Density of sum of squares</li>
+	      <li>NP-Completeness?</li>
+	      <li>Related Numerical Work</li>
+	    </ol>
+	  </li>
+	</ol>
+      </li>
+    </ol>
+  </li>
+</ol>

@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}Annotated Bibliography}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Hard Particle / Square / Sphere Simulations}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Parallel Tempering / Population Annealing}{2}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Density of Sum of Two Squares}{2}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Squares on the Torus}{2}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Circles and Graphs on the Torus}{3}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6}Square Packing -- Experiment}{3}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.7}Square and Rectangle Packing - Theory}{3}{subsection.1.7}

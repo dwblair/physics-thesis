@@ -1,0 +1,42 @@
+#+LaTeX_CLASS: draft
+#+STARTUP: hideblocks
+#+OPTIONS: toc:nil author:nil t:nil
+#+BEGIN_LaTeX:
+
+[this line necessary to suppress odd org export]
+
+\begin{abstract}
+ [Fill in abstract]
+\end{abstract}
+
+\title {Complexity of etc etc}
+\author{D. W. Blair}
+\maketitle
+#+END_LaTeX
+* Phase Transitions in Computational Complexity
+** Background
+*** Constraint Satisfaction Problems (CSP)
+**** Examples
+***** kSAT
+***** Graph-coloring
+***** Spin models
+***** error-correcting codes
+**** Observation of threshold behavior in CSP
+**** Difficulties in tackling phase behavior of CSP
+*** Proposal: study complexity of percolation model
+** Percolation
+*** The Model
+*** Background / applications
+** PRAM
+*** Applications in comp sci
+*** PRIORITY CRCW
+** Parallel Algorithm for Percolation    
+** Results    
+*** D_2 vs. p for several system sizes L
+*** log(D_2) vs. log(L)
+*** Distribution of cluster sizes
+**** logarithmic or power law? (power law --> algorithm will often fail)
+\bibliographystyle{plain}
+\bibliography{/home/dwblair/Dropbox/dwbdocs/physics/writing/bibfiles/combo}
+
+

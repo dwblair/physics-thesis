@@ -1,0 +1,69 @@
+* Abstract
+\begin{abstract}
+ A relatively unexplored geometric property of Potts models clusters is their ``diameter'', $D$ -- the longest shortest path between any two points on the cluster. We report numerical results for the fractal dimension of the diameter, $D_{min}$ and the fractal dimension of the chemical distance, $d_{min}$, for 2D critical Potts clusters with $q=1,2,3,4,5$. We find that $D_{min} = d_{min}$ within numerical error.
+\end{abstract}
+\maketitle
+* Background
+\section{Background}
+** Motivation
+*** Determines efficiency of cluster algorithms
+*** Unexplored geometric property of random clusters
+*** Places bounds on communication of processes in a network
+this is some other text.
+*** Comparison to previous studies of the chemical distance
+this is some text.
+** Potts Model
+*** The Model (refer to Sokal)
+*** Connection to Random Cluster Model
+*** The chemical distance and the diameter
+*** Definitions
+*** FIGURE illustrating typical configuration
+*** Mean field expectations
+**** Upper critical dimensions for perc, Ising, three-state (with refs)
+**** Work of Nachmias and Peres
+*** TODO d_min = 1.0 for q>5
+** Swedsen Wang Algorithm
+\subsection{Swedsen Wang Algorithm}
+*** See Sokal's description
+** Measuring the Chemical Distance
+*** Methods in the literature
+**** Bus bar method
+**** average over various clusters
+**** Grassberger growth method
+*** Our methods
+**** Average over various clusters and euclidean distances
+**** "Random perimeter point" method
+**** Expectation that they will be the same
+** Measuring the Diameter
+\subsection{Measuring the Diameter}
+*** Our method
+** Simulation Details
+\subsection{Simulation Details}
+*** Range of L, 16 to 128
+*** Initial configuration random; discard first 10^5 iterations
+*** Compare discard interval with autocorrelation time
+*** Total run length for all systesm
+*** Each data set consists of several runs combined
+*** CPU time required in units of L^2 microseconds / iteration, type of processer
+*** TODO run the system for shorter times at higher dimensions 
+** Data Analysis
+*** Fit to power-law Ansatz D=AL^p using the standard weighted least-squares method
+*** Fit points with lower cutoff of L >= L_{min} to minimize corrections to scaling
+*** Choose fit with smallest L_{min} for which goodness of fit is reasonable (Q value within a certain range)
+*** Error analysis
+**** Data is taken at intervals assumed to be statistically independent
+***** sigma = [fill in]
+**** blocking method is used for comparison
+***** brief blocking method description, references
+* Results
+** Results for D=2, q=1,2,3,4,5
+*** Table
+*** [FIGURE]: difference, fit and data for various q
+** Table of results for D=3, q=1,2,3,4,5
+** Preliminary results for D=6,4,8 for q=1,2,3 respectively
+*** comparison with mean field expectations
+\section{Bibliography}
+\bibliographystyle{apsrev}
+\bibliography{../bibfiles/dwbreferences}{}
+
+\end{document}

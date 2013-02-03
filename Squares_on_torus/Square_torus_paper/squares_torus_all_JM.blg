@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: squares_torus_all_JM.aux
+The style file: apsrev.bst
+Database file #1: squaresFinal.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 29 entries,
+            3411 wiz_defined-function locations,
+            1359 strings with 14069 characters,
+and the built_in function-call counts, 17357 in all, are:
+= -- 975
+> -- 515
+< -- 84
++ -- 396
+- -- 128
+* -- 2286
+:= -- 1958
+add.period$ -- 29
+call.type$ -- 29
+change.case$ -- 120
+chr.to.int$ -- 29
+cite$ -- 29
+duplicate$ -- 1626
+empty$ -- 1548
+format.name$ -- 331
+if$ -- 3267
+int.to.chr$ -- 1
+int.to.str$ -- 30
+missing$ -- 260
+newline$ -- 102
+num.names$ -- 87
+pop$ -- 479
+preamble$ -- 1
+purify$ -- 116
+quote$ -- 0
+skip$ -- 627
+stack$ -- 0
+substring$ -- 506
+swap$ -- 1210
+text.length$ -- 64
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 158
+warning$ -- 0
+while$ -- 73
+width$ -- 0
+write$ -- 293

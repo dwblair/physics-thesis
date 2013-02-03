@@ -1,0 +1,485 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.6.5)  3 NOV 2011 08:31
+entering extended mode
+ %&-line parsing enabled.
+**squares_torus_all_JSTAT.tex
+(./squares_torus_all_JSTAT.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/revtex4/revtex4.cls
+Document Class: revtex4 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for do
+cumentation)
+ Copyright (c) 2001 The American Physical Society.
+ mailto:revtex@aps.org
+ Licensed under the LPPL:
+http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
+ Arthur Ogawa <ogawa@teleport.com>
+ Based on work by David Carlisle <david@dcarlisle.demon.co.uk>.
+ltxutil: portions licensed from W. E. Baxter (web@superscript.com)
+Class revtex4 Info: Repairing broken LateX \@sect on input line 596.
+\intertabularlinepenalty=\count79
+\@tbpen=\count80
+\@arstrutbox@hline=\box26
+Class revtex4 Info: Repairing broken LaTeX \@xbitor on input line 1610.
+ltxgrid: portions licensed from W. E. Baxter (web@superscript.com)
+\c@linecount=\count81
+\output=\toks14
+\@protection@box=\box27
+\@topmark@saved=\toks15
+\footins@saved=\box28
+\pagesofar=\box29
+\footbox=\box30
+\pagegrid@col=\count82
+Class revtex4 Info: Incorporating package {textcase}  [1998/11/12 v0.06 Text on
+ly upper/lower case changing (DPC)]. on input line 3682.
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+\c@affil=\count83
+\absbox=\box31
+\c@part=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\c@figure=\count90
+\c@table=\count91
+
+(/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
+Package: natbib 2009/07/16 8.31 (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count92
+)
+\widetext@top=\box32
+\widetext@bot=\box33
+
+(/usr/share/texmf-texlive/tex/latex/revtex4/revsymb.sty
+Package: revsymb 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documenta
+tion)
+LaTeX Info: Redefining \REV@mathfrak on input line 118.
+))
+(/usr/share/texmf-texlive/tex/latex/revtex4/aps.rtx
+File: aps.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentatio
+n)
+)
+(/usr/share/texmf-texlive/tex/latex/revtex4/10pt.rtx
+File: 10pt.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentati
+on)
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count93
+))
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+No file squares_torus_all_JSTAT.aux.
+\openout1 = `squares_torus_all_JSTAT.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+Class revtex4 Info: Patching LaTeX tabular. on input line 10.
+Class revtex4 Info: cite was not loaded (OK!) on input line 10.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 10.
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count94
+\scratchdimen=\dimen104
+\scratchbox=\box34
+\nofMPsegments=\count95
+\nofMParguments=\count96
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count97
+\MPscratchDim=\dimen105
+\MPnumerator=\count98
+\everyMPtoPDFconversion=\toks18
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 33.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 33.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 33.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 36.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 36.
+
+
+Package natbib Warning: Citation `Bernal1964' on page 1 undefined on input line
+ 41.
+
+
+Package natbib Warning: Citation `Zallen1983' on page 1 undefined on input line
+ 41.
+
+
+Package natbib Warning: Citation `Torquato2002' on page 1 undefined on input li
+ne 41.
+
+
+Package natbib Warning: Citation `Chaikin2000' on page 1 undefined on input lin
+e 41.
+
+
+Package natbib Warning: Citation `Torquato2002' on page 1 undefined on input li
+ne 41.
+
+
+Package natbib Warning: Citation `Mehta1994' on page 1 undefined on input line 
+41.
+
+
+Package natbib Warning: Citation `COHNa' on page 1 undefined on input line 41.
+
+
+Package natbib Warning: Citation `Conway1999' on page 1 undefined on input line
+ 41.
+
+
+Package natbib Warning: Citation `Gevertz2008' on page 1 undefined on input lin
+e 42.
+
+
+Package natbib Warning: Citation `Purohit2003' on page 1 undefined on input lin
+e 42.
+
+
+Package natbib Warning: Citation `Johnson1974' on page 1 undefined on input lin
+e 42.
+
+
+Package natbib Warning: Citation `Lodi2002' on page 1 undefined on input line 4
+2.
+
+
+Package natbib Warning: Citation `HALESa' on page 1 undefined on input line 42.
+
+
+
+Package natbib Warning: Citation `Pusey1986' on page 1 undefined on input line 
+44.
+
+
+Package natbib Warning: Citation `Donev2004' on page 1 undefined on input line 
+44.
+
+
+Package natbib Warning: Citation `Ras2011' on page 1 undefined on input line 44
+.
+
+
+Package natbib Warning: Citation `ROAN' on page 1 undefined on input line 44.
+
+
+Package natbib Warning: Citation `BAKER' on page 1 undefined on input line 44.
+
+
+Package natbib Warning: Citation `STROOBANTS' on page 1 undefined on input line
+ 44.
+
+
+Package natbib Warning: Citation `Donev2006' on page 1 undefined on input line 
+46.
+
+
+Package natbib Warning: Citation `Zhao2011' on page 1 undefined on input line 4
+6.
+
+
+Package natbib Warning: Citation `Leung1990' on page 1 undefined on input line 
+46.
+
+
+Package natbib Warning: Citation `ERDOS1975' on page 1 undefined on input line 
+46.
+
+
+Package natbib Warning: Citation `Friedman2002' on page 1 undefined on input li
+ne 46.
+
+
+Package natbib Warning: Citation `Friedman2002' on page 1 undefined on input li
+ne 46.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Reference `sec:numerical' on page 2 undefined on input line 55.
+
+
+LaTeX Warning: Reference `table' on page 2 undefined on input line 55.
+
+
+LaTeX Warning: Reference `fig:N9' on page 2 undefined on input line 93.
+
+<3x3.pdf, id=18, 519.9425pt x 502.87875pt>
+File: 3x3.pdf Graphic file (type pdf)
+ <use 3x3.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `eq:gap' on page 2 undefined on input line 101.
+
+
+LaTeX Warning: Reference `fig:bravais' on page 2 undefined on input line 101.
+
+[2] <bravais1.pdf, id=23, 569.12625pt x 573.14125pt>
+File: bravais1.pdf Graphic file (type pdf)
+ <use bravais1.pdf>
+
+Class revtex4 Warning: Float cannot be placed.
+
+
+LaTeX Warning: Reference `fig:aligned' on page 3 undefined on input line 109.
+
+
+LaTeX Warning: Reference `fig:aligned' on page 3 undefined on input line 109.
+
+<alignedBlocks3.pdf, id=24, 968.61874pt x 594.22pt>
+File: alignedBlocks3.pdf Graphic file (type pdf)
+ <use alignedBlocks3.pdf>
+
+Class revtex4 Warning: Float cannot be placed.
+
+
+LaTeX Warning: Reference `fig:gb' on page 3 undefined on input line 122.
+
+
+LaTeX Warning: Reference `eq:gap' on page 3 undefined on input line 122.
+
+[3 <./3x3.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 123.
+
+<gappedCombo1.pdf, id=32, 1042.89626pt x 509.905pt>
+File: gappedCombo1.pdf Graphic file (type pdf)
+ <use gappedCombo1.pdf>
+
+Class revtex4 Warning: Float cannot be placed.
+
+
+LaTeX Warning: Reference `fig:n22' on page 4 undefined on input line 136.
+
+<n22Edit.pdf, id=33, 527.9725pt x 527.9725pt>
+File: n22Edit.pdf Graphic file (type pdf)
+ <use n22Edit.pdf>
+
+Class revtex4 Warning: Float cannot be placed.
+
+
+LaTeX Warning: Reference `fig:n12' on page 4 undefined on input line 144.
+
+
+LaTeX Warning: Reference `fig:n23' on page 4 undefined on input line 144.
+
+
+LaTeX Warning: Reference `eqn:Ana' on page 4 undefined on input line 144.
+
+<n12edit.pdf, id=34, 636.3775pt x 625.33624pt>
+File: n12edit.pdf Graphic file (type pdf)
+ <use n12edit.pdf>
+
+Class revtex4 Warning: Float cannot be placed.
+
+<N23.pdf, id=35, 693.59125pt x 685.56125pt>
+File: N23.pdf Graphic file (type pdf)
+ <use N23.pdf>
+
+Class revtex4 Warning: Float cannot be placed.
+
+
+LaTeX Warning: Reference `fig:n21' on page 4 undefined on input line 160.
+
+
+Package natbib Warning: Citation `Friedman2002' on page 4 undefined on input li
+ne 160.
+
+
+LaTeX Warning: Reference `fig:n21' on page 4 undefined on input line 160.
+
+<N21.pdf, id=36, 918.43124pt x 835.12pt>
+File: N21.pdf Graphic file (type pdf)
+ <use N21.pdf>
+
+Package natbib Warning: Citation `Friedman2002' on page 4 undefined on input li
+ne 164.
+
+
+Package natbib Warning: Citation `Friedman2002' on page 4 undefined on input li
+ne 164.
+
+
+Class revtex4 Warning: Float cannot be placed.
+
+
+LaTeX Warning: Reference `eqn:Ana' on page 4 undefined on input line 169.
+
+[4]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 170.
+
+[5]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 217.
+
+
+Package natbib Warning: Citation `Murta' on page 6 undefined on input line 220.
+
+
+
+Package natbib Warning: Citation `Radler' on page 6 undefined on input line 220
+.
+
+
+Package natbib Warning: Citation `Scherer2000' on page 6 undefined on input lin
+e 220.
+
+
+LaTeX Warning: Reference `sec:densityOnePackings' on page 6 undefined on input 
+line 228.
+
+
+Package natbib Warning: Citation `Berndt1993' on page 6 undefined on input line
+ 229.
+
+
+Package natbib Warning: Citation `Landau1909' on page 6 undefined on input line
+ 229.
+
+
+LaTeX Warning: Reference `eqn:Ana' on page 6 undefined on input line 236.
+
+
+LaTeX Warning: Reference `fig:aligned' on page 6 undefined on input line 236.
+
+
+Package natbib Warning: Citation `Jones1998' on page 6 undefined on input line 
+237.
+
+
+LaTeX Warning: Reference `sec:bricklayer' on page 6 undefined on input line 238
+.
+
+
+LaTeX Warning: Reference `fig:gb' on page 6 undefined on input line 238.
+
+
+LaTeX Warning: Reference `fig:n22' on page 6 undefined on input line 238.
+
+
+LaTeX Warning: Reference `sec:vacancies' on page 6 undefined on input line 238.
+
+
+[6]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 240.
+
+
+LaTeX Warning: Reference `fig:bravais' on page 7 undefined on input line 244.
+
+
+LaTeX Warning: Reference `LastBibItem' on page 7 undefined on input line 256.
+
+[7]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 410.
+
+
+Class revtex4 Warning: Environment acknowledgements is obsolete;
+Use acknowledgments instead.
+
+
+Class revtex4 Warning: Endnote numbers changed: rerun LaTeX.
+
+
+Package natbib Warning: There were undefined citations.
+
+[8]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 466.
+
+[9 <./bravais1.pdf> <./alignedBlocks3.pdf>] [10 <./gappedCombo1.pdf>] [11 <./n2
+2Edit.pdf>] [12 <./n12edit.pdf>] [13 <./N23.pdf>] [14 <./N21.pdf>]
+(./squares_torus_all_JSTAT.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2656 strings out of 495061
+ 33481 string characters out of 1182622
+ 111800 words of memory out of 3000000
+ 5853 multiletter control sequences out of 15000+50000
+ 9040 words of font info for 32 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 35i,8n,27p,1574b,319s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmmi9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/
+fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
+nts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on squares_torus_all_JSTAT.pdf (14 pages, 437225 bytes).
+PDF statistics:
+ 152 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+

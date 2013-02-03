@@ -1,0 +1,3875 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% http://bibdesk.sourceforge.net/
+
+
+%% Created for Don Blair at 2006-04-28 16:52:46 -0400 
+
+
+%% Saved with string encoding Western (ASCII) 
+
+
+@STRING{cacm = "Communications of the ACM"}
+
+@STRING{epjb = "Eur. Phys. J. B"}
+
+@STRING{epl = "Europhys. Lett."}
+
+@STRING{ibmjr = "IBM J. Res. and Develop."}
+
+@STRING{ibmjst = "IBM J. Syst. and Tech."}
+
+@STRING{ieeetc = "IEEE Trans. Computers"}
+
+@STRING{ijmpc = "Int. J. Mod. Phys. C"}
+
+@STRING{ipl = "Information Processing Letters"}
+
+@STRING{jacm = "Journal of the ACM"}
+
+@STRING{jcp = "J. Chem. Phys."}
+
+@STRING{jcss = "Journal of Computer and System Sciences"}
+
+@STRING{jltp = "J. Low Temp. Phys."}
+
+@STRING{jm = "Machta, J."}
+
+@STRING{jpa = "J. Phys. A: Math. Gen."}
+
+@STRING{jpcm = "J. Phys. A: Condens. Matter"}
+
+@STRING{jsp = "J. Stat. Phys."}
+
+@STRING{mst = "Mathematical Systems Theory"}
+
+@STRING{npb = "Nucl. Phys. B"}
+
+@STRING{pcps = "Proc. Cmabridge Philos. Soc."}
+
+@STRING{physa = "Physica A"}
+
+@STRING{pla = "Phys. Lett. A"}
+
+@STRING{pra = "Phys. Rev. A"}
+
+@STRING{prb = "Phys. Rev. B"}
+
+@STRING{pre = "Phys. Rev. E"}
+
+@STRING{prl = "Phys. Rev. Lett."}
+
+@STRING{rmp = "Rev. Mod. Phys."}
+
+@STRING{siamjc = "SIAM Journal on Computing"}
+
+@STRING{tcs = "Theoretical Computer Science"}
+
+
+@article{Card98,
+	Author = {Cardy, J.},
+	Date-Added = {2006-04-28 16:35:24 -0400},
+	Date-Modified = {2006-04-28 16:36:48 -0400},
+	Journal = {J. Phys. A: Math. Gen.},
+	Number = {5},
+	Pages = {L105},
+	Title = {The number of incipient spanning clusters in two-dimensional percolation},
+	Volume = {31},
+	Year = {1998}}
+
+@article{HoKo76,
+	Author = {Hoshen, J. and Kopelman, R.},
+	Date-Added = {2006-04-28 16:23:41 -0400},
+	Date-Modified = {2006-04-28 16:25:16 -0400},
+	Journal = {Phys. Rev. B},
+	Pages = {3438},
+	Title = {Perdcolation and cluster distribution: cluster multiple labeling technique and critical concentration algorithm},
+	Volume = {14},
+	Year = {1976}}
+
+@article{Tej94,
+	Author = {Tejero, C. F. and Daanoun, A. and Lekkerkerker, H. N. W. and Baus, M.},
+	Date-Added = {2006-04-27 12:15:34 -0400},
+	Date-Modified = {2006-04-27 12:16:50 -0400},
+	Journal = {Phys. Rev. Lett.},
+	Title = {Phase diagrams of simple fluids with extreme pair potentials},
+	Volume = {73},
+	Year = {1994}}
+
+@book{Lip95,
+	Author = {Lipowsky, R.},
+	Date-Added = {2006-04-27 12:03:21 -0400},
+	Date-Modified = {2006-04-27 12:06:27 -0400},
+	Publisher = {Elsevier},
+	Title = {Generic Interactions of Flexible Membranes},
+	Year = {1995}}
+
+@book{Nels83,
+	Author = {Nelson, D. R.},
+	Date-Added = {2006-04-27 11:58:38 -0400},
+	Date-Modified = {2006-04-27 12:06:45 -0400},
+	Publisher = {Academic Press},
+	Title = {Phase Transitions and Critical Phenomena},
+	Volume = {7},
+	Year = {1983}}
+
+@article{Nel79,
+	Author = {Nelson, D. R. and Halperin, B. I.},
+	Date-Added = {2006-04-27 11:47:49 -0400},
+	Date-Modified = {2006-04-27 11:48:25 -0400},
+	Journal = {Phys. Rev. B},
+	Number = {2457},
+	Volume = {19},
+	Year = {1979}}
+
+@article{You79,
+	Author = {Young, A. P.},
+	Date-Added = {2006-04-27 11:46:31 -0400},
+	Date-Modified = {2006-04-27 11:47:14 -0400},
+	Journal = {Phys. Rev. B},
+	Volume = {19},
+	Year = {1979}}
+
+@article{Bla04,
+	Author = {Bladon, P. B. and Frenkel, D.},
+	Date-Added = {2006-04-27 11:40:52 -0400},
+	Date-Modified = {2006-04-27 11:41:56 -0400},
+	Journal = {J. Chem. Phys.},
+	Pages = {6707},
+	Title = {Free Energy and Structure of Dislocation Cores in Two-Dimensional Crystals},
+	Volume = {107},
+	Year = {2004}}
+
+@article{Bla95,
+	Author = {Bladon, P. and Frenkel, D.},
+	Date-Added = {2006-04-27 11:37:22 -0400},
+	Date-Modified = {2006-04-27 11:38:35 -0400},
+	Journal = {Phys. Rev. Lett.},
+	Number = {13},
+	Pages = {2519},
+	Title = {Dislocation Unbinding in Dense Two-Dimensional Crystals},
+	Volume = {74},
+	Year = {1995}}
+
+@article{dog2003,
+	Author = {Dogic, Z.},
+	Date-Added = {2006-04-27 11:33:13 -0400},
+	Date-Modified = {2006-04-27 11:34:58 -0400},
+	Journal = {Phys. Rev. Lett.},
+	Number = {16},
+	Pages = {165701},
+	Title = {Surface Freezing and a Two-Step Pathway of the Isotropic-Smectic Phase Transition},
+	Volume = {91},
+	Year = {2003}}
+
+@article{Cah86,
+	Author = {Cahn, R. W.},
+	Date-Added = {2006-04-27 11:06:41 -0400},
+	Date-Modified = {2006-04-27 11:07:10 -0400},
+	Journal = {Nature},
+	Pages = {668},
+	Volume = {323},
+	Year = {1986}}
+
+@article{Lip89,
+	Author = {Lipowsky, R. and Breuer, U. and Prince, K. C. and Bonzel, H. P.},
+	Date-Added = {2006-04-27 11:04:37 -0400},
+	Date-Modified = {2006-04-27 11:05:53 -0400},
+	Journal = {Phys. Rev. Lett.},
+	Pages = {913},
+	Volume = {62},
+	Year = {1989}}
+
+@article{Cur89,
+	Author = {Curtin, W. A.},
+	Date-Added = {2006-04-27 11:02:45 -0400},
+	Date-Modified = {2006-04-27 11:04:18 -0400},
+	Journal = {Phys. Rev. B},
+	Pages = {6775},
+	Volume = {39},
+	Year = {1990}}
+
+@article{Lip86,
+	Author = {Lipowsky, R.},
+	Date-Added = {2006-04-27 11:01:04 -0400},
+	Date-Modified = {2006-04-27 11:02:06 -0400},
+	Journal = {Phys. Rev. Lett.},
+	Pages = {2876},
+	Volume = {57},
+	Year = {1986}}
+
+@article{Bur2000,
+	Author = {Burakovsky, L. and Preston, D. L. andSilbar, R. R.},
+	Date-Added = {2006-04-27 10:57:19 -0400},
+	Date-Modified = {2006-04-27 10:59:39 -0400},
+	Journal = {Phys. Rev. B},
+	Pages = {15011},
+	Volume = {61},
+	Year = {2000}}
+
+@article{Cah2001,
+	Author = {Cahn, R. W.},
+	Date-Added = {2006-04-27 10:56:15 -0400},
+	Date-Modified = {2006-04-27 10:57:15 -0400},
+	Journal = {Nature},
+	Pages = {582},
+	Volume = {413},
+	Year = {2001}}
+
+@article{Vro92,
+	Author = {Vroege, G. L. and Lekkerkerker, H. N. W.},
+	Date-Added = {2006-04-27 10:53:54 -0400},
+	Date-Modified = {2006-04-27 10:55:07 -0400},
+	Journal = {Rep. Prog. Phys.},
+	Pages = {1241},
+	Volume = {55},
+	Year = {1992}}
+
+@article{Har2000,
+	Author = {Harrison, C.},
+	Date-Added = {2006-04-27 10:35:33 -0400},
+	Date-Modified = {2006-04-27 10:37:35 -0400},
+	Editor = {Lipowsky, R. and Sackmann, E.},
+	Journal = {Science},
+	Pages = {1558},
+	Publisher = {Elsevier},
+	Volume = {290},
+	Year = {2000}}
+
+@article{Zh97,
+	Author = {Zhu, J. et. al.},
+	Date-Added = {2006-04-27 10:33:38 -0400},
+	Date-Modified = {2006-04-27 10:34:17 -0400},
+	Journal = {Nature},
+	Pages = {883},
+	Volume = {387},
+	Year = {1997}}
+
+@article{Wol75,
+	Author = {ten Wolde, P. R. and Frenkel, D.},
+	Date-Added = {2006-04-27 10:31:32 -0400},
+	Date-Modified = {2006-04-27 10:33:28 -0400},
+	Journal = {Science},
+	Volume = {277},
+	Year = {1975}}
+
+@article{AdPr,
+	Author = {Adler, J. and Privman, V.},
+	Journal = jpa,
+	Pages = {2445},
+	Title = {Series Analysis of Tricritical Behavior: Mean-Field Model and Slicewise Pade Approximants},
+	Volume = {28},
+	Year = {1995}}
+
+@article{Ah91,
+	Author = {Ahlers, G.},
+	Journal = jltp,
+	Pages = {173},
+	Title = {Some Aspects of the Effect of Gravity on the Superfluid Transition in $^4${He}},
+	Volume = {84},
+	Year = {1991}}
+
+@book{AhHoUl,
+	Author = {Aho, A. V. and Hopcroft, J. E. and Ullman, J. D.},
+	Publisher = {Addison-Wesley},
+	Title = {The Design and Analysis of Computer Algorithms},
+	Year = 1974}
+
+@article{Ai,
+	Author = {Aizenman, M.},
+	Journal = {Comm. Math. Phys.},
+	Pages = {83},
+	Title = {Instability of Phase Coexistence},
+	Volume = 73,
+	Year = 1980}
+
+@article{AiChChNe87,
+	Author = {Aizenman, M. and Chayes, J. T. and Chayes, L. and Newman, C. M.},
+	Journal = jpa,
+	Pages = {L313},
+	Title = {The Phase Boundary in Dilute and Random {I}sing and {P}otts Ferromagnets},
+	Volume = 20,
+	Year = 1987}
+
+@article{ACCN,
+	Author = {Aizenman, M. and Chayes, J. T. and Chayes, L. and Newman, C. M.},
+	Journal = jsp,
+	Pages = 1,
+	Title = {Discontinuity of the Magnetization in One-Dimensional $1/|x-y|^2$ {I}sing and {P}otts Models},
+	Volume = 50,
+	Year = 1988}
+
+@article{AiWe,
+	Author = {Aizenman, M. and Wehr, J.},
+	Journal = prl,
+	Pages = 2503,
+	Title = {Rounding of First-Order Phase Transitions in Systems with Quenched Disorder},
+	Volume = 62,
+	Year = 1989}
+
+@article{AlRi98,
+	Author = {Alava, M and Rieger, H},
+	Journal = pre,
+	Pages = 4284,
+	Title = {Chaos in the Random Field {I}sing Model},
+	Volume = 58,
+	Year = 1998}
+
+@article{AlBa00,
+	Author = {Albert, R. and Barabasi, A.-L.},
+	Journal = prl,
+	Pages = 5234,
+	Title = {Topology of Evolving Networks: Local Events and Universality},
+	Volume = 85,
+	Year = 2000}
+
+@article{AlBa99,
+	Author = {Albert, R. and Barabasi, A.-L.},
+	Journal = {Science},
+	Pages = {509-512},
+	Title = {Emergence of Scaling in Random Networks},
+	Volume = 286,
+	Year = 1999}
+
+@article{AmBaSt,
+	Author = {Amaral, L. A. and Barabasi, A.-L. and Stanley, H. E.},
+	Journal = prl,
+	Pages = 62,
+	Title = {Universality Classes for Interface Growth with Quenched Disorder},
+	Volume = 73,
+	Year = 1994}
+
+@article{AmMeSt,
+	Author = {Amitrano, C. and Meakin, P. and Stanley, H. E.},
+	Journal = pra,
+	Pages = {1713},
+	Title = {Fractal dimension of the accessible perimeter of diffusion-limited aggregation},
+	Volume = {40},
+	Year = 1989}
+
+@article{AmCo,
+	Author = {Amitrano, C. and Coniglio, A.},
+	Journal = prl,
+	Pages = 1016,
+	Title = {Growth Probability Distribution in Kinetic Aggregation Processes},
+	Volume = 57,
+	Year = 1986}
+
+@article{AnBe,
+	Author = {Andelman, D. and Berker, A. N.},
+	Journal = prb,
+	Pages = 2630,
+	Title = {Scale-Invariant Quenched Disorder and its Stability Criterion at Random Critical Points},
+	Volume = 29,
+	Year = 1984}
+
+@article{AnMa,
+	Author = {Anderson, R. and Mayr, E. W.},
+	Journal = IPL,
+	Pages = 121,
+	Title = {Parallelism and the Maximal Path Problem},
+	Volume = 24,
+	Year = 1987}
+
+@inproceedings{AnMi,
+	Author = {Anderson, R. J. and Miller, G. L.},
+	Booktitle = {Proceedings Third Aegean Workshop on Computing, AWOC 88},
+	Editor = {J. Reif},
+	Pages = {81-90},
+	Publisher = {Springer-Verlag},
+	Title = {Deterministic Parallel List Ranking},
+	Year = 1988}
+
+@article{AnPrRa,
+	Author = {Angles d'Auriac, J.-C. and Preissmann, M. and Rammal, R.},
+	Journal = {J. Physique},
+	Pages = {L173},
+	Title = {The Random Field {I}sing Model: Algorithmic Complexity and Phase Transition},
+	Volume = 46,
+	Year = 1985}
+
+@article{AnSo,
+	Author = {Angles d'Auriac, J.-C. and Sourlas, N.},
+	Journal = {Europhys. Lett.},
+	Pages = {473},
+	Title = {The 3-d Random Field {I}sing Model at Zero Temperature},
+	Volume = 39,
+	Year = 1997}
+
+@article{ApCoMa,
+	Author = {Apostolakis, A. and Coddington, P. and Marinari, E.},
+	Journal = {Europhysics Letters},
+	Number = {??},
+	Pages = {189},
+	Title = {A Multi-Grid Cluster Labeling Scheme},
+	Volume = 17,
+	Year = 1992}
+
+@inproceedings{ArLuMoSuSz,
+	Author = {Arora, S. and Lund, C. and Motwani, R. and Sudan, M. and Szegedy, M.},
+	Booktitle = {Proc. 33rd {IEEE} Symp. on Foundations of Computer Science},
+	Pages = 14,
+	Title = {Proof verification and hardness of approximation problems},
+	Year = 1992}
+
+@article{Bachas,
+	Author = {Bachas, C. P.},
+	Journal = jpa,
+	Pages = {L709},
+	Title = {Computer-intractability of the Frustration Model of a Spin Glass},
+	Volume = 17,
+	Year = 1984}
+
+@article{BaCo,
+	Author = {Baillie, C. F. and Coddington, P. D.},
+	Journal = prb,
+	Pages = {10617-10621},
+	Title = {Comparison of Cluster Algorithms for Two-Dimensional {P}otts Models},
+	Volume = 43,
+	Year = 1991}
+
+@article{BaSn,
+	Author = {Bak, P. and Sneppen, K.},
+	Journal = prl,
+	Pages = {4083-4086},
+	Title = {Punctuated Equilibrium and Criticality in a Simple Model of Evolution},
+	Volume = 71,
+	Year = 1993}
+
+@article{BaTaWi,
+	Author = {Bak, P. and Tang, C. and Wiesenfeld, K.},
+	Journal = prl,
+	Pages = {381-384},
+	Title = {Self-Organized Criticality: An Explanation of $1/f$ Noise},
+	Volume = 59,
+	Year = 1987}
+
+@article{BaSo03,
+	Author = {Ball, R. C. and Somfai, E.},
+	Journal = pre,
+	Pages = 021401,
+	Title = {Theory of Diffusion Controlled Growth},
+	Volume = 67,
+	Year = 2003}
+
+@article{BaSp,
+	Author = {Ball, R. C. and Spivack, O. R.},
+	Journal = jpa,
+	Pages = 5295,
+	Title = {The interpretation and measurement of the $f(\alpha)$ spectrum of a multifractal measure},
+	Volume = 23,
+	Year = 1990}
+
+@article{BaFe96,
+	Author = {Ballesteros, H. G. and Fen\'{a}ndez, L. A. and Mart\'{i}n-Mayor, V. and Mu\~{n}oz Sudupe, A.},
+	Journal = prb,
+	Pages = {125},
+	Title = {Finite size effects on measures of critical exponents in $d=3$ ${O(N)}$ models},
+	Volume = 387,
+	Year = 1996}
+
+@article{Bara,
+	Author = {Barahona, F.},
+	Journal = jpa,
+	Pages = 3241,
+	Title = {On the Computational Complexity of {Ising} Spin Glass Models},
+	Volume = 15,
+	Year = 1982}
+
+@book{barabasi,
+	Author = {Barabasi, A.-L.},
+	Publisher = {Perseus Publishing},
+	Title = {Linked: The New Science of Networks},
+	Year = 2002}
+
+@inproceedings{BaLuMiSk98,
+	Author = {Barrington, D. A. M. and Lu, C.-J. and Miltersen, P. B. and Skyum, S.},
+	Booktitle = {Proceedings of the 15th Annual Symposium on Theoretical Aspects of Computer Science},
+	Pages = 73,
+	Title = {Searching Constant Width Mazes Captures the {AC}$^0$ Hierarchy},
+	Year = 1998}
+
+@inproceedings{BaLuMiSk99,
+	Author = {Barrington, D. A. M. and Lu, C.-J. and Miltersen, P. B. and Skyum, S.},
+	Booktitle = {Proceedings of the 14th Annual {IEEE} Conference on Computational Complexity},
+	Pages = {xxx},
+	Title = {On Monotone Planar Circuits},
+	Year = 1999}
+
+@article{BaDaPr02,
+	Author = {Barra, F. and Davidovitch, B. and Procaccia, I.},
+	Journal = pre,
+	Pages = {046144},
+	Title = {Iterated Conformal Dynamics and Laplacian Growth},
+	Volume = 65,
+	Year = 2002}
+
+@inproceedings{Barr,
+	Author = {Barrington, D. A. M.},
+	Booktitle = {Structure in Complexity Theory: Seventh Annual Conference},
+	Pages = 86,
+	Title = {Quasipolynomial Size Circuit Classes},
+	Year = 1992}
+
+@inproceedings{BaIm,
+	Author = {Barrington, D. A. M. and Immerman, N.},
+	Booktitle = {Structure in Complexity Theory: Ninth Annual Conference},
+	Pages = 176,
+	Title = {Time, Hardware, and Uniformity},
+	Year = 1994}
+
+@article{BeKiJaCa,
+	Author = {Belanger, D. P. and King, A. R. and Jaccarino, V. and Cardy, J. L.},
+	Journal = prb,
+	Pages = {2522-2526},
+	Title = {Random-Field Critical Behavior of a d=3 {I}sing System},
+	Volume = 28,
+	Year = 1983}
+
+@article{BeKlMo96,
+	Author = {Belanger, D. P. and Kleemann, W. and Montenegro, F. C.},
+	Journal = prl,
+	Pages = 2341,
+	Title = {Comment on `X-Ray and Neutron Scattering, Magnetization, and Heat Capacity Study of the 3{D} Random Field Ising Model'},
+	Volume = 77,
+	Year = 1996}
+
+@article{BaHa02,
+	Author = {Barthel, W. and Hartmann, A.K. and Leone, M. and Ricci-Tersenghi, F. and Weigt, M. and Zecchina, R.},
+	Journal = prl,
+	Pages = 188701,
+	Title = {Hiding Solutions in Random Satisfiability Problems: A Statistical Mechanics Approach},
+	Volume = 88,
+	Year = 2002}
+
+@article{BeChGoLu,
+	Author = {Ben-David, S. and Chor, B. and Goldreich, O. and Luby, M.},
+	Journal = JCSS,
+	Pages = 193,
+	Title = {On the Theory of Average Case Complexity},
+	Volume = 44,
+	Year = 1992}
+
+@incollection{Benn88,
+	Author = {Bennett, C. H.},
+	Booktitle = {The Universal {T}uring Machine-- a Half-Century Survey},
+	Editor = {Herken, R.},
+	Pages = {227-257},
+	Publisher = {Oxford University Press},
+	Title = {Logical Depth and Physical Complexity},
+	Year = 1988}
+
+@inproceedings{Benn87,
+	Author = {Bennett, C. H.},
+	Booktitle = {Emerging Syntheses in Science},
+	Editor = {Pines, D.},
+	Pages = {215-233},
+	Publisher = {Addison-Wesley},
+	Title = {Dissipation, Information, Computational Complexity and the Definition of Organization},
+	Year = 1987}
+
+@inproceedings{Benn90,
+	Author = {Bennett, C. H.},
+	Booktitle = {Complexity, Entropy and the Physics of Information},
+	Editor = {Zurek, W. H.},
+	Organization = {SFI Studies in the Sciences of Complexity, Vol.~7},
+	Pages = 137,
+	Publisher = {Addison-Wesley},
+	Title = {How to Define Complexity in Physics, and Why},
+	Year = 1990}
+
+@article{Benn95,
+	Author = {Bennett, C. H.},
+	Journal = {Physica D},
+	Pages = {268},
+	Title = {Universal computation and physical dynamics},
+	Volume = {86},
+	Year = 1995}
+
+@article{BeCaMo,
+	Author = {Bertoni, A. and Campadelli, P. and Molteni, G.},
+	Journal = jpa,
+	Page = 6719,
+	Title = {On the approximability of the energy function of {I}sing Spin Glasses},
+	Volume = 27,
+	Year = 1994}
+
+@article{Bax,
+	Author = {Baxter, R. J.},
+	Journal = {J. Phys. C},
+	Pages = {L445},
+	Title = {Potts Model at the Critical Temperature},
+	Volume = {6},
+	Year = {1973}}
+
+@book{bekkum91,
+	Address = {Amsterdam},
+	Editor = {H. van Bekkum and E. M. Flanigen and J. C. Jansen},
+	Publisher = {Elsevier},
+	Title = {Introduction to Zeolite Science and Practice},
+	Year = 1991}
+
+@article{BeClMuWuGaScOl,
+	Author = {Bellini, T. and Clark, N. A. and Muzny, C. D. and Wu, L. and Garland, C. W. and Schaefer D. W. and Oliver, B. J.},
+	Journal = prl,
+	Pages = 788,
+	Title = {Phase Behavior of the Liquid Crystal 8{CB} in a Silica Aerogel},
+	Volume = 69,
+	Year = 1992}
+
+@article{BeDi00,
+	Author = {Bennett, C. H. and DiVincenzo, D. P.},
+	Journal = {Nature},
+	Pages = {247-255},
+	Title = {Quantum Information and Computation},
+	Volume = 404,
+	Year = 2000}
+
+@article{BeNe,
+	Author = {Berg, B. and Neuhaus, T.},
+	Journal = prl,
+	Pages = 9,
+	Title = {Multicanonical Ensemble: A New Approach to Simulate First-Order Phase Transitions},
+	Volume = 68,
+	Year = 1992}
+
+@book{BeCoGu,
+	Author = {Berlekamp, E. R. and Conway, J. H. and Guy, R. K.},
+	Chapter = 25,
+	Publisher = {Academic Press},
+	Title = {Winning Ways for Your Mathematical Plays},
+	Volume = 2,
+	Year = 1982}
+
+@inproceedings{BeVa,
+	Author = {Bernstein, E. and Vazirani, U.},
+	Booktitle = {Proceedings of the 25th ACM Symposium on the Theory of Computation},
+	Pages = 11,
+	Title = {Quantum Complexity Theory},
+	Year = 1993}
+
+@inproceedings{BeBr92,
+	Author = {Berthiaume, A. and G. Brassard},
+	Booktitle = {Proceedings of the 7th Annual IEEE Conference on Structure in Complexity Theory},
+	Pages = 132,
+	Title = {The Quantum Challenge to Structural Complexity Theory},
+	Year = 1992}
+
+@article{BeBr93,
+	Author = {Berthiaume, A. and Brassard, G.},
+	Journal = {Journal of Modern Optics},
+	Note = {to appear},
+	Title = {Oracle Quantum Computing}}
+
+@article{BiFeHaHiRaTh,
+	Author = {Birgeneau, R. J. and Feng,Q. and Harris, Q. J. and Hill, J. P. and Ramirez, A. P. and Thurston, T. R.},
+	Journal = prl,
+	Pages = {1198-1201},
+	Title = {X-Ray and Neutron Scattering, Magnetization, and Heat Capacity Study of the 3{D} Random Field {I}sing Model},
+	Volume = 75,
+	Year = 1995}
+
+@book{BiDoFiNe,
+	Author = {Binney, J. J. and Dowrick, N. J. and Fisher, A. J. and Newman, M. E. J.},
+	Publisher = {Oxford University Press},
+	Title = {The Theory of Critical Phenomena, An Introduction to the Renormalization Group},
+	Year = 1998}
+
+@article{BiCoMo02,
+	Author = {Biroli, G. and Cocco, S. and Monasson, R.},
+	Journal = physa,
+	Pages = {381-394},
+	Title = {Phase Transitions and Complexity in Computer Science: An Overview of the Statistical Physics Approach to the Random Satisfiability Problem},
+	Volume = 306,
+	Year = 2002}
+
+@article{Bin87,
+	Author = {Binder, P. M.},
+	Journal = {Complex Systems},
+	Pages = 559,
+	Title = {Lattice models of the {L}orentz gas: physical and dynamical properties},
+	Volume = 1,
+	Year = 1987}
+
+@article{BlWiDo,
+	Author = {Blatt, M. and Wiseman, S. and Domany, E.},
+	Journal = prl,
+	Pages = {3251},
+	Title = {Superparamagnetic Clustering of Data},
+	Volume = 76,
+	Year = 1996}
+
+@article{BlLuHe,
+	Author = {Blote, H. W. J. and Luijten, E. and Heringa, J. R.},
+	Journal = jpa,
+	Pages = {6289},
+	Title = {Ising Universality in Three Dimensions: a {M}onte {Ca}rlo Study},
+	Volume = 28,
+	Year = 1995}
+
+@article{BlWu,
+	Author = {Blote, H. W. J. and Wu, X.- R.},
+	Journal = jpa,
+	Pages = {L627},
+	Title = {Accurate Determination of the Critical Line of the Square {I}sing Antiferromagnet in a Field},
+	Volume = 23,
+	Year = 1990}
+
+@book{BlCuShSm,
+	Address = {Secaucus, NJ, USA},
+	Author = {Blum, L. and Cucker, F. and Shub, M and Smale, S.},
+	Isbn = {0-387-98281-7},
+	Publisher = {Springer-Verlag New York, Inc.},
+	Title = {Complexity and Real Computation},
+	Year = {1998}}
+
+@article{BoPa,
+	Author = {Boettcher, S. and Paczuski, M.},
+	Journal = prl,
+	Pages = {889-892},
+	Title = {Aging in a Model of Self-Organized Criticality},
+	Volume = 79,
+	Year = 1997}
+
+@article{BKM,
+	Author = {Borgs, C. and Koteck\'y, R. and Miracle-Sol\'e, S.},
+	Journal = jsp,
+	Pages = {529},
+	Title = {Finite-Size Scaling for {P}otts Models},
+	Volume = 62,
+	Year = 1991}
+
+@article{BrMo,
+	Author = {Bray, A. J. and Moore, M. A.},
+	Journal = {J. Phys. C},
+	Pages = {L927},
+	Title = {Scaling theory of the Random-Field {I}sing Model},
+	Volume = 18,
+	Year = 1985}
+
+@article{BrMo87,
+	Author = {Bray, A. J. and Moore, M. A.},
+	Journal = prl,
+	Pages = 57,
+	Title = {Chaotic Nature of the Spin-Glass Phase},
+	Volume = 58,
+	Year = 1987}
+
+@article{BrDe98,
+	Author = {Brezin, E. and De Dominicis, C.},
+	Journal = {Europhys. Lett.},
+	Pages = 13,
+	Title = {New Phenomena in the Random Field {I}sing Model},
+	Volume = 44,
+	Year = 1998}
+
+@article{BrKu87,
+	Author = {Bricmont, J. and Kupiainen, A.},
+	Journal = prl,
+	Pages = 1829,
+	Title = {Lower Critical Dimension for the Random-Field {I}sing Model},
+	Volume = 59,
+	Year = 1987}
+
+@article{BrDe,
+	Author = {Brochard, F. and de Gennes, P. G.},
+	Journal = {J. Phys. Lett.},
+	Pages = {L785},
+	Title = {Phase Transitions of Binary Mixtures in Random Media},
+	Volume = 44,
+	Year = 1983}
+
+@unpublished{BrChWi,
+	Author = {Brower, R.C. and Chandrasekharan, C. and Wiese, U.-J.},
+	Note = {cond-mat/9801003},
+	Title = {Green's Functions from Quantum Cluster Algorithms},
+	Year = 1998}
+
+@article{BrTaYo,
+	Author = {Brower, R.C. and Tamayo, P. and York, B.},
+	Journal = {Journal of Statistical Physics},
+	Number = {??},
+	Pages = {73},
+	Title = {??},
+	Volume = 63,
+	Year = 1992}
+
+@article{BuBaCaHaStVi,
+	Author = {Buldyrev, S. V. and Barabasi, A.-L. and Caserta, F. and Havlin, S. and Stanley, H. E. and Vicsek, T.},
+	Journal = pra,
+	Pages = {R8313},
+	Title = {Anomalous Interface Roughening in Porous Media: Experiment and Model},
+	Volume = 45,
+	Year = 1992}
+
+@article{BuCo,
+	Author = {Butera, P. and Comi, M.},
+	Journal = prb,
+	Pages = 8212,
+	Title = {N-vector Spin Models on the SC and the BCC Lattices: A Study of the Critical Behavior of the Susceptibility and of the Correlation length by High Temperature Series Extended to Order $\beta^{21}$},
+	Volume = 56,
+	Year = 1997}
+
+@article{CHPRV,
+	Author = {Campostrini, M. and Hasenbusch, M. and Pelissetto, A. and Rossi, P. and Vicari, E.},
+	Journal = prb,
+	Pages = 4503,
+	Title = {Critical behavior of the three-dimensional {XY} universality class},
+	Volume = 21,
+	Year = 2001}
+
+@article{CaMa,
+	Author = {Cao, M. S. and Machta, J.},
+	Journal = prb,
+	Pages = {3177-3182},
+	Title = {Migdal-{K}adanoff Study of the Random Field {I}sing Model},
+	Volume = 48,
+	Year = 1993}
+
+@unpublished{Cardy98,
+	Author = {Cardy, J.},
+	Note = {cond-mat/9806355},
+	Title = {Quenched Randomness at First-Order Transitions},
+	Year = 1998}
+
+@article{CaChGrSw,
+	Author = {Carlson, J. M. and Chayes, J. T. and Grannan, E. R. and Swindle, G. H.},
+	Journal = prl,
+	Pages = 2547,
+	Title = {Self-Organized Criticality and Singular Diffusion},
+	Volume = 65,
+	Year = 1990}
+
+@article{ChBlMuWoRe,
+	Author = {Chan, M. H. W. and Blum, K. I. and Murphy, S. Q. and Wong, G. K. S. and Reppy, J. D.},
+	Journal = prl,
+	Pages = 1950,
+	Title = {Disorder and the Superfluid Transition in Liquid $^4${He}},
+	Volume = 61,
+	Year = 1988}
+
+@article{ChChFiSp,
+	Author = {Chayes, J. T. and Chayes, L. and Durett, R. and Fisher, D. S. and Spencer, T.},
+	Journal = prl,
+	Pages = 2999,
+	Title = {Finite-size scaling and correlation lengths for disordered systems},
+	Volume = {57},
+	Year = 1986}
+
+@article{ChChDu,
+	Author = {Chayes, J. T. and Chayes, L. and Durett, R.},
+	Journal = {Probability Theory and Related Fields},
+	Pages = 307,
+	Title = {Connectivity Properties of {M}andelbrot's Percolation Process},
+	Volume = {77},
+	Year = 1988}
+
+@article{ChChKo,
+	Author = {Chayes, J. T. and Chayes, L. and Koteck\'{y}, R.},
+	Journal = {Comm. Math. Phys.},
+	Pages = 551,
+	Title = {The Analysis of the {W}idom-{R}owlinson Model by Stochastic Geometric Methods},
+	Volume = {172},
+	Year = 1995}
+
+@article{ChChMa,
+	Author = {Chayes, J. T. and Chayes, L. and Machta, J.},
+	Journal = jpa,
+	Pages = 4249,
+	Title = {Phase Diagram and Correlation Length Bounds for {M}andelbrot Aerogels},
+	Volume = 26,
+	Year = 1993}
+
+@article{ChChNe,
+	Author = {Chayes, J. T. and Chayes, L. and Newman, C. M.},
+	Journal = {Comm. Math. Phys.},
+	Pages = 383,
+	Title = {The Stochastic Geometry of Invasion Percolation},
+	Volume = {101},
+	Year = {1985}}
+
+@article{Chayes98,
+	Author = {Chayes, L.},
+	Journal = {Comm. Math. Phys.},
+	Pages = {623-640},
+	Title = {Discontinuity of the Spin-Wave Stiffness in the Two-Dimensional {XY} Model},
+	Volume = {197},
+	Year = 1998}
+
+@unpublished{ChCoMaSh,
+	Author = {Chayes, L. and Coniglio, A. and Machta, J. and Shtengel, K.},
+	Note = {unpublished},
+	Title = {The Mean Field Theory for Percolation Models of the {I}sing Type},
+	Year = 1998}
+
+@article{ChMa95,
+	Author = {Chayes, L. and Machta, J.},
+	Journal = jsp,
+	Pages = 117,
+	Title = {On the Behavior of the Surface Tension for Spin-Systems in a Correlated Porous Medium},
+	Volume = 79,
+	Year = 1995}
+
+@article{ChMa97a,
+	Author = {Chayes, L. and Machta, J.},
+	Journal = physa,
+	Pages = {542-601},
+	Title = {Graphical Representations and Cluster Algorithms, Part {I}},
+	Volume = 239,
+	Year = 1997}
+
+@article{ChMa98a,
+	Author = {Chayes, L. and Machta, J.},
+	Journal = physa,
+	Pages = {477-516},
+	Title = {Graphical Representations and Cluster Algorithms, Part {II}},
+	Volume = 254,
+	Year = 1998}
+
+@article{ChMaRe98b,
+	Author = {Chayes, L. and Machta, J. and Redner, O.},
+	Journal = jsp,
+	Pages = 17,
+	Title = {Graphical Representations for {I}sing Systems in External Fields},
+	Volume = 93,
+	Year = 1998}
+
+@article{ChMaTaCh,
+	Author = {Choi, Y. S. and Machta, J. and Tamayo, P. and Chayes, L.},
+	Journal = ijmpc,
+	Pages = {1-16},
+	Title = {Parallel invaded cluster algorithm for the {I}sing model},
+	Volume = 10,
+	Year = 1999}
+
+@article{ChWi,
+	Author = {Chen, J.-D. and Wilkinson, D.},
+	Journal = PRL,
+	Pages = {1892},
+	Title = {Pore-Scale Viscous Fingering in Porous Media},
+	Volume = {55},
+	Year = {1985}}
+
+@article{ChFeLa,
+	Author = {Chen, S. and Ferrenberg, A. M. and Landau, D. P.},
+	Journal = prl,
+	Pages = 1213,
+	Title = {Randomness-Induced Second-Order Transition in the Two-Dimensional Eight-State {P}otts Model: A {M}onte {C}arlo Study},
+	Volume = 69,
+	Year = {1992}}
+
+@article{ChKo,
+	Author = {Chandler, R. and Koplick, J. and Lerman, K. and Willemsen, J. F.},
+	Journal = {Journal of Fluid Mechanics},
+	Key = {Koplick},
+	Pages = {249-267},
+	Title = {Capillary Displacement and Percolation in Porous Media},
+	Volume = {119},
+	Year = {1982}}
+
+@article{ChFeLa,
+	Author = {Chen, S. and Ferrenberg, A. M. and Landau, D. P.},
+	Journal = prl,
+	Pages = 1213,
+	Title = {Randomness-Induced Second-Order Transition in the Two-Dimensional Eight-State {P}otts Model: A {M}onte {C}arlo Study},
+	Volume = 69,
+	Year = {1992}}
+
+@article{ChFeLa95,
+	Author = {Chen, S. and Ferrenberg, A. M. and Landau, D. P.},
+	Journal = pre,
+	Pages = 1377,
+	Title = {Monte {C}arlo Simulation of Phase Transitions in a Two-Dimensional Random-Bond {P}otts Model},
+	Volume = 52,
+	Year = {1995}}
+
+@book{ChNi00,
+	Author = {Chuang, I. L. and Nielsen, M. A.},
+	Publisher = {Cambridge University Press},
+	Series = {Cambridge Series on Information},
+	Title = {Quantum Computation and Quantum Information},
+	Year = 2000}
+
+@article{GoCh97,
+	Author = {Cherkassky, B. and Goldberg, A. V.},
+	Journal = {Algorithmica},
+	Pages = {390-410},
+	Title = {On Implementing Push-Relabel Method for the Maximum Flow Problem},
+	Volume = 19,
+	Year = 1997}
+
+@phdthesis{yscthesis,
+	Author = {Choi, Y. S.},
+	School = {University of Massachusetts},
+	Title = {The Invaded Cluster Algorithm},
+	Year = 1997}
+
+@article{CiRo,
+	Author = {Cieplak, M. and Robbins, M. O.},
+	Journal = prl,
+	Pages = 2042,
+	Title = {Dynamical Transition in Quasistatic Fluid Invasion in Porous Media},
+	Volume = 60,
+	Year = {1988}}
+
+@article{CoBa,
+	Author = {Coddington, P. D. and Baillie, C. F.},
+	Journal = prl,
+	Pages = {962-965},
+	Title = {Empirical Relations Between Static and Dynamic Exponents for {I}sing Model Cluster Algorithms},
+	Volume = 68,
+	Year = 1992}
+
+@article{CoWa,
+	Author = {Cohen, E. G. D. and Wang, F.},
+	Journal = {Physica A},
+	Pages = 56,
+	Title = {Novel phenomena in {L}orentz Lattice Gases},
+	Volume = 219,
+	Year = 1995}
+
+@article{CoGuMa,
+	Author = {Cohen, S. M. and Guyer, R.A. and Machta, J.},
+	Journal = prb,
+	Pages = 4664,
+	Title = {Hydrodynamic Modes of Superfluid Helium Adsorbed on {N}uclepore},
+	Volume = 33,
+	Year = 1986}
+
+@article{CoSa,
+	Author = {Cole, M. W. and Saam, W. F.},
+	Journal = prl,
+	Pages = 985,
+	Title = {Excitation Spectrum and Thermodynamic Porperties of Liquid Films in Cylindrical Pores},
+	Volume = 32,
+	Year = 1974}
+
+@inproceedings{Condon,
+	Author = {Condon, A.},
+	Booktitle = {STACS 92: 9th Annual Symposium on Theoretical Aspects of Computer Science},
+	Editor = {Finkel, A. and Jantzen, M.},
+	Organization = {Lecture Notes in Computer Science, Vol.~577},
+	Pages = 33,
+	Publisher = {Springer-Verlag},
+	Title = {A theory of strict {$P$}-completeness},
+	Year = 1992}
+
+@article{CoKl,
+	Author = {Coniglio, A. and Klein, W.},
+	Journal = jpa,
+	Pages = {2775},
+	Title = {Clusters and {Ising} Critical Droplets: A Renormalisation Group Approach},
+	Volume = {13},
+	Year = {1980}}
+
+@article{CNPR,
+	Author = {Coniglio, A. and Nappi, C. R. and Peruggi, F. and Russo, L.},
+	Journal = {Comm. Math. Phys.},
+	Pages = {315},
+	Title = {Peroclation and Phase Transitions in the {I}sing Model},
+	Volume = {51},
+	Year = {1976}}
+
+@article{CoNaPeRu,
+	Author = {Coniglio, A. and Nappi, C. R. and Peruggi, F. and Russo, L.},
+	Journal = jpa,
+	Pages = {205},
+	Title = {Percolation Points and Critical Point in the {Ising} Model},
+	Volume = {10},
+	Year = {1977}}
+
+@article{Cook,
+	Author = {Cook, S. A.},
+	Journal = {Information and Control},
+	Pages = 2,
+	Title = {A Taxonomy of Problems with Fast Parallel Algorithms},
+	Volume = 64,
+	Year = 1985}
+
+@phdthesis{crooks,
+	Author = {Crooks, G. E.},
+	School = {University of California at Berkeley},
+	Title = {Excursions in Statistical Dynamics},
+	Year = 1999}
+
+@article{CrSh99,
+	Author = {Crutchfield, J. P. and Shalizi, C. R.},
+	Journal = pre,
+	Pages = {275-283},
+	Title = {Thermodynamic Depth of Causal States: Objective Complexity via Minimal Representations},
+	Volume = 59,
+	Year = 1999}
+
+@unpublished{DePeWo,
+	Author = {Delker, T. and Pengra, D. B. and Wong, P.-z.},
+	Note = {Preprint},
+	Title = {Interface Pinning and the Dynamics of Capillary Rise in Porous Media},
+	Year = 1995}
+
+@article{DeBoCsCh,
+	Author = {Dellago, C and Bolhuis, P. G. and Csajka, F. S. and Chandler, D.},
+	Journal = jcp,
+	Pages = {1964--1977},
+	Title = {Transition Path Sampling and the Calculation of Rate Constants},
+	Volume = 108,
+	Year = 1998}
+
+@article{De85,
+	Author = {Deutsch, D.},
+	Journal = {Proc. R. Soc. Lond. A},
+	Pages = 97,
+	Title = {Quantum Theory, the {C}hurch-{T}uring Principle and the Universal Quantum Computer},
+	Volume = 400,
+	Year = 1985}
+
+@article{DeJo,
+	Author = {Deutsch, D. and Jozsa, R.},
+	Journal = {Proc. R. Soc. Lond. A},
+	Pages = 553,
+	Title = {Rapid Solution of Problems by Quantum Computation},
+	Volume = 439,
+	Year = 1992}
+
+@article{DiWi,
+	Author = {Dierker, S. B. and Wiltzius, P.},
+	Journal = prl,
+	Pages = 1865,
+	Title = {Random-Field Transition of a Binary Liquid in a Porous Medium},
+	Volume = 58,
+	Year = 1987}
+
+@unpublished{DoMeDu02,
+	Author = {Dobrin, R. and Meinke, H. and Duxbury, P. M.},
+	Note = {cond-mat/0203194},
+	Title = {Random-Field {I}sing Model on Complete Graphs and Trees},
+	Year = 2002}
+
+@article{Do84,
+	Author = {Domany, E.},
+	Journal = prl,
+	Pages = {871-874},
+	Title = {Exact Results for Two- and Three-Dimensional {I}sing and {P}otts Models},
+	Volume = 52,
+	Year = 1984}
+
+@article{DoHaLShSt,
+	Author = {Dotsenko, V. and Harris, A. B. and Sherrington, D. and Stinchcombe, R. B.},
+	Journal = jpa,
+	Pages = 3093,
+	Title = {Replica-symmetry breaking in the critical behavior of the random ferromagnet},
+	Volume = 28,
+	Year = 1995}
+
+@article{DoSeTa,
+	Author = {Dotsenko, V. S. and Selke, W. and Talapov, A. L.},
+	Journal = physa,
+	Pages = 278,
+	Title = {Cluster {M}onte {C}arlo Algorithms for Random {I}sing Models},
+	Volume = 170,
+	Year = 1991}
+
+@article{DoMa,
+	Author = {Doussal, P. Le and Machta, J.},
+	Journal = jsp,
+	Pages = 541,
+	Title = {Self-Avoiding Walks in Quenched Random Environments},
+	Volume = 64,
+	Year = 1991}
+
+@article{DrKr,
+	Author = {Dress, C. and Krauth, W.},
+	Journal = jsp,
+	Pages = {L597},
+	Title = {Cluster Algorithm for Hard Spheres and Related Systems},
+	Volume = 28,
+	Year = 1995}
+
+@article{DsMa99,
+	Author = {D'Souza, R. M. and Margolus, N. H.},
+	Journal = pre,
+	Pages = {264},
+	Title = {A Thermodynamically Reversible Generalization of Diffusion Limited Aggregation},
+	Volume = {60},
+	Year = {1999}}
+
+@incollection{DsHoMa2003,
+	Author = {D'Souza, R. M. and Homsy, G. E. and Margolus, N. H.},
+	Booktitle = {New Constructions in Cellular Automata},
+	Editor = {Griffeath, David and Moore, Cristopher},
+	Pages = {211-230},
+	Publisher = {Oxford University Press},
+	Series = {Santa Fe Institute Studies in the Science of Complexity},
+	Title = {Simulating Digital Logic with the Reversible Aggregation Model of Cluster Growth},
+	Year = 2003}
+
+@unpublished{DuMaSaAu,
+	Author = {Dukovski, I. and Machta, J. and Saravanan, C. and Auerbach, S. M.},
+	Journal = jcp,
+	Title = {Cluster {M}onte {C}arlo Simulations of Phase Transitions and Critical Phenomena in Zeolites},
+	Year = 2000}
+
+@article{DuMa03,
+	Author = {Dukovski, I. and Machta, J.},
+	Journal = prb,
+	Pages = 014413,
+	Title = {Ground State Numerical Study of the Three-Dimensional Random Field Ising Model},
+	Volume = 67,
+	Year = 2003}
+
+@article{DySiViWe04,
+	Author = {Dyer, M. and Sinclair, A. and Vigoda, E. and Weitz, D.},
+	Journal = {Random Structures and Algorithms},
+	Pages = {461-479},
+	Title = {Mixing in Time and Space for Lattice Spin Systems: A Combinatorial View},
+	Volume = 24,
+	Year = 2003}
+
+@inproceedings{Eden,
+	Author = {Eden, M.},
+	Booktitle = {Proceeding of the Fourth Berkeley Symposium on Mathematical Statistics and Probability},
+	Editor = {Neyman, F.},
+	Pages = 223,
+	Publisher = {University of California},
+	Title = {A Two-Dimensional Growth Process},
+	Volume = {IV},
+	Year = 1961}
+
+@article{EdSo,
+	Author = {Edwards, R. G. and Sokal, A.D.},
+	Journal = {Phys. Rev. D},
+	Pages = 2009,
+	Title = {Generalization of the {F}ortuin-{K}asteleyn-{S}wendsen-{W}ang representation and {M}onte {C}arlo algorithm},
+	Volume = 38,
+	Year = 1988}
+
+@article{EiBi,
+	Author = {Eichorn, K. and Binder, K.},
+	Journal = jpcm,
+	Pages = {5209--5227},
+	Title = {Monte Carlo Investigation of the Three-Dimensional Random-Field Three-State {P}otts Model},
+	Volume = 8,
+	Year = 1996}
+
+@article{ErVe89a,
+	Author = {Ernst, M. H. and van Velzen, G. A.},
+	Journal = jpa,
+	Pages = 4611,
+	Title = {Lattice {L}orentz Gas},
+	Volume = 22,
+	Year = 1989}
+
+@article{ErVe89b,
+	Author = {Ernst, M. H. and van Velzen, G.A.},
+	Journal = jsp,
+	Pages = 455,
+	Title = {Long-Time Tails in Lattice {L}orentz Gases},
+	Volume = 57,
+	Year = 1989}
+
+@article{ErDoJa,
+	Author = {Ernst, M. H. and Dorfman, J. R. and Jacobs, D.},
+	Journal = prl,
+	Pages = 4416,
+	Title = {Mean-Field Theory for {L}yapunov Exponents and {K}olmogorov-{S}inai Entropy in {L}orentz Lattice Gases},
+	Volume = 74,
+	Year = 1995}
+
+@book{Ev,
+	Author = {Even, S.},
+	Publisher = {Computer Science Press},
+	Title = {Graph Algorithms},
+	Year = 1979}
+
+@unpublished{Evertz97,
+	Author = {Evertz, H. G.},
+	Note = {cond-mat/9707221},
+	Title = {The Loop Algorithm},
+	Year = 1997}
+
+@article{FaBeMc,
+	Author = {Falicov, A. and Berker, A. N. and McKay, S. R.},
+	Journal = prb,
+	Pages = 8266,
+	Title = {Renormalization-group Theory of the Random-Field {I}sing Model in Three Dimensions},
+	Volume = 51,
+	Year = 1995}
+
+@book{FaVi,
+	Address = {Singapore},
+	Editor = {Family, F. and Vicsek, T.},
+	Publisher = {World Scientific},
+	Title = {Dynamics of Fractal Surfaces},
+	Year = 1991}
+
+@article{FeCaGaPi,
+	Author = {Felici, M. and Caldarelli, G. and Gabrielli, A. and Pietronero, L.},
+	Journal = prl,
+	Pages = {1896-1899},
+	Title = {A Perturbative Approach to the {B}ak-{S}neppen Model},
+	Volume = 86,
+	Year = 2001}
+
+@book{Feller,
+	Address = {New York},
+	Author = {Feller, W.},
+	Publisher = {Wiley},
+	Title = {An Introduction to Probability Theory and Its Applications},
+	Volume = {I},
+	Year = 1968}
+
+@article{FeLa,
+	Author = {Ferrenberg, A. M. and Landau, D. P.},
+	Journal = PRB,
+	Pages = 5081,
+	Title = {Critical Behavior of the Three-Dimensional {I}sing Model: A High-Resolution {M}onte {C}arlo Study},
+	Volume = 44,
+	Year = 1991}
+
+@article{FeLaSw,
+	Author = {Ferrenberg, A. M. and Landau, D. P. and Swendsen, R. H.},
+	Journal = pre,
+	Pages = 5092,
+	Title = {Statistical Errors in Histogram Reweighting},
+	Volume = 51,
+	Year = 1995}
+
+@article{FeSw,
+	Author = {Ferrenberg, A. M. and Swendsen, R. H.},
+	Journal = prl,
+	Pages = 2635,
+	Title = {New {M}onte {C}arlo Technique for Studying Phase Transitions},
+	Volume = 61,
+	Year = 1988}
+
+@incollection{Fi,
+	Address = {San Mateo, CA},
+	Author = {Fich, F. E.},
+	Booktitle = {Synthesis of Parallel Algorithms},
+	Chapter = {20},
+	Editor = {Reif, J. H.},
+	Pages = {843--899},
+	Publisher = {Morgan Kaufman},
+	Title = {The Complexity of Computation on the Parallel Random Access Machine},
+	Year = 1993}
+
+@article{Fish86,
+	Author = {Fisher, D. S.},
+	Journal = prl,
+	Pages = 416,
+	Title = {Scaling and Critical Slowing Down in Random-Field {I}sing Systems},
+	Volume = 56,
+	Year = 1986}
+
+@article{Fish67,
+	Author = {Fisher, M. E.},
+	Journal = {Physics (N.Y.)},
+	Pages = {255},
+	Title = {The Theory of Condensation and the Critical Point},
+	Volume = 3,
+	Year = 1967}
+
+@article{FlTa,
+	Author = {Tamayo, P. and Flanigan, M.},
+	Journal = {Physica},
+	Pages = {461},
+	Title = {Parallel Cluster Labelling for Large-Scale {M}onte {C}arlo Simulations},
+	Volume = {A215},
+	Year = 1995}
+
+@article{FoKa,
+	Author = {Fortuin, C. M. and Kasteleyn, P. M.},
+	Journal = {Physica},
+	Pages = {536},
+	Title = {On the Random-Cluster Model},
+	Volume = 57,
+	Year = 1972}
+
+@article{FrCaCo,
+	Author = {Franzese, G. and Cataudella, V. and Coniglio A.},
+	Journal = pre,
+	Pages = 88,
+	Title = {Invaded Cluster Dynamics for Frustrated Models},
+	Volume = 57,
+	Year = 1998}
+
+@article{FrStSt,
+	Author = {Freche, P. and Stauffer, D. and Stanley, H. E.},
+	Journal = jpa,
+	Pages = {L1163},
+	Title = {Surface Structure and Anisotropy of {E}den Clusters},
+	Volume = 18,
+	Year = 1985}
+
+@article{FrTo,
+	Author = {Fredkin, E. and Toffoli, T.},
+	Journal = {Int. J. of Theo. Phys.},
+	Pages = 219,
+	Title = {Conservative Logic},
+	Volume = 21,
+	Year = 1982}
+
+@book{Fr86,
+	Editor = {Fricke, J.},
+	Publisher = {Springer-Verlag},
+	Series = {Springer Proceedings in Physics},
+	Title = {Aerogels},
+	Volume = 6,
+	Year = 1986}
+
+@article{FrFeCa,
+	Author = {Frisken, B. J. and Ferri, F. and Cannell, D. S.},
+	Journal = prl,
+	Pages = 2754,
+	Title = {Effect of Dilute Silica Gel on Phase Separation of a Binary Mixture},
+	Volume = 66,
+	Year = 1991}
+
+@article{FrGoOrVi,
+	Author = {Frontera, C. and Goicoechea, J. and Ort\'{i}n, J. and Vives, E.},
+	Journal = {Journal of Computational Physics},
+	Pages = 117,
+	Title = {Efficient Algorithm for Finding Ground-States in the Random Field {I}sing model with an External Field},
+	Volume = 160,
+	Year = 2000}
+
+@book{GaJo,
+	Address = {New York},
+	Author = {Garey, M. R. and Johnson, D. S.},
+	Publisher = {W. H. Freeman \& Co.},
+	Title = {Computers and Intractability: A Guide to the Theory of {NP}-Completeness},
+	Year = 1979}
+
+@article{Gell95,
+	Author = {Gell-Mann, M.},
+	Journal = {Complexity},
+	Pages = 16,
+	Title = {What is Complexity?},
+	Volume = 1,
+	Year = 1995}
+
+@book{GiRy,
+	Author = {Gibbons, A. and Rytter, W.},
+	Publisher = {Cambridge University Press},
+	Title = {Efficient Parallel Algorithms},
+	Year = 1988}
+
+@article{GoAdAhHaSc,
+	Author = {Gofman, M. and Adler, J. and Aharony, A. and Harris, A. B. and Schwartz, M.},
+	Journal = prb,
+	Pages = {6362-6384},
+	Title = {Critical Behavior of the Random Field {I}sing Model},
+	Volume = 53,
+	Year = 1996}
+
+@misc{Go,
+	Author = {Goldberg, A. V.},
+	Howpublished = {http://www.avglab.com/andrew/soft.html}}
+
+@article{GoTa88,
+	Author = {Goldberg, A. V. and Tarjan, R. E.},
+	Journal = {Journal of ACM},
+	Pages = {921-940},
+	Title = {A New Approach to the Maximum Flow Problem},
+	Volume = 35,
+	Year = 1988}
+
+@article{GoMu93,
+	Author = {Goldner, L. S. and Mulders, N. and Ahlers, G.},
+	Journal = {J. Low Temp. Phys.},
+	Pages = 131,
+	Title = {2nd Sound Very Near ${T}_{\lambda}$},
+	Volume = 93,
+	Year = 1993}
+
+@book{goldreich99,
+	Author = {Goldreich, O.},
+	Publisher = {Springer},
+	Series = {Algorithms and Combinatorics},
+	Title = {Modern Cryptography, Probabilistic Proofs and Pseudorandomness},
+	Volume = 17,
+	Year = 1999}
+
+@article{Gold77,
+	Author = {Goldschlager, L. M.},
+	Journal = {SIGACT News},
+	Pages = 25,
+	Title = {The monotone and planar circuit value problems are logspace complete for {P}},
+	Volume = 9,
+	Year = 1977}
+
+@article{GoHa93,
+	Author = {Gottlob, A. P. and Hasenbusch, M.},
+	Journal = {physa},
+	Pages = 593,
+	Title = {Critical Behavior of the {3D} {XY}-Model: A Monte Carlo Study},
+	Volume = 201,
+	Year = 1993}
+
+@book{Gould,
+	Author = {Gould, S. J.},
+	Publisher = {Norton},
+	Title = {Wonderful Life},
+	Year = 1989}
+
+@article{Grass86,
+	Author = {Grassberger, P.},
+	Journal = {International J. Theor. Phys.},
+	Pages = {907-938},
+	Title = {Toward a Quantitative Theory of Self-Generated Complexity},
+	Volume = 25,
+	Year = 1986}
+
+@unpublished{Grass,
+	Author = {Grassberger, P.},
+	Note = {Preprint},
+	Title = {Recursive Samplings of Random Walks: Self-Avoiding Walks in Disordered Media},
+	Year = 1992}
+
+@article{Grass95,
+	Author = {Grassberger, P.},
+	Journal = {Phys. Lett. A},
+	Pages = {277-282},
+	Title = {The {B}ak-{S}neppen Model for Punctuated Evolution},
+	Volume = 200,
+	Year = 1995}
+
+@book{GrHoRu,
+	Author = {Greenlaw, R. and Hoover, H. J. and Ruzzo, W. L.},
+	Publisher = {Oxford University Press},
+	Title = {Limits to Parallel Computation: {$P$}-completeness Theory},
+	Year = 1995}
+
+@techreport{GrMatechreport,
+	Author = {Greenlaw, R. and Machta, J.},
+	Institution = {University of New Hampshire},
+	Number = {93-04},
+	Title = {On the Parallel Complexity of Invasion Percolation},
+	Year = {1993}}
+
+@book{Grim,
+	Author = {Grimmett, G.},
+	Publisher = {Springer-Verlag},
+	Title = {Percolation},
+	Year = {1989}}
+
+@article{GrFe,
+	Author = {Grinstein, G. and Fernandez, J. F.},
+	Journal = prb,
+	Pages = 6389,
+	Title = {Equilibration of Random-Field {I}sing Systems},
+	Volume = 29,
+	Year = 1984}
+
+@article{GrMa82,
+	Author = {Grinstein, G. and Ma, S. K.},
+	Journal = prl,
+	Pages = {685-688},
+	Title = {Roughening and Lower Critical Dimension in the Random-Field {I}sing Model},
+	Volume = 49,
+	Year = 1982}
+
+@article{GrEcZh,
+	Author = {Gross, D. H. E. and Ecker, A. and Zhang, X. Z.},
+	Journal = {Annalen Phys.},
+	Pages = 446,
+	Title = {Microcanonical Thermodynamics of First Order Phase Transitions studied in the {P}otts Model},
+	Volume = 5,
+	Year = 1996}
+
+@article{GuZi,
+	Author = {Guida, R. and Zinn-Justin, J.},
+	Journal = jpa,
+	Pages = {8103-8121},
+	Title = {Critical exponents of the {N}-vector model},
+	Volume = 31,
+	Year = 1998}
+
+@unpublished{GuTa,
+	Author = {Gupta, R. and Tamayo, P.},
+	Note = {cond-mat/9601048},
+	Title = {Critical Exponents of the 3-{D} {I}sing Model},
+	Year = 1996}
+
+@inproceedings{Ha,
+	Address = {Madrid, Spain},
+	Author = {Hagerup, T.},
+	Booktitle = {Automata, Languages, and Programming: 18th International Colloquium},
+	Month = jul,
+	Pages = {405--416},
+	Publisher = {Springer-Verlag},
+	Series = {Lecture Notes in Computer Science},
+	Title = {Fast Parallel Generation of Random Permutations},
+	Volume = 510,
+	Year = 1991}
+
+@article{Hal,
+	Author = {Halsey, T. C.},
+	Journal = prl,
+	Pages = 2067,
+	Title = {Some Consequences of an Equation of Motion for Diffuse Growth},
+	Volume = 59,
+	Year = 1987}
+
+@unpublished{HaLe,
+	Author = {Halsey, T. C. and Leibig, M.},
+	Note = {Preprint},
+	Title = {Theory of Branched Growth},
+	Year = 1992}
+
+@article{HaMePr,
+	Author = {Halsey, T. C. and Meakin, P. and Procaccia, I.},
+	Journal = prl,
+	Pages = 854,
+	Title = {Scaling Structure of the Surface Layer of Diffusion-Limited Aggregates},
+	Volume = 56,
+	Year = 1986}
+
+@inproceedings{Ham,
+	Address = {New York},
+	Author = {Hammersley,J.M.},
+	Booktitle = {Methods in Computational Physics},
+	Publisher = {Academic Press},
+	Title = {A {M}onte {C}arlo solution of percolation in the cubic lattice},
+	Volume = {I},
+	Year = {1963}}
+
+@article{HaCr,
+	Author = {Hanson, J. E. and Crutchfield, J. P.},
+	Journal = {Physica D},
+	Pages = 169,
+	Title = {Computational Mechanics of Cellular Automata: An Example},
+	Volume = 103,
+	Year = 1997}
+
+@article{HaNo,
+	Author = {Hartmann, A. K. and Nowak, U.},
+	Journal = epjb,
+	Pages = {105-109},
+	Title = {Universality in three dimensional random-field ground states},
+	Volume = 7,
+	Year = 1999}
+
+@book{HaRi01,
+	Author = {Hartmann, A. K. and Rieger, H.},
+	Publisher = {John Wiley \& Sons},
+	Title = {Optimization Algorithms in Physics},
+	Year = 2001}
+
+@article{HaYo01,
+	Author = {Hartmann, A. K. and Young, A. P.},
+	Journal = prb,
+	Pages = 214419,
+	Title = {Specific-Heat Exponent of Random-Field Systems via Ground-State Calculations},
+	Volume = 64,
+	Year = 2001}
+
+@article{HaTo99,
+	Author = {Hasenbusch, M. and Torok, T.},
+	Journal = jpa,
+	Pages = {6361-6371},
+	Title = {High Precision {M}onte {C}arlo Study of the {3D} {XY}-Universality Class},
+	Volume = 32,
+	Year = 1999}
+
+@article{HasPinn97,
+	Author = {Hasenbusch, M. and Pinn, K.},
+	Journal = jpa,
+	Pages = {63-80},
+	Title = {Computing the roughening transition of {I}sing and solid-on-solid models by {BCSOS} model matching},
+	Volume = 30,
+	Year = 1997}
+
+@article{HaDo,
+	Author = {Haussmann, R. and Dohm, V.},
+	Journal = prl,
+	Pages = 3404,
+	Title = {Nonlinear Heat Transport Near the Superfluid Transition of $^4${He}},
+	Volume = 67,
+	Year = 1991}
+
+@article{HeKaWo,
+	Author = {He, S. and Kahanda, G. L. M. K. S. and Wong, P.-z.},
+	Journal = prl,
+	Pages = 3731,
+	Title = {Roughness of Wetting Fluid Invasion Fronts in Porous Media},
+	Volume = 69,
+	Year = 1992}
+
+@article{Hen93,
+	Author = {Hennecke, M.},
+	Journal = prb,
+	Pages = 6271,
+	Title = {Finite-size-scaling analysis of subsystem data in the dilute {I}sing model},
+	Volume = 48,
+	Year = 1993}
+
+@article{HePr,
+	Author = {Hentschel, H. G. E. and Procaccia, I.},
+	Journal = {Physica},
+	Pages = 435,
+	Title = {The Infinite Number of Generalized Dimensions of Fractals and Strange Attractors},
+	Volume = {8D},
+	Year = 1983}
+
+@article{HePr,
+	Author = {Hentschel, H. G. E. and Procaccia, I.},
+	Journal = {Physica},
+	Pages = 435,
+	Title = {The Infinite Number of Generalized Dimensions of Fractals and Strange Attractors},
+	Volume = {8D},
+	Year = 1983}
+
+@article{HeBl96,
+	Author = {Heringa, J. R. and Blote, H. W. J.},
+	Journal = physa,
+	Pages = 369,
+	Title = {The Simple-Cubic Lattice Gas with Nearest-Neighbor Exclusion: {I}sing Universality},
+	Volume = 232,
+	Year = 1996}
+
+@article{HeBl98,
+	Author = {Heringa, J. R. and Blote, H. W. J.},
+	Journal = pre,
+	Pages = 4976,
+	Title = {Geometric {M}onte {C}arlo simulation},
+	Volume = 57,
+	Year = 1998}
+
+@article{Heu93,
+	Author = {Heuer, H.-O.},
+	Journal = jpa,
+	Pages = {L333},
+	Title = {Critical crossover in disordered {I}sing systems},
+	Volume = 26,
+	Year = 1993}
+
+@inproceedings{Hi,
+	Address = {Amsterdam},
+	Author = {Higuchi, Y.},
+	Booktitle = {Random Fields: Rigorous Results in Statistical Mechanics and Quantum Field Theory. Esztergom 1979},
+	Editor = {Fritz, J. and Lebowitz, J. L. and Szasz, D.},
+	Publisher = {North Holland},
+	Title = {On the Absence of Non--Translationally Invariant {G}ibbs States for the Two-Dimensional {I}sing System},
+	Year = 1981}
+
+@article{HoWi,
+	Author = {Hogg, T. and Williams, C. P.},
+	Journal = {Articial Intelligence},
+	Page = 359,
+	Title = {The hardest constraint problems: A double phase transition},
+	Volume = 69,
+	Year = 1994}
+
+@article{HoTh,
+	Author = {Honeycutt, J. D. and Thirumalai, D.},
+	Journal = jcp,
+	Page = 6851,
+	Title = {Influence of Optimal Cavity Shapes on the Size of Polymer Molecules in Random Media},
+	Volume = 93,
+	Year = 1990}
+
+@book{hu69,
+	Author = {Hopcroft, J. E. and Ullman, J. D.},
+	Publisher = {Addison-Wesley},
+	Title = {Formal Languages and their Relation to Automata},
+	Year = 1969}
+
+@book{hu79,
+	Author = {Hopcroft, J. E. and Ullman, J. D.},
+	Publisher = {Addison-Wesley},
+	Title = {Introduction to Automata Theory, Languages, and Computation},
+	Year = 1979}
+
+@article{HoKhSe,
+	Author = {Houghton, A. and Khurana, A. and Seco, F. J.},
+	Journal = prl,
+	Pages = 856,
+	Title = {Fluctuation-Driven First-Order Phase Transition, below Four Dimensions, in the Random-Field {I}sing Model with a Gaussian Random-Field Distribution},
+	Volume = 55,
+	Year = 1985}
+
+@article{HuBe,
+	Author = {Hui, K. and Berker, A. N.},
+	Journal = prl,
+	Pages = 2507,
+	Title = {Random-Field Mechanism in Random-Bond Multicritical Systems},
+	Volume = 62,
+	Year = 1989}
+
+@article{Imbrie84,
+	Author = {Imbrie, J. Z.},
+	Journal = prl,
+	Pages = 1747,
+	Title = {Lower Critical Dimension of the Random-Field {I}sing Model},
+	Volume = 53,
+	Year = 1984}
+
+@article{ImMa75,
+	Author = {Imry, Y. and Ma, S. K.},
+	Journal = prl,
+	Pages = 1399,
+	Title = {Random-Field Instability of the Ordered State of Continuous Symmetry},
+	Volume = 35,
+	Year = 1975}
+
+@book{Im99,
+	Address = {New York},
+	Author = {Immerman, N.},
+	Publisher = {Springer},
+	Series = {Graduate texts in computer science},
+	Title = {Descriptive Complexity},
+	Year = 1999}
+
+@article{IsGo94,
+	Author = {Israeli, N. and Goldenfeld, N.},
+	Journal = prl,
+	Pages = 074105,
+	Title = {Computational Irreducibility and the Predictability of Complex Physical Systems},
+	Volume = 92,
+	Year = 2004}
+
+@article{Ito92a,
+	Author = {Ito, N.},
+	Journal = {Physica A},
+	Pages = 604,
+	Title = {???},
+	Volume = 192,
+	Year = 1993}
+
+@article{Ito92b,
+	Author = {Ito, N.},
+	Journal = {Physica A},
+	Pages = 591,
+	Title = {???},
+	Volume = 196,
+	Year = 1993}
+
+@article{Janke90,
+	Author = {Janke, W.},
+	Journal = pla,
+	Pages = 306,
+	Title = {Test of Single Update for the Three-Dimensional {XY} Model},
+	Volume = 148,
+	Year = 1990}
+
+@article{JaKl,
+	Author = {Jasch, F and Kleinert, H.},
+	Journal = {J. Math. Phys.},
+	Pages = 52,
+	Title = {Fast-Convergent Algorithm and Critical Exponent of $\phi^4$-Theory in Three Dimensions},
+	Volume = 42,
+	Year = 2001}
+
+@article{JaMaScZh99,
+	Author = {Jaster, A. and Mainville, J. and Schuelke, L. and Zheng, B.},
+	Journal = jpa,
+	Pages = 1395,
+	Title = {Short-time Critical Dynamics of the 3-Dimensional {I}sing Model},
+	Volume = 32,
+	Year = 1999}
+
+@book{Jerrum03,
+	Author = {Jerrum, M.},
+	Publisher = {Birkh user},
+	Title = {Counting, Sampling and Integrating : Algorithms and Complexity},
+	Year = 2003}
+
+@article{JeSi,
+	Author = {Jerrum, M. and Sinclair, A.},
+	Journal = SIAMJC,
+	Number = 5,
+	Pages = 1087,
+	Title = {Polynomial-time Approximation Algorithms for the {Ising} Model},
+	Volume = 22,
+	Year = 1993}
+
+@article{JeVaVa,
+	Author = {Jerrum, M. and Valiant, L. G. and Vazirani, V. V.},
+	Journal = tcs,
+	Pages = 169,
+	Title = {Random Generation of Combinatorial Structures from a Uniform Distribution},
+	Volume = 43,
+	Year = 1986}
+
+@article{JiRo,
+	Author = {Ji, H. and Robbins, M. O.},
+	Journal = pra,
+	Pages = 2538,
+	Title = {Transition from Compact to Self-similar Growth in Disordered Systems: Fluid Invasion and Magnetic-Domain Growth},
+	Volume = 44,
+	Year = 1991}
+
+@incollection{Jo90,
+	Author = {Johnson, D. S.},
+	Booktitle = {Handbook of Theoretical Computer Science},
+	Editor = {van Leeuwan, J.},
+	Pages = {68},
+	Publisher = {M.I.T. Press/Elsevier},
+	Title = {A Catalog of Complexity Classes},
+	Volume = {A: Algorithms and Complexity},
+	Year = 1990}
+
+@article{JoGoMaCh,
+	Author = {Johnson, G. and Gould, H. and Machta, J. and Chayes, L. K.},
+	Journal = prl,
+	Pages = {2612-2615},
+	Title = {{M}onte {C}arlo Study of the {W}idom-{R}owlinson Fluid Using Cluster Methods},
+	Volume = 79,
+	Year = 1997}
+
+@article{JuLaLu94,
+	Author = {Juedes, D. W. and Lathrop, J. I. and Lutz, J. H.},
+	Journal = tcs,
+	Pages = {37-70},
+	Title = {Computational Depth and Reducibility},
+	Volume = 132,
+	Year = 1994}
+
+@article{LeMaNiSa,
+	Author = {Lebowitz, J. L. and Mazel, A. and Nielaba, P. and Samaj, L.},
+	Journal = jsp,
+	Pages = ??,
+	Title = {Ordering and Demixing Transitions in Multicomponent {W}idom-{R}owlinson Models},
+	Volume = ??,
+	Year = ??}
+
+@book{Ka00,
+	Address = {Singapore},
+	Author = {Kadanoff, L. P.},
+	Publisher = {World Scientific},
+	Title = {Statistical Physics: Statics, Dynamics and Renormalization},
+	Year = 2000}
+
+@article{KaNaWuZh,
+	Author = {Kadanoff, L. P. and Nagel, S. R. and Wu, L. and Zhou, S.},
+	Journal = pra,
+	Pages = 6524,
+	Title = {Scaling and universality in avalanches},
+	Volume = 39,
+	Year = 1989}
+
+@article{KaDo,
+	Author = {Kandel, D. and Domany, E.},
+	Journal = prb,
+	Pages = 8539,
+	Title = {General cluster {M}onte {C}arlo Dynamics},
+	Volume = 43,
+	Year = 1991}
+
+@article{KPZ,
+	Author = {Kardar,M. and Parisi, G. and Zheng, Y.-C.},
+	Journal = prl,
+	Pages = 889,
+	Title = {Dynamic Scaling of Growing Interfaces},
+	Volume = 56,
+	Year = 1986}
+
+@article{KaZh,
+	Author = {Kardar,M. and Zheng, Y.-C.},
+	Journal = prl,
+	Pages = 2087,
+	Title = {Scaling of Directed Polymers in Random Media},
+	Volume = 58,
+	Year = 1987}
+
+@article{KaVeMaWo,
+	Author = {Kaufman, H. and Vespignani, A. and Mandelbrot, B. B. and Woog, L.},
+	Journal = pre,
+	Pages = 5602,
+	Title = {Parallel Diffusion-Limited Aggregation},
+	Volume = 52,
+	Year = 1995}
+
+@incollection{KaRa,
+	Author = {Karp, R. M. and Ramachandran, V.},
+	Booktitle = {Handbook of Theoretical Computer Science},
+	Chapter = 17,
+	Editor = {van Leeuwan, Jan},
+	Pages = {869-941},
+	Publisher = {M.I.T. Press/Elsevier},
+	Title = {Parallel Algorithms for Shared-Memory Machines},
+	Volume = {A: Algorithms and Complexity},
+	Year = 1990}
+
+@article{KaGu,
+	Author = {Kawashima, N. and Gubernatis, J. E.},
+	Journal = pre,
+	Pages = 1547,
+	Title = {Dual {M}onte {C}arlo and Cluster Algorithms},
+	Volume = 51,
+	Year = 1995}
+
+@article{KaGu95a,
+	Author = {Kawashima, N. and Gubernatis, J. E.},
+	Journal = jsp,
+	Pages = 1547,
+	Title = {Generalization of the {F}ortuin-{K}asteleyn transformation and its application to quantum spin simulations},
+	Volume = 80,
+	Year = 1995}
+
+@article{KeSt,
+	Author = {Kertesz, J. and Stauffer, D.},
+	Journal = {Int. J. Mod. Phys. C},
+	Pages = 1275,
+	Title = {???},
+	Volume = 3,
+	Year = 1992}
+
+@article{KeIr97,
+	Author = {Kena, R. and Irving, A. C.},
+	Journal = npb,
+	Pages = 583,
+	Title = {The {K}osterlitz-{T}houless Universality Class},
+	Volume = 485,
+	Year = 1997}
+
+@article{KeLeTu,
+	Author = {Kessler, D. A. and Levine, H. and Tu, Y.},
+	Journal = pra,
+	Pages = 4551,
+	Title = {Interface Fluctuations in Random Media},
+	Volume = 43,
+	Year = 1991}
+
+@book{Ke,
+	Address = {Boston},
+	Author = {Kesten, H.},
+	Publisher = {Birkhauser},
+	Title = {Percolation Theory for Mathematicians},
+	Year = {1982}}
+
+@article{Ke87,
+	Author = {Kesten, H.},
+	Journal = {Ann. Prob.},
+	Pages = 1231,
+	Title = {Percolation Theory and First-Passage Percolation},
+	Volume = 15,
+	Year = 1987}
+
+@article{Kim96,
+	Author = {Kim, J. K.},
+	Journal = pla,
+	Pages = 261,
+	Title = {Phase Transition in the Two Dimensional Classical {XY} Model},
+	Volume = 223,
+	Year = 1996}
+
+@article{KiKo,
+	Author = {Kim, J. M. and Kosterlitz, J. M.},
+	Journal = prl,
+	Pages = 2289,
+	Title = {Growth in a Restricted Solid-on-Solid Model},
+	Volume = 62,
+	Year = 1989}
+
+@article{Ki77,
+	Author = {Kirkpatrick, S.},
+	Journal = prb,
+	Pages = 1533,
+	Title = {Percolation thresholds in {I}sing Magnets and Conducting Mixtures},
+	Volume = 15,
+	Year = 1977}
+
+@article{Klein82,
+	Author = {Klein, W.},
+	Journal = prb,
+	Pages = 2677,
+	Title = {Potts-Model Formulation of Continuum Percolation},
+	Volume = 26,
+	Year = 1982}
+
+@article{KhSt,
+	Author = {Khoring, G. A. and Stauffer, D.},
+	Journal = {Int. J. Mod. Phys. C},
+	Pages = 1165,
+	Title = {???},
+	Volume = 3,
+	Year = 1992}
+
+@article{Ko74,
+	Author = {Kosterlitz, J. M.},
+	Journal = {J. Phys. C},
+	Pages = 1046,
+	Title = {The critical properties of the two-dimensional $xy$ model},
+	Volume = 7,
+	Year = 1974}
+
+@article{KoTh,
+	Author = {Kosterlitz, J. M. and Thouless, D. J.},
+	Journal = {J. Phys. C},
+	Pages = 1181,
+	Title = {Ordering, Metastability and Phase Transition in Two-Dimensional Systems},
+	Volume = 6,
+	Year = 1973}
+
+@article{KS,
+	Author = {Koteck\'y, R. and Shlosman, S. B.},
+	Journal = {Comm. Math. Phys.},
+	Pages = 493,
+	Title = {First-Order Phase Transitions in Large Entropy Lattice Models},
+	Volume = 83,
+	Year = 1982}
+
+@article{Koza,
+	Author = {Koza, Z.},
+	Journal = jpa,
+	Pages = 4895,
+	Title = {The Equivalence of the {DLA} and a Hydrodynamic Model},
+	Volume = 24,
+	Year = 1991}
+
+@article{KrRe01,
+	Author = {Krapivsky, P. L. and Redner, S.},
+	Journal = pre,
+	Pages = {066123},
+	Title = {Organization of Growing Random Networks},
+	Volume = 63,
+	Year = 2001}
+
+@article{Kr,
+	Author = {Krug, J.},
+	Journal = {J. Physique I},
+	Pages = 9,
+	Title = {Kinetic Roughening by Exceptional Fluctuations},
+	Volume = 1,
+	Year = 1991}
+
+@article{KrMeHa,
+	Author = {Krug, J. and Meakin, P. and Halpin-Healy, T.},
+	Journal = pra,
+	Pages = 638,
+	Title = {Amplitude Universality for Driven Interfaces and Directed Polymers in Random Media},
+	Volume = 45,
+	Year = 1992}
+
+@incollection{KrSp,
+	Author = {Krug, J. and Spohn, H.},
+	Booktitle = {Solids Far From Equilibrium: Growth, Morphology and Defects},
+	Editor = {Godreche, C.},
+	Publisher = {Cambridge University Press},
+	Title = {Kinetic Roughening of Growing Surfaces},
+	Year = 1991}
+
+@article{lad75,
+	Author = {Ladner, R. E.},
+	Journal = {SIGACT News},
+	Pages = 18,
+	Title = {The Circuit Value Problem is Log Space Complete for {P}},
+	Volume = 7,
+	Year = 1975}
+
+@article{LaFi,
+	Author = {Lai, S.-N. and Fisher, M. E.},
+	Journal = {Molecular Physics},
+	Pages = 1373,
+	Title = {Criticality in {G}aussian-Molecule Mixtures},
+	Volume = 88,
+	Year = 1996}
+
+@article{Landau,
+	Author = {Landau, D. P.},
+	Journal = prb,
+	Number = 9,
+	Pages = 4164,
+	Title = {Critical behavior of a bcc {I}sing antiferromagnet in a magnetic field},
+	Volume = 16,
+	Year = 1977}
+
+@article{Lang,
+	Author = {Langton, C. G.},
+	Journal = {Physica D},
+	Pages = {12-37},
+	Title = {Computation at the Edge of Chaos},
+	Volume = 42,
+	Year = 1990}
+
+@article{LaMuAh,
+	Author = {Larson, M. and Mulders, N. and Ahlers, G.},
+	Journal = prl,
+	Pages = 3896,
+	Title = {Thermal Expansion Coefficient near the Superfluid Transition of $^4${H}e in an Aerogel},
+	Volume = 68,
+	Year = 1992}
+
+@article{LaKiMuPa00,
+	Author = {Lawes, G. and Kingsley, S. C. J. and Mulders, N. and Parpia, J. M.},
+	Journal = prl,
+	Pages = {4148-4151},
+	Title = {Scaling of the Superfluid Fraction and ${T}_c$ of $^3${H}e in Aerogel},
+	Volume = 84,
+	Year = 2000}
+
+@article{LaBrGr,
+	Author = {Lawler, G. and Bramson, M. and Griffeath, D.},
+	Journal = {Ann. Prob.},
+	Pages = 2117,
+	Title = {Internal Diffusion Limited Aggregation},
+	Volume = 20,
+	Year = 1992}
+
+@article{Leath,
+	Author = {Leath, P.},
+	Journal = prb,
+	Pages = 5046,
+	Title = {Cluster Size and Boundary Distribution near Percolation Threshold},
+	Volume = 14,
+	Year = 1976}
+
+@article{LeKo,
+	Author = {Lee, J. and Kosterlitz, J.M.},
+	Journal = prb,
+	Pages = {3265},
+	Title = {Finite-size scaling and {M}onte {C}arlo simulations of first-order phase transitions},
+	Volume = {43},
+	Year = {1990}}
+
+@article{Lesch,
+	Author = {Leschhorn, H.},
+	Journal = {Physica A},
+	Pages = 324,
+	Title = {INterface Depinning in a Disordered Medium--Numerical Results},
+	Volume = 195,
+	Year = 1993}
+
+@article{Le86,
+	Author = {Levin, L. A.},
+	Journal = SIAMJC,
+	Pages = 285,
+	Title = {Average Case Complete Problems},
+	Volume = 15,
+	Year = 1986}
+
+@book{lp81,
+	Author = {Lewis, H. R. and Papadimitriou, C. H.},
+	Publisher = {Prentice-Hall},
+	Title = {Elements of the Theory of Computation},
+	Year = 1981}
+
+@article{LiSo89,
+	Author = {Li, X.-J. and Sokal, A. D.},
+	Journal = prl,
+	Pages = 827,
+	Title = {Rigorous Lower Bound on the Dynamic Critical Exponent of the {S}wendsen-{W}ang Algorithms},
+	Volume = 63,
+	Year = 1989}
+
+@article{LiSo,
+	Author = {Li, X.-J. and Sokal, A. D.},
+	Journal = prl,
+	Pages = 1482,
+	Title = {Rigorous Lower Bound on the Dynamic Critical Exponent of Some Multilevel {S}wendsen-{W}ang Algorithms},
+	Volume = 67,
+	Year = 1991}
+
+@article{LiMa01,
+	Author = {Li, X.-N. and Machta, J.},
+	Journal = ijmpc,
+	Pages = {257--271},
+	Title = {Critical Dynamics of Two-Replica Cluster Algorithms},
+	Volume = 12,
+	Year = 2001}
+
+@article{LiTe,
+	Author = {Li, Y.-H. and Teitel, S.},
+	Journal = prb,
+	Pages = 11388,
+	Title = {A Three-dimensional Random {X}{Y} Model: Application to the Superfluid Transition of $^4${H}e in Porous Media},
+	Volume = 41,
+	Year = 1990}
+
+@article{LiFiHa,
+	Author = {Lilly, M. P. and Finley, P. T. and Hallock, R. B.},
+	Journal = prl,
+	Pages = 4186,
+	Title = {Memory, Congruence and Avalanche Events in Hysteretic Capillary Condensation},
+	Volume = 71,
+	Year = 1993}
+
+@article{LiSw96,
+	Author = {Lipa, J. A. and Swanson, D. R. and Nissen, J. and Chui, T. C. P. and Israelson, U. E.},
+	Journal = prl,
+	Pages = 944,
+	Title = {Heat Capacity and Thermal Relaxation of Bulk Helium Very Near the Lambda Point},
+	Volume = 76,
+	Year = 1996}
+
+@article{LiDuHeSa,
+	Author = {Liu, A. J. and Durian, D. J. and Herbolzheimer, E. and Safran, S. A.},
+	Journal = prl,
+	Pages = 1897,
+	Title = {Wetting Transitions in a Cylindrical Pore},
+	Volume = 65,
+	Year = 1990}
+
+@article{LiGr,
+	Author = {Liu, A. J. and Grest, G. S.},
+	Journal = pra,
+	Pages = {R7897},
+	Title = {Wetting in a Confined Geometry: A {M}onte {C}arlo Study},
+	Volume = 44,
+	Year = 1991}
+
+@article{LiGl,
+	Author = {Liverpool, T. B. and Glotzer, S. C.},
+	Journal = pre,
+	Pages = {R4255},
+	Title = {Fixed Cluster Acceleration Algorithm for Spin Systems},
+	Volume = {53},
+	Year = {1996}}
+
+@article{LiRe05,
+	Author = {Livio, M. and Rees, M. J.},
+	Journal = {Science},
+	Pages = {1022-1023},
+	Title = {Anthropic Reasoning},
+	Volume = {309},
+	Year = {2005}}
+
+@article{LlPa88,
+	Author = {Lloyd, S. and Pagels, H.},
+	Journal = {Annals of Physics},
+	Pages = {186-213},
+	Title = {Complexity as Thermodynamic Depth},
+	Volume = {188},
+	Year = {1988}}
+
+@article{LoBe97,
+	Author = {Lopatnikova, A., Berker A. N.},
+	Journal = prb,
+	Pages = {11865-11871},
+	Title = {Renormalization-Group Study of Superfluidity and Phase Separation of Helium Mixtures Immersed in a Disordered Porous Medium},
+	Volume = {56},
+	Year = {1997}}
+
+@mastersthesis{Luckethesis,
+	Author = {Lucke, A.},
+	School = {University of Massachusetts},
+	Title = {Invaded cluster algorithm: A self-organized algorithm for equilibrium phase transitions and its implementation on {P}otts models},
+	Year = 1995}
+
+@article{LuPiWi,
+	Author = {Luczak, T. and Pittel, B. and Wierman, J. C.},
+	Journal = {Trans. Amer. Math. Soc.},
+	Pages = 721,
+	Title = {The Structure of a Random Graph at the Point of the Phase Transition},
+	Volume = 341,
+	Year = 1994}
+
+@article{LyKr,
+	Author = {Lyklema, J. W. and Kremer, K.},
+	Journal = jpa,
+	Pages = 279,
+	Title = {Monte Carlo Series Analysis of Irreversible Self-Avoiding Walks: {II}. {The} Growing Self-Avoiding Walk},
+	Volume = 19,
+	Year = 1986}
+
+@article{MaMa05,
+	Author = {Machta, B. and Machta, J.},
+	Journal = pre,
+	Pages = 026704,
+	Title = {Parallel Dynamics and Computational Complexity of Network Growth Models},
+	Volume = {71},
+	Year = 2005}
+
+@unpublished{Mac90wh,
+	Author = jm,
+	Note = {Unpublished},
+	Title = {Effective exponents for the superfluid transition in porous media},
+	Year = 1990}
+
+@article{Mac99a,
+	Author = jm,
+	Journal = {Int. J. Mod. Phys. C},
+	Pages = 1427,
+	Title = {Cluster Methods for {I}sing System with Fields},
+	Volume = 10,
+	Year = 1999}
+
+@article{Mac99b,
+	Author = jm,
+	Journal = {Am. J. Phys.},
+	Pages = {1074-1077},
+	Title = {Entropy, Information and Computation},
+	Volume = 67,
+	Year = 1999}
+
+@article{Mac02,
+	Author = jm,
+	Journal = jsp,
+	Pages = {863-873},
+	Title = {Sampling Chaotic Trajectories Quickly in Parallel},
+	Volume = {109},
+	Year = 2002}
+
+@unpublished{MaCa94,
+	Author = {Cao, M. S. and Machta, J.},
+	Note = {Unpublished},
+	Title = {Monte Carlo Study of Phase Transitions in Correlated Porous Media},
+	Year = 1994}
+
+@unpublished{MacUn,
+	Author = {Machta, J. and Greenlaw, R.},
+	Note = {Unpublished},
+	Title = {{\cal P}-complete problems in statistical physics},
+	Year = 1994}
+
+@article{MaGu88,
+	Author = {Machta, J. and Guyer, R.A.},
+	Journal = prl,
+	Pages = 2054,
+	Title = {Superfluid Films in Porous Media},
+	Volume = 60,
+	Year = 1988}
+
+@article{MaLi01,
+	Author = {Machta, J. and Li, X.-N.},
+	Journal = physa,
+	Pages = {245-270},
+	Title = {Parallel Dynamics and Computational Complexity of the {B}ak-{S}neppen Model},
+	Volume = 300,
+	Year = 2001}
+
+@article{MaOp82,
+	Author = {Machta, J. and Oppenheim, I.},
+	Journal = physa,
+	Pages = 361,
+	Title = {Mode Coupling Theory of Hydrodynamics and Steady State Systems},
+	Volume = 112,
+	Year = 1982}
+
+@article{Mac89,
+	Author = jm,
+	Journal = pra,
+	Pages = {R1720},
+	Title = {Static and Dynamic Properties of Polymers in Random Media},
+	Volume = 40,
+	Year = 1989}
+
+@article{Mac91a,
+	Author = jm,
+	Journal = prl,
+	Pages = {169-172},
+	Title = {Phase Transitions in Fractal Porous Media},
+	Volume = 66,
+	Year = 1991}
+
+@article{Mac92a,
+	Author = jm,
+	Journal = jpa,
+	Pages = 521,
+	Title = {The Computational Complexity of the Self-Avoiding Walk on Random Lattices},
+	Volume = 25,
+	Year = 1992}
+
+@article{Mac93a,
+	Author = {Machta, J.},
+	Journal = jsp,
+	Pages = 949,
+	Title = {The Computational Complexity of Pattern Formation},
+	Volume = 70,
+	Year = 1993}
+
+@inproceedings{MaCh03,
+	Author = {Machta, J. and Chayes, L. E.},
+	Booktitle = {The Monte Carlo Method in the Physical Sciences: Celebrating the 50th Anniversary of the Metropolis Algorithm},
+	Editor = {Gubernatis, J.},
+	Organization = {AIP},
+	Pages = {232-239},
+	Title = {What is the Best Way to Simulate an Equilibrium Classical Spin Model?},
+	Year = 2003}
+
+@article{MaCaHa,
+	Author = {Machta, J. and Candela, D. and Hallock, R. B.},
+	Journal = pre,
+	Pages = 4581,
+	Title = {Self-Organized Criticality in $^4${H}e with a Heat Current},
+	Volume = 47,
+	Year = {1993}}
+
+@article{MaCh95,
+	Author = {Machta, J. and Choi, Y. S. and Lucke, A. and Schweizer, T. and Chayes, L. V.},
+	Journal = prl,
+	Pages = {2792-2795},
+	Title = {Invaded Cluster Algorithm for Equilibrium Critical Points},
+	Volume = 75,
+	Year = 1995}
+
+@article{MaCh96,
+	Author = {Machta, J. and Choi, Y. S. and Lucke, A. and Schweizer, T. and Chayes, L. M.},
+	Journal = pre,
+	Pages = 1332,
+	Title = {Invaded Cluster Algorithm for {P}otts models},
+	Volume = 54,
+	Year = 1996}
+
+@article{MaGr,
+	Author = {Machta, J. and Greenlaw, R.},
+	Journal = jsp,
+	Pages = {755-781},
+	Title = {The Parallel Complexity of Growth Models},
+	Volume = 77,
+	Year = {1994}}
+
+@article{MaGr96,
+	Author = {Machta, J. and Greenlaw, R.},
+	Journal = jsp,
+	Pages = 1299,
+	Title = {The Computational Complexity of Generating Random Fractals},
+	Volume = 82,
+	Year = 1996}
+
+@inproceedings{MaGr96a,
+	Author = {Machta, J. and Greenlaw, R.},
+	Booktitle = {PhysComp96},
+	Editor = {T. Toffoli, M. Biafore and J. Leao},
+	Organization = {New England Complex Systems Institute},
+	Pages = {201-207},
+	Title = {Parallel Computational Complexity and Logical Depth in Statistical Physics},
+	Year = 1996}
+
+@article{MaMo96,
+	Author = {Machta, J. and Moriarty, K.},
+	Journal = jsp,
+	Pages = 1245,
+	Title = {The Computational Complexity of the {L}orentz Lattice Gas},
+	Volume = 87,
+	Year = 1997}
+
+@article{MoMaCh,
+	Author = {Moriarty, K. Machta, J. and Chayes, L. Y.},
+	Journal = pre,
+	Pages = {1425-1434},
+	Title = {Dynamic and Static properties of the Invaded Cluster Algorithm},
+	Volume = {59},
+	Year = {1999}}
+
+@article{MoMaGr97,
+	Author = {Moriarty, K. and Machta, J. and Greenlaw, R.},
+	Journal = pre,
+	Pages = {6211-6218},
+	Title = {Parallel Algorithm and Dynamic Exponent for Diffusion-limited Aggregation},
+	Volume = 55,
+	Year = 1997}
+
+@article{MaNeCh00,
+	Author = {Machta, J. and Newman, M. E. J. and Chayes, L. B.},
+	Journal = pre,
+	Pages = {8782-8789},
+	Title = {Replica-exchange algorithm and results for the three-dimensional random field {I}sing model},
+	Volume = 62,
+	Year = 2000}
+
+@article{Mak,
+	Author = {Makarov, N. G.},
+	Journal = {Proc. London Math. Soc.},
+	Pages = 369,
+	Series = 3,
+	Title = {On the Distortion of Boundary Sets Under Conformal Mappings},
+	Volume = 51,
+	Year = 1985}
+
+@article{Ma92,
+	Author = {Mandelbrot, B. B.},
+	Journal = {Physica A},
+	Pages = {95},
+	Title = {Plane {DLA} is not self-similar; is it a fractal that becomes increasingly compact as it grows?},
+	Volume = {191},
+	Year = 1992}
+
+@unpublished{MaTu,
+	Author = {Masek, J. G. and Turcotte, D. L.},
+	Note = {Preprint},
+	Title = {A Diffusion-Limited Aggregation Model for the Evolution of Drainage Networks},
+	Year = {1992}}
+
+@article{May89,
+	Author = {Mayer, I. O.},
+	Journal = jpa,
+	Pages = 2815,
+	Title = {Critical exponents of the dilute {I}sing model from four-loop expansions},
+	Volume = 22,
+	Year = 1989}
+
+@article{MaDe,
+	Author = {Maynard, R. and Deutscher, G.},
+	Journal = epl,
+	Pages = 257,
+	Title = {Apparent Anomalous Critical Behaviour of Superfluid Helium 4 in Porous Medium},
+	Volume = 10,
+	Year = 1989}
+
+@article{MaKi,
+	Author = {Machta, J. and Kirkpatrick, T. R.},
+	Journal = pra,
+	Pages = 5345,
+	Title = {Self-Avoiding Walks and Manifolds in Random Environments},
+	Volume = 41,
+	Year = 1990}
+
+@article{MaSo,
+	Author = {Madras, N. and Sokal, A. D.},
+	Journal = jsp,
+	Pages = 109,
+	Title = {The Pivot Algorithm: A Highly Efficient {M}onte {C}arlo Method for the Self-Avoiding Walk},
+	Volume = 50,
+	Year = 1988}
+
+@book{Man83,
+	Address = {San Francisco},
+	Author = {Mandelbrot, B. B.},
+	Publisher = {Freeman},
+	Title = {The Fractal Geometry of Nature},
+	Year = {1983}}
+
+@article{MaPa,
+	Author = {Marinari, E. and Parisi, G.},
+	Journal = epl,
+	Pages = 451,
+	Title = {Simulated Tempering: A New {M}onte {C}arlo Scheme},
+	Volume = 19,
+	Year = 1992}
+
+@book{MaDi,
+	Address = {Cambridge},
+	Author = {Marro, J. and Dickman, R.},
+	Publisher = {Cambridge University Press},
+	Title = {Nonequilibrium Phase Transitions},
+	Year = 1996}
+
+@unpublished{May04,
+	Author = {Mayfield, J. E.},
+	Note = {cond-mat/0104185},
+	Title = {Minimal History, a Theory of Plausible Explanation},
+	Year = 2004}
+
+@article{MeDe86,
+	Author = {Meakin, P. and Deutch, J. M.},
+	Journal = jcp,
+	Pages = 2320,
+	Title = {The Formation of Surfaces by Diffusion-Limited Annihilation},
+	Volume = 85,
+	Year = 1986}
+
+@article{MeMaHaSt84,
+	Author = {Meakin, P. and Majid, I. and Havlin, S. and Stanley, H. E.},
+	Journal = jpa,
+	Pages = {L975-L981},
+	Title = {Topological Properties of Diffusion Limited Aggregation and Cluster-Cluster Aggregation},
+	Volume = 17,
+	Year = 1984}
+
+@unpublished{Midd,
+	Author = {Middleton, A. A.},
+	Note = {cond-mat/0104185},
+	Title = {Critical slowing down in polynomial time algorithms},
+	Year = 2001}
+
+@article{MiFi02,
+	Author = {Middleton, A. A. and Fisher, D. S.},
+	Journal = prb,
+	Pages = 134411,
+	Title = {The three-dimensional random field {I}sing magnet: interfaces, scaling, and the nature of states},
+	Volume = 65,
+	Year = 2002}
+
+@inproceedings{MiSeLe92,
+	Address = {Menlo Park, California},
+	Author = {Mitchell, D. G. and Selman, B. and Levesque, H. J.},
+	Booktitle = {Proceedings of the Tenth National Conference on Artificial Intelligence},
+	Editor = {Rosenbloom, P. and Szolovits, P.},
+	Pages = {459--465},
+	Publisher = {AAAI Press},
+	Title = {Hard and Easy Distributions for {SAT} Problems},
+	Year = {1992}}
+
+@article{MoGi95,
+	Author = {Moon, K. and Girvin, S. M.},
+	Journal = prl,
+	Pages = {1328-1331},
+	Title = {Critical-Behavior of Superfluid $^4${H}e in Aerogel},
+	Volume = 75,
+	Year = 1995}
+
+@article{Moore97,
+	Author = {Moore, C.},
+	Journal = jsp,
+	Pages = 795,
+	Title = {Majority-Vote Cellular Automata, {I}sing Dynamics, and {P}-Completeness},
+	Volume = 88,
+	Year = 1997}
+
+@unpublished{MoNo97,
+	Author = {Moore, C. and Nordahl, M. G.},
+	Note = {comp-gas/9609001},
+	Title = {Lattice Gas Prediction is {P}-complete},
+	Year = 1997}
+
+@article{MoNi99,
+	Author = {Moore, C. and Nilsson, M.},
+	Journal = jsp,
+	Pages = {205-224},
+	Title = {The Computational Complexity of Sandpiles},
+	Volume = 96,
+	Year = 1999}
+
+@article{MoMa00,
+	Author = {Moore, C. and Machta, J.},
+	Journal = jsp,
+	Pages = {661},
+	Title = {Internal Diffusion-Limited Aggregation: Parallel Algorithms and Complexity},
+	Volume = 99,
+	Year = 2000}
+
+@article{Mori65,
+	Author = {Mori, H.},
+	Journal = {Prog. Theor. Phys.},
+	Pages = 423,
+	Title = {Transport, Collective Motion, and Brownian Motion},
+	Volume = 33,
+	Year = 1965}
+
+@article{MoMa,
+	Author = {Moriarty, K. and Machta, J.},
+	Journal = jsp,
+	Pages = 1245,
+	Title = {The Computational Complexity of the Lorentz Lattice Gas},
+	Volume = 87,
+	Year = 1997}
+
+@article{MeRaSaBa,
+	Author = {Meakin, P. and Ramanlal, P. and Sander, L. M. and Ball, R. C.},
+	Journal = pra,
+	Pages = 5091,
+	Title = {Ballistic Deposition on Surfaces},
+	Volume = 34,
+	Year = 1986}
+
+@article{Met,
+	Author = {Metropolis, N. and Rosenbluth, M.N. and Teller, A.H. and Teller, E.},
+	Journal = {J.Chem.Phys.},
+	Pages = {1087},
+	Title = {Equation of state calculations by fast computing machines},
+	Volume = {21},
+	Year = {1953}}
+
+@article{MeMo94,
+	Author = {Mezard, C. and Monasson, R.},
+	Journal = prb,
+	Pages = 7199,
+	Title = {Glassy Transition in the three-dimensional random field {I}sing model},
+	Volume = 50,
+	Year = 1994}
+
+@unpublished{Midd99,
+	Author = {Middleton, A. A.},
+	Note = {To appear Phys. Rev. E and cond-mat/9902203},
+	Title = {Computational Complexity of Determining the Barriers to Interface Motion in Random Systems},
+	Year = 1999}
+
+@book{Morris,
+	Author = {Morris, S. C.},
+	Publisher = {Cambridge University Press},
+	Title = {Life's Solution: Inevitable Humans in a Lonely Universe},
+	Year = 2003}
+
+@article{MoZeKiSeTr99,
+	Author = {Monasson, R. and Zecchina, R. and Kirkpatrick, S. and Selman, B. and Troyansky, L.},
+	Journal = {Nature},
+	Pages = {133-137},
+	Title = {Determining Computational Complexity from Characteristic 'Phase Transitions'},
+	Volume = 400,
+	Year = 1999}
+
+@article{MuMeGoAh,
+	Author = {Mulders, N. and Mehrotra, R. and Goldner, L. S. and Ahlers, G.},
+	Journal = prl,
+	Pages = 695,
+	Title = {Superfluid Density from Heat-Pulse Propagation near the $\lambda$ Line in $^4${He}-Aerogel System},
+	Volume = 67,
+	Year = 1991}
+
+@article{Munk,
+	Author = {Munkel, C. and et. al.},
+	Journal = {Physica A},
+	Pages = 540,
+	Title = {???},
+	Volume = 193,
+	Year = 1993}
+
+@article{NaFi,
+	Author = {Narayan, O. and Fisher, D. S.},
+	Journal = prb,
+	Pages = 7869,
+	Title = {Logarithmic Effects on the Critical Behavior of Superfluids in Random Media},
+	Volume = 42,
+	Year = 1990}
+
+@article{NaFi93,
+	Author = {Narayan, O. and Fisher, D. S.},
+	Journal = prb,
+	Pages = 7030,
+	Title = {Threshold Critical Dynamics of Driven Interfaces in Random Media},
+	Volume = 48,
+	Year = 1993}
+
+@article{NaFi94,
+	Author = {Narayan, O. and Fisher, D. S.},
+	Journal = prb,
+	Pages = 9469,
+	Title = {Nonlinear Fluid Flow in Random Media: Critical Phenomena Near Threshold},
+	Volume = 49,
+	Year = 1994}
+
+@incollection{Natt97,
+	Address = {Singapore},
+	Author = {Nattermann, T.},
+	Booktitle = {Spin Glasses and Random Fields},
+	Editor = {Young, A. P.},
+	Publisher = {World Scientific},
+	Title = {Theory of the Random field {I}sing Model},
+	Year = 1997}
+
+@article{NeBa,
+	Author = {Newman, M. E. J. and Barkema, G. T.},
+	Journal = pre,
+	Pages = 393,
+	Title = {{M}onte {C}arlo Study of the Random-Field {I}sing model},
+	Volume = 53,
+	Year = 1996}
+
+@book{NeBa99,
+	Address = {Oxford},
+	Author = {Newman, M. E. J. and Barkema, G. T.},
+	Publisher = {Oxford},
+	Title = {Monte Carlo Methods in Statistical Physics},
+	Year = 1999}
+
+@article{Neimark89,
+	Author = {Neimark, A. V.},
+	Journal = {Sov. Phys. JETP},
+	Pages = 786,
+	Title = {Multiscale Percolation Systems},
+	Volume = 69,
+	Year = 1989}
+
+@article{NiBl00,
+	Author = {Nightingale, M. P. and Blote, H. W. J.},
+	Journal = prb,
+	Pages = {1089-1101},
+	Title = {{M}onte {C}arlo Computation of Correlation Times of Independent Relaxation Modes at Criticality},
+	Volume = 62,
+	Year = 2000}
+
+@article{NoKoMaRo,
+	Author = {Nolle, C. S. and Koiller, B. and Martys, N. and Robbins, M. O.},
+	Journal = prl,
+	Pages = 2074,
+	Title = {Morphology and Dynamics of Interfaces in Random Two-Dimensional Media},
+	Volume = 71,
+	Year = 1993}
+
+@article{NoUsEs,
+	Author = {Nowak, U. and Usadel, K. D. and Esser J.},
+	Journal = physa,
+	Pages = {1-7},
+	Title = {Modified Scaling Relation for the Random-Field {I}sing Model},
+	Volume = 250,
+	Year = 1998}
+
+@article{NuYo,
+	Author = {Nusse, H. E. and Yorke, J. A.},
+	Journal = {Commun. Math. Phys.},
+	Pages = {363-379},
+	Title = {Is Every Approximate Trajectory of Some Process Near an Exact Trajectory of a Nearby Process},
+	Volume = 114,
+	Year = 1988}
+
+@article{Obuk,
+	Author = {Obukhov, S. P.},
+	Journal = pra,
+	Pages = 2015,
+	Title = {Polymer Chain in Disordered Media},
+	Volume = 42,
+	Year = 1990}
+
+@article{Ogielski,
+	Author = {Ogielski, A. T.},
+	Journal = prl,
+	Pages = 1251,
+	Title = {Integer Optimization and Zero-Temperature Fixed Point in {I}sing Random-Field Systems},
+	Volume = 57,
+	Year = 1986}
+
+@article{Ols95,
+	Author = {Olsson, P.},
+	Journal = prb,
+	Pages = {4526},
+	Title = {Monte {C}arlo analysis of the two dimensional {XY} model. II. Comparison with the {K}osterlitz renormalization-group equations},
+	Volume = {52},
+	Year = {1995}}
+
+@article{On83,
+	Author = {Onuki, A.},
+	Journal = jltp,
+	Pages = {433},
+	Title = {Theory of Helium Under Heat Flow Near the $\lambda$ Point. {I}. {I}nterface of {He} {I} and {He} {II}},
+	Volume = {50},
+	Year = {1983}}
+
+@article{On84,
+	Author = {Onuki, A.},
+	Journal = jltp,
+	Pages = {309},
+	Title = {Theory of Helium Under Heat Flow Near the $\lambda$ Point. {II}. {D}ynamics of Phase Change},
+	Volume = {55},
+	Year = {1984}}
+
+@article{Os91,
+	Author = {Ossadnik, P.},
+	Journal = {Physica A},
+	Pages = {454},
+	Title = {Multiscaling Analysis of Large-Scale Off-Lattice {DLA}},
+	Volume = {176},
+	Year = 1991}
+
+@article{Os93,
+	Author = {Ossadnik, P.},
+	Journal = {Physica A},
+	Pages = {319},
+	Title = {Multiscaling analysis and width of the active zone of large off-lattice {DLA}},
+	Volume = {195},
+	Year = 1993}
+
+@article{OsSo04,
+	Author = {Ossola, G. and Alan D Sokal, A. D.},
+	Journal = {Nuclear Physics B},
+	Pages = {259},
+	Title = {Dynamic Critical Behavior of the {S}wendsen--{W}ang Algorithm for the Three-Dimensional {I}sing Model},
+	Volume = {691},
+	Year = {2004}}
+
+@article{PaMaBa96,
+	Author = {Paczuski, M. and Maslov, S. and Bak, P.},
+	Journal = pre,
+	Pages = {414-443},
+	Title = {Avalanche Dynamics in Evolution, Growth and Depinning Models},
+	Volume = 53,
+	Year = 1996}
+
+@article{PaMaBa94,
+	Author = {Paczuski, M. and Maslov, S. and Bak, P.},
+	Journal = epl,
+	Pages = {97-102},
+	Title = {Field-Theory for a Model of Self-Organized Criticality},
+	Volume = 27,
+	Year = 1994}
+
+@mastersthesis{Page,
+	Author = {Page, K. S.},
+	School = {University of Massachusetts},
+	Title = {Phase Equilibrium of Fluids Adsorbed in Heterogeneous Porous Materials},
+	Year = 1996}
+
+@article{PaMo96,
+	Author = {Page, K. S. and Monson, P. A.},
+	Journal = pre,
+	Pages = {R29},
+	Title = {Phase Equilibria in a Molecular Model of a Fluid Confined in a Disordered Porous Material},
+	Volume = 54,
+	Year = 1996}
+
+@article{PaYa,
+	Author = {Papadimitriou, C. H. and Yannakakis, M.},
+	Journal = JCSS,
+	Pages = {425},
+	Title = {Optimization, approximation and complexity classes},
+	Volume = {43},
+	Year = {1991}}
+
+@book{Papa,
+	Author = {Papadimitriou, C. H.},
+	Publisher = {Addison Wesley},
+	Title = {Computational Complexity},
+	Year = {1994}}
+
+@article{Parisi92,
+	Author = {Parisi, G.},
+	Journal = {Europhys. Lett.},
+	Pages = {673},
+	Title = {On Surface Growth in Random Media},
+	Volume = {17},
+	Year = {1992}}
+
+@article{PePi,
+	Author = {Peliti, L. and Pietronero, L.},
+	Journal = {Rev. Nuovo Cimento},
+	Pages = {1},
+	Title = {Random Walks with Memory},
+	Volume = {10},
+	Year = {1987}}
+
+@proceedings{PeVu,
+	Address = {Berlin},
+	Editor = {Peliti, L. and Vulpiani, A.},
+	Note = {Lecture Notes in Physics, No. 314},
+	Publisher = {Springer-Verlag},
+	Title = {Measures of Complexity},
+	Year = 1988}
+
+@unpublished{Picco98,
+	Author = {Picco, M.},
+	Note = {cond-mat/9802092},
+	Title = {A Study of Cross-Over Effects for the Random Bond {P}otts Model},
+	Year = 1998}
+
+@unpublished{PiYo,
+	Author = {Pich, C. and Young, A. P.},
+	Note = {cond-mat/9802108},
+	Title = {Critical Behavior of the Two-Dimensional Random Quantum {I}sing Ferromagnet},
+	Year = 1998}
+
+@article{PlRa,
+	Author = {Plischke, M. and Racz, Z.},
+	Journal = prl,
+	Pages = 415,
+	Title = {Active Zone of Growing Clusters: Diffusion-Limited Aggregation and the {E}den Model},
+	Volume = 53,
+	Year = 1984}
+
+@book{PlBe,
+	Address = {Singapore},
+	Author = {Plischke, M. and Bergersen, B.},
+	Publisher = {World Scientific},
+	Title = {Equilibrium Statistical Physics},
+	Year = 1994}
+
+@article{PoNeMe,
+	Author = {Pokorny, M. and Newman, C. M. and Meiron, D.},
+	Journal = jpa,
+	Key = {Pokorny},
+	Pages = {1431-1438},
+	Title = {The Trapping Transition in Dynamic (Invasion) and Static Percolation},
+	Volume = {23},
+	Year = {1990}}
+
+@article{PrSvTu,
+	Author = {Prokof'ev, N. V. and Svistunov, B. V. and Tupitsyn, I. S.},
+	Journal = {Sov. Phys. - JETP},
+	Pages = 310,
+	Title = {Exact, Complete, and Universal Continuous-Time Worldline {M}onte {C}arlo Approach to the Statistics of Discrete Quantum Systems},
+	Volume = {87},
+	Year = 1998}
+
+@article{PrWi,
+	Author = {Propp, J. G. and Wilson, D. B.},
+	Journal = {Random Structures and Algorithms},
+	Pages = {223-252},
+	Title = {Exact Sampling with Coupled {M}arkov Chains and Applications to Statistical Mechanics},
+	Volume = 9,
+	Year = 1996}
+
+@inproceedings{RaSi,
+	Author = {Randall, D. and Sinclair, A. J.},
+	Booktitle = {Proceedings of the 5th ACM-SIAM Symposium on Discrete Algorithms},
+	Pages = 593,
+	Publisher = {ACM Press},
+	Title = {Testable Algorithms for Self-Avoiding Walks},
+	Year = 1994}
+
+@article{ReMaCh,
+	Author = {Redner, O. and Machta, J. and Chayes, L. F.},
+	Journal = pre,
+	Pages = {2749-2752},
+	Title = {Graphical representations and cluster algorithms for critical points with fields},
+	Volume = 58,
+	Year = 1998}
+
+@article{Ri,
+	Author = {Richardson, D.},
+	Journal = {Proc. Camb. Phil. Soc.},
+	Pages = {515},
+	Title = {Random Growth in a Tessellation},
+	Volume = {74},
+	Year = 1973}
+
+@article{Rieg95,
+	Author = {Rieger, H.},
+	Journal = prb,
+	Pages = {6659-6667},
+	Title = {Critical Behavior of the Three-Dimensional Random-Field {I}sing model: Two-Exponent Scaling and Discontinuous Transition},
+	Volume = 52,
+	Year = 1995}
+
+@article{RiYo,
+	Author = {Rieger, H. and Young, A. P.},
+	Journal = jpa,
+	Pages = {5279-5284},
+	Title = {Critical Exponents of the Three-Dimensional Random-Field {I}sing Model},
+	Volume = 26,
+	Year = 1993}
+
+@article{Rosen,
+	Author = {Rosengren, A.},
+	Journal = jpa,
+	Pages = {1709},
+	Title = {On the Combinatorial Solution of the {I}sing Model},
+	Volume = {19},
+	Year = 1986}
+
+@article{RoHaHi,
+	Author = {Roux, S. and Hansen, A. and Hinrichsen, E. L.},
+	Journal = jpa,
+	Pages = {L295},
+	Title = {A Direct Mapping Between {E}den Growth Model and Directed Polymers in Random Media},
+	Volume = {24},
+	Year = 1991}
+
+@article{RoHaSi,
+	Author = {Roux, S. and Hansen, A. and da Silva, R. A. and Lucena, L. S. and Pandey, R. B.},
+	Journal = jsp,
+	Pages = {183},
+	Title = {Minimal Path on the Hierarchical Diamond Lattice},
+	Volume = {65},
+	Year = 1991}
+
+@article{SaSo97,
+	Author = {Salas, J. and Sokal, A. D.},
+	Journal = jsp,
+	Pages = 1,
+	Title = {Dynamic critical behavior of the {S}wendsen-{W}ang Algorithm: the two-dimensional 3-state {P}otts model},
+	Volume = {87},
+	Year = 1997}
+
+@article{SaBrQu,
+	Author = {dos Santos, R. R. and Branco, N. S. and de Queiroz, S. L. A.},
+	Journal = epl,
+	Pages = 647,
+	Title = {Superfluid Transition of $^4${He} in Fractal Media},
+	Volume = 13,
+	Year = 1990}
+
+@article{SaAu98,
+	Author = {Saravanan, C. and Auerbach, S. M.},
+	Journal = jcp,
+	Pages = 8755,
+	Title = {Simulations of High {T}$_c$ Vapor-Liquid Phase Transitions in Nanoporous Materials},
+	Volume = 109,
+	Year = 1998}
+
+@article{SaKaToKa,
+	Author = {Satooka, J. and Katori, H. A. and Tobo, A. and Katsumata, K.},
+	Journal = prl,
+	Pages = {709-712},
+	Title = {Absence of Hysteresis in the Heat Capacity of the Three-Dimensional Random-Field {I}sing Model},
+	Volume = 81,
+	Year = 1998}
+
+@techreport{Sc90,
+	Author = {Schapire, R. E.},
+	Institution = {MIT},
+	Number = {LCS/TM-431},
+	Title = {The Emerging Theory of Average Case Complexity},
+	Year = 1990}
+
+@article{Sch,
+	Author = {Schmidt, M.},
+	Journal = {Z. Phys. B},
+	Pages = {327},
+	Title = {M{C}-simulation of the 3{D}, q=3 {P}otts model},
+	Volume = {95},
+	Year = {1994}}
+
+@unpublished{SeDaKaKr,
+	Author = {Sethna, J. P. and Dahmen, K. and Kartha, S. and Krumhansl, J. A. and Roberts, B. W. and Shore, J. D.},
+	Note = {Preprint},
+	Title = {Hysteresis and Hierarchies: Dynamics of Disorder-Driven First- Order Phase Transformations},
+	Year = 1992}
+
+@article{simon,
+	Author = {Simon, H. A.},
+	Journal = {Biometrica},
+	Pages = {425},
+	Title = {???},
+	Volume = {42},
+	Year = {1955}}
+
+@book{Si97,
+	Author = {Siegelman, H.},
+	Publisher = {Birkhauser},
+	Series = {Progress in Theoretical Computer Science},
+	Title = {Neural Networks and Analog Computation: Beyond the Turing Limit},
+	Year = 1997}
+
+@article{ShYe,
+	Author = {Shew, C.-Y. and Yethiraj, A.},
+	Journal = {J. Chem. Phys.},
+	Pages = {7665},
+	Title = {Phase Behavior of the {W}idom-{R}owlinson Mixture},
+	Volume = {104},
+	Year = {1996}}
+
+@book{Sim,
+	Author = {Simon, B.},
+	Publisher = {Princeton University Press},
+	Title = {The Statistical Mechanics of Lattice Gases},
+	Volume = 1,
+	Year = {1993}}
+
+@article{SlBe98,
+	Author = {Slanic, Z. and Belanger, D. P.},
+	Journal = {J. Magn. Magn. Mater.},
+	Pages = {65-73},
+	Title = {The Random-Field Specific Heat Critical Behavior at High Magnetic Concentration: {F}e$_{0.93}${Z}n$_{0.07}${F}$_2$},
+	Volume = 186,
+	Year = 1998}
+
+@article{SmMaRe,
+	Author = {Smailer, I. and Machta, J. and Redner, S.},
+	Journal = pre,
+	Pages = 262,
+	Title = {Exact Enumeration of Self-Avoiding Walks on Lattices with Random Site Energies},
+	Volume = 47,
+	Year = 1993}
+
+@article{Sour98,
+	Author = {Sourlas, N.},
+	Journal = {Comput. Phys. Commun.},
+	Pages = 183,
+	Title = {Universality in Random Systems: The Case of the 3-d Random Field {I}sing model},
+	Volume = 122,
+	Year = 1999}
+
+@article{SoBr,
+	Author = {Souza, A. J. F. de and Brady Moreira, F. G.},
+	Journal = epl,
+	Pages = 491,
+	Title = {Monte Carlo Renormalization Group for Disordered Systems},
+	Volume = 17,
+	Year = 1992}
+
+@book{StAh,
+	Address = {London},
+	Author = {Stauffer, D. and Aharony, A.},
+	Publisher = {Taylor \& Francis},
+	Title = {Introduction to Percolation Theory},
+	Year = {1992}}
+
+@article{Stau96,
+	Author = {Stauffer, D.},
+	Date-Modified = {2006-04-27 12:48:35 -0400},
+	Journal = {Physica A},
+	Pages = 197,
+	Volume = 186,
+	Year = 1992}
+
+@article{StHe,
+	Author = {Stillinger, F. H. and Helfand, E.},
+	Journal = jcp,
+	Pages = 2495,
+	Title = {Critical solution Behavior in a Binary Mixture of Gaussian Molecules},
+	Volume = 41,
+	Year = 1964}
+
+@article{SwCh92,
+	Author = {Swanson, D. R. and Chui, T. C. P. and Lipa, J. A.},
+	Journal = prb,
+	Pages = 9043,
+	Title = {Propagation of second sound near ${T}_{\lambda}$},
+	Volume = 46,
+	Year = 1992}
+
+@article{Swe,
+	Author = {Sweeny, M.},
+	Journal = prb,
+	Pages = 4445,
+	Title = {{M}onte {C}arlo study of weighted percolation clusters relevant to the {P}otts model},
+	Volume = 27,
+	Year = 1983}
+
+@article{SwWa86,
+	Author = {Swendsen, R. H. and Wang, J.-S.},
+	Journal = prl,
+	Pages = {2607-2609},
+	Title = {Replica {M}onte {C}arlo Simulations of Spin Glasses},
+	Volume = 57,
+	Year = 1986}
+
+@article{SwWa,
+	Author = {Swendsen, R. H. and Wang, J.-S.},
+	Journal = prl,
+	Pages = 86,
+	Title = {Nonuniversal Critical Dynamics in {Monte} {Carlo} Simulations},
+	Volume = 58,
+	Year = 1987}
+
+@article{SwBrMaCiBa,
+	Author = {Swift, M. R. and Bray, A. J. and Maritan, A. and Cieplak, M. and Banavar, J. R.},
+	Journal = epl,
+	Pages = {273-278},
+	Title = {Scaling of the Random-Field {I}sing Model at Zero Temperature},
+	Volume = 38,
+	Year = 1997}
+
+@article{Ta93,
+	Author = {Tamayo, P.},
+	Journal = {Physica A},
+	Pages = 543,
+	Title = {???},
+	Volume = 201,
+	Year = 1993}
+
+@article{TaBa,
+	Author = {Tang, C. and Bak, P.},
+	Journal = prl,
+	Pages = {2347},
+	Title = {Critical Exponents and Scaling Relations for Self-Organized Critical Phenomena},
+	Volume = {60},
+	Year = {1988}}
+
+@article{TaKaDh,
+	Author = {Tang, L.-H. and Kardar, M. and Dhar, D.},
+	Journal = prl,
+	Pages = {920},
+	Title = {Driven Depinning in Anisotropic Media},
+	Volume = {74},
+	Year = {1995}}
+
+@article{TaKeWo,
+	Author = {Tang, L.-H. and Kertesz, J. and Wolf, D. E.},
+	Journal = jpa,
+	Pages = {L1193},
+	Title = {Kinetic Roughening with Power-Law Waiting Time Distribution},
+	Volume = 24,
+	Year = {1991}}
+
+@article{TaLe,
+	Author = {Tang, L.-H. and Leschhorn, H.},
+	Journal = pra,
+	Pages = {R8309},
+	Title = {Pinning by Directed Percolation},
+	Volume = 45,
+	Year = {1992}}
+
+@book{ThSw,
+	Author = {Thulasiraman, K. and Swamy, M. N. S.},
+	Publisher = {John Wiley \& Sons, Inc.},
+	Title = {Graphs: Theory and Algorithms},
+	Year = 1992}
+
+@article{TiMa04,
+	Author = {Tillberg, D. and Machta, J.},
+	Journal = pre,
+	Pages = 051403,
+	Title = {Structural and Computational Depth of Diffusion Limited Aggregation},
+	Volume = 69,
+	Year = 2004}
+
+@article{ToMe,
+	Author = {Tolman, S. and Meakin, P.},
+	Journal = pra,
+	Pages = {428},
+	Title = {Off-lattice and hypercubic-lattice models for diffusion-limited aggregation in dimensionalities 2--8},
+	Volume = {40},
+	Year = 1989}
+
+@article{UzHaJu95,
+	Author = {Uzelac, K. and Hasmy, A. and Jullien, R.},
+	Journal = {J. Non-crystalline Solids},
+	Pages = {365-371},
+	Title = {Numerical Study of Phase-Transition Inside the Pores of Aerogels},
+	Volume = 86,
+	Year = 1995}
+
+@article{Ve,
+	Author = {Venkateswaran, H.},
+	Journal = SIAMJC,
+	Pages = 655,
+	Title = {Circuit Definitions of Nondeterministic Complexity Classes},
+	Volume = 21,
+	Year = 1992}
+
+@book{Vi,
+	Address = {Singapore},
+	Author = {Vicsek, T.},
+	Publisher = {World Scientific},
+	Title = {Fractal Growth Phenomena},
+	Year = 1992}
+
+@article{Villain85,
+	Author = {Villain, J.},
+	Journal = {J. Physique},
+	Pages = 1843,
+	Title = {Equilibrium Critical Properties of Random Field Systems: New Conjectures},
+	Volume = 46,
+	Year = 1985}
+
+@article{Vold,
+	Author = {Vold, M. J.},
+	Journal = {J. Colloid Sci.},
+	Pages = {168},
+	Title = {A Numerical Approach to the Problem of Sediment Volume},
+	Volume = {14},
+	Year = {1959}}
+
+@article{vBEr,
+	Author = {van Beijeren, H. and Ernst, M. H.},
+	Journal = jsp,
+	Pages = {793},
+	Title = {Diffusion in {L}orentz Lattice Gas Automata with Backscattering},
+	Volume = {70},
+	Year = {1993}}
+
+@book{VoBu,
+	Address = {Urbana},
+	Author = {Von Neumann, J.},
+	Note = {Edited and completed by A. W. Burks},
+	Publisher = {University of Illinois Press},
+	Title = {Theory of Self-Reproducing Automata},
+	Year = 1966}
+
+@article{Vo,
+	Author = {Voss, R. F.},
+	Journal = {Fractals},
+	Pages = {141},
+	Title = {Birth, Death, Step Size and the Shape of {DLA}},
+	Volume = {1},
+	Year = 1993}
+
+@article{Voss84,
+	Author = {Voss, R. F.},
+	Journal = PRB,
+	Pages = {334},
+	Title = {Multiparticle diffusive fractal aggregation},
+	Volume = {30},
+	Year = 1984}
+
+@article{WaLa01,
+	Author = {Wang, F. and Landau, D. P.},
+	Journal = PRE,
+	Pages = {056101},
+	Title = {Determining the density of states for classical statistical models: A random walk algorithm to produce a flat histogram},
+	Volume = {64},
+	Year = 2001}
+
+@article{WaSw88,
+	Author = {Wang, J.-S. and Swendsen, R. H.},
+	Journal = prb,
+	Pages = 4840,
+	Title = {Low Temperature Properties of the $\pm$ {J} {I}sing Spin Glass in Two Dimensions},
+	Volume = 38,
+	Year = 1988}
+
+@article{WaSw90,
+	Author = {Wang, J.-S. and Swendsen, R. H.},
+	Journal = physa,
+	Pages = 565,
+	Title = {Cluster {M}onte {C}arlo Algorithms},
+	Volume = 167,
+	Year = 1990}
+
+@article{WaWoMuCh,
+	Author = {Wang, J.-S. and Wohlert, M. and Muhlenbein, H. and Chowdhury, D.},
+	Journal = {Physica A},
+	Pages = {173},
+	Title = {The Three-Dimensional Dilute {I}sing Magnet},
+	Volume = {166},
+	Year = {1990}}
+
+@incollection{Welsh,
+	Address = {Oxford},
+	Author = {Welsh, D. J. A.},
+	Booktitle = {Disorder in Physical Systems},
+	Editor = {Grimmett, G. R. and Welsh, D. J. A.},
+	Pages = 307,
+	Publisher = {Oxford University Press},
+	Title = {The Computational Complexity of Some Classical Problems from Statistical Physics},
+	Year = 1990}
+
+@article{WeHa,
+	Author = {Weinrib, A. and Halperin, B. I.},
+	Journal = prb,
+	Pages = 413,
+	Title = {Critical Phenomena in Systems with Long-Range-Correlated Quenched Disorder},
+	Volume = 27,
+	Year = 1983}
+
+@article{WiRo,
+	Author = {Widom, B. and Rowlinson, J. S.},
+	Journal = {J. Chem. Phys.},
+	Pages = 1670,
+	Title = {New Model for the Study of Liquid-Vapor Phase Transitions},
+	Volume = 52,
+	Year = 1970}
+
+@article{WiBa,
+	Author = {Wilkinson, D. and Barsony, M.},
+	Journal = jpa,
+	Pages = {L129},
+	Title = {Monte {Carlo} Study of Invasion Percolation Clusters in Two and Three Dimensions},
+	Volume = {17},
+	Year = {1984}}
+
+@article{WiWi,
+	Author = {Wilkinson, D. and Willemsen, J. F.},
+	Journal = jpa,
+	Key = {Wilkinson},
+	Pages = 3365,
+	Title = {Invasion Percolation: A New Form of Percolation Theory},
+	Volume = {16},
+	Year = {1983}}
+
+@unpublished{WiDo,
+	Author = {Wiseman, S. and Domany, E.},
+	Note = {cond-mat/9506101},
+	Title = {Lack of Self-Averaging in Critical Disordered Systems},
+	Year = {1995}}
+
+@article{WiSa,
+	Author = {Witten, T. A. and Sander, L. M.},
+	Journal = prl,
+	Key = {DLA},
+	Pages = {1400},
+	Title = {Diffusion-Limited Aggregation, a Kinetic Critical Phenomenon},
+	Volume = {47},
+	Year = {1981}}
+
+@article{Wolff,
+	Author = {Wolff, U.},
+	Journal = prl,
+	Pages = {361},
+	Title = {Collective {M}onte {C}arlo Updating for Spin Systems},
+	Volume = {62},
+	Year = {1989}}
+
+@article{Wolff89b,
+	Author = {Wolff, U.},
+	Journal = {Phys. Lett. B},
+	Pages = {379},
+	Title = {Comparison Between Cluster {M}onte {C}arlo Algorithms in the {I}sing Model},
+	Volume = {228},
+	Year = {1989}}
+
+@article{Wolf85,
+	Author = {Wolfram, S.},
+	Journal = prl,
+	Pages = {735-738},
+	Title = {Undecidability and Intractability in Theoretical Physics},
+	Volume = 54,
+	Year = 1985}
+
+@book{Wolf94,
+	Author = {Wolfram, S.},
+	Publisher = {Perseus Press},
+	Title = {Cellular Automata and Complexity},
+	Year = 1994}
+
+@book{Wolf02,
+	Author = {Wolfram, S.},
+	Publisher = {Wolfram Media},
+	Title = {A New Kind of Science},
+	Year = 2002}
+
+@article{Wong96,
+	Author = {Wong, P.-z.},
+	Journal = prl,
+	Pages = 2340,
+	Title = {Specific Heat of Random-Field {I}sing Systems},
+	Volume = 77,
+	Year = 1996}
+
+@article{Wong86,
+	Author = {Wong, P.-z.},
+	Journal = prb,
+	Pages = {1864--1879},
+	Title = {Specific Heat Study of Random-Field and Competing-Anisotropy Effects in {F}e$_{1-x}${C}o$_{x}${C}l$_2$},
+	Volume = 34,
+	Year = 1986}
+
+@article{WoCh,
+	Author = {Wong, A. P. Y. and Chan, M. H. W.},
+	Journal = prl,
+	Pages = {2567-2570},
+	Title = {Liquid-Vapor Critical Point of $^4${H}e in Aerogel},
+	Volume = 65,
+	Year = 1990}
+
+@article{WoKiGoCh,
+	Author = {Wong, A. P. Y. and Kim, S. B. and Goldburg, W. I. and Chan, M. H. W.},
+	Journal = prl,
+	Pages = 954,
+	Title = {Phase Separation, Density Fluctuation, and Critical Dynamics of {N}$_2$ in Aerogel},
+	Volume = 70,
+	Year = 1993}
+
+@article{WoCrChRe90,
+	Author = {Wong, G. K. S. and Crowell, P. A. and Cho, H. A. and Reppy, J. D.},
+	Journal = prl,
+	Pages = 2410,
+	Title = {Superfluid Critical Behavior in $^4${H}e-Filled Porous Media},
+	Volume = 65,
+	Year = 1990}
+
+@article{WoCrChRe,
+	Author = {Wong, G. K. S. and Crowell, P. A. and Cho, H. A. and Reppy, J. D.},
+	Journal = prb,
+	Pages = {3858-3880},
+	Title = {Superfluid Critical Behavior in the Presence of Dilute Correlated Impurity},
+	Volume = 48,
+	Year = 1993}
+
+@article{Wu82,
+	Author = {Wu, F. Y.},
+	Journal = {Rev. Mod. Phys.},
+	Pages = 235,
+	Title = {The {Potts} Model},
+	Volume = 54,
+	Year = 1982}
+
+@unpublished{WuMa,
+	Author = {Wu, Y. and Machta, J.},
+	Title = {Finite Size Scaling and Critical Exponents of the Zero Temperature Random Field {I}sing Model},
+	Year = 2005}
+
+@unpublished{Yama,
+	Author = {Yamakami, T.},
+	Note = {ECCC TR96-039},
+	Title = {Polynomial Time Samplable Distributions},
+	Year = {1995}}
+
+@article{YoNa,
+	Author = {Young, A. P. and Nauenberg, M.},
+	Journal = prl,
+	Pages = 2429,
+	Title = {Quasicritical Behavior and First-Order Transition in the $d=3$ Random-Field {I}sing Model},
+	Volume = 54,
+	Year = 1985}
+
+@article{Zh,
+	Author = {Zhang, Y.-C.},
+	Journal = {J. Physique},
+	Pages = 2129,
+	Title = {Non-Universal Roughening of Kinetic Self-Affine Interfaces},
+	Volume = 51,
+	Year = 1990}
+
+@article{ZhSc98,
+	Author = {Zheng, B. and Schultz, M. and Trimper, S.},
+	Journal = pre,
+	Pages = {R1351-R1354},
+	Title = {Dynamic Simulations of the {K}osterlitz-{T}houless Phase Transition},
+	Volume = 59,
+	Year = 1999}
+
+@article{Ziff,
+	Author = {Ziff, R. M.},
+	Journal = prl,
+	Pages = 2670,
+	Title = {Spanning Probability in 2{D} Percolation},
+	Volume = 69,
+	Year = 1992}
+
+@article{Zurek89,
+	Author = {Zurek, W. H.},
+	Journal = pra,
+	Pages = 4731,
+	Title = {Algorithmic randomness and physical entropy},
+	Volume = 40,
+	Year = 1989}
+
+@article{Zw61,
+	Author = {Zwanzig, R},
+	Journal = {Phys. Rev.},
+	Pages = 983,
+	Title = {Memory Effects in Irreversible Thermodynamic},
+	Volume = 124,
+	Year = 1961}
+
+@article{Gr99,
+	Author = {Grassberger, P.},
+	Journal = jpa,
+	Pages = {6233},
+	Title = {Pair connectedness and shortest-path scaling in critical percolation},
+	Volume = {32},
+	Year = {1995}}
+
+@article{Zi99,
+	Author = {Ziff, R. M.},
+	Journal = jpa,
+	Pages = {L457},
+	Title = {Exact critical exponent for the shortest-path scaling function in percolation},
+	Volume = {32},
+	Year = {1999}}
+
+@article{Po52,
+	Author = {Potts, R. B.},
+	Journal = pcps,
+	Pages = {106},
+	Volume = {48},
+	Year = {1952}}
+
+@article{Gr83,
+	Author = {Grassberger, P.},
+	Journal = {Math. Biosci.},
+	Pages = {157-172},
+	Title = {On the Critical Behavior of the General Epidemic Process and Dynamical Percolation},
+	Volume = {63},
+	Year = {1983}}
+
+@article{HrSt88,
+	Author = {Herrmann, H. J. and Stanley, H. E.},
+	Journal = jpa,
+	Pages = {L829},
+	Volume = {21},
+	Year = {1988}}
+
+@article{HrHoSt84,
+	Author = {Herrmann, H. J. and Hong, D. C. and Stanley, H. E.},
+	Journal = jpa,
+	Pages = {L261},
+	Volume = {17},
+	Year = {1984}}
+
+@article{BeSpDr95,
+	Author = {Berendsen, H. J. C. and van der Spoel, D. and van Drunen, R.},
+	Journal = {Comp. Phys. Comm.},
+	Pages = {43},
+	Title = {A message-passing parallel molecular dynamics implementation},
+	Volume = {91},
+	Year = {1995}}
+
+@article{LiHeSp01,
+	Author = {Lindahl, E. and Hess, B. and van der Spoel, D.},
+	Journal = {J. Mol. Mod.},
+	Pages = {306},
+	Title = {A package for molecular simulation and trajectory analysis},
+	Volume = {7},
+	Year = {2001}}
+
+@article{Li10,
+	Author = {Lindemann, F.},
+	Journal = {Z. Phys.},
+	Pages = {609},
+	Volume = {11},
+	Year = {1910}}
+
+@article{SaBlLeGuDi,
+	Author = {Savage, J.R. and Blair, D. W. and Levine, A. J. and Guyer, R. A. and Dinsmore, A. D.},
+	Journal = {Work submitted to Science as a report}}
+
+@article{AsOo58,
+	Author = {Asakura, S. and Oosawa, F.},
+	Journal = {J. Polym. Sci.},
+	Pages = {183},
+	Volume = {33},
+	Year = {1958}}
+
+@article{Vri76,
+	Author = {Vrij, A.},
+	Journal = {Pure Applied Chem.},
+	Pages = {471},
+	Volume = {48},
+	Year = {1976}}
+
+@article{SaWa95,
+	Author = {Saber, D. L. and Walz, J. Y.},
+	Journal = {Langmuir},
+	Pages = {2352},
+	Volume = {11},
+	Year = {1995}}
+
+@article{KaRoYoPi94,
+	Author = {Kaplan, P. D. and Rouke, J. L. and Yodh, A. G. and Pine, D. J.},
+	Journal = prl,
+	Pages = {582},
+	Volume = {72},
+	Year = {1994}}
+
+@article{DiWaPoYo97,
+	Author = {Dinsmore, A. D. and Warren, P.J. and Poon, W. C. K. and Yodh, A. G.},
+	Journal = {Europhys. Lett.},
+	Pages = {337},
+	Volume = {40},
+	Year = {1997}}
+
+@article{AnLe,
+	Author = {Anderson, V. J. and Lekkerkerker, H. N. W.},
+	Journal = {Nature},
+	Pages = {811},
+	Volume = {416},
+	Year = {2002}}
+
+@article{LePoPuStWa,
+	Author = {Lekkerkerker, H. N. W. and Poon, W. C. K. and Pusey, P. N. and Stroobants, A., and Warren, P. B.},
+	Journal = {Europhys. Lett.},
+	Pages = {559},
+	Volume = {20},
+	Year = {1992}}
+
+@article{IlOrPoPu,
+	Author = {Ilett, S. M. and Orrock, A. and Poon, W. C. K. and Pusey, P. N.},
+	Journal = {Phys Rev. E},
+	Pages = {1344},
+	Volume = {51},
+	Year = {1995}}
+
+@article{IlOrPoPu,
+	Author = {Lutsko, J. F. and Nicolis, G.},
+	Journal = {J. Chem Phys.},
+	Pages = {244907},
+	Volume = {122},
+	Year = {2005}}
+
+@article{GoEcAl,
+	Author = {Goldstein, A. N. and Echer, C. M. and Alivisatos, A. P.},
+	Journal = {Science},
+	Pages = {1425},
+	Volume = {256},
+	Year = {1992}}
+
+@article{CoRy,
+	Author = {Couchman, P. R. and Ryan, C. L.},
+	Journal = {Philos. Mag.},
+	Pages = {369},
+	Volume = {37},
+	Year = {1978}}
+
+@article{Wa,
+	Author = {Wautelet, M.},
+	Journal = {J. Phys. D},
+	Pages = {343},
+	Volume = {24},
+	Year = {1991}}
+
+@article{WoRuFr,
+	Author = {ten Wolde, P. R. and Ruiz-Montero, M. J. and Frenkel, D.},
+	Journal = {Phys. Rev. Lett.},
+	Pages = {2714},
+	Volume = {75},
+	Year = {1995}}
+
+@article{ShOx,
+	Author = {ten Wolde, P. R. and Ruiz-Montero, M. J. and Frenkel, D.},
+	Journal = {Phys. Rev. Lett.},
+	Pages = {2714},
+	Volume = {75},
+	Year = {1995}}
+
+@article{Fred87,
+	Address = {Philadelphia, PA, USA},
+	Author = {Greg N. Frederickson},
+	Doi = {http://dx.doi.org/10.1137/0216064},
+	Issn = {0097-5397},
+	Journal = {SIAM J. Comput.},
+	Number = {6},
+	Pages = {1004--1022},
+	Publisher = {Society for Industrial and Applied Mathematics},
+	Title = {Fast algorithms for shortest paths in planar graphs, with applications},
+	Volume = {16},
+	Year = {1987}}
+
+@article{ moore00exact,
+  author = "C. Moore",
+  title = "Exact solution of site and bond percolation on small-world networks",
+  text = "Moore, C., and M. E. J. Newman. 2000. Exact solution of site and bond percolation
+    on small-world networks. Physical Review E 62: 7059-7065.",
+  year = "2000",
+  url = "citeseer.ist.psu.edu/moore00exact.html" }

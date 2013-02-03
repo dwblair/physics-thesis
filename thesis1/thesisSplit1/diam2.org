@@ -1,0 +1,11 @@
+#+LaTeX_CLASS: draft
+
+#+OPTIONS: toc:nil author:nil title:nil
+#+BEGIN_LaTeX:
+\author{Don Blair}
+\begin {abstract}
+We define a new qeometric quantity, the diameter, on Potts Model clusters, and determine the scaling of the diameter with system size for $q=1,2,3,4$ in 2D, and $q=2$ in 4D, using a particularly efficient algorithm for $q=1$.  We find that that scaling exponents for the diameter and the chemical distance are the same within error.
+\end{abstract}
+\title{Diameter of Random Clusters}
+\maketitle
+#+END_LaTeX

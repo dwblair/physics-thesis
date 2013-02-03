@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: thesisdraft5.aux
+The style file: plain.bst
+Database file #1: /home/dwblair/Dropbox/dwbdocs/physics/writing/bibfiles/combo.bib
+Warning--I didn't find a database entry for "seung"
+Warning--empty year in Nachmiasa
+You've used 11 entries,
+            2118 wiz_defined-function locations,
+            621 strings with 5783 characters,
+and the built_in function-call counts, 3271 in all, are:
+= -- 316
+> -- 149
+< -- 1
++ -- 60
+- -- 48
+* -- 223
+:= -- 580
+add.period$ -- 33
+call.type$ -- 11
+change.case$ -- 56
+chr.to.int$ -- 0
+cite$ -- 12
+duplicate$ -- 127
+empty$ -- 255
+format.name$ -- 48
+if$ -- 664
+int.to.chr$ -- 0
+int.to.str$ -- 11
+missing$ -- 12
+newline$ -- 58
+num.names$ -- 22
+pop$ -- 44
+preamble$ -- 1
+purify$ -- 46
+quote$ -- 0
+skip$ -- 84
+stack$ -- 0
+substring$ -- 179
+swap$ -- 16
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 42
+warning$ -- 1
+while$ -- 36
+width$ -- 13
+write$ -- 122
+(There were 2 warnings)

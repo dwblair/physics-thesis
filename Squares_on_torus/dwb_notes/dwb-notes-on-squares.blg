@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: dwb-notes-on-squares.aux
+The style file: unsrt.bst
+Database file #1: squares.bib
+Warning--empty note in Shell2009
+Warning--empty note in Sikiric
+You've used 26 entries,
+            1791 wiz_defined-function locations,
+            640 strings with 7766 characters,
+and the built_in function-call counts, 5592 in all, are:
+= -- 514
+> -- 217
+< -- 3
++ -- 83
+- -- 57
+* -- 397
+:= -- 889
+add.period$ -- 76
+call.type$ -- 26
+change.case$ -- 25
+chr.to.int$ -- 0
+cite$ -- 28
+duplicate$ -- 238
+empty$ -- 557
+format.name$ -- 57
+if$ -- 1228
+int.to.chr$ -- 0
+int.to.str$ -- 26
+missing$ -- 23
+newline$ -- 130
+num.names$ -- 26
+pop$ -- 56
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 109
+stack$ -- 0
+substring$ -- 412
+swap$ -- 44
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 62
+width$ -- 28
+write$ -- 275
+(There were 2 warnings)

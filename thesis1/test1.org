@@ -1,0 +1,7 @@
+#+LaTeX_CLASS: thesis
+* test
+** h
+*** g
+**** p
+***** q
+****** r

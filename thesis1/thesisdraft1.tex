@@ -1,0 +1,383 @@
+% Created 2010-07-01 Thu 12:02
+\documentclass{umthesis}
+
+
+\title{Draft of diameter paper}
+%\author{Don Blair}
+\date{01 July 2010}
+
+\begin{document}
+
+
+
+\title{ \emph{Physicae Auscultationes}}
+\author{D. W. Blair}
+\date{September 2010}
+
+\copyrightyear{2010}
+\bachelors{B.Sc.}{University of Massachusetts Amherst}
+\masters{M.Sc.}{University of Massachusetts Amherst}
+%\secondmasters{M.Ed.}{Antioch College}
+%\priordoctorate{M.D.}{University of Never-never-land}
+% \committeechair{B. B. Bahh}
+\cochairs{B. B. Bahh}{I. M. A. Wolf}
+\firstreader{Little Bo Peep}
+\secondreader{R. U. Sheepish}
+\thirdreader{Bill Shepherd}
+\fourthreader{Mary Lamb}   % Optional
+%\fifthreader{}            % Optional
+%\sixthreader{}            % Optional
+\departmentchair{Don Candela}
+\departmentname{Physics Department}
+
+
+\frontmatter
+\maketitle
+%\copyrightpage
+%\signaturepage
+
+
+%\begin{dedication}
+%  \begin{center}
+%    \emph{To those little lost sheep.}
+%  \end{center}
+%\end{dedication}
+
+%\chapter{Acknowledgments}
+%Acknowledgements.
+
+%\begin{abstract} 
+%Test of abstract
+%\end{abstract}
+
+\tableofcontents                % Table of contents
+%\listoftables                   % List of Tables -- ADD BACK IN
+%\listoffigures                  % List of Figures -- ADD BACK IN
+\mainmatter
+
+%\unnumberedchapter{Introduction}
+%Why on earth do I want to study sheep anyway?
+
+
+\chapter{Melting: Part A (science paper)}
+\label{sec-1}
+\section{Background}
+\label{sec-1.1}
+\subsection{theory of 2-D melting}
+\label{sec-1.1.1}
+\begin{itemize}
+
+\item bulk: hexatic, two-stage\\
+\label{sec-1.1.1.1}%
+\item for finite crystallites: melting dominated by surface\\
+\label{sec-1.1.1.2}%
+\item range of potential as issue\\
+\label{sec-1.1.1.3}%
+\item imaging small crystallites difficult before savage's technique\\
+\label{sec-1.1.1.4}%
+\end{itemize} % ends low level
+\section{Experiments by Savage et. al}
+\label{sec-1.2}
+\section{Depletion potential}
+\label{sec-1.3}
+\subsection{range \~{} 10 \% of particle diameter}
+\label{sec-1.3.1}
+\subsection{observation: sublimation at steady rate until characteristic size, then enhanced melting}
+\label{sec-1.3.2}
+\subsection{Figure: N vs t (Fig 2. from savage et. al)}
+\label{sec-1.3.3}
+\subsection{Figure: Q$_6$ vs t (Fig 3. from savage et. al)}
+\label{sec-1.3.4}
+\section{Simulations}
+\label{sec-1.4}
+\section{Motivation}
+\label{sec-1.5}
+\subsection{confirm that odd hydrodynamics didn't play a role}
+\label{sec-1.5.1}
+\subsection{explore role of range of potential on melting}
+\label{sec-1.5.2}
+\section{Simulation algorithm / details}
+\label{sec-1.6}
+\subsection{brownian dynamics simulation}
+\label{sec-1.6.1}
+\begin{itemize}
+
+\item theory\\
+\label{sec-1.6.1.1}%
+\item algorithm\\
+\label{sec-1.6.1.2}%
+\item form of the interaction potential used
+\label{sec-1.6.1.3}%
+\begin{itemize}
+
+\item A-O depletion model\\
+\label{sec-1.6.1.3.1}%
+\item 'Blairium' -- A-O, but avoid infinite Brownian dynamics force\\
+\label{sec-1.6.1.3.2}%
+\end{itemize} % ends low level
+\end{itemize} % ends low level
+\subsection{phase diagram exploration}
+\label{sec-1.6.2}
+\section{Results}
+\label{sec-1.7}
+\subsection{short-range potential (\~{}10\%)}
+\label{sec-1.7.1}
+\begin{itemize}
+
+\item N vs. t\\
+\label{sec-1.7.1.1}%
+\item Q$_6$ vs. t\\
+\label{sec-1.7.1.2}%
+\item Q$_6$ vs. N\\
+\label{sec-1.7.1.3}%
+\end{itemize} % ends low level
+\subsection{longer-range potential (\~{}80\%)}
+\label{sec-1.7.2}
+\section{Discussion}
+\label{sec-1.8}
+\section{Future work}
+\label{sec-1.9}
+\subsection{3D}
+\label{sec-1.9.1}
+\subsection{curved surfaces}
+\label{sec-1.9.2}
+\subsection{non-spherical molecules}
+\label{sec-1.9.3}
+\chapter{Melting: Part B (moumita)}
+\label{sec-2}
+\section{Background}
+\label{sec-2.1}
+\subsection{Reference to experimental work and theory work in melting A chapter}
+\label{sec-2.1.1}
+\subsection{Theory: range of potential controls brittle/ductile transition}
+\label{sec-2.1.2}
+\begin{itemize}
+
+\item brittle / ductile theory\\
+\label{sec-2.1.2.1}%
+\end{itemize} % ends low level
+\subsection{When crystallites are sufficiently brittle, melting is mediated by defects}
+\label{sec-2.1.3}
+\begin{itemize}
+
+\item alternative melting models\\
+\label{sec-2.1.3.1}%
+\end{itemize} % ends low level
+\section{Theory}
+\label{sec-2.2}
+\subsection{Determine energy cost, E, of creating a disclination on flat 2D Membrane}
+\label{sec-2.2.1}
+\subsection{For thermally-activated disclinations, K$_B$ T \~{} E}
+\label{sec-2.2.2}
+\subsection{Disclinations create internal stresses: relieved by cracking}
+\label{sec-2.2.3}
+\subsection{potential energy penalty, V, of crack in 2D sheet}
+\label{sec-2.2.4}
+\subsection{minimize V to find critical crack length, l$_c$(Y,gamma)}
+\label{sec-2.2.5}
+\subsection{estimate Y, gamma for simulations}
+\label{sec-2.2.6}
+\subsection{use these to find a, critical average interparticle separation}
+\label{sec-2.2.7}
+\subsection{this allows us to find a critical potential range, a}
+\label{sec-2.2.8}
+\section{Simluations}
+\label{sec-2.3}
+\subsection{Brownian dynamics background (refer to previous)}
+\label{sec-2.3.1}
+\subsection{My code (include in thesis) vs. Gromacs}
+\label{sec-2.3.2}
+\subsection{New form of the interparticle potential}
+\label{sec-2.3.3}
+\begin{itemize}
+
+\item plot for short-range, longer-range\\
+\label{sec-2.3.3.1}%
+\end{itemize} % ends low level
+\subsection{Phase behavior / melting temperature}
+\label{sec-2.3.4}
+\begin{itemize}
+
+\item brittle\\
+\label{sec-2.3.4.1}%
+\item ductile\\
+\label{sec-2.3.4.2}%
+\end{itemize} % ends low level
+\subsection{Results}
+\label{sec-2.3.5}
+\begin{itemize}
+
+\item For Brittle and Ductile cases:
+\label{sec-2.3.5.1}%
+\begin{itemize}
+
+\item N vs. t\\
+\label{sec-2.3.5.1.1}%
+\item Q$_6$ vs. (N-N*)\\
+\label{sec-2.3.5.1.2}%
+\item Q$_6$ vs. (N-N*)\\
+\label{sec-2.3.5.1.3}%
+\item Ave. topological charge vs. (N-N*)\\
+\label{sec-2.3.5.1.4}%
+\end{itemize} % ends low level
+
+\item Alternative theories: e.g. Lacoste\\
+\label{sec-2.4.1}%
+\end{itemize} % ends low level
+\section{Discussion}
+\label{sec-2.4}
+\section{Code}
+\label{sec-2.5}
+\chapter{Diameter of Random Clusters}
+\label{sec-3}
+\section{Background}
+\label{sec-3.1}
+\subsection{Applications and physical realizations of the potts model}
+\label{sec-3.1.1}
+\subsection{Interesting properties of potts model clusters}
+\label{sec-3.1.2}
+\begin{itemize}
+
+\item mass\\
+\label{sec-3.1.2.1}%
+\item perimeter\\
+\label{sec-3.1.2.2}%
+\item chemical distance
+\label{sec-3.1.2.3}%
+\begin{itemize}
+
+\item literature review
+\label{sec-3.1.2.3.1}%
+\begin{itemize}
+
+\item applications\\
+\label{sec-3.1.2.3.1.1}%
+\end{itemize} % ends low level
+
+\item current understanding\\
+\label{sec-3.1.2.3.2}%
+\item no established relationship to other scaling exponents\\
+\label{sec-3.1.2.3.3}%
+\end{itemize} % ends low level
+
+\item diameter
+\label{sec-3.1.2.4}%
+\begin{itemize}
+
+\item graph theoretic definition\\
+\label{sec-3.1.2.4.1}%
+\item applications
+\label{sec-3.1.2.4.2}%
+\begin{itemize}
+
+\item relevant to efficiency of simulations\\
+\label{sec-3.1.2.4.2.1}%
+\item communication on a potts network\\
+\label{sec-3.1.2.4.2.2}%
+\end{itemize} % ends low level
+
+\item mean field expectations\\
+\label{sec-3.1.2.4.3}%
+\end{itemize} % ends low level
+\end{itemize} % ends low level
+\subsection{Review of potts model}
+\label{sec-3.1.3}
+\begin{itemize}
+
+\item overview\\
+\label{sec-3.1.3.1}%
+\item phase behavior for q=1,2,3,4, D=1,2,3,4,infinite\\
+\label{sec-3.1.3.2}%
+\end{itemize} % ends low level
+\section{Simulations}
+\label{sec-3.2}
+\subsection{swendsen wang algorithm}
+\label{sec-3.2.1}
+\subsection{method: determining chemical distance}
+\label{sec-3.2.2}
+\begin{itemize}
+
+\item review methods in literature\\
+\label{sec-3.2.2.1}%
+\item proposed trick\\
+\label{sec-3.2.2.2}%
+\item our method (useful when periodic boundaries)\\
+\label{sec-3.2.2.3}%
+\item estimated algorithmic complexity\\
+\label{sec-3.2.2.4}%
+\end{itemize} % ends low level
+\subsection{simulation details}
+\label{sec-3.2.3}
+\begin{itemize}
+
+\item autocorrelation time / independence\\
+\label{sec-3.2.3.1}%
+\item scaling methods\\
+\label{sec-3.2.3.2}%
+\end{itemize} % ends low level
+\section{Results}
+\label{sec-3.3}
+\subsection{2D q=1,2,3,4}
+\label{sec-3.3.1}
+\subsection{3D q=1,2}
+\label{sec-3.3.2}
+\subsection{4D q=2}
+\label{sec-3.3.3}
+\chapter{Phase Transitions in Computational Complexity}
+\label{sec-4}
+\section{Background}
+\label{sec-4.1}
+\subsection{Constraint Satisfaction Problems (CSP)}
+\label{sec-4.1.1}
+\begin{itemize}
+
+\item Examples
+\label{sec-4.1.1.1}%
+\begin{itemize}
+
+\item kSAT\\
+\label{sec-4.1.1.1.1}%
+\item Graph-coloring\\
+\label{sec-4.1.1.1.2}%
+\item Spin models\\
+\label{sec-4.1.1.1.3}%
+\item error-correcting codes\\
+\label{sec-4.1.1.1.4}%
+\end{itemize} % ends low level
+
+\item Observation of threshold behavior in CSP\\
+\label{sec-4.1.1.2}%
+\item Difficulties in tackling phase behavior of CSP\\
+\label{sec-4.1.1.3}%
+\end{itemize} % ends low level
+\subsection{Proposal: study complexity of percolation model}
+\label{sec-4.1.2}
+\section{Percolation}
+\label{sec-4.2}
+\subsection{The Model}
+\label{sec-4.2.1}
+\subsection{Background / applications}
+\label{sec-4.2.2}
+\section{PRAM}
+\label{sec-4.3}
+\subsection{Applications in comp sci}
+\label{sec-4.3.1}
+\subsection{PRIORITY CRCW}
+\label{sec-4.3.2}
+\section{Parallel Algorithm for Percolation}
+\label{sec-4.4}
+\section{Results}
+\label{sec-4.5}
+\subsection{D$_2$ vs. p for several system sizes L}
+\label{sec-4.5.1}
+\subsection{log(D$_2$) vs. log(L)}
+\label{sec-4.5.2}
+\subsection{Distribution of cluster sizes}
+\label{sec-4.5.3}
+\begin{itemize}
+
+\item logarithmic or power law? (power law --> algorithm will often fail)\\
+\label{sec-4.5.3.1}%
+\end{itemize} % ends low level
+
+\end{document}

@@ -1,0 +1,183 @@
+* Melting A
+** Background re: melting
+*** Review of theories of melting, 3D, 2D, bulk
+**** 3D crystallites w/ stable surfaces melt from within via Born melting
+In this case, melting can be viewed as nucleation and growth of fluid phase within the solid.
+**** 2D large crystallites melt by two-step process via hexatic phase
+**** 2D finite crystallites melt from perimeter
+***** if melt from perimeter, dN/dt goes as $N^{1/2}$
+*** Expectations for 2D finite crystallites    
+** Experiment of Savage et. al
+*** Setup
+*** Tuneable Depletion potential
+*** Results
+**** N vs. t
+**** $< psi6 >^2$ vs. N
+**** $C_6$ vs. N, by layer
+**** No dependence of fast-melting feature on initial cluster size or melting rate
+** Simulations
+*** Motivation
+**** Rule out any hydrodynamic effects causing fast-melting
+**** Determine whether range of potential plays role in fast melting
+*** Justification for using Brownian dynamics
+*** GROMACS Simulations
+**** Brownian dynamics option
+**** Equation of motion: 
+***** $\frac{d^2 r_i}{dt^2}  = - \sum_j \frac{\partial{U(r_{ij})}}{{\partial r}}  - \Gamma  \frac{d r_i}{dt} + W_i (t)$
+      where $r_i$ denotes the position of the center of mass of a particle $i$, $\Gamma$ is the single-particle friction coefficient and $W_i$ is a Gaussian-distributed random force with zero mean and variance in accordance with the fluctuation-dissipation relation.  This scheme ignores hydrodynamic interactions. For all simulations, $\Gamma=40.0$ in GROMACS units, and periodic boundary conditions were employed. Although GROMACS simulates particle dynamics in three dimensions (3D), a quasi-2D system was created by applying a large harmonic potential along the third dimension using the Òposition restraintÓ option. All simulations began with an `equilibrium' configuration that resulted from running the simulation for a very large number of timesteps such that the trace of N vs. t settled to a constant.
+**** Interparticle 'depletion' potential
+***** Mimics that in experiment
+***** $U(r)=0$ for $r > r_0$
+***** $U(r)=4/(10r-9)^{12} -  400 a_0 (r-r_0)^2$ for $r \le r_0$
+with the first term resembling hard sphere repulsion and the second term  representing a two-body depletion potential. The parameters $a_0=1.0$ and $r_0=1.1$ were chosen to allow for  a potential with a narrow width compared to the particle diameter. This potential has an effective particle diameter $\sigma=1.0$,  a width equal to $0.1$ and an equilibrium inter-particle spacing $a \approx 1.01637$
+**** Temperature
+**** Effective well depth: $3.5 k_B T$
+**** Time step: $2.5 \times 10^{-5}$ (in GROMACS time units)
+**** $N=100$ particles
+**** periodic box of size $L = 18.0 \sigma$
+**** particle area fraction of $24\%$
+
+*** Simulated Depletion Potential
+**** A-O Model
+**** Lennard-Jones repulsion, to avoid discontinuity in simulation
+**** Mimics that in experiment
+**** $U(r)=0$ for $r > r_0$
+**** $U(r)=4/(10r-9)^{12} -  400 a_0 (r-r_0)^2$ for $r \le r_0$
+with the first term resembling hard sphere repulsion and the second term  representing a two-body depletion potential. The parameters $a_0=1.0$ and $r_0=1.1$ were chosen to allow for  a potential with a narrow width compared to the particle diameter. This potential has an effective particle diameter $\sigma=1.0$,  a width equal to $0.1$ and an equilibrium inter-particle spacing $a \approx 1.01637$
+
+*** Simulated Lennard-Jones Potential
+*** Results
+**** N vs. t
+**** $< psi6 >^2$ vs. N
+**** $C_6$ vs. N, by layer
+**** mean-square fluctuations in bond lengths
+**** N vs. t for Lennard-Jones potential
+**** Phase diagram showing lack of fluid phase with short-range potential
+*** Discussion
+* Melting B
+** Background
+*** Colloids: macroscopic system analogous to atomic system
+**** similarites:
+***** some phase behavior and phase transitions
+***** can investiage atomic behavior via analogy
+**** differences:
+***** novel phases and phase behavior
+***** superheated metastable states
+***** interparticle potential readily modified
+****** short-range repulsion, long-range repulsion, short-range repulsion and long-range attraction
+*** Experiment by Savage et. al: novel melting kinetics
+**** system: hard spheres with short-range attraction (relative to diameter)
+**** experiment details
+**** two-stage melting process
+***** first melts from perimeter until reaches critical size
+***** then breaks up into dense amorphous phase, which is unstable and rapidly evaporates
+***** crossover occurs at typical 'magic size'
+***** experiments: magic size ~ 20-30 particles
+***** simulations: magic size ~ 40-50 particles
+***** little dependence on temperature in experiment
+***** (?) no dependence on temp in simulation?
+**** Several possible explanations are ruled out:
+***** 'fast melting' behavior means rate not limited by thermal breaking of bonds
+****** (since this would go as $N^(1/2)$
+***** density decreases as crystallites shrink: melting kinetics not governed by surface tension
+****** (?) does this contradict lacoste's argument?
+****** (?) can i get data re: surface tension from tony, from simulations?
+***** melting behavior not history dependent
+****** no dependence on initial cluster size, melting rate in experiment
+****** (?) no dependence in simulation ?
+***** not classical nucleation of liquid within solid below critical crystal size
+****** energetically unfavorable given positive surface energy
+****** positive difference between chemical potentials of two phases
+****** (?) understand this argument, relevant equations
+*** Our hypothesis:  thermally-activated defects enhance melting rate
+**** thermal introduction of disclinations favorable after critical size
+**** presence of disclinations leads to concentration of stress
+**** stress can be released through propagation of cracks
+**** cracks propagate or not depending on range of potential
+**** short-range, 'brittle' potential allow cracks to propagate
+**** longer-range, 'ductile' potential doesn't
+**** (?) is notion of a 'crack' in a liquid droplet sensible?
+*** Evidence for hypothesis
+**** Disclinations are implicated in breakup
+***** GROMACS BD simulations, using depletion-like potential (from Part A)
+***** exhibit fast-melting (from Part A)
+***** order parameter decreases sharply (Part A)
+***** ave disclination 'charge' reaches +1 at the magic size
+**** Disclinations and two-stage melting affected by range of potential
+***** Own BD simulations with screened Coulomb potential
+***** Tune range of potential, short- and long-range (lambda values?)
+***** Short-range: x percent fast melting; long-range: y percent fast melting; $x>>y$
+*** Background Theory
+**** Energy cost for creating a disclination
+***** Assume flate 2D membrane w/ Young's modulus Y, etc
+***** Ref (10), (11)
+**** Griffith criterion for spontaneous crack propagation
+***** Assume crack of length, l
+***** Potential energy of the sheet, $V$
+***** surface enrgy per unit length, $V_o$
+***** Crack of length $\ell$
+***** Crack is perpendicular to circumferential component $\sigma_{\theta \theta}$ of the disclination induced mechanical stress
+***** Potential energy of the sheet: $V =-\frac{\pi \ell^2 {\sigma_{\theta \theta}}^2 (1-\nu^2)}{4 Y} + 2 \gamma \ell + V_0$
+***** $\nu$ is the Poisson Ratio
+***** $Y$ is the Young's modulus
+***** $\gamma$ is the surface energy per unit length
+and can be calculated from our knowledge of the interaction potential between the colloidal particles forming the crystallite.
+***** $V_0$ is the elastic energy in the absence of any cracks, or applied stres
+**** Minimize $V$, get:
+***** $\ell_c = \frac{ 4 Y \gamma}{\pi {\sigma_{\theta \theta}}^2 (1-\nu^2)}$
+***** Cracks with length $\ell \ge \ell_c$ will grow to lower their energy
+***** Cracks with length $\ell < \ell_c$ will heal
+**** 'Hoop stress': $\sigma_{\theta \theta}$
+***** Hoop stress causes cracks to open up
+***** Obtain it from Airy stress function $\chi(r)$  \cite{seung} at a distance $r$ from a positive disclination at the center of a two dimensional membrane of radius $R$ 
+***** $\chi(r) =  \frac{Y s}{8 \pi} r^2   \left ( \ln \frac{r}{R} - \frac{1}{2} \right )$
+***** The hoop stress is the circumferential component of the stress tensor $\sigma$
+***** Given by $\sigma_{\theta \theta}= \frac{\partial^2 \chi}{\partial r^2}=  \frac{Y}{12} \left(1 + \ln \frac{r}{R} \right )$.
+**** When critical crack length is ~= a lattice spacing, even a single disclination can rupture crystallite.
+This process is responsible for the rapid melting at the critical size, $N_c$.
+**** Substituting  $\sigma_{\theta \theta}$ in expression for criticla crack size, we get:
+***** $\ell_c = \frac{ 4 Y \gamma 144}{\pi (1-\nu^2) Y^2 (1+ \ln \frac{r}{R})^2} \approx \frac{576 \gamma}{\pi Y}$
+***** assuming $\nu^2 << 1$ and $r \sim R$
+***** So, when $Y >> \gamma$, the prob'l'y of the crystallite rupturing is greater.
+**** Estimation of $Y$ and $\gamma$ for our system
+***** $Y = - \frac{2}{\sqrt{3}} U^{''}(r)|_{r=a}$
+***** where $a$ is equilibrium separation between the particles forming the cluster
+***** consider a hexagonal cluster with each side of dimension $M a$
+***** distance of an interfacial line from the center of mass of the cluster is proportional to the interfacial energy of this line
+***** Therefore, $\gamma M  \frac{\sqrt{3}}{2} a  =  6 M U(a)$ becomes  $\gamma  = \frac{4\sqrt{3} U(a)}{a}$
+***** So, critical length  $\ell_c \approx  \frac{- 576 \times 6}{\pi a} \frac{U(a)}{U''(a)}$
+**** Resulting predictions:
+***** for the 'depletion' potential, $l_c=0.35 a$
+***** for screened coloumb, for the potential in Eq.(\ref{potential-brittleductile}), $l_c \approx \frac{1100}{a} \frac{\lambda^2 (a-\sigma)}{-a+\sigma+2\lambda}$ where $a=\lambda+\sigma$
+***** when  $\sigma=1$ and $\lambda=0.2$,  the critical crack length  is very large: $l_c \approx 30.6 a$
+***** when $\lambda=0.014$, the critical crack length is a fraction of the lattice spacing, {\it viz}, $l_c \approx 0.21a$
+***** Only a single net disclination required to rupture cluster for short-range potential
+**** the energy required to introduce a disclination at the center of the crystallite is $E \approx 0.0014 N U_0 (\lambda + \sigma)^2/\lambda^2$, for the potential in Eq.\ref{potential-brittleductile} 
+**** cost of introducing a disclination is $\propto 1/\lambda^2$ for  $\sigma >> \lambda$
+**** this cost increases reapidly with decreasing potential range
+**** suggests the existence of a lower bound on the range of the potential for thermal activation of disclinations
+**** These two competing effects imply that the crossover in the melting rate can arise due to the presence of disclinations only at an optimum range of values for the range of the inter-particle interaction potential
+
+** Methods
+*** Re-analyze data from GROMACS, Part A
+*** New Brownian Dynamics Simulation Code
+**** Screened Coloumb Potential
+*****  $U(r)=\frac{U_0 (r-\sigma)}{\lambda} e^{-(r-\sigma)/\lambda}$
+**** Equation of motion: $\frac{d^2 r_i}{dt^2}  = - \sum_j \frac{\partial{U(r_{ij})}}{{\partial r}}  - \Gamma  \frac{d r_i}{dt} + W_i (t)$
+where $r_i$ denotes the position of the center of mass of a particle $i$, $\Gamma$ is the single-particle friction coefficient and $W_i$ is a Gaussian-distributed random force with zero mean and variance in accordance with the fluctuation-dissipation relation.  This scheme ignores hydrodynamic interactions. For all simulations, $\Gamma=40.0$ in GROMACS units, and periodic boundary conditions were employed. Although GROMACS simulates particle dynamics in three dimensions (3D), a quasi-2D system was created by applying a large harmonic potential along the third dimension using the Òposition restraintÓ option. All simulations began with an `equilibrium' configuration that resulted from running the simulation for a very large number of timesteps such that the trace of N vs. t settled to a constant.
+**** Random number generator: Gaussian distr.
+**** Cell method for nearest neighbor determination
+**** Periodic boundary conditions
+*** Analysis methods
+**** Criterion for 'break in slope'
+**** Finding the 'melting temperature'
+**** Generating 'equilibrium' initial configurations
+**** Determining the disclination charge
+***** Voronoi, Delaunay code
+** Results / Figures
+*** N vs t
+*** Order vs. N
+*** Breakdown by layers
+*** Average disclination charge
+*** Phase diagram for various ranges of potential
+** Discussion

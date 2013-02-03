@@ -1,0 +1,121 @@
+\section{Analysis of Packings}
+\label{sec:analytics}
+
+In this section we give an analytic treatment of square packings on a torus.  We first describe a set of solutions in which the squares lie on a Bravais lattice, and then turn to more complicated cases. The density one solutions are optimal by construction, and all of the other solutions are conjectured to be optimal. The numerical results of Sec. \ref{sec:numerical} guided us to the conjectured solutions, and the fact that long simulated annealing runs consistently produced these solutions gives us some confidence that they are optimal.  Our conjectures for the first 27 values of the number of squares are summarized in Table \ref{table}.
+
+\subsection{Commensurate Bravais Lattice Solutions}
+Here we consider a class of Bravais lattice configurations that includes all of the density one packings and other solutions we have found for  $N \leq 27$.   In all of these packings the squares are lined up in rows.  For the purpose of this analysis, we assume these rows are aligned along the x-axis. Thus one of the primitive vectors of the lattice of squares is $\ax=\hat{{\bf x}}$.   The second primitive vector is taken to have the form $\ay=c \hat{{\bf x}} + d \hat{{\bf y}}$ with $-1< c <1$ and  $d\geq 1$.  The primitive vectors of the torus, $\Ax$ and $\Ay$, need not be aligned with the primitive vectors of the squares.     The requirement that the squares pack periodically on the torus is equivalent to saying that the lattice of squares is commensurate with the larger square lattice of the torus.  That is, there exist  integers $n_1$, $n_2$, $n_3$ and $n_4$ such that the torus primitive vectors $\Ax$ and $\Ay$ are given by
+\begin{eqnarray} 
+\label{eqn:Ana}
+\Ax&=& n_1 \ax + n_2 \ay \nonumber \\ 
+\Ay&=&n_3 \ax + n_4 \ay.
+\end{eqnarray}
+In addition, we require that the torus primitive vectors are of equal length,
+\begin{equation}
+\label{eqn:normal}
+|\Ax|=|\Ay| ,
+\end{equation}
+and orthogonal,
+\begin{equation}
+\label{eqn:ortho}
+\Ax \cdot \Ay = 0 .
+\end{equation}
+[ COMMENTS? ] [ HOW DO WE RECONCILE C>0 WITH FINITE ENTROPY OF PERFECT SQUARE PACKING?]
+These conditions are uniquely solved by
+\begin{eqnarray}\label{eq:gap}
+c &=& - \frac{n_1 n_2 + n_3 n_4}{n_2^2 + n_4^2}\\
+d &=& \frac{| n_1 n_4 - n_2 n_3|}{n_2^2 + n_4^2} \nonumber
+\end{eqnarray}
+The number of squares $N$ packed on the torus is the number of lattice points of the squares lattice in a unit cell of the torus lattice
+\begin{equation}
+\label{eqn:N}
+N = |n_1 n_4 - n_2 n_3|,
+\end{equation}
+and the areal density of the squares $\rho$ is given by
+\begin{equation}
+\label{ }
+\rho=N/|\Ax \times \Ay| = 1/d.
+\end{equation}
+
+\subsubsection{Density one packings}
+There are two classes of density one solutions.  The first is the perfect square packing.  Here $c=0$, $d=1$, $n_1=n_4=\sqrt{N}$ and $n_2=n_3=0$.  This simple packing is shown in Fig. \ref{fig:N9} for the case of $N=9$.  Note that on the torus, each of the $n_1$ rows (or columns, but not both) may be arbitrarily displaced relative to the other rows (columns) without disturbing density of the packing or its periodicity.  Thus, the perfect square packings have finite entropy.
+
+There is a more general class of density one packings for which the lattice of squares may be tilted with respect to the primitive vectors of the torus. Setting $d=1$ and $c=0$ in Eq. (\ref{eq:gap}), we find $N=n_2^2 + n_4^2$, $n_1=-n_4$, and $n_2 = n_3$.  The perfect square solution is the special case $n_2 = n_3 = 0$, with the square lattice oriented at an angle of $\tan^{-1}(n_2/n_1)$ relative to the torus lattice vectors.   Clearly, these density one, tilted square lattice solutions are optimal for all $N$ that are sums of two square integers.  Fig. \ref{fig:bravais} shows the case $N=10$ ($n_1=3$ and $n_2=1$).
+
+The packing has density one if and only if $N$ is a sum of two squares; and the converse of this is also true: $N$ is a sum of two squares whenever we have a density one packing of squares in the torus. To prove this, first note that every square in a $\rho=1$ packing must have at least four other squares bordering it along a finite segment length, forcing all $N$ squares to share the same orientation.  Now consider three squares in mutual contact with each other, a configuration that must exist if the packing has no gaps. Two of those squares must be aligned in a row, as shown in Fig. \ref{fig:aligned}. In order to eliminate gaps in the packing, those three squares define a set of rows that the entire packing must respect. The periodicity of periodic boundary conditions on a set of rows now ensures that $N$ can be [????] expressed as $n_2^2 + n_4^2$ via the Pythagorean theorem (see Fig. \ref{fig:gb}).
+
+\subsubsection{Density one packings with defects}
+
+The simplest way to produce candidates for a densest packing for $N=n_2^2 + n_4^2$ is to remove $k$ squares from a density one packing; indeed, our numerical results suggest that for several values of $N$, the optimal packing is a density one packing configuration with one missing square.  This is indicated in the `Comment' column in the Table using the notation $n_1^2-k$ or $n_1^2+ n_2^2-k$ depending on whether they are generated by removing $k$ squares from $N$ a square integer or a sum of two square integers respectively. Examples include $N=3$, $7$ and $15$. Note that these configurations have finite entropy since the hole(s) in the lattice can be distributed arbitrarily.
+
+[ should the notation $n_1^2-k$ or $n_1^2+ n_2^2-k$ include a -1??? or ...? For $N \leq 27$, $k=1$] (see jon's edits]
+
+%Although for small $N$, the density of sums of two squares together with perfect squares is relatively high,  it is known RAMANUJAN ETC REFERENCE that these values of $N$ have vanishing density among all positive integers. In particular the density of sums of two squares less than $n$ behaves asymptotically as $1/\sqrt{\log(n)}$. One interesting consequence of this is that $\rho=1$ packings appear with vanishing frequency as $N  \rightarrow \infty$. 
+
+%Unlike the perfect square packings, the sum of two squares packing must have all the rows of squares aligned and do not have finite entropy.
+
+\subsubsection{Bricklayer packings with gaps}
+Next we consider Bravais lattice solutions that have density less than one -- that is, $d>1$.  Because these solutions may also have  $c\neq 0$, we call these `gapped bricklayer configurations.'  An example is shown in Fig. \ref{fig:gb}(a).  The equations of (\ref{eq:gap}) allow us to ennumerate all gapped bricklayer configurations. Since the packing density of these configurations is $(n_2^2 + n_4^2)/N$, the highest packing density we can find within this class of configurations with density less than unity must numbers of the form $n_2^2 + n_4^2 = N-1$.  This requires that $N$ be one more than a sum of two squares. The first several are 2,3,6,11,14,18,26, and 27.  Based on the numerics we believe that for $N=6$, 11, 14 and 27, the gapped bricklayer packing is optimal. These are indicated in the Table with the abbreviation `GB' in the Comment column. The associated (not unique) lattice vectors are shown in the rightmost columns of the Table for the GB packings.  There are also gapped bricklayer solution for density $N-2/N$ when $N$ is two more than a sum of two squares though we have not found any candidate optimal solutions of this form for $N \leq 27$. Unlike the bravais lattice packings with density one, different rows of the gapped bricklayer solutions have a fixed shift given by $c = - (n_1 n_2 + n_3 n_4)/(n_2^2 + n_4^2)$. The denominator is the closest sum of two squares below $N$. 
+
+\subsection{Non-Bravais Lattice Packings}
+
+Here we consider special cases suggested by our numerical simulations that do not correspond to Bravais Lattice packings.
+Note: if the 'Comment' column of the Table simply repeats a value of $N$, it indicates a special case for which the squares are not on a Bravais lattice and for which there is not an obvious pattern that can be extrapolated easily to optimal packings for higher values of $N$.
+
+\subsubsection{Gapped bricklayer with domino bricks, $N=22$}
+The conjectured best packing for $N=22$ is shown in Fig. \ref{fig:n12} It is actually a gapped bricklayer configuration except that the unit cell or brick is composed of two squares stacked in the $\hat{{\bf y}}$ direction (the direction perpendicular to the rows).  Except for this difference, the configuration is identical to the $N=11$ gapped bricklayer and has density $\rho= 10/11$.
+
+\subsubsection{Lattice of $\frac{1}{2}\times\frac{1}{2}$ holes, $N=12$ and $23$}
+The conjectured best configurations for $N=12$ and 23 are shown in Figs. \ref{fig:n12} and \ref{fig:n23}, respectively.  In both cases the motif can be described as a lattice of $\frac{1}{2}\times\frac{1}{2}$ holes. It is straightforward to verify that these motifs are in fact packings on the torus and have the density $N/(N+k/4)$ where $k$ is the number of holes in the unit cell.  For $N=12$, evidently $k=2$ and for $N=23$, $k=5$. 
+
+
+\subsubsection{Lattice of skew squares embedded in a square lattice, $N=21$}
+The configuration for  $N=21$, shown in Fig.\ \ref{fig:n21}, does not follow any of the motifs described heretofore. The unit cell consists of a $4 \times 4$ square with motif of 5 squares attached to its the side.  This 5-square pattern is also the best packing of 5 squares in a square \cite{Friedman2002}.  A simple calculation yields the density, $\rho= 21/(4^2+(2+1/\sqrt{2})^2)$.  This packing has one square per unit cell tilted at 45$^{\circ}$ relative to all other squares.  This is the only example that we found for which not all of the squares in the motif are oriented in the same way. It was also the most difficult configuration for our annealing algorithm to find. 
+
+\subsection{Table of Results}
+
+To summarize: the perfect square, sum of two squares and gapped bricklayer configurations cover most of the case we have found for $N \leq 27$.  The Table gives optimal configurations (if $\rho=1$) and conjectured otpimal configurations (if $\rho<1$), for each value of  $N$ less than 28.  The column `$\rho$' is the density of the configuration. The `Comment' column describes the type of lattice.   For example, $3^2$ indicates a perfect square and $5^2-1$ indicates a perfect square with one square missing.  Similarly $3^2+1^2$ refers to the sum of two squares and `GB' stands for `gapped bricklayer.'  If a single number is in the `Comment' column it refers to one of the special cases discussed above.  The four columns `$n_1$, $n_2$, $n_3$, $n_4$' are shown if the configuration of squares is itself a Bravais lattice and these integers are the coefficients of the lattice vectors of the torus in terms of the lattice vectors of the squares as defined in (\ref{eqn:Ana}).  Only those columns needed to specify the lattice are filled in.
+
+\vspace{.3in}
+\begin{table}
+\label{table}
+\caption{Exact and conjectured closest packed configurations of squares on a torus.  Refer to the text for the meaning of the columns.}
+  \begin{tabular}{|c | c|c | c| c | r | c | c | c |}
+\hline
+% after \\ : \hline or \cline{col1-col2} \cline{col3-col4} ...
+  $N$ &$\rho$&Comment& $n_1$ & $n_2$ & $n_3$ & $n_4$  \\ \hline \hline
+   1 &1&  $1^2$ & 1&  &   &    \\ \hline 
+   2 &1&  $1^2+1^2$ &1& 1 &  &  \\ \hline
+   3 &$3/4=0.75$&  $2^2 -1$ &2&  & &   \\ \hline
+   4 &1&  $2^2$ &2& & &   \\ \hline
+   5 &1&  $2^2+1^2$ &2& 1 &    & \\ \hline
+   6 &$5/6=0.8\bar{3}$& GB &2& -1 &2 & 2   \\ \hline
+   7 &$7/8=0.875$& $2^2+2^2 -1$ &2& 2 & &     \\ \hline
+   8 &1& $2^2+2^2 $ &2& 2 & &     \\ \hline
+   9 &1&  $3^2$ &3& & &  \\ \hline
+   10 &1&  $3^2+1^2$ &3& 1 &    & \\ \hline
+   11 &$10/11=0.\overline{90}$& GB &3& 1 &-2 & 3   \\ \hline
+   12 &$24/25=0.96$& 12 && & &    \\ \hline
+   13 &1&  $3^2+2^2$ &3& 2 &    & \\ \hline
+   14 &$13/14=0.9\overline{285714}$& GB &4& 3 &-2 & 2   \\ \hline
+   15 &$15/16=0.9375$&  $4^2 -1$ &4&  & &   \\ \hline
+   16 &1&  $4^2$ &3& & &   \\ \hline
+   17 &1&  $4^2+1^2$ &4& 1 &    & \\ \hline
+   18 &1&  $3^2+3^2$ &3& 3 &    & \\ \hline
+   19 &$19/20=0.95$&  $4^2 +2^2 -1$ &4& 2 & &   \\ \hline
+   20 &1&  $4^2+2^2$ &4& 2 &    & \\ \hline
+   21 &$21/(4^2+(2+1/\sqrt{2})^2)=0.900189 \ldots$&  $21$ & &  &   &    \\ \hline 
+   22 &$10/11=0.\overline{90}$& 22 &3& 1 &-2 & 3  \\ \hline
+   23 &$92/97=0.94845 \ldots$&  $23$ & &  &   &    \\ \hline
+   24 &$24/25=0.96$&  $5^2 -1$ &5&  & &   \\ \hline
+   25 &$1$&  $5^2$ &5&  & &   \\ \hline
+   26 &1&  $4^2+3^2$ &4& 3 &    & \\ \hline
+   27 &$26/27=0.\overline{962}$& GB &2&5 &-5 & 3  \\ \hline
+
+\hline
+\end{tabular}
+\end{table}
+
+
+
+

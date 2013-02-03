@@ -1,0 +1,30 @@
+;; RefTeX parse info file
+;; File: /home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamOut1.tex
+;; User: dwblair (Don Blair)
+
+(set reftex-docstruct-symbol '(
+
+
+(xr nil "\\\\\\\\\\\\")
+
+(index-tags)
+
+(is-multi nil)
+
+(bibview-cache ("Deng2010" . "Deng etal. 2010, Some geom. crit. expon. perc., Physical Review E 81:16"))
+
+(master-dir . "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/")
+
+(label-numbers)
+
+(bof "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamOut1.tex")
+
+(toc "toc" "    1 Introduction" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamOut1.tex" nil 2 "1" "\\section{Introduction}" 121)
+
+(toc "toc" "    2 Potts Model" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamOut1.tex" nil 2 "2" "\\section{Potts Model}" 144)
+
+(bib "/home/dwblair/Dropbox/dwbdocs/physics/writing/bibfiles/combo.bib")
+
+(eof "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/diamOut1.tex")
+))
+

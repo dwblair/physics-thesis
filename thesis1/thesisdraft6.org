@@ -1,0 +1,96 @@
+#+LaTeX_CLASS: thesis
+#+STARTUP: hideblocks
+##+OPTIONS: toc:nil author:nil t:nil
+#+TITLE: Draft of diameter paper
+#+BEGIN_LaTeX:
+\title{ \emph{Physicae Auscultationes}}
+\author{D. W. Blair}
+\date{September 2010}
+
+\copyrightyear{2010}
+\bachelors{B.Sc.}{University of Massachusetts Amherst}
+\masters{M.Sc.}{University of Massachusettds Amherst}
+%\secondmasters{M.Ed.}{Antioch College}
+%\priordoctorate{M.D.}{University of Never-never-land}
+% \committeechair{B. B. Bahh}
+\cochairs{B. B. Bahh}{I. M. A. Wolf}
+\firstreader{Little Bo Peep}
+\secondreader{R. U. Sheepish}
+\thirdreader{Bill Shepherd}
+\fourthreader{Mary Lamb}   % Optional
+%\fifthreader{}            % Optional
+%\sixthreader{}            % Optional
+\departmentchair{Don Candela}
+\departmentname{Physics Department}
+
+
+%\frontmatter
+%\maketitle
+%\copyrightpage
+%\signaturepage
+
+
+%\begin{dedication}
+%  \begin{center}
+%    \emph{To those little lost sheep.}
+%  \end{center}
+%\end{dedication}
+
+%\chapter{Acknowledgments}
+%Acknowledgements.
+
+%\begin{abstract} 
+%Test of abstract
+%\end{abstract}
+
+
+%\tableofcontents                % Table of contents -- ADD BACK (and uncomment 'OPTIONS' line at top) for umthesis style TOC
+%\settocdepth{subparagraph}
+
+%\listoftables                   % List of Tables -- ADD BACK IN
+%\listoffigures                  % List of Figures -- ADD BACK IN
+\mainmatter
+
+%\unnumberedchapter{Introduction}
+%Why on earth do I want to study sheep anyway?
+
+#+END_LaTeX
+
+* Melting A
+** Background re: melting
+*** Theories of melting, 3D, 2D, bulk
+**** 3D crystallites w/ stable surfaces melt from within via Born melting
+     CLOSED: [2010-07-04 Sun 15:28]
+In this case, melting can be viewed as nucleation and growth of fluid phase within the solid.
+***** or yet another structure.
+****** or even another
+**** 2D large crystallites melt by two-step process via hexatic phase
+**** 2D finite crystallites melt from perimeter
+***** if melt from perimeter, dN/dt goes as $N^{1/2}$
+*** Expectations for 2D finite crystallites    
+** Experiment of Savage et. al
+*** Setup
+*** Tuneable Depletion potential
+*** Results
+**** N vs. t
+**** $< psi6 >^2$ vs. N
+**** $C_6$ vs. N, by layer
+**** No dependence of fast-melting feature on initial cluster size or melting rate
+** Simulations
+*** Motivation
+**** Rule out any hydrodynamic effects causing fast-melting
+**** Determine whether range of potential plays role in fast melting
+**** Justification for using Brownian dynamics
+*** GROMACS Simulations
+**** Brownian dynamics option
+**** Interparticle 'depletion' potential
+***** Mimics that in experiment
+***** $U(r)=0$ for $r > r_0$
+***** $U(r)=4/(10r-9)^{12} -  400 a_0 (r-r_0)^2$ for $r \le r_0$
+with the first term resembling hard sphere repulsion and the second term  representing a two-body depletion potential. The parameters $a_0=1.0$ and $r_0=1.1$ were chosen to allow for  a potential with a narrow width compared to the particle diameter. This potential has an effective particle diameter $\sigma=1.0$,  a width equal to $0.1$ and an equilibrium inter-particle spacing $a \approx 1.01637$
+**** Temperature
+**** Effective well depth: $3.5 k_B T$
+**** Time step: $2.5 \times 10^{-5}$ (in GROMACS time units)
+**** $N=100$ particles
+**** periodic box of size $L = 18.0 \sigma$
+**** particle area fraction of $24\%$

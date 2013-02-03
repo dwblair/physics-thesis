@@ -1,0 +1,1702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+lang="en" xml:lang="en">
+<head>
+<title>Thesis</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="2012-07-11 13:55:03 EDT"/>
+<meta name="author" content="Don Blair"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  html { font-family: Times, serif; font-size: 12pt; }
+  .title  { text-align: center; }
+  .todo   { color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #add8e6; font-weight:normal }
+  .target { }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  p.verse { margin-left: 3% }
+  pre {
+	border: 1pt solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	font-family: courier, monospace;
+        font-size: 90%;
+        overflow:auto;
+  }
+  table { border-collapse: collapse; }
+  td, th { vertical-align: top; }
+  dt { font-weight: bold; }
+  div.figure { padding: 0.5em; }
+  div.figure p { text-align: center; }
+  .linenr { font-size:smaller }
+  .code-highlighted {background-color:#ffff00;}
+  .org-info-js_info-navigation { border-style:none; }
+  #org-info-js_console-label { font-size:10px; font-weight:bold;
+                               white-space:nowrap; }
+  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
+                                 font-weight:bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+
+<h1 class="title">Thesis</h1>
+
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1 Introduction </a></li>
+<li><a href="#sec-2">2 Melting A </a>
+<ul>
+<li><a href="#sec-2.1">2.1 Background re: melting </a>
+<ul>
+<li><a href="#sec-2.1.1">2.1.1 Review of theories of melting, 3D, 2D, bulk </a></li>
+<li><a href="#sec-2.1.2">2.1.2 Expectations for 2D finite crystallites </a></li>
+</ul>
+</li>
+<li><a href="#sec-2.2">2.2 Experiment of Savage et. al </a>
+<ul>
+<li><a href="#sec-2.2.1">2.2.1 Setup </a></li>
+<li><a href="#sec-2.2.2">2.2.2 Tuneable Depletion potential </a></li>
+<li><a href="#sec-2.2.3">2.2.3 Results </a></li>
+</ul>
+</li>
+<li><a href="#sec-2.3">2.3 Simulations </a>
+<ul>
+<li><a href="#sec-2.3.1">2.3.1 Motivation </a></li>
+<li><a href="#sec-2.3.2">2.3.2 Justification for using Brownian dynamics </a></li>
+<li><a href="#sec-2.3.3">2.3.3 GROMACS Simulations </a></li>
+<li><a href="#sec-2.3.4">2.3.4 Simulated Depletion Potential </a></li>
+<li><a href="#sec-2.3.5">2.3.5 Simulated Lennard-Jones Potential </a></li>
+<li><a href="#sec-2.3.6">2.3.6 Results </a></li>
+<li><a href="#sec-2.3.7">2.3.7 Discussion </a></li>
+</ul></li>
+</ul>
+</li>
+<li><a href="#sec-3">3 Melting B </a>
+<ul>
+<li><a href="#sec-3.1">3.1 Background </a>
+<ul>
+<li><a href="#sec-3.1.1">3.1.1 Colloids: macroscopic system analogous to atomic system </a></li>
+<li><a href="#sec-3.1.2">3.1.2 Experiment by Savage et. al: novel melting kinetics </a></li>
+<li><a href="#sec-3.1.3">3.1.3 Our hypothesis:  thermally-activated defects enhance melting rate </a></li>
+<li><a href="#sec-3.1.4">3.1.4 Evidence for hypothesis </a></li>
+<li><a href="#sec-3.1.5">3.1.5 Background Theory </a></li>
+</ul>
+</li>
+<li><a href="#sec-3.2">3.2 Methods </a>
+<ul>
+<li><a href="#sec-3.2.1">3.2.1 Re-analyze data from GROMACS, Part A </a></li>
+<li><a href="#sec-3.2.2">3.2.2 New Brownian Dynamics Simulation Code </a></li>
+<li><a href="#sec-3.2.3">3.2.3 Analysis methods </a></li>
+</ul>
+</li>
+<li><a href="#sec-3.3">3.3 Results / Figures </a>
+<ul>
+<li><a href="#sec-3.3.1">3.3.1 N vs t </a></li>
+<li><a href="#sec-3.3.2">3.3.2 Order vs. N </a></li>
+<li><a href="#sec-3.3.3">3.3.3 Breakdown by layers </a></li>
+<li><a href="#sec-3.3.4">3.3.4 Average disclination charge </a></li>
+<li><a href="#sec-3.3.5">3.3.5 Phase diagram for various ranges of potential </a></li>
+</ul>
+</li>
+<li><a href="#sec-3.4">3.4 Discussion </a></li>
+</ul>
+</li>
+<li><a href="#sec-4">4 Diameter of Random Clusters </a>
+<ul>
+<li><a href="#sec-4.1">4.1 Introduction </a>
+<ul>
+<li><a href="#sec-4.1.1">4.1.1 Potts Model \cite{Wu82} </a></li>
+<li><a href="#sec-4.1.2">4.1.2 Chemical Distance </a></li>
+<li><a href="#sec-4.1.3">4.1.3 Diameter </a></li>
+</ul>
+</li>
+<li><a href="#sec-4.2">4.2 Methods </a>
+<ul>
+<li><a href="#sec-4.2.1">4.2.1 Swendesen-Wang Algorithm </a></li>
+<li><a href="#sec-4.2.2">4.2.2 Determining the Chem Distance and Diameter </a></li>
+<li><a href="#sec-4.2.3">4.2.3 Procedure for $q&gt;1$ </a></li>
+<li><a href="#sec-4.2.4">4.2.4 Procedure for $q&gt;1$ </a></li>
+<li><a href="#sec-4.2.5">4.2.5 Simulation Details </a></li>
+</ul>
+</li>
+<li><a href="#sec-4.3">4.3 Data Analysis </a></li>
+<li><a href="#sec-4.4">4.4 Results and Discussion </a></li>
+</ul>
+</li>
+<li><a href="#sec-5">5 Phase Transitions in Computational Complexity </a>
+<ul>
+<li><a href="#sec-5.1">5.1 Background </a>
+<ul>
+<li><a href="#sec-5.1.1">5.1.1 Constraint Satisfaction Problems (CSP) </a></li>
+<li><a href="#sec-5.1.2">5.1.2 Proposal: study complexity of percolation model </a></li>
+</ul>
+</li>
+<li><a href="#sec-5.2">5.2 Percolation </a>
+<ul>
+<li><a href="#sec-5.2.1">5.2.1 The Model </a></li>
+<li><a href="#sec-5.2.2">5.2.2 Background / applications </a></li>
+</ul>
+</li>
+<li><a href="#sec-5.3">5.3 PRAM </a>
+<ul>
+<li><a href="#sec-5.3.1">5.3.1 Applications in comp sci </a></li>
+<li><a href="#sec-5.3.2">5.3.2 PRIORITY CRCW </a></li>
+</ul>
+</li>
+<li><a href="#sec-5.4">5.4 Parallel Algorithm for Percolation </a></li>
+<li><a href="#sec-5.5">5.5 Results </a>
+<ul>
+<li><a href="#sec-5.5.1">5.5.1 D<sub>2</sub> vs. p for several system sizes L </a></li>
+<li><a href="#sec-5.5.2">5.5.2 log(D<sub>2</sub>) vs. log(L) </a></li>
+<li><a href="#sec-5.5.3">5.5.3 Distribution of cluster sizes </a></li>
+</ul>
+</li>
+<li><a href="#sec-5.6">5.6 Discussion </a></li>
+</ul>
+</li>
+<li><a href="#sec-6">6 Packing Squares in a Torus </a>
+<ul>
+<li><a href="#sec-6.1">6.1 Background </a>
+<ul>
+<li><a href="#sec-6.1.1">6.1.1 Polygon packing problems </a></li>
+<li><a href="#sec-6.1.2">6.1.2 Square packing </a></li>
+<li><a href="#sec-6.1.3">6.1.3 Periodic potentials and packings of hard objects </a></li>
+</ul>
+</li>
+<li><a href="#sec-6.2">6.2 Theory </a>
+<ul>
+<li><a href="#sec-6.2.1">6.2.1 Commensurate Bravais Lattice Solutions </a></li>
+<li><a href="#sec-6.2.2">6.2.2 Non-Bravais Lattice Packings </a></li>
+</ul>
+</li>
+<li><a href="#sec-6.3">6.3 Numerical methods </a>
+<ul>
+<li><a href="#sec-6.3.1">6.3.1 Monte Carlo, NPT ensemble </a></li>
+<li><a href="#sec-6.3.2">6.3.2 Related hard particle simulation techniques </a></li>
+<li><a href="#sec-6.3.3">6.3.3 Simulated Annealing </a></li>
+<li><a href="#sec-6.3.4">6.3.4 Population Annealing </a></li>
+<li><a href="#sec-6.3.5">6.3.5 Equilibration procedure </a></li>
+<li><a href="#sec-6.3.6">6.3.6 Performance </a></li>
+<li><a href="#sec-6.3.7">6.3.7 Libraries / tools used </a></li>
+<li><a href="#sec-6.3.8">6.3.8 Visualization </a></li>
+</ul>
+</li>
+<li><a href="#sec-6.4">6.4 Results / Figures / Table of Results </a></li>
+<li><a href="#sec-6.5">6.5 Discussion / Open Questions </a>
+<ul>
+<li><a href="#sec-6.5.1">6.5.1 Overview of results </a></li>
+<li><a href="#sec-6.5.2">6.5.2 Frequency of density one packings </a></li>
+<li><a href="#sec-6.5.3">6.5.3 Packing density approaches 1 as N goes to infinity </a></li>
+<li><a href="#sec-6.5.4">6.5.4 Contributions to the entropy </a></li>
+<li><a href="#sec-6.5.5">6.5.5 Predicting likely configurations using the entropy </a></li>
+<li><a href="#sec-6.5.6">6.5.6 Thermodynamic limit preserves rotational symmetry </a></li>
+<li><a href="#sec-6.5.7">6.5.7 Open questions </a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Introduction </h2>
+<div class="outline-text-2" id="text-1">
+
+
+<p>
+The introduction can be a brief overview of everything that has been done.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> Melting A </h2>
+<div class="outline-text-2" id="text-2">
+
+
+</div>
+
+<div id="outline-container-2.1" class="outline-3">
+<h3 id="sec-2.1"><span class="section-number-3">2.1</span> Background re: melting </h3>
+<div class="outline-text-3" id="text-2.1">
+
+
+</div>
+
+<div id="outline-container-2.1.1" class="outline-4">
+<h4 id="sec-2.1.1"><span class="section-number-4">2.1.1</span> Review of theories of melting, 3D, 2D, bulk </h4>
+<div class="outline-text-4" id="text-2.1.1">
+
+<ul>
+<li id="sec-2.1.1.1">3D crystallites w/ stable surfaces melt from within via Born melting <br/>
+In this case, melting can be viewed as nucleation and growth of fluid phase within the solid.
+</li>
+<li id="sec-2.1.1.2">2D large crystallites melt by two-step process via hexatic phase <br/>
+</li>
+<li id="sec-2.1.1.3">2D finite crystallites melt from perimeter <br/>
+<ul>
+<li id="sec-2.1.1.3.1">if melt from perimeter, dN/dt goes as $N<sup>1/2</sup>$ <br/>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-2.1.2" class="outline-4">
+<h4 id="sec-2.1.2"><span class="section-number-4">2.1.2</span> Expectations for 2D finite crystallites </h4>
+<div class="outline-text-4" id="text-2.1.2">
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-2.2" class="outline-3">
+<h3 id="sec-2.2"><span class="section-number-3">2.2</span> Experiment of Savage et. al </h3>
+<div class="outline-text-3" id="text-2.2">
+
+
+</div>
+
+<div id="outline-container-2.2.1" class="outline-4">
+<h4 id="sec-2.2.1"><span class="section-number-4">2.2.1</span> Setup </h4>
+<div class="outline-text-4" id="text-2.2.1">
+
+</div>
+
+</div>
+
+<div id="outline-container-2.2.2" class="outline-4">
+<h4 id="sec-2.2.2"><span class="section-number-4">2.2.2</span> Tuneable Depletion potential </h4>
+<div class="outline-text-4" id="text-2.2.2">
+
+</div>
+
+</div>
+
+<div id="outline-container-2.2.3" class="outline-4">
+<h4 id="sec-2.2.3"><span class="section-number-4">2.2.3</span> Results </h4>
+<div class="outline-text-4" id="text-2.2.3">
+
+<ul>
+<li id="sec-2.2.3.1">N vs. t <br/>
+</li>
+<li id="sec-2.2.3.2">$&lt; psi6 &gt;<sup>2</sup>$ vs. N <br/>
+</li>
+<li id="sec-2.2.3.3">$C<sub>6</sub>$ vs. N, by layer <br/>
+</li>
+<li id="sec-2.2.3.4">No dependence of fast-melting feature on initial cluster size or melting rate <br/>
+</li>
+</ul>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-2.3" class="outline-3">
+<h3 id="sec-2.3"><span class="section-number-3">2.3</span> Simulations </h3>
+<div class="outline-text-3" id="text-2.3">
+
+
+</div>
+
+<div id="outline-container-2.3.1" class="outline-4">
+<h4 id="sec-2.3.1"><span class="section-number-4">2.3.1</span> Motivation </h4>
+<div class="outline-text-4" id="text-2.3.1">
+
+<ul>
+<li id="sec-2.3.1.1">Rule out any hydrodynamic effects causing fast-melting <br/>
+</li>
+<li id="sec-2.3.1.2">Determine whether range of potential plays role in fast melting <br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-2.3.2" class="outline-4">
+<h4 id="sec-2.3.2"><span class="section-number-4">2.3.2</span> Justification for using Brownian dynamics </h4>
+<div class="outline-text-4" id="text-2.3.2">
+
+</div>
+
+</div>
+
+<div id="outline-container-2.3.3" class="outline-4">
+<h4 id="sec-2.3.3"><span class="section-number-4">2.3.3</span> GROMACS Simulations </h4>
+<div class="outline-text-4" id="text-2.3.3">
+
+<ul>
+<li id="sec-2.3.3.1">Brownian dynamics option <br/>
+</li>
+<li id="sec-2.3.3.2">Equation of motion: <br/>
+<ul>
+<li id="sec-2.3.3.2.1">$\frac{d<sup>2</sup> r<sub>i</sub>}{dt<sup>2</sup>}  = - &sum;<sub>j</sub> \frac{&part;{U(r<sub>ij</sub>)}}{{&part; r}}  - &Gamma;  \frac{d r<sub>i</sub>}{dt} + W<sub>i</sub> (t)$ <br/>
+where $r<sub>i</sub>$ denotes the position of the center of mass of a particle $i$, $&Gamma;$ is the single-particle friction coefficient and $W<sub>i</sub>$ is a Gaussian-distributed random force with zero mean and variance in accordance with the fluctuation-dissipation relation.  This scheme ignores hydrodynamic interactions. For all simulations, $&Gamma;=40.0$ in GROMACS units, and periodic boundary conditions were employed. Although GROMACS simulates particle dynamics in three dimensions (3D), a quasi-2D system was created by applying a large harmonic potential along the third dimension using the Òposition restraintÓ option. All simulations began with an `equilibrium' configuration that resulted from running the simulation for a very large number of timesteps such that the trace of N vs. t settled to a constant.
+</li>
+</ul>
+</li>
+<li id="sec-2.3.3.3">Interparticle 'depletion' potential <br/>
+<ul>
+<li id="sec-2.3.3.3.1">Mimics that in experiment <br/>
+</li>
+<li id="sec-2.3.3.3.2">$U(r)=0$ for $r &gt; r<sub>0</sub>$ <br/>
+</li>
+<li id="sec-2.3.3.3.3">$U(r)=4/(10r-9)<sup>12</sup> -  400 a<sub>0</sub> (r-r<sub>0</sub>)<sup>2</sup>$ for $r &le; r<sub>0</sub>$ <br/>
+with the first term resembling hard sphere repulsion and the second term  representing a two-body depletion potential. The parameters $a<sub>0</sub>=1.0$ and $r<sub>0</sub>=1.1$ were chosen to allow for  a potential with a narrow width compared to the particle diameter. This potential has an effective particle diameter $&sigma;=1.0$,  a width equal to $0.1$ and an equilibrium inter-particle spacing $a &asymp; 1.01637$
+</li>
+</ul>
+</li>
+<li id="sec-2.3.3.4">Temperature <br/>
+</li>
+<li id="sec-2.3.3.5">Effective well depth: $3.5 k<sub>B</sub> T$ <br/>
+</li>
+<li id="sec-2.3.3.6">Time step: $2.5 &times; 10<sup>-5</sup>$ (in GROMACS time units) <br/>
+</li>
+<li id="sec-2.3.3.7">$N=100$ particles <br/>
+</li>
+<li id="sec-2.3.3.8">periodic box of size $L = 18.0 &sigma;$ <br/>
+</li>
+<li id="sec-2.3.3.9">particle area fraction of $24\%$ <br/>
+
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-2.3.4" class="outline-4">
+<h4 id="sec-2.3.4"><span class="section-number-4">2.3.4</span> Simulated Depletion Potential </h4>
+<div class="outline-text-4" id="text-2.3.4">
+
+<ul>
+<li id="sec-2.3.4.1">A-O Model <br/>
+</li>
+<li id="sec-2.3.4.2">Lennard-Jones repulsion, to avoid discontinuity in simulation <br/>
+</li>
+<li id="sec-2.3.4.3">Mimics that in experiment <br/>
+</li>
+<li id="sec-2.3.4.4">$U(r)=0$ for $r &gt; r<sub>0</sub>$ <br/>
+</li>
+<li id="sec-2.3.4.5">$U(r)=4/(10r-9)<sup>12</sup> -  400 a<sub>0</sub> (r-r<sub>0</sub>)<sup>2</sup>$ for $r &le; r<sub>0</sub>$ <br/>
+with the first term resembling hard sphere repulsion and the second term  representing a two-body depletion potential. The parameters $a<sub>0</sub>=1.0$ and $r<sub>0</sub>=1.1$ were chosen to allow for  a potential with a narrow width compared to the particle diameter. This potential has an effective particle diameter $&sigma;=1.0$,  a width equal to $0.1$ and an equilibrium inter-particle spacing $a &asymp; 1.01637$
+
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-2.3.5" class="outline-4">
+<h4 id="sec-2.3.5"><span class="section-number-4">2.3.5</span> Simulated Lennard-Jones Potential </h4>
+<div class="outline-text-4" id="text-2.3.5">
+
+</div>
+
+</div>
+
+<div id="outline-container-2.3.6" class="outline-4">
+<h4 id="sec-2.3.6"><span class="section-number-4">2.3.6</span> Results </h4>
+<div class="outline-text-4" id="text-2.3.6">
+
+<ul>
+<li id="sec-2.3.6.1">N vs. t <br/>
+</li>
+<li id="sec-2.3.6.2">$&lt; psi6 &gt;<sup>2</sup>$ vs. N <br/>
+</li>
+<li id="sec-2.3.6.3">$C<sub>6</sub>$ vs. N, by layer <br/>
+</li>
+<li id="sec-2.3.6.4">mean-square fluctuations in bond lengths <br/>
+</li>
+<li id="sec-2.3.6.5">N vs. t for Lennard-Jones potential <br/>
+</li>
+<li id="sec-2.3.6.6">Phase diagram showing lack of fluid phase with short-range potential <br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-2.3.7" class="outline-4">
+<h4 id="sec-2.3.7"><span class="section-number-4">2.3.7</span> Discussion </h4>
+<div class="outline-text-4" id="text-2.3.7">
+
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> Melting B </h2>
+<div class="outline-text-2" id="text-3">
+
+
+</div>
+
+<div id="outline-container-3.1" class="outline-3">
+<h3 id="sec-3.1"><span class="section-number-3">3.1</span> Background </h3>
+<div class="outline-text-3" id="text-3.1">
+
+
+</div>
+
+<div id="outline-container-3.1.1" class="outline-4">
+<h4 id="sec-3.1.1"><span class="section-number-4">3.1.1</span> Colloids: macroscopic system analogous to atomic system </h4>
+<div class="outline-text-4" id="text-3.1.1">
+
+<ul>
+<li id="sec-3.1.1.1">similarites: <br/>
+<ul>
+<li id="sec-3.1.1.1.1">some phase behavior and phase transitions <br/>
+</li>
+<li id="sec-3.1.1.1.2">can investiage atomic behavior via analogy <br/>
+</li>
+</ul>
+</li>
+<li id="sec-3.1.1.2">differences: <br/>
+<ul>
+<li id="sec-3.1.1.2.1">novel phases and phase behavior <br/>
+</li>
+<li id="sec-3.1.1.2.2">superheated metastable states <br/>
+</li>
+<li id="sec-3.1.1.2.3">interparticle potential readily modified <br/>
+<ul>
+<li id="sec-3.1.1.2.3.1">short-range repulsion, long-range repulsion, short-range repulsion and long-range attraction <br/>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-3.1.2" class="outline-4">
+<h4 id="sec-3.1.2"><span class="section-number-4">3.1.2</span> Experiment by Savage et. al: novel melting kinetics </h4>
+<div class="outline-text-4" id="text-3.1.2">
+
+<ul>
+<li id="sec-3.1.2.1">system: hard spheres with short-range attraction (relative to diameter) <br/>
+</li>
+<li id="sec-3.1.2.2">experiment details <br/>
+</li>
+<li id="sec-3.1.2.3">two-stage melting process <br/>
+<ul>
+<li id="sec-3.1.2.3.1">first melts from perimeter until reaches critical size <br/>
+</li>
+<li id="sec-3.1.2.3.2">then breaks up into dense amorphous phase, which is unstable and rapidly evaporates <br/>
+</li>
+<li id="sec-3.1.2.3.3">crossover occurs at typical 'magic size' <br/>
+</li>
+<li id="sec-3.1.2.3.4">experiments: magic size ~ 20-30 particles <br/>
+</li>
+<li id="sec-3.1.2.3.5">simulations: magic size ~ 40-50 particles <br/>
+</li>
+<li id="sec-3.1.2.3.6">little dependence on temperature in experiment <br/>
+</li>
+<li id="sec-3.1.2.3.7">(?) no dependence on temp in simulation? <br/>
+</li>
+</ul>
+</li>
+<li id="sec-3.1.2.4">Several possible explanations are ruled out: <br/>
+<ul>
+<li id="sec-3.1.2.4.1">'fast melting' behavior means rate not limited by thermal breaking of bonds <br/>
+<ul>
+<li id="sec-3.1.2.4.1.1">(since this would go as $N<sup>(1/2)</sup>$ <br/>
+</li>
+</ul>
+</li>
+<li id="sec-3.1.2.4.2">density decreases as crystallites shrink: melting kinetics not governed by surface tension <br/>
+<ul>
+<li id="sec-3.1.2.4.2.1">(?) does this contradict lacoste's argument? <br/>
+</li>
+<li id="sec-3.1.2.4.2.2">(?) can i get data re: surface tension from tony, from simulations? <br/>
+</li>
+</ul>
+</li>
+<li id="sec-3.1.2.4.3">melting behavior not history dependent <br/>
+<ul>
+<li id="sec-3.1.2.4.3.1">no dependence on initial cluster size, melting rate in experiment <br/>
+</li>
+<li id="sec-3.1.2.4.3.2">(?) no dependence in simulation ? <br/>
+</li>
+</ul>
+</li>
+<li id="sec-3.1.2.4.4">not classical nucleation of liquid within solid below critical crystal size <br/>
+<ul>
+<li id="sec-3.1.2.4.4.1">energetically unfavorable given positive surface energy <br/>
+</li>
+<li id="sec-3.1.2.4.4.2">positive difference between chemical potentials of two phases <br/>
+</li>
+<li id="sec-3.1.2.4.4.3">(?) understand this argument, relevant equations <br/>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-3.1.3" class="outline-4">
+<h4 id="sec-3.1.3"><span class="section-number-4">3.1.3</span> Our hypothesis:  thermally-activated defects enhance melting rate </h4>
+<div class="outline-text-4" id="text-3.1.3">
+
+<ul>
+<li id="sec-3.1.3.1">thermal introduction of disclinations favorable after critical size <br/>
+</li>
+<li id="sec-3.1.3.2">presence of disclinations leads to concentration of stress <br/>
+</li>
+<li id="sec-3.1.3.3">stress can be released through propagation of cracks <br/>
+</li>
+<li id="sec-3.1.3.4">cracks propagate or not depending on range of potential <br/>
+</li>
+<li id="sec-3.1.3.5">short-range, 'brittle' potential allow cracks to propagate <br/>
+</li>
+<li id="sec-3.1.3.6">longer-range, 'ductile' potential doesn't <br/>
+</li>
+<li id="sec-3.1.3.7">(?) is notion of a 'crack' in a liquid droplet sensible? <br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-3.1.4" class="outline-4">
+<h4 id="sec-3.1.4"><span class="section-number-4">3.1.4</span> Evidence for hypothesis </h4>
+<div class="outline-text-4" id="text-3.1.4">
+
+<ul>
+<li id="sec-3.1.4.1">Disclinations are implicated in breakup <br/>
+<ul>
+<li id="sec-3.1.4.1.1">GROMACS BD simulations, using depletion-like potential (from Part A) <br/>
+</li>
+<li id="sec-3.1.4.1.2">exhibit fast-melting (from Part A) <br/>
+</li>
+<li id="sec-3.1.4.1.3">order parameter decreases sharply (Part A) <br/>
+</li>
+<li id="sec-3.1.4.1.4">ave disclination 'charge' reaches +1 at the magic size <br/>
+</li>
+</ul>
+</li>
+<li id="sec-3.1.4.2">Disclinations and two-stage melting affected by range of potential <br/>
+<ul>
+<li id="sec-3.1.4.2.1">Own BD simulations with screened Coulomb potential <br/>
+</li>
+<li id="sec-3.1.4.2.2">Tune range of potential, short- and long-range (lambda values?) <br/>
+</li>
+<li id="sec-3.1.4.2.3">Short-range: x percent fast melting; long-range: y percent fast melting; $x&gt;&gt;y$ <br/>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-3.1.5" class="outline-4">
+<h4 id="sec-3.1.5"><span class="section-number-4">3.1.5</span> Background Theory </h4>
+<div class="outline-text-4" id="text-3.1.5">
+
+<ul>
+<li id="sec-3.1.5.1">Energy cost for creating a disclination <br/>
+<ul>
+<li id="sec-3.1.5.1.1">Assume flate 2D membrane w/ Young's modulus Y, etc <br/>
+</li>
+<li id="sec-3.1.5.1.2">Ref (10), (11) <br/>
+</li>
+</ul>
+</li>
+<li id="sec-3.1.5.2">Griffith criterion for spontaneous crack propagation <br/>
+<ul>
+<li id="sec-3.1.5.2.1">Assume crack of length, l <br/>
+</li>
+<li id="sec-3.1.5.2.2">Potential energy of the sheet, $V$ <br/>
+</li>
+<li id="sec-3.1.5.2.3">surface enrgy per unit length, $V<sub>o</sub>$ <br/>
+</li>
+<li id="sec-3.1.5.2.4">Crack of length $\ell$ <br/>
+</li>
+<li id="sec-3.1.5.2.5">Crack is perpendicular to circumferential component $&sigma;<sub>&theta; &theta;</sub>$ of the disclination induced mechanical stress <br/>
+</li>
+<li id="sec-3.1.5.2.6">Potential energy of the sheet: $V =-\frac{&pi; \ell<sup>2</sup> {&sigma;<sub>&theta; &theta;</sub>}<sup>2</sup> (1-&nu;<sup>2</sup>)}{4 Y} + 2 &gamma; \ell + V<sub>0</sub>$ <br/>
+</li>
+<li id="sec-3.1.5.2.7">$&nu;$ is the Poisson Ratio <br/>
+</li>
+<li id="sec-3.1.5.2.8">$Y$ is the Young's modulus <br/>
+</li>
+<li id="sec-3.1.5.2.9">$&gamma;$ is the surface energy per unit length <br/>
+and can be calculated from our knowledge of the interaction potential between the colloidal particles forming the crystallite.
+</li>
+<li id="sec-3.1.5.2.10">$V<sub>0</sub>$ is the elastic energy in the absence of any cracks, or applied stres <br/>
+</li>
+</ul>
+</li>
+<li id="sec-3.1.5.3">Minimize $V$, get: <br/>
+<ul>
+<li id="sec-3.1.5.3.1">$\ell<sub>c</sub> = \frac{ 4 Y &gamma;}{&pi; {&sigma;<sub>&theta; &theta;</sub>}<sup>2</sup> (1-&nu;<sup>2</sup>)}$ <br/>
+</li>
+<li id="sec-3.1.5.3.2">Cracks with length $\ell &ge; \ell<sub>c</sub>$ will grow to lower their energy <br/>
+</li>
+<li id="sec-3.1.5.3.3">Cracks with length $\ell &lt; \ell<sub>c</sub>$ will heal <br/>
+</li>
+</ul>
+</li>
+<li id="sec-3.1.5.4">'Hoop stress': $&sigma;<sub>&theta; &theta;</sub>$ <br/>
+<ul>
+<li id="sec-3.1.5.4.1">Hoop stress causes cracks to open up <br/>
+</li>
+<li id="sec-3.1.5.4.2">Obtain it from Airy stress function $&chi;(r)$  \cite{seung} at a distance $r$ from a positive disclination at the center of a two dimensional membrane of radius $R$ <br/>
+</li>
+<li id="sec-3.1.5.4.3">$&chi;(r) =  \frac{Y s}{8 &pi;} r<sup>2</sup>   \left ( ln \frac{r}{R} - \frac{1}{2} \right )$ <br/>
+</li>
+<li id="sec-3.1.5.4.4">The hoop stress is the circumferential component of the stress tensor $&sigma;$ <br/>
+</li>
+<li id="sec-3.1.5.4.5">Given by $&sigma;<sub>&theta; &theta;</sub>= \frac{&part;<sup>2</sup> &chi;}{&part; r<sup>2</sup>}=  \frac{Y}{12} \left(1 + ln \frac{r}{R} \right )$. <br/>
+</li>
+</ul>
+</li>
+<li id="sec-3.1.5.5">When critical crack length is ~= a lattice spacing, even a single disclination can rupture crystallite. <br/>
+This process is responsible for the rapid melting at the critical size, $N<sub>c</sub>$.
+</li>
+<li id="sec-3.1.5.6">Substituting  $&sigma;<sub>&theta; &theta;</sub>$ in expression for criticla crack size, we get: <br/>
+<ul>
+<li id="sec-3.1.5.6.1">$\ell<sub>c</sub> = \frac{ 4 Y &gamma; 144}{&pi; (1-&nu;<sup>2</sup>) Y<sup>2</sup> (1+ ln \frac{r}{R})<sup>2</sup>} &asymp; \frac{576 &gamma;}{&pi; Y}$ <br/>
+</li>
+<li id="sec-3.1.5.6.2">assuming $&nu;<sup>2</sup> &lt;&lt; 1$ and $r &sim; R$ <br/>
+</li>
+<li id="sec-3.1.5.6.3">So, when $Y &gt;&gt; &gamma;$, the prob'l'y of the crystallite rupturing is greater. <br/>
+</li>
+</ul>
+</li>
+<li id="sec-3.1.5.7">Estimation of $Y$ and $&gamma;$ for our system <br/>
+<ul>
+<li id="sec-3.1.5.7.1">$Y = - \frac{2}{\sqrt{3}} U<sup>''</sup>(r)|<sub>r=a</sub>$ <br/>
+</li>
+<li id="sec-3.1.5.7.2">where $a$ is equilibrium separation between the particles forming the cluster <br/>
+</li>
+<li id="sec-3.1.5.7.3">consider a hexagonal cluster with each side of dimension $M a$ <br/>
+</li>
+<li id="sec-3.1.5.7.4">distance of an interfacial line from the center of mass of the cluster is proportional to the interfacial energy of this line <br/>
+</li>
+<li id="sec-3.1.5.7.5">Therefore, $&gamma; M  \frac{\sqrt{3}}{2} a  =  6 M U(a)$ becomes  $&gamma;  = \frac{4\sqrt{3} U(a)}{a}$ <br/>
+</li>
+<li id="sec-3.1.5.7.6">So, critical length  $\ell<sub>c</sub> &asymp;  \frac{- 576 &times; 6}{&pi; a} \frac{U(a)}{U''(a)}$ <br/>
+</li>
+</ul>
+</li>
+<li id="sec-3.1.5.8">Resulting predictions: <br/>
+<ul>
+<li id="sec-3.1.5.8.1">for the 'depletion' potential, $l<sub>c</sub>=0.35 a$ <br/>
+</li>
+<li id="sec-3.1.5.8.2">for screened coloumb, for the potential in Eq.(\ref{potential-brittleductile}), $l<sub>c</sub> &asymp; \frac{1100}{a} \frac{&lambda;<sup>2</sup> (a-&sigma;)}{-a+&sigma;+2&lambda;}$ where $a=&lambda;+&sigma;$ <br/>
+</li>
+<li id="sec-3.1.5.8.3">when  $&sigma;=1$ and $&lambda;=0.2$,  the critical crack length  is very large: $l<sub>c</sub> &asymp; 30.6 a$ <br/>
+</li>
+<li id="sec-3.1.5.8.4">when $&lambda;=0.014$, the critical crack length is a fraction of the lattice spacing, {\it viz}, $l<sub>c</sub> &asymp; 0.21a$ <br/>
+</li>
+<li id="sec-3.1.5.8.5">Only a single net disclination required to rupture cluster for short-range potential <br/>
+</li>
+</ul>
+</li>
+<li id="sec-3.1.5.9">the energy required to introduce a disclination at the center of the crystallite is $E &asymp; 0.0014 N U<sub>0</sub> (&lambda; + &sigma;)<sup>2</sup>/&lambda;<sup>2</sup>$, for the potential in Eq.\ref{potential-brittleductile} <br/>
+</li>
+<li id="sec-3.1.5.10">cost of introducing a disclination is $\propto 1/&lambda;<sup>2</sup>$ for  $&sigma; &gt;&gt; &lambda;$ <br/>
+</li>
+<li id="sec-3.1.5.11">this cost increases reapidly with decreasing potential range <br/>
+</li>
+<li id="sec-3.1.5.12">suggests the existence of a lower bound on the range of the potential for thermal activation of disclinations <br/>
+</li>
+<li id="sec-3.1.5.13">These two competing effects imply that the crossover in the melting rate can arise due to the presence of disclinations only at an optimum range of values for the range of the inter-particle interaction potential <br/>
+
+</li>
+</ul>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-3.2" class="outline-3">
+<h3 id="sec-3.2"><span class="section-number-3">3.2</span> Methods </h3>
+<div class="outline-text-3" id="text-3.2">
+
+
+</div>
+
+<div id="outline-container-3.2.1" class="outline-4">
+<h4 id="sec-3.2.1"><span class="section-number-4">3.2.1</span> Re-analyze data from GROMACS, Part A </h4>
+<div class="outline-text-4" id="text-3.2.1">
+
+</div>
+
+</div>
+
+<div id="outline-container-3.2.2" class="outline-4">
+<h4 id="sec-3.2.2"><span class="section-number-4">3.2.2</span> New Brownian Dynamics Simulation Code </h4>
+<div class="outline-text-4" id="text-3.2.2">
+
+<ul>
+<li id="sec-3.2.2.1">Screened Coloumb Potential <br/>
+<ul>
+<li id="sec-3.2.2.1.1">$U(r)=\frac{U<sub>0</sub> (r-&sigma;)}{&lambda;} e<sup>-(r-&sigma;)/&lambda;</sup>$ <br/>
+</li>
+</ul>
+</li>
+<li id="sec-3.2.2.2">Equation of motion: $\frac{d<sup>2</sup> r<sub>i</sub>}{dt<sup>2</sup>}  = - &sum;<sub>j</sub> \frac{&part;{U(r<sub>ij</sub>)}}{{&part; r}}  - &Gamma;  \frac{d r<sub>i</sub>}{dt} + W<sub>i</sub> (t)$ <br/>
+where $r<sub>i</sub>$ denotes the position of the center of mass of a particle $i$, $&Gamma;$ is the single-particle friction coefficient and $W<sub>i</sub>$ is a Gaussian-distributed random force with zero mean and variance in accordance with the fluctuation-dissipation relation.  This scheme ignores hydrodynamic interactions. For all simulations, $&Gamma;=40.0$ in GROMACS units, and periodic boundary conditions were employed. Although GROMACS simulates particle dynamics in three dimensions (3D), a quasi-2D system was created by applying a large harmonic potential along the third dimension using the Òposition restraintÓ option. All simulations began with an `equilibrium' configuration that resulted from running the simulation for a very large number of timesteps such that the trace of N vs. t settled to a constant.
+</li>
+<li id="sec-3.2.2.3">Random number generator: Gaussian distr. <br/>
+</li>
+<li id="sec-3.2.2.4">Cell method for nearest neighbor determination <br/>
+</li>
+<li id="sec-3.2.2.5">Periodic boundary conditions <br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-3.2.3" class="outline-4">
+<h4 id="sec-3.2.3"><span class="section-number-4">3.2.3</span> Analysis methods </h4>
+<div class="outline-text-4" id="text-3.2.3">
+
+<ul>
+<li id="sec-3.2.3.1">Criterion for 'break in slope' <br/>
+</li>
+<li id="sec-3.2.3.2">Finding the 'melting temperature' <br/>
+</li>
+<li id="sec-3.2.3.3">Generating 'equilibrium' initial configurations <br/>
+</li>
+<li id="sec-3.2.3.4">Determining the disclination charge <br/>
+<ul>
+<li id="sec-3.2.3.4.1">Voronoi, Delaunay code <br/>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-3.3" class="outline-3">
+<h3 id="sec-3.3"><span class="section-number-3">3.3</span> Results / Figures </h3>
+<div class="outline-text-3" id="text-3.3">
+
+
+</div>
+
+<div id="outline-container-3.3.1" class="outline-4">
+<h4 id="sec-3.3.1"><span class="section-number-4">3.3.1</span> N vs t </h4>
+<div class="outline-text-4" id="text-3.3.1">
+
+</div>
+
+</div>
+
+<div id="outline-container-3.3.2" class="outline-4">
+<h4 id="sec-3.3.2"><span class="section-number-4">3.3.2</span> Order vs. N </h4>
+<div class="outline-text-4" id="text-3.3.2">
+
+</div>
+
+</div>
+
+<div id="outline-container-3.3.3" class="outline-4">
+<h4 id="sec-3.3.3"><span class="section-number-4">3.3.3</span> Breakdown by layers </h4>
+<div class="outline-text-4" id="text-3.3.3">
+
+</div>
+
+</div>
+
+<div id="outline-container-3.3.4" class="outline-4">
+<h4 id="sec-3.3.4"><span class="section-number-4">3.3.4</span> Average disclination charge </h4>
+<div class="outline-text-4" id="text-3.3.4">
+
+</div>
+
+</div>
+
+<div id="outline-container-3.3.5" class="outline-4">
+<h4 id="sec-3.3.5"><span class="section-number-4">3.3.5</span> Phase diagram for various ranges of potential </h4>
+<div class="outline-text-4" id="text-3.3.5">
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-3.4" class="outline-3">
+<h3 id="sec-3.4"><span class="section-number-3">3.4</span> Discussion </h3>
+<div class="outline-text-3" id="text-3.4">
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> Diameter of Random Clusters </h2>
+<div class="outline-text-2" id="text-4">
+
+
+</div>
+
+<div id="outline-container-4.1" class="outline-3">
+<h3 id="sec-4.1"><span class="section-number-3">4.1</span> Introduction </h3>
+<div class="outline-text-3" id="text-4.1">
+
+
+</div>
+
+<div id="outline-container-4.1.1" class="outline-4">
+<h4 id="sec-4.1.1"><span class="section-number-4">4.1.1</span> Potts Model \cite{Wu82} </h4>
+<div class="outline-text-4" id="text-4.1.1">
+
+<ul>
+<li id="sec-4.1.1.1">Generalization of Ising Model to $q$ spin states <br/>
+</li>
+<li id="sec-4.1.1.2">Applications <br/>
+<ul>
+<li id="sec-4.1.1.2.1">Conformal Field Theory <br/>
+</li>
+<li id="sec-4.1.1.2.2">Percolation Theory <br/>
+</li>
+<li id="sec-4.1.1.2.3">Knot Theory <br/>
+</li>
+<li id="sec-4.1.1.2.4">Mathematical Biology <br/>
+</li>
+<li id="sec-4.1.1.2.5">Complex Networks <br/>
+</li>
+<li id="sec-4.1.1.2.6">SLE <br/>
+</li>
+</ul>
+</li>
+<li id="sec-4.1.1.3">$H=-K \displaystyle&sum;<sub>\lb i,j r</sub> &delta;<sub>&sigma;<sub>i</sub>, &sigma;<sub>j</sub></sub>$ <br/>
+</li>
+<li id="sec-4.1.1.4">Rich phase diagram <br/>
+</li>
+<li id="sec-4.1.1.5">Mapped onto Random Cluster model for $q &ge; 0$ <br/>
+<ul>
+<li id="sec-4.1.1.5.1">$q = 1 &rarr;$ Percolation <br/>
+</li>
+<li id="sec-4.1.1.5.2">$q = 2 &rarr;$ Ising <br/>
+</li>
+</ul>
+</li>
+<li id="sec-4.1.1.6">For $q &le; 4$, the model exhibits For $q &le; 4$, the model exhibits a second-order phase transition at the critical point a second-order phase transition at the critical point <br/>
+</li>
+<li id="sec-4.1.1.7">For $q&gt;4$, the transition is first order \cite{Bax} <br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-4.1.2" class="outline-4">
+<h4 id="sec-4.1.2"><span class="section-number-4">4.1.2</span> Chemical Distance </h4>
+<div class="outline-text-4" id="text-4.1.2">
+
+<ul>
+<li id="sec-4.1.2.1">Until recently, only studied for Potts $q=1$ <br/>
+</li>
+<li id="sec-4.1.2.2">Scaling: $&lt; l &gt; \propto r<sup>d<sub>min</sub></sup>$ <br/>
+</li>
+<li id="sec-4.1.2.3">We extend study to $q=1,2,3,4$ 2D Potts Model <br/>
+</li>
+<li id="sec-4.1.2.4">Use S-W algorithm to generate bonds, clusters <br/>
+</li>
+<li id="sec-4.1.2.5">Bondscorrespond to spin correlations via Random Cluster Model <br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-4.1.3" class="outline-4">
+<h4 id="sec-4.1.3"><span class="section-number-4">4.1.3</span> Diameter </h4>
+<div class="outline-text-4" id="text-4.1.3">
+
+<ul>
+<li id="sec-4.1.3.1">$w$, which we define as the longest of all the shortest paths between sites on a cluster <br/>
+</li>
+<li id="sec-4.1.3.2">Applications / connections <br/>
+<ul>
+<li id="sec-4.1.3.2.1">maximum transport time <br/>
+</li>
+<li id="sec-4.1.3.2.2">correlation lengths <br/>
+</li>
+<li id="sec-4.1.3.2.3">scaling: $&lt; w &gt; \propto r<sup>w<sub>min</sub></sup>$ <br/>
+</li>
+</ul>
+</li>
+<li id="sec-4.1.3.3">hypothesis: $d<sub>min</sub>$ equal to $w<sub>min</sub>$ <br/>
+</li>
+<li id="sec-4.1.3.4">Algorithm <br/>
+<ul>
+<li id="sec-4.1.3.4.1">Finding all-pairs shortest paths goes as $O(N<sup>2</sup>)$ <br/>
+</li>
+<li id="sec-4.1.3.4.2">We suggest a novel, more efficient algorithm <br/>
+</li>
+</ul>
+</li>
+<li id="sec-4.1.3.5">Mean Field predictions <br/>
+<ul>
+<li id="sec-4.1.3.5.1">At or above critical dim, MFT should apply <br/>
+</li>
+<li id="sec-4.1.3.5.2">underlying graph of connected sites that form the critical cluster should be well approximated by a complete graph of n vertices <br/>
+</li>
+<li id="sec-4.1.3.5.3">complete graph:  simple graph in which every pair of vertices is connected by an edge <br/>
+</li>
+<li id="sec-4.1.3.5.4">Shown by Nachmias \cite{Nachmiasa} that diam of complete graph at criticality scales as $w(n) \propto n<sup>1/3</sup>$ <br/>
+</li>
+</ul>
+</li>
+<li id="sec-4.1.3.6">We simulate $q=2, D=4$ Potts to assess MFT predictions <br/>
+<ul>
+<li id="sec-4.1.3.6.1">Since the mapping of the complete (linear) graph to the Potts random graph in 4D is $L<sup>4</sup>=n$, $w(L) \propto L<sup>4/3</sup>$; thus, we may expect that $w<sub>min</sub>$ should equal $4/3$ for $q=2$ in $4D$. <br/>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-4.2" class="outline-3">
+<h3 id="sec-4.2"><span class="section-number-3">4.2</span> Methods </h3>
+<div class="outline-text-3" id="text-4.2">
+
+
+</div>
+
+<div id="outline-container-4.2.1" class="outline-4">
+<h4 id="sec-4.2.1"><span class="section-number-4">4.2.1</span> Swendesen-Wang Algorithm </h4>
+<div class="outline-text-4" id="text-4.2.1">
+
+<ul>
+<li id="sec-4.2.1.1">SW algorithm \cite{SwWA} used to generate statistics for models, create the bond-paths studied here <br/>
+</li>
+<li id="sec-4.2.1.2">Based on work of Fortuin and Kasteleyn \cite{FoKa} <br/>
+</li>
+<li id="sec-4.2.1.3">Procedure: <br/>
+<ul>
+<li id="sec-4.2.1.3.1">Introduce bonds with probability $p(&sigma;<sub>i</sub>,&sigma;<sub>j</sub>) = &delta;<sub>&sigma;<sub>i</sub>, &sigma;<sub>j</sub></sub> (1-e<sup>-K</sup>)$ <br/>
+</li>
+<li id="sec-4.2.1.3.2">Create clusters of bonded spins <br/>
+</li>
+<li id="sec-4.2.1.3.3">Choose one of $q$ possible spin states and assign to all sites in the cluster <br/>
+</li>
+</ul>
+</li>
+<li id="sec-4.2.1.4">Reduces critical slowing relative to algorithms that flip individaul spins \cite{NeBa99}, e.g. Metropolis algoirithm \cite{Met} <br/>
+</li>
+<li id="sec-4.2.1.5">Bonds introduced in SW algorithm correspond to correlations among spins <br/>
+</li>
+<li id="sec-4.2.1.6">We study paths along bonds in these clusters <br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-4.2.2" class="outline-4">
+<h4 id="sec-4.2.2"><span class="section-number-4">4.2.2</span> Determining the Chem Distance and Diameter </h4>
+<div class="outline-text-4" id="text-4.2.2">
+
+<ul>
+<li id="sec-4.2.2.1">Review of Previous methods <br/>
+<ul>
+<li id="sec-4.2.2.1.1">Stanley, Grassberger \cite{Gr99}, Leath, Paul \cite{Paul2001}, etc. <br/>
+</li>
+<li id="sec-4.2.2.1.2">Memory considerations, two seeds, etc. <br/>
+</li>
+</ul>
+</li>
+<li id="sec-4.2.2.2">Leath growth \cite{Leath} <br/>
+<ul>
+<li id="sec-4.2.2.2.1">using a random number generator, one assigns all the bonds associated with the seed site the status ``occupied'' or ``unoccupied'' with probability $p$ <br/>
+</li>
+<li id="sec-4.2.2.2.2">If a bond is assigned ``occupied'' status, the site to which this bond connects is deemed a ``growth site'', and is added to cluster. <br/>
+</li>
+<li id="sec-4.2.2.2.3">All the sites thus added to the cluster in this round form a ``chemical shell'' of distance $l$ from the seed site. <br/>
+</li>
+<li id="sec-4.2.2.2.4">This process is then continued for subsequent generations of growth trials, each associated with a larger chemical shell; the growth process stops naturally when one of the growth rounds generates no new growth sites. <br/>
+</li>
+<li id="sec-4.2.2.2.5">(Note: sites not added to the cluster in a particular round get another chance to be added to the cluster in subsequent rounds; but, once added, are no longer considered as possible growth sites.) <br/>
+</li>
+</ul>
+</li>
+<li id="sec-4.2.2.3">Leath growth most appropriate for what we're measuring <br/>
+<ul>
+<li id="sec-4.2.2.3.1">Can't use two-seed method; we must find all possible paths <br/>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-4.2.3" class="outline-4">
+<h4 id="sec-4.2.3"><span class="section-number-4">4.2.3</span> Procedure for $q&gt;1$ </h4>
+<div class="outline-text-4" id="text-4.2.3">
+
+<ul>
+<li id="sec-4.2.3.1">Generate a new cluster configuration using the Swendsen-Wang algorithm (see above) with periodic boundary conditions. The identification of connected clusters in this steps allows us to determine the largest cluster in the system. <br/>
+</li>
+<li id="sec-4.2.3.2">Choose a random site $s$ on this cluster as the seed site. <br/>
+</li>
+<li id="sec-4.2.3.3">Beginning with the seed site $s$, determine all sites in the largest cluster by ``growing'' along satisfied cluster bonds (this process does not change the bonds that were determined in step 1). <br/>
+</li>
+<li id="sec-4.2.3.4">The chemical shell reached in the final step of this growth process, $shell<sub>final</sub>$, is considered to be the randomly-chosen chemical distance on the largest critical cluster, and is added to our statistics for the chemical distance. <br/>
+</li>
+<li id="sec-4.2.3.5">All the $i$ sites at the end of this growth process whose nearest neighbors are all occupied are deemed to be perimeter sites, $p<sub>i</sub>$.  This set includes all of the external perimeter sites of the cluster. <br/>
+</li>
+<li id="sec-4.2.3.6">A similar Leath growth process is preformed using each of the perimeter sites as seeds, and ${shell<sub>final</sub>}<sub>i</sub>$ from each of these growth processes is stored. <br/>
+</li>
+<li id="sec-4.2.3.7">The diameter for the largest cluster is then $max\{{shell<sub>final</sub>}<sub>i\</sub>}$ <br/>
+</li>
+<li id="sec-4.2.3.8">This method for finding the diameter is an improvement over the naive $N<sup>2</sup>$ algorithm for solving the all-pairs maximum shortest path problem on the paths formed along cluster bonds. It is expected to scale as $O(pN)$, where $p$ is the number of perimeter sites on the largest critical cluster. <br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-4.2.4" class="outline-4">
+<h4 id="sec-4.2.4"><span class="section-number-4">4.2.4</span> Procedure for $q&gt;1$ </h4>
+<div class="outline-text-4" id="text-4.2.4">
+
+<ul>
+<li id="sec-4.2.4.1">For $q=1$, it is possible to grow a cluster from a seed site. <br/>
+</li>
+<li id="sec-4.2.4.2">Diameter must have its endpoints on perimeter sites <br/>
+</li>
+<li id="sec-4.2.4.3">Any ``pins'', or singly-connected paths on the external perimeter of the cluster, contain sites that can be eliminated as possible diameter endpoints <br/>
+</li>
+<li id="sec-4.2.4.4">Straightforward to show that the existence of such a ``pin'' also allows us to eliminate as candidate diameter endpoints that lie within the ``body'' of the cluster as well <br/>
+</li>
+<li id="sec-4.2.4.5">'Proof' of / argument for the algorithm: <br/>
+<ul>
+<li id="sec-4.2.4.5.1">$P$: the set of all sites on the pin $P$ <br/>
+</li>
+<li id="sec-4.2.4.5.2">let $p<sub>tip</sub>$: the site that is the outermost tip of a given pin (i.e., the site with only one nearest neighbor) and $p<sub>attach</sub>$ the site that attaches this pin to the body of the cluster (i.e., a site with more than 2 nearest neighbors) <br/>
+</li>
+<li id="sec-4.2.4.5.3">Imagine that we were to include as a candidate site in $S$ some site from $P$ that was not $p<sub>tip</sub>$, resulting in a candidate diameter $D'$; it would be immediately clear that rejecting this site in favor of $p<sub>tip</sub>$ would result in a new candidate diameter $D''&gt;D'$.  We can therefore exclude all sites in in $P$ that are closer than $p<sub>tip</sub>$ to $S$. <br/>
+</li>
+<li id="sec-4.2.4.5.4">(?) Similar considerations (PROVE THIS?) allow us to additionally exclude from $S$ all sites in $N$ that have a chemical distance from $p<sub>attach</sub>$ less than or equal to the chemical distance between $p<sub>tip</sub>$ and $p<sub>attach</sub>$ (i.e., the length of the pin). <br/>
+</li>
+<li id="sec-4.2.4.5.5">Initiate, for every site i$s$ in $S$, a ``Leath growth'' search that examines the chemical distance between along the cluster between $s$ and every other site on the cluster, terminating when all cluster sites have been examined. <br/>
+</li>
+<li id="sec-4.2.4.5.6">The maximum chemical distance found across all such searches is then $D$. <br/>
+</li>
+<li id="sec-4.2.4.5.7">We thus need only consider a relatively small proportion [quantify this proportion, on average] of cluster sites as possible diameter endpoints, greatly reducing the number of ``Leath scans'' required in order to determine the diameter exactly <br/>
+</li>
+<li id="sec-4.2.4.5.8">Note that this method does not work for periodic boundary conditions, however; we must therefore grow clusters from a seed site, retaining only those clusters that do not grow to touch the boundaries of the lattice. <br/>
+</li>
+</ul>
+</li>
+<li id="sec-4.2.4.6">Procedure <br/>
+<ul>
+<li id="sec-4.2.4.6.1">Choose a growth seed site in the center of the lattice <br/>
+</li>
+<li id="sec-4.2.4.6.2">Perform a Leath growth from this site until the cluster dies, or reaches the boundaries of the maximum lattice size of $L<sub>max</sub>$. If any cluster site borders $L<sub>max</sub>$, begin again at step 1. <br/>
+</li>
+<li id="sec-4.2.4.6.3">Identify all the perimeter sites in the cluster by choosing all sites in the final growth step that are perimeter sites (i.e., those that have less than the maximum number of allowed nearest neighbors).  In this geometry, all the sites in the final chemical shell will be external perimeter sites. <br/>
+</li>
+<li id="sec-4.2.4.6.4">Identify all the ``pins'' among these perimeter sites by performing a Leath growth from each pin site until one finds a site that is not singly-connected.  All of the sites in the ``neck'' of the pin are eliminated from consideration as diameter endpoints. <br/>
+</li>
+<li id="sec-4.2.4.6.5">Beginning from the point of attachment of the pin to the body of the cluster, continue the Leath scan until one has achieved a chemical shell equal to the distance (along sites) between the point of attachment and the end of the pin.  All of sites thus scanned are also eliminated from consideration as diameter endpoints. <br/>
+</li>
+<li id="sec-4.2.4.6.6">Perform Leath growths from all of the remaining perimeter sites $p<sub>i</sub>$, collecting the maximum chemical shells reached in each instance; the largest of these chemical shells is then the diameter of the cluster. <br/>
+</li>
+</ul>
+</li>
+<li id="sec-4.2.4.7">Comparison with 'regular' Leath growth method <br/>
+<ul>
+<li id="sec-4.2.4.7.1">We compared this method to the method described for $q&gt;1$, and found that the fraction of perimeter sites eliminated as candidates for diameter endpoints was approximately $X\%$ in our runs with $L<sub>max</sub>=XX$. <br/>
+</li>
+</ul>
+</li>
+<li id="sec-4.2.4.8">Label update procedure <br/>
+In order to determine which sites have been visited in the above-described Leath growth, we must assign each site a label.  Because resetting all $N$ labels is costly, we instead update the value of the label at each time sIn order to increase the efficiency of the algorithm
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-4.2.5" class="outline-4">
+<h4 id="sec-4.2.5"><span class="section-number-4">4.2.5</span> Simulation Details </h4>
+<div class="outline-text-4" id="text-4.2.5">
+
+<ul>
+<li id="sec-4.2.5.1">Overview <br/>
+<ul>
+<li id="sec-4.2.5.1.1">We used the Swendsen-Wang algorithm to simulate Potts Models 2D at criticality for values of $L$ between 8 and $L<sub>max</sub>$ for our  measurements of $l$, and 4 and $L<sub>max</sub>$ for our measurements of $w$.  For $q=2$ in 4D, $L$ ranged between 4 and $L<sub>max3</sub>$.  All simulations began in a random configuration. <br/>
+</li>
+</ul>
+</li>
+<li id="sec-4.2.5.2">Values of $p<sub>add</sub>$ used <br/>
+<ul>
+<li id="sec-4.2.5.2.1">For $q=1$ in 2D, $p<sub>add</sub>$ is known exactly (REF).  For $q=2,3,4$ in 2D, $p<sub>add</sub>$ = $X$ (REF), $X$ (REF), and $X$ (REF), respectively. For $q=2$ in 4D, $p<sub>add</sub>=X$ (REF). <br/>
+</li>
+</ul>
+</li>
+<li id="sec-4.2.5.3">Thermalization <br/>
+<ul>
+<li id="sec-4.2.5.3.1">For $q&gt;1$, the simulations require some time to achieve an equilibrium state, and should therefore be thermalized. Accordingly, each simulation for system size $L$ was run for at least $X &tau;<sub>int,m</sub>$ before measurements were taken, where $&tau;<sub>int,m</sub>$ was the estimated integrated autocorrelation time for the mass of the largest cluster for that value of $L$. <br/>
+</li>
+<li id="sec-4.2.5.3.2">A table of integrated autocorrelation times for the largest system sizes measured is provided (Table) <br/>
+</li>
+</ul>
+</li>
+<li id="sec-4.2.5.4">Run times <br/>
+<ul>
+<li id="sec-4.2.5.4.1">In 2D, our simulations were run for a length of $X &tau;<sub>int,m</sub>$; for measurements of $w$, and for $X  &tau;<sub>int,m</sub>$ for measurements of $l$. <br/>
+</li>
+<li id="sec-4.2.5.4.2">For our 4D, $q=2$ measurements, simulations were run for a length of $X &tau;<sub>int,m</sub>$ for our measurements of $l$. <br/>
+</li>
+<li id="sec-4.2.5.4.3">Some of our simulations consisted of a single, long run; others were the result of combining data from several runs begun from different initial random number generator seeds. <br/>
+</li>
+</ul>
+</li>
+<li id="sec-4.2.5.5">Random Number Generator <br/>
+<ul>
+<li id="sec-4.2.5.5.1">Random numbers for the simluations were generated using the Mersenne Twister method (REF:  Matsumoto + Nishimura 1998), with parameters chosen to provide a period of at least $X$ (determine this) <br/>
+
+</li>
+</ul>
+</li>
+<li id="sec-4.2.5.6">Tests of the algorithm <br/>
+<ul>
+<li id="sec-4.2.5.6.1">As a check on our simulation methods, we also measured the mass of the largest cluster for each lattice size $L$ in order to determine the fractal dimension.  The agreement betwen our values and the latest from the literature was good <br/>
+</li>
+</ul>
+</li>
+<li id="sec-4.2.5.7">CPU Time <br/>
+<ul>
+<li id="sec-4.2.5.7.1">The CPU time for simulations measuring the diameter $w$ was approximately $X L<sup>2</sup> &mu; s /$ iteration; for $l$ it was approximately $X L<sup>2</sup> &mu; s /$ iteration, when run on the <br/>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-4.3" class="outline-3">
+<h3 id="sec-4.3"><span class="section-number-3">4.3</span> Data Analysis </h3>
+<div class="outline-text-3" id="text-4.3">
+
+<ul>
+<li id="sec-4.3.1">Blocking Method <br/>
+<ul>
+<li id="sec-4.3.1.1">We used the 'blocking' method \cite{NeBa99} to extract the proper standard deviation for chemical distance and diameter from our measurements. <br/>
+</li>
+<li id="sec-4.3.1.2">This method works by clustering the measurements of the quantity $O$ into blocks of size $s$; the average of $O$ is then found for each block independently;  the standard deviation in $O$ is then taken to be the standard deviation in these block averages <br/>
+</li>
+<li id="sec-4.3.1.3">$&sigma;=\sqrt{ \frac{&lt; m<sup>2</sup> &gt; - &lt; m &gt;  <sup>2</sup>}{n-1}}$, where $n$ is the number of blocks <br/>
+</li>
+</ul>
+</li>
+<li id="sec-4.3.2">Fitting Methods <br/>
+<ul>
+<li id="sec-4.3.2.1">For $q=1,2,3$, we attempted fits using the Ans\"{a}tze $y=aL<sup>b</sup>$ and $y=aL<sup>b</sup>+L/c$, including in the fit data points down to $L$ value of $L<sub>min</sub>$, where $L<sub>min</sub>$ was the smallest value of $L$ that still yielded a reasonable goodness-of-fit value, $Q$ <br/>
+</li>
+<li id="sec-4.3.2.2">The fitting form $y=aL<sup>b</sup>$ provided the best fits for all values of $q$. <br/>
+</li>
+<li id="sec-4.3.2.3">For $q=4$, we also attempted a fit of the form $y=A+B log L$; the fit was not as good as the Ans\"{a}tz $y=aL<sup>b</sup>$. <br/>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-4.4" class="outline-3">
+<h3 id="sec-4.4"><span class="section-number-3">4.4</span> Results and Discussion </h3>
+<div class="outline-text-3" id="text-4.4">
+
+<ul>
+<li id="sec-4.4.1">Comparison, chem dist and diameter <br/>
+</li>
+<li id="sec-4.4.2">Comparison of results with those of Deng et. al <br/>
+<ul>
+<li id="sec-4.4.2.1">Our numerical results appear to match the conjecture of Deng et al. \cite{Deng2010} within error for $q=1$ and $q=2$; for $q=3$, we find [wait until results of new blocking analysis are in].  For $q=4$, we were unable to find a fit of high quality; but our results seem to support Deng et. al's conjecture <br/>
+</li>
+</ul>
+</li>
+<li id="sec-4.4.3">Discussion of systematic errors <br/>
+</li>
+</ul>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> Phase Transitions in Computational Complexity </h2>
+<div class="outline-text-2" id="text-5">
+
+
+</div>
+
+<div id="outline-container-5.1" class="outline-3">
+<h3 id="sec-5.1"><span class="section-number-3">5.1</span> Background </h3>
+<div class="outline-text-3" id="text-5.1">
+
+
+</div>
+
+<div id="outline-container-5.1.1" class="outline-4">
+<h4 id="sec-5.1.1"><span class="section-number-4">5.1.1</span> Constraint Satisfaction Problems (CSP) </h4>
+<div class="outline-text-4" id="text-5.1.1">
+
+<ul>
+<li id="sec-5.1.1.1">Examples <br/>
+<ul>
+<li id="sec-5.1.1.1.1">kSAT <br/>
+</li>
+<li id="sec-5.1.1.1.2">Graph-coloring <br/>
+</li>
+<li id="sec-5.1.1.1.3">Spin models <br/>
+</li>
+<li id="sec-5.1.1.1.4">error-correcting codes <br/>
+</li>
+</ul>
+</li>
+<li id="sec-5.1.1.2">Observation of threshold behavior in CSP <br/>
+</li>
+<li id="sec-5.1.1.3">Difficulties in tackling phase behavior of CSP <br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-5.1.2" class="outline-4">
+<h4 id="sec-5.1.2"><span class="section-number-4">5.1.2</span> Proposal: study complexity of percolation model </h4>
+<div class="outline-text-4" id="text-5.1.2">
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-5.2" class="outline-3">
+<h3 id="sec-5.2"><span class="section-number-3">5.2</span> Percolation </h3>
+<div class="outline-text-3" id="text-5.2">
+
+
+</div>
+
+<div id="outline-container-5.2.1" class="outline-4">
+<h4 id="sec-5.2.1"><span class="section-number-4">5.2.1</span> The Model </h4>
+<div class="outline-text-4" id="text-5.2.1">
+
+</div>
+
+</div>
+
+<div id="outline-container-5.2.2" class="outline-4">
+<h4 id="sec-5.2.2"><span class="section-number-4">5.2.2</span> Background / applications </h4>
+<div class="outline-text-4" id="text-5.2.2">
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-5.3" class="outline-3">
+<h3 id="sec-5.3"><span class="section-number-3">5.3</span> PRAM </h3>
+<div class="outline-text-3" id="text-5.3">
+
+
+</div>
+
+<div id="outline-container-5.3.1" class="outline-4">
+<h4 id="sec-5.3.1"><span class="section-number-4">5.3.1</span> Applications in comp sci </h4>
+<div class="outline-text-4" id="text-5.3.1">
+
+</div>
+
+</div>
+
+<div id="outline-container-5.3.2" class="outline-4">
+<h4 id="sec-5.3.2"><span class="section-number-4">5.3.2</span> PRIORITY CRCW </h4>
+<div class="outline-text-4" id="text-5.3.2">
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-5.4" class="outline-3">
+<h3 id="sec-5.4"><span class="section-number-3">5.4</span> Parallel Algorithm for Percolation </h3>
+<div class="outline-text-3" id="text-5.4">
+
+</div>
+
+</div>
+
+<div id="outline-container-5.5" class="outline-3">
+<h3 id="sec-5.5"><span class="section-number-3">5.5</span> Results </h3>
+<div class="outline-text-3" id="text-5.5">
+
+
+</div>
+
+<div id="outline-container-5.5.1" class="outline-4">
+<h4 id="sec-5.5.1"><span class="section-number-4">5.5.1</span> D<sub>2</sub> vs. p for several system sizes L </h4>
+<div class="outline-text-4" id="text-5.5.1">
+
+</div>
+
+</div>
+
+<div id="outline-container-5.5.2" class="outline-4">
+<h4 id="sec-5.5.2"><span class="section-number-4">5.5.2</span> log(D<sub>2</sub>) vs. log(L) </h4>
+<div class="outline-text-4" id="text-5.5.2">
+
+</div>
+
+</div>
+
+<div id="outline-container-5.5.3" class="outline-4">
+<h4 id="sec-5.5.3"><span class="section-number-4">5.5.3</span> Distribution of cluster sizes </h4>
+<div class="outline-text-4" id="text-5.5.3">
+
+<ul>
+<li id="sec-5.5.3.1">logarithmic or power law? (power law &ndash;&gt; algorithm will often fail) <br/>
+\bibliographystyle{plain}
+\bibliography{/home/dwblair/Dropbox/dwbdocs/physics/writing/bibfiles/combo}
+
+</li>
+</ul>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-5.6" class="outline-3">
+<h3 id="sec-5.6"><span class="section-number-3">5.6</span> Discussion </h3>
+<div class="outline-text-3" id="text-5.6">
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-6" class="outline-2">
+<h2 id="sec-6"><span class="section-number-2">6</span> Packing Squares in a Torus </h2>
+<div class="outline-text-2" id="text-6">
+
+
+</div>
+
+<div id="outline-container-6.1" class="outline-3">
+<h3 id="sec-6.1"><span class="section-number-3">6.1</span> Background </h3>
+<div class="outline-text-3" id="text-6.1">
+
+
+</div>
+
+<div id="outline-container-6.1.1" class="outline-4">
+<h4 id="sec-6.1.1"><span class="section-number-4">6.1.1</span> Polygon packing problems </h4>
+<div class="outline-text-4" id="text-6.1.1">
+
+<ul>
+<li id="sec-6.1.1.1">Granular media <br/>
+</li>
+<li id="sec-6.1.1.2">Number theory <br/>
+</li>
+<li id="sec-6.1.1.3">Biology <br/>
+</li>
+<li id="sec-6.1.1.4">Computer Science <br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-6.1.2" class="outline-4">
+<h4 id="sec-6.1.2"><span class="section-number-4">6.1.2</span> Square packing </h4>
+<div class="outline-text-4" id="text-6.1.2">
+
+</div>
+
+</div>
+
+<div id="outline-container-6.1.3" class="outline-4">
+<h4 id="sec-6.1.3"><span class="section-number-4">6.1.3</span> Periodic potentials and packings of hard objects </h4>
+<div class="outline-text-4" id="text-6.1.3">
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-6.2" class="outline-3">
+<h3 id="sec-6.2"><span class="section-number-3">6.2</span> Theory </h3>
+<div class="outline-text-3" id="text-6.2">
+
+
+</div>
+
+<div id="outline-container-6.2.1" class="outline-4">
+<h4 id="sec-6.2.1"><span class="section-number-4">6.2.1</span> Commensurate Bravais Lattice Solutions </h4>
+<div class="outline-text-4" id="text-6.2.1">
+
+<ul>
+<li id="sec-6.2.1.1">Density one packings <br/>
+</li>
+<li id="sec-6.2.1.2">Lattice packings with vacancies <br/>
+</li>
+<li id="sec-6.2.1.3">Bricklayer packings with gaps <br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-6.2.2" class="outline-4">
+<h4 id="sec-6.2.2"><span class="section-number-4">6.2.2</span> Non-Bravais Lattice Packings </h4>
+<div class="outline-text-4" id="text-6.2.2">
+
+<ul>
+<li id="sec-6.2.2.1">Gapped bricklayer with domino bricks, N=22 <br/>
+</li>
+<li id="sec-6.2.2.2">Lattice of .5 x .5 holes, N=12 and N=23 <br/>
+</li>
+<li id="sec-6.2.2.3">Lattice of skew squares embedded in a square lattice, N=21 <br/>
+</li>
+</ul>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-6.3" class="outline-3">
+<h3 id="sec-6.3"><span class="section-number-3">6.3</span> Numerical methods </h3>
+<div class="outline-text-3" id="text-6.3">
+
+
+</div>
+
+<div id="outline-container-6.3.1" class="outline-4">
+<h4 id="sec-6.3.1"><span class="section-number-4">6.3.1</span> Monte Carlo, NPT ensemble </h4>
+<div class="outline-text-4" id="text-6.3.1">
+
+</div>
+
+</div>
+
+<div id="outline-container-6.3.2" class="outline-4">
+<h4 id="sec-6.3.2"><span class="section-number-4">6.3.2</span> Related hard particle simulation techniques </h4>
+<div class="outline-text-4" id="text-6.3.2">
+
+<ul>
+<li id="sec-6.3.2.1">Krauth <br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-6.3.3" class="outline-4">
+<h4 id="sec-6.3.3"><span class="section-number-4">6.3.3</span> Simulated Annealing </h4>
+<div class="outline-text-4" id="text-6.3.3">
+
+</div>
+
+</div>
+
+<div id="outline-container-6.3.4" class="outline-4">
+<h4 id="sec-6.3.4"><span class="section-number-4">6.3.4</span> Population Annealing </h4>
+<div class="outline-text-4" id="text-6.3.4">
+
+</div>
+
+</div>
+
+<div id="outline-container-6.3.5" class="outline-4">
+<h4 id="sec-6.3.5"><span class="section-number-4">6.3.5</span> Equilibration procedure </h4>
+<div class="outline-text-4" id="text-6.3.5">
+
+</div>
+
+</div>
+
+<div id="outline-container-6.3.6" class="outline-4">
+<h4 id="sec-6.3.6"><span class="section-number-4">6.3.6</span> Performance </h4>
+<div class="outline-text-4" id="text-6.3.6">
+
+</div>
+
+</div>
+
+<div id="outline-container-6.3.7" class="outline-4">
+<h4 id="sec-6.3.7"><span class="section-number-4">6.3.7</span> Libraries / tools used </h4>
+<div class="outline-text-4" id="text-6.3.7">
+
+</div>
+
+</div>
+
+<div id="outline-container-6.3.8" class="outline-4">
+<h4 id="sec-6.3.8"><span class="section-number-4">6.3.8</span> Visualization </h4>
+<div class="outline-text-4" id="text-6.3.8">
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-6.4" class="outline-3">
+<h3 id="sec-6.4"><span class="section-number-3">6.4</span> Results / Figures / Table of Results </h3>
+<div class="outline-text-3" id="text-6.4">
+
+</div>
+
+</div>
+
+<div id="outline-container-6.5" class="outline-3">
+<h3 id="sec-6.5"><span class="section-number-3">6.5</span> Discussion / Open Questions </h3>
+<div class="outline-text-3" id="text-6.5">
+
+
+</div>
+
+<div id="outline-container-6.5.1" class="outline-4">
+<h4 id="sec-6.5.1"><span class="section-number-4">6.5.1</span> Overview of results </h4>
+<div class="outline-text-4" id="text-6.5.1">
+
+</div>
+
+</div>
+
+<div id="outline-container-6.5.2" class="outline-4">
+<h4 id="sec-6.5.2"><span class="section-number-4">6.5.2</span> Frequency of density one packings </h4>
+<div class="outline-text-4" id="text-6.5.2">
+
+</div>
+
+</div>
+
+<div id="outline-container-6.5.3" class="outline-4">
+<h4 id="sec-6.5.3"><span class="section-number-4">6.5.3</span> Packing density approaches 1 as N goes to infinity </h4>
+<div class="outline-text-4" id="text-6.5.3">
+
+</div>
+
+</div>
+
+<div id="outline-container-6.5.4" class="outline-4">
+<h4 id="sec-6.5.4"><span class="section-number-4">6.5.4</span> Contributions to the entropy </h4>
+<div class="outline-text-4" id="text-6.5.4">
+
+<ul>
+<li id="sec-6.5.4.1">Bravais lattice packings <br/>
+</li>
+<li id="sec-6.5.4.2">Non-Bravais lattice packings <br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-6.5.5" class="outline-4">
+<h4 id="sec-6.5.5"><span class="section-number-4">6.5.5</span> Predicting likely configurations using the entropy </h4>
+<div class="outline-text-4" id="text-6.5.5">
+
+<ul>
+<li id="sec-6.5.5.1">Argument due to James <br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-6.5.6" class="outline-4">
+<h4 id="sec-6.5.6"><span class="section-number-4">6.5.6</span> Thermodynamic limit preserves rotational symmetry </h4>
+<div class="outline-text-4" id="text-6.5.6">
+
+</div>
+
+</div>
+
+<div id="outline-container-6.5.7" class="outline-4">
+<h4 id="sec-6.5.7"><span class="section-number-4">6.5.7</span> Open questions </h4>
+<div class="outline-text-4" id="text-6.5.7">
+
+<ul>
+<li id="sec-6.5.7.1">How common are densest packings with squares in different orientations, like N=21? <br/>
+</li>
+<li id="sec-6.5.7.2">What motifs dominate for large N? <br/>
+</li>
+<li id="sec-6.5.7.3">Are the 1/2 x 1/2 motifs exhibited for other N? <br/>
+</li>
+<li id="sec-6.5.7.4">Relevance to colloid simulations? <br/>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble">
+<p class="author"> Author: Don Blair
+<a href="mailto:dwblair@dwblair-ThinkPad-T60">&lt;dwblair@dwblair-ThinkPad-T60&gt;</a>
+</p>
+<p class="date"> Date: 2012-07-11 13:55:03 EDT</p>
+<p class="creator">HTML generated by org-mode 6.33x in emacs 23</p>
+</div>
+</div>
+</body>
+</html>

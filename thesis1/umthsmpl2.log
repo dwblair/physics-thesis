@@ -1,0 +1,437 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.25)  25 JUL 2012 14:16
+entering extended mode
+ %&-line parsing enabled.
+**umthsmpl2.tex
+(./umthsmpl2.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(./umthesis.cls
+Document Class: umthesis 2003/10/16 20:20:51 1.25 U.Mass. dissertation class
+(/usr/share/texmf-texlive/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./umth12pt.clo
+File: umth12pt.clo 1997/09/08 16:03:30 1.3 U.Mass. thesis (size option)
+)
+\c@count@FrontMatter=\count88
+\c@count@Chapter=\count89
+\c@count@Appendix=\count90
+\c@count@BackMatter=\count91
+\umthesis@contentshangindent=\skip43
+\tablenumberwidth=\skip44
+
+(./umthstd.clo
+File: umthstd.clo 2003/10/16 20:56:33 1.12 U.Mass. thesis frontmatter option
+)
+\umthesis@basefootnotesep=\skip45
+\umthesis@baseskipfootins=\skip46
+) (/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count92
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+) (./umthsmpl2.aux
+
+LaTeX Warning: Label `fig:N9' multiply defined.
+
+)
+\openout1 = `umthsmpl2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+ (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count93
+\scratchdimen=\dimen105
+\scratchbox=\box26
+\nofMPsegments=\count94
+\nofMParguments=\count95
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count96
+\MPscratchDim=\dimen106
+\MPnumerator=\count97
+\everyMPtoPDFconversion=\toks16
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 167.
+
+
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 167.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 167.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 167.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 167.
+ [2
+
+]
+\lenguide=\skip47
+ [3
+
+] [4
+
+] [5
+
+] [6
+
+
+]
+(./umthsmpl2.toc [7
+
+] [8]
+
+LaTeX Warning: Citation `Wu82' on page ix undefined on input line 56.
+
+[9])
+\tf@toc=\write3
+\openout3 = `umthsmpl2.toc'.
+
+ [10] (./umthsmpl2.lot)
+\tf@lot=\write4
+\openout4 = `umthsmpl2.lot'.
+
+ [11
+
+] (./umthsmpl2.lof
+
+LaTeX Warning: Citation `Friedman2002' on page xii undefined on input line 9.
+
+)
+\tf@lof=\write5
+\openout5 = `umthsmpl2.lof'.
+
+ [12
+
+] [1
+
+
+]
+Chapter 1.
+
+LaTeX Warning: Citation `Bernal1964' on page 2 undefined on input line 227.
+
+
+LaTeX Warning: Citation `Zallen1983' on page 2 undefined on input line 227.
+
+
+LaTeX Warning: Citation `Torquato2002' on page 2 undefined on input line 227.
+
+
+LaTeX Warning: Citation `Chaikin2000' on page 2 undefined on input line 227.
+
+
+LaTeX Warning: Citation `Torquato2002' on page 2 undefined on input line 227.
+
+
+LaTeX Warning: Citation `Mehta1994' on page 2 undefined on input line 227.
+
+
+LaTeX Warning: Citation `COHNa' on page 2 undefined on input line 227.
+
+
+LaTeX Warning: Citation `Conway1999' on page 2 undefined on input line 227.
+
+
+LaTeX Warning: Citation `Gevertz2008' on page 2 undefined on input line 228.
+
+
+LaTeX Warning: Citation `Purohit2003' on page 2 undefined on input line 228.
+
+
+LaTeX Warning: Citation `Johnson1974' on page 2 undefined on input line 228.
+
+
+LaTeX Warning: Citation `Lodi2002' on page 2 undefined on input line 228.
+
+
+LaTeX Warning: Citation `HALESa' on page 2 undefined on input line 228.
+
+
+LaTeX Warning: Citation `Pusey1986' on page 2 undefined on input line 230.
+
+
+LaTeX Warning: Citation `Donev2004' on page 2 undefined on input line 230.
+
+
+LaTeX Warning: Citation `Ras2011' on page 2 undefined on input line 230.
+
+
+LaTeX Warning: Citation `ROAN' on page 2 undefined on input line 230.
+
+
+LaTeX Warning: Citation `BAKER' on page 2 undefined on input line 230.
+
+
+LaTeX Warning: Citation `STROOBANTS' on page 2 undefined on input line 230.
+
+
+LaTeX Warning: Citation `Donev2006' on page 2 undefined on input line 232.
+
+
+LaTeX Warning: Citation `Wojciechowski2004' on page 2 undefined on input line 2
+32.
+
+
+LaTeX Warning: Citation `Zhao2011' on page 2 undefined on input line 232.
+
+
+LaTeX Warning: Citation `Leung1990' on page 2 undefined on input line 232.
+
+
+LaTeX Warning: Citation `ERDOS1975' on page 2 undefined on input line 232.
+
+
+LaTeX Warning: Citation `Friedman2002' on page 2 undefined on input line 232.
+
+
+LaTeX Warning: Citation `Friedman2002' on page 2 undefined on input line 232.
+
+[2
+
+] [3] [4] [5] <3x3.pdf, id=61, 519.9425pt x 502.87875pt>
+File: 3x3.pdf Graphic file (type pdf)
+ <use 3x3.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<bravais1.pdf, id=62, 569.12625pt x 573.14125pt>
+File: bravais1.pdf Graphic file (type pdf)
+ <use bravais1.pdf> [6]
+<alignedBlocks3.pdf, id=66, 968.61874pt x 594.22pt>
+File: alignedBlocks3.pdf Graphic file (type pdf)
+ <use alignedBlocks3.pdf>
+[7 <./3x3.pdf>] <n7a.pdf, id=77, 427.5975pt x 415.5525pt>
+File: n7a.pdf Graphic file (type pdf)
+ <use n7a.pdf>
+[8] <gappedCombo1.pdf, id=81, 1042.89626pt x 509.905pt>
+File: gappedCombo1.pdf Graphic file (type pdf)
+ <use gappedCombo1.pdf>
+Overfull \hbox (66.96452pt too wide) in paragraph at lines 318--319
+[][] 
+ []
+
+<n22Edit.pdf, id=82, 527.9725pt x 527.9725pt>
+File: n22Edit.pdf Graphic file (type pdf)
+ <use n22Edit.pdf>
+<n12edit.pdf, id=83, 636.3775pt x 625.33624pt>
+File: n12edit.pdf Graphic file (type pdf)
+ <use n12edit.pdf>
+Overfull \hbox (11.84122pt too wide) in paragraph at lines 340--341
+[][] 
+ []
+
+<N23.pdf, id=84, 693.59125pt x 685.56125pt>
+File: N23.pdf Graphic file (type pdf)
+ <use N23.pdf>
+
+LaTeX Warning: Citation `Friedman2002' on page 9 undefined on input line 353.
+
+[9] <N21.pdf, id=88, 918.43124pt x 835.12pt>
+File: N21.pdf Graphic file (type pdf)
+ <use N21.pdf>
+
+LaTeX Warning: Citation `Friedman2002' on page 10 undefined on input line 357.
+
+
+LaTeX Warning: Citation `Friedman2002' on page 10 undefined on input line 357.
+
+[10] [11] [12]
+
+LaTeX Warning: Citation `Murta' on page 13 undefined on input line 413.
+
+
+LaTeX Warning: Citation `Radler' on page 13 undefined on input line 413.
+
+
+LaTeX Warning: Citation `Scherer2000' on page 13 undefined on input line 413.
+
+
+LaTeX Warning: Citation `Berndt1993' on page 13 undefined on input line 422.
+
+
+LaTeX Warning: Citation `Landau1909' on page 13 undefined on input line 422.
+
+[13]
+
+LaTeX Warning: Citation `Jones1998' on page 14 undefined on input line 430.
+
+[14] [15] [16] [17 <./bravais1.pdf> <./alignedBlocks3.pdf>] [18 <./n7a.pdf> <./
+gappedCombo1.pdf>] [19 <./n22Edit.pdf>] [20 <./n12edit.pdf>] [21 <./N23.pdf>]
+[22 <./N21.pdf>]
+Chapter 2.
+[23
+
+]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ’ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no “ in font cmr12!
+ [24] [25] [26] [27]
+Chapter 3.
+[28
+
+] [29] [30] [31] [32] [33]
+
+LaTeX Warning: Citation `seung' on page 34 undefined on input line 985.
+
+[34]
+
+LaTeX Warning: Reference `potential-brittleductile' on page 35 undefined on inp
+ut line 1064.
+
+[35]
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1072.
+
+
+
+LaTeX Warning: Reference `potential-brittleductile' on page 36 undefined on inp
+ut line 1081.
+
+[36]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ’ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no “ in font cmr12!
+ [37] [38]
+Chapter 4.
+
+LaTeX Warning: Citation `Wu82' on page 39 undefined on input line 1194.
+
+[39
+
+]
+
+LaTeX Warning: Citation `Bax' on page 40 undefined on input line 1259.
+
+[40] [41]
+
+LaTeX Warning: Citation `Nachmiasa' on page 42 undefined on input line 1350.
+
+
+LaTeX Warning: Citation `SwWA' on page 42 undefined on input line 1373.
+
+
+LaTeX Warning: Citation `FoKa' on page 42 undefined on input line 1377.
+
+[42]
+
+LaTeX Warning: Citation `NeBa99' on page 43 undefined on input line 1399.
+
+
+LaTeX Warning: Citation `Met' on page 43 undefined on input line 1399.
+
+
+LaTeX Warning: Citation `Gr99' on page 43 undefined on input line 1421.
+
+
+LaTeX Warning: Citation `Paul2001' on page 43 undefined on input line 1421.
+
+
+LaTeX Warning: Citation `Leath' on page 43 undefined on input line 1430.
+
+[43] [44] [45] [46] [47] [48] [49] [50]
+
+LaTeX Warning: Citation `NeBa99' on page 51 undefined on input line 1700.
+
+[51]
+
+LaTeX Warning: Citation `Deng2010' on page 52 undefined on input line 1740.
+
+[52] [53]
+Chapter 5.
+No file umthsmpl2.bbl.
+[54
+
+] [55]
+Appendix A.
+[56
+
+]
+Appendix B.
+No file umthsmpl2.bbl.
+[57
+
+] (./umthsmpl2.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1585 strings out of 495061
+ 20253 string characters out of 1182621
+ 89667 words of memory out of 3000000
+ 4779 multiletter control sequences out of 15000+50000
+ 8256 words of font info for 29 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 27i,9n,25p,1573b,299s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb><
+/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/te
+xmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive
+/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1
+/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
+onts/cm/cmti12.pfb>
+Output written on umthsmpl2.pdf (69 pages, 885154 bytes).
+PDF statistics:
+ 335 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+

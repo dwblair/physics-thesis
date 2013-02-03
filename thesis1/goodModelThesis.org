@@ -1,0 +1,138 @@
+#+LaTeX_CLASS: thesis
+#+STARTUP: hideblocks
+##+OPTIONS: toc:nil author:nil t:nil
+#+TITLE: Draft of diameter paper
+#+BEGIN_LaTeX:
+\title{ \emph{Physicae Auscultationes}}
+\author{D. W. Blair}
+\date{September 2010}
+
+\copyrightyear{2010}
+\bachelors{B.Sc.}{University of Massachusetts Amherst}
+\masters{M.Sc.}{University of Massachusettds Amherst}
+%\secondmasters{M.Ed.}{Antioch College}
+%\priordoctorate{M.D.}{University of Never-never-land}
+% \committeechair{B. B. Bahh}
+\cochairs{B. B. Bahh}{I. M. A. Wolf}
+\firstreader{Little Bo Peep}
+\secondreader{R. U. Sheepish}
+\thirdreader{Bill Shepherd}
+\fourthreader{Mary Lamb}   % Optional
+%\fifthreader{}            % Optional
+%\sixthreader{}            % Optional
+\departmentchair{Don Candela}
+\departmentname{Physics Department}
+
+
+%\frontmatter
+%\maketitle
+%\copyrightpage
+%\signaturepage
+
+
+%\begin{dedication}
+%  \begin{center}
+%    \emph{To those little lost sheep.}
+%  \end{center}
+%\end{dedication}
+
+%\chapter{Acknowledgments}
+%Acknowledgements.
+
+%\begin{abstract} 
+%Test of abstract
+%\end{abstract}
+
+
+%\tableofcontents                % Table of contents -- ADD BACK (and uncomment 'OPTIONS' line at top) for umthesis style TOC
+%\settocdepth{subparagraph}
+
+%\listoftables                   % List of Tables -- ADD BACK IN
+%\listoffigures                  % List of Figures -- ADD BACK IN
+\mainmatter
+
+%\unnumberedchapter{Introduction}
+%Why on earth do I want to study sheep anyway?
+
+#+END_LaTeX
+
+* Melting A
+** Background re: melting
+*** Theories of melting, 3D, 2D, bulk
+**** 3D crystallites w/ stable surfaces melt from within via Born melting
+In this case, melting can be viewed as nucleation and growth of fluid phase within the solid.
+***** or yet another structure.
+****** or even another
+**** 2D large crystallites melt by two-step process via hexatic phase
+**** 2D finite crystallites melt from perimeter
+***** if melt from perimeter, dN/dt goes as $N^{1/2}$
+*** Expectations for 2D finite crystallites
+** Experiment of Savage et. al
+*** Setup
+*** Tunable Depletion potential
+*** Results
+**** N vs. t
+**** $< psi6 >^2$ vs. N
+**** $C_6$ vs. N, by layer
+**** No dependence of fast-melting feature on initial cluster size or melting rate
+** Simulations
+*** Motivation
+*** GROMACS System
+*** Brownian dynamics
+*** Simulated Depletion Potential
+*** Simulated Lennard-Jones Potential
+*** Results
+**** N vs. t
+**** $< psi6 >^2$ vs. N
+**** $C_6$ vs. N, by layer
+**** mean-square fluctuations in bond lengths
+**** N vs. t for Lennard-Jones potential
+**** Phase diagram showing lack of fluid phase with short-range potential
+*** Discussion
+* Melting B
+** Background
+*** Hypothesis: thermally-activated defects enhance melting rate in short-range 2D system
+** Simulation Methods
+*** Gromacs system
+Here's a good test. \cite{Deng2009}
+*** Brownian Dynamics
+*** Characteristics of Simulated Depletion Potential
+*** Initial configurations
+** Results
+*** N vs t
+*** Order vs. N
+*** Breakdown by layers
+** Conclusions
+* Diameter of Random Clusters
+** Background
+** Simulations
+** Results
+* Phase Transitions in Computational Complexity
+** Background
+*** Constraint Satisfaction Problems (CSP)
+**** Examples
+***** kSAT
+***** Graph-coloring
+***** Spin models
+***** error-correcting codes
+**** Observation of threshold behavior in CSP
+**** Difficulties in tackling phase behavior of CSP
+*** Proposal: study complexity of percolation model
+** Percolation
+*** The Model
+*** Background / applications
+** PRAM
+*** Applications in comp sci
+*** PRIORITY CRCW
+** Parallel Algorithm for Percolation
+** Results
+*** D_2 vs. p for several system sizes L
+*** log(D_2) vs. log(L)
+*** Distribution of cluster sizes
+**** logarithmic or power law? (power law --> algorithm will often fail)
+
+
+\bibliographystyle{plain}
+\bibliography{/home/dwblair/Dropbox/dwbdocs/physics/writing/bibfiles/combo}
+
+ 

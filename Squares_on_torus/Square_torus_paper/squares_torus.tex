@@ -1,0 +1,54 @@
+\documentclass[preprint,aps]{revtex4}
+\usepackage{graphicx}
+
+\newcommand{\ax}{{\bf a}_1}
+\newcommand{\ay}{{\bf a}_2}
+\newcommand{\Ax}{{\bf A}_1}
+\newcommand{\Ay}{{\bf A}_2}
+
+\begin{document}
+\title{Packing Squares in a Torus}
+
+\author{D. Blair}
+\email[]{dwblair@physics.umass.edu}
+\affiliation{Department of Physics,
+University of Massachusetts,
+Amherst, MA 01003-3720, USA}
+
+\author{J. Machta}
+\email[]{machta@physics.umass.edu}
+\affiliation{Department of Physics,
+University of Massachusetts,
+Amherst, MA 01003-3720, USA}
+\affiliation{Santa Fe Institute, 1399 Hyde Park Rd, Santa Fe, NM 87501, USA}
+
+\author{C. Santangelo}
+\email[]{santangelo@physics.umass.edu}
+\affiliation{Department of Physics,
+University of Massachusetts,
+Amherst, MA 01003-3720, USA}
+
+\begin{abstract}
+The densest packings of $N$ unit squares in a torus are studied using analytical methods as well as simulated annealing.  A rich array of dense packing solutions are found: density one packings when $N$ is the sum of two square integers; a family of ``gapped bricklayer'' Bravais lattice
+ solutions with density $N/(N+1)$; and some surprising non-Bravais lattice configurations, including lattices of holes as well as a configuration for $N=23$ in which not all squares share the same orientation.  The entropy of some of these configurations and the frequency and orientation of density one solutions as $N \rightarrow \infty$ are discussed.
+
+\end{abstract} 
+\maketitle
+\input{squares_torus_intro.tex}
+\input{square_torus_analytics.tex}
+%\input{squares_torus_proofs.tex}
+\input{squares_torus_numerics.tex}
+%\input{square_torus_analytics.tex}
+\input{square_torus_discussion.tex}
+\input{list_of_figures.tex}
+  
+\bibliographystyle{apsrev}
+\bibliography{squares}
+
+\begin{acknowledgements}
+We would like to thank James Hanna and Narayanan Menon for useful discussions of some of the issues addressed in this paper.  J.M. gratefully acknowledges support from a National Science Foundation grant DMR-0907235. C.S. gratefully acknowledges support National Science Foundatoin grant DMR-0846582. D.B. is grateful for use of the Hoffman2 computing cluster at UCLA.
+\end{acknowledgements}
+
+\end{document}
+
+ 

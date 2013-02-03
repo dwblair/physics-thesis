@@ -1,0 +1,11 @@
+\BOOKMARK [1][-]{section*.1}{Introduction}{}
+\BOOKMARK [1][-]{section*.2}{Potts Model Simulations}{}
+\BOOKMARK [2][-]{section*.3}{The Potts Model}{section*.2}
+\BOOKMARK [2][-]{section*.4}{Swendsen Wang Algorithm}{section*.2}
+\BOOKMARK [2][-]{section*.5}{Algorithms for determining the chemical distance and the diameter}{section*.2}
+\BOOKMARK [2][-]{section*.6}{Details of simulation}{section*.2}
+\BOOKMARK [3][-]{section*.7}{autocorrelation time \046 independence}{section*.6}
+\BOOKMARK [3][-]{section*.8}{scaling methods, detail}{section*.6}
+\BOOKMARK [1][-]{section*.9}{Results and Discussion}{}
+\BOOKMARK [2][-]{section*.10}{Results}{section*.9}
+\BOOKMARK [1][-]{section*.11}{Bibliography}{}

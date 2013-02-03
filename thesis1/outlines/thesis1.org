@@ -1,0 +1,32 @@
+
+#+LaTeX_CLASS: article
+#+OPTIONS: toc:nil author:nil t:nil
+#+LATEX_HEADER: \newcommand{\lb}{{\langle}}
+#+LATEX_HEADER: \newcommand{\rb}{{\rangle}}
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage{epsfig}
+#+LATEX_HEADER: \usepackage{amssymb,amsmath}
+#+LATEX_HEADER: \usepackage{bm}
+#+LATEX_HEADER: \usepackage{pdfsync}
+##+LATEX_HEADER: \usepackage{hyperref}
+#+TITLE: Draft of diameter paper
+#+BEGIN_LaTeX:
+\title{Thesis outline}
+\author{Don Blair}
+\maketitle{}
+\tableofcontents
+\pagebreak
+#+END_LaTeX
+
+* Test 1
+** Test 2
+*** Test 3
+Here's another example. \cite{Deng2009a}
+**** Test 4
+* Test 2
+\cite{OsSo04}
+
+
+
+\bibliographystyle{plain}
+\bibliography{/home/dwblair/Dropbox/dwbdocs/physics/writing/bibfiles/combo}

@@ -1,0 +1,70 @@
+\contentsline {Chapter}{\numberline {1.}\MakeUppercase {Melting A}}{1}
+\contentsline {section}{\numberline {1.1}Background re: melting}{1}
+\contentsline {subsection}{\numberline {1.1.1}Theories of melting, 3D, 2D, bulk}{1}
+\contentsline {subsubsection}{\numberline {1.1.1.1}3D crystallites w/ stable surfaces melt from within via Born melting}{1}
+\contentsline {subsubsection}{\numberline {1.1.1.2}2D large crystallites melt by two-step process via hexatic phase}{2}
+\contentsline {subsubsection}{\numberline {1.1.1.3}2D finite crystallites melt from perimeter}{2}
+\contentsline {subsubsection}{\numberline {1.1.1.4}Expectations for 2D finite crystallites}{2}
+\contentsline {section}{\numberline {1.2}Experiment of Savage et. al}{2}
+\contentsline {subsection}{\numberline {1.2.1}Setup}{2}
+\contentsline {subsection}{\numberline {1.2.2}Tunable Depletion potential}{2}
+\contentsline {subsection}{\numberline {1.2.3}Results}{2}
+\contentsline {subsubsection}{\numberline {1.2.3.1}N vs. t}{2}
+\contentsline {subsubsection}{\numberline {1.2.3.2}$< psi6 >^2$ vs. N}{2}
+\contentsline {subsubsection}{\numberline {1.2.3.3}$C_6$ vs. N, by layer}{2}
+\contentsline {subsubsection}{\numberline {1.2.3.4}No dependence of fast-melting feature on initial cluster size or melting rate}{2}
+\contentsline {section}{\numberline {1.3}Simulations}{2}
+\contentsline {subsection}{\numberline {1.3.1}Motivation}{2}
+\contentsline {subsection}{\numberline {1.3.2}GROMACS System}{2}
+\contentsline {subsection}{\numberline {1.3.3}Brownian dynamics}{2}
+\contentsline {subsection}{\numberline {1.3.4}Simulated Depletion Potential}{2}
+\contentsline {subsection}{\numberline {1.3.5}Simulated Lennard-Jones Potential}{2}
+\contentsline {subsection}{\numberline {1.3.6}Another result}{2}
+\contentsline {subsection}{\numberline {1.3.7}Results}{2}
+\contentsline {subsubsection}{\numberline {1.3.7.1}N vs. t}{2}
+\contentsline {subsubsection}{\numberline {1.3.7.2}$< psi6 >^2$ vs. N}{2}
+\contentsline {subsubsection}{\numberline {1.3.7.3}$C_6$ vs. N, by layer}{2}
+\contentsline {subsubsection}{\numberline {1.3.7.4}mean-square fluctuations in bond lengths}{2}
+\contentsline {subsubsection}{\numberline {1.3.7.5}N vs. t for Lennard-Jones potential}{2}
+\contentsline {subsubsection}{\numberline {1.3.7.6}Phase diagram showing lack of fluid phase with short-range potential}{2}
+\contentsline {subsection}{\numberline {1.3.8}Discussion}{2}
+\contentsline {Chapter}{\numberline {2.}\MakeUppercase {Melting B}}{3}
+\contentsline {section}{\numberline {2.1}Background}{3}
+\contentsline {subsection}{\numberline {2.1.1}Hypothesis: thermally-activated defects enhance melting rate in short-range 2D system}{3}
+\contentsline {section}{\numberline {2.2}Simulation Methods}{3}
+\contentsline {subsection}{\numberline {2.2.1}Gromacs system}{3}
+\contentsline {subsection}{\numberline {2.2.2}Brownian Dynamics}{3}
+\contentsline {subsection}{\numberline {2.2.3}Characteristics of Simulated Depletion Potential}{3}
+\contentsline {subsection}{\numberline {2.2.4}Initial configurations}{3}
+\contentsline {section}{\numberline {2.3}Results}{3}
+\contentsline {subsection}{\numberline {2.3.1}N vs t}{3}
+\contentsline {subsection}{\numberline {2.3.2}Order vs. N}{3}
+\contentsline {subsection}{\numberline {2.3.3}Breakdown by layers}{3}
+\contentsline {section}{\numberline {2.4}Conclusions}{3}
+\contentsline {Chapter}{\numberline {3.}\MakeUppercase {Diameter of Random Clusters}}{4}
+\contentsline {section}{\numberline {3.1}Background}{4}
+\contentsline {section}{\numberline {3.2}Simulations}{4}
+\contentsline {section}{\numberline {3.3}Results}{4}
+\contentsline {Chapter}{\numberline {4.}\MakeUppercase {Phase Transitions in Computational Complexity}}{5}
+\contentsline {section}{\numberline {4.1}Background}{6}
+\contentsline {subsection}{\numberline {4.1.1}Constraint Satisfaction Problems (}{6}
+\contentsline {subsection}{\numberline {4.1.2}Examples}{6}
+\contentsline {subsubsection}{\numberline {4.1.2.1}kSAT}{6}
+\contentsline {subsubsection}{\numberline {4.1.2.2}Graph-coloring}{6}
+\contentsline {subsubsection}{\numberline {4.1.2.3}Spin models}{6}
+\contentsline {subsubsection}{\numberline {4.1.2.4}error-correcting codes}{6}
+\contentsline {subsection}{\numberline {4.1.3}Observation of threshold behavior in CSP}{6}
+\contentsline {subsection}{\numberline {4.1.4}Difficulties in tackling phase behavior of CSP}{6}
+\contentsline {subsection}{\numberline {4.1.5}Proposal: study complexity of percolation model}{6}
+\contentsline {section}{\numberline {4.2}Percolation}{6}
+\contentsline {subsection}{\numberline {4.2.1}The Model}{6}
+\contentsline {subsection}{\numberline {4.2.2}Background / applications}{6}
+\contentsline {section}{\numberline {4.3}PRAM}{6}
+\contentsline {subsection}{\numberline {4.3.1}Applications in comp sci}{6}
+\contentsline {subsection}{\numberline {4.3.2}PRIORITY CRCW}{6}
+\contentsline {section}{\numberline {4.4}Parallel Algorithm for Percolation}{6}
+\contentsline {section}{\numberline {4.5}Results}{6}
+\contentsline {subsection}{\numberline {4.5.1}D$_2$ vs. p for several system sizes L}{6}
+\contentsline {subsection}{\numberline {4.5.2}log(D$_2$) vs. log(L)}{6}
+\contentsline {subsection}{\numberline {4.5.3}Distribution of cluster sizes}{6}
+\contentsline {subsection}{\numberline {4.5.4}logarithmic or power law? (power law --> algorithm will often fail)}{6}

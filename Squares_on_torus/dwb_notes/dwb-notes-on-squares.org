@@ -1,0 +1,97 @@
+#+STARTUP: hidestars
+
+* Annotated Bibliography
+
+** Hard Particle / Square / Sphere Simulations
+- Wojciechowski and Frenkel, "Tetratic Phase in the Hard Square System?" \cite{Wojciechowski2004} 
+- Torquato, "Metastability and crystallization in hard sphere systems" \cite{Rintoul1996}
+- Sturgeon and Stillinger, "Cavities in the hard-disk crystal: A Monte Carlo simulation study" \cite{Sturgeon1992} -- The rigid-disk crystal near close packing
+- Rintoul and Torquato, "Computer Simulations of dense hard-sphere systems" \cite{Rintoul1996a}
+- Bernard, Krauth, and Wilson, "Event-chain Monte Carlo Algorithms for hard-sphere systems"
+- Donev, Burton, Stillinger, Torquato, "Tetratic order in the phase behavior of a hard-rectangle system" \cite{Donev2006}
+- Liu and Luijten, "Generalized geometric cluster algorithm for fluid simulation" \cite{Liu2005}
+- Frenkel "Monte Carlo Methods in Various Ensembles" \cite{Frenkel1996}
+- Shell, Lecture notes, "Monte Carlo simulations in other ensembles" \cite{Shell2009}
+- Odriozola,  "Replica Exchange Monte Carlo Applied to Hard Spheres"  \cite{Odriozola2009}
+
+** Parallel Tempering / Population Annealing
+- Machta, "Strengths and Weaknesses of Parallel Tempering"  \cite{Machta2010}
+- Machta and Ellis, "Monte Carlo Methods for Rough Free Energy Landscapes: Population Annealing and Parallel Tempering" \cite{Machta2011}
+- Odriozola,  "Replica Exchange Monte Carlo Applied to Hard Spheres"  \cite{Odriozola2009}
+
+** Density of Sum of Two Squares
+- Shiu "Counting Sums of Two Squares: The Meissel-Lehmer Method" \cite{Shiu1986}
+
+** Squares on the Torus 
+- Reztsov and Sloan, "On 2D Packings of Cubes in the Torus" -- (The "Floor - Floor" result) \cite{Reztsov1997}
+- Decaudin and Neyret, "Packing Square Tiles into One Texture"  (computer graphics "sum of squares" result) \cite{Decaudin2004}
+- Sikiric, Itoh, Poyarkov, "Torus Cube Packings" \cite{Sikiric} -- presentation, packing cubes on the torus (oriented)
+
+** Circles and Graphs on the Torus
+- Dickinson, Guillot, Keaton, Xhumari  "Optimal packings of up to five equal circles on a square flat torus" \cite{Dickinson2011}
+- Kocay, Neilson, Szypowski, "Drawing Graphs on the Torus" -- Algorithm for constructing a straight line drawing with no crossing on a rectangular representation of the torus \cite{Kocay2001}
+
+** Square Packing -- Experiment
+- Zhao, Bruinsma, and Mason, "Entropic crystal-crystal transitions of Brownian squares" \cite{Zhao2011}
+
+** Square and Rectangle Packing - Theory 
+- Boucheron and Vega, "On a square packing Problem" -- the asymptotic behavior of packings as n tends toward infinity \cite{Boucheron2000}
+- Sikicric and Itoh, "Combinatorial cube packings in the cube and the torus" -- sequential random packing of cubes \cite{Sikiric2010}
+- Gensane and Ryckelynck, "Improved Dense Packings of Congruent Squares in a Square" -- theory and 'billiard' algorithm \cite{Gensane2004}
+- Wagon, "Fourteen Proofs of a Result About Tiling a Rectangle" \cite{Wagon1994} -- tiling rectangles with rectangles
+- Dutour, Itoh, Poyarkov, "Cube Packings, second moment, and holes" \cite{DutourSikiric2007}
+- Baumert et al., , "A combinatorial Packing Problem" \cite{Baumert1970} -- The efficient packing of squares of side two in the p x p torus
+- Duparcmeur, Gervois, and Troadec (1995) "Dense Periodic Packings of Regular Polygons \cite{Duparcmeur1995}
+- Chung and Graham,  "Packing Equal Squares into a Large Square" \cite{Chung2009} -- theory / analytics -- UNORIENTED version -- method seems applicable to torus? 
+
+* Overview: Square Packing on the Torus
+** Background
+
+*** Square Packings in Squares
+**** Motivations: computer science
+**** NP-Completenness
+**** Analytical Work
+**** Related Numerical Work
+
+*** Circle Packings on the Torus
+**** Analytical work
+**** Numerical work
+
+*** Square Packings on the Torus
+**** Motivations
+***** Compression
+**** Density of sum of squares
+**** NP-Completeness?
+
+
+
+\bibliographystyle{unsrt}
+\bibliography{squares}
+
+* Numerical Results
+- overview
+For $N<=27$ squares on the flat torus, we attempted to find ground state configurations (packings with the highest possible density) via 2D Monte Carlo simulations in the NPT ensemble.  We used two separate approaches to finding ground states: simulated annealing (SA) and population annealing (PA).  SA and PA are Monte Carlo techniques that can been used to find ground states of systems with rough energy landscapes and multiple metastable states.  In both SA and PA, the system is taken from an initial,  low-pressure, easy-to-equilibrate state to a final, higher-pressure state via a series of steps in inverse pressure -- an annealing schedule. Between these pressure increases, an equilibration procedure -- in our case, a Metropolis algorithm appropriate to a hard-particle NPT ensemble, described in Section [??] -- is used in an attempt to equilibrate the system.  In SA, the system quickly falls out of equilibrium at higher pressures as the energy landscape becomes rough; nevertheless, SA remains an effective algorithm for finding ground states of a system, and is used widely in [examples].  PA was invented by [reference] as a way of keeping the system closer to equilibrium by adding an additional step to the annealing procedure.  In PA, a collection of identical systems, or 'replicas', are simulated in parallel.  All replicas are taken through a pressure increase schedule, as in SA: but in PA, after each pressure increase, the collection of replicas is 'resampled':  some replicas are copied, and others are destroyed, in an attempt to achieve a distribution of replica energies that approximates the expected equilibrium Boltzman distribution at the current pressure.  Details of this procedure are described below in section [??].  We simulated several replicas using both SA and PA, and took the highest density configuration for a given $N$ found using either procedure as our best candidate for the ground state of the system.
+- Metropolis Algorithm details
+The equilibration procedure we used in both SA and PA was a Metropolis procedure consisting of three types of Monte Carlo moves:  translations, rotations, and changes in volume of the system.  At each step of the equilibration procedure, a square is selected at random from among the $N$ particles, and then one of the three types of moves is selected at random (with probabilities .95, .95, and .05 for translation, rotation, and volume change, respectively).  Once a square and a move type are selected, the move is attempted.  If the move results in any overlaps among the $N$ squares, the move is rejected.  If it does not, then for translations or rotations, the move is accepted; for volume changes, the move is accepted with probability $p=\exp(-\Beta dV)$.  This ends the Monte Carlo step; the equilibration procedure consists of $s$ such Monte Carlo steps. 
+- Simulated Annealing, Population Annealing details
+As described above, SA consisted in taking a system (or several replicas of a system) through an annealing schedule of constant steps in inverse pressure, followed by $s$ equilibration moves after each pressure increase, until reaching a pressure at which the density appeared to plateau. PA also invovled constant steps in inverse pressure, but after each pressure increase from the current pressure $P$ to the new pressure $P'$, the collection of $R$ replicas was 'resampled' in an attempt to have the number of copies of a replica $j$ in the population reflect its expected equilibrium weight in the population, $w_j=exp[-(P'-P)V_j]$. Copies of each replica $j$ are thus made in order to approximate the expected number of copies of replica $j$ in the population, $p_j=exp[-(P'-P)V_j]/Q$, where $Q=\Sigma exp[-(P'-P)V_j]/R$.  Thus the appropriate number of copies of each replica can be generated by sampling from the multinomial distribution using $R$ trials [REF].  This is accomplished via a simple algorithm [REF, wikipedia http://en.wikipedia.org/wiki/Multinomial_distribution ]:  1. Sort the replicas in descending order by volume; 2. For i in range(0,R):pick a random number $X$ from (0,1); choose replica $j= arg min (j'=1 to k) (\Sigma p_i >= X)$ to replace replica $i$ with a copy of replica $j$.  
+- Numerical Results
+For both SA and PA, our Monte Carlo simulations yielded a collection of replicas of varying densities at each pressure.  As the simulations for each $N$ progressed, we selected the highest-density configuration at each pressure using SA or PA as the candidate ground state for that $N$; the highest density reached in this manner was our best candidate for a ground state for $N$.  In Figure [?], we plot density $d$ vs. pressure $P$ for $N=12$ using both SA and PA.  This plot highlights a general trend:  for all values of $N$, the highest density among the PA replicas initially increased faster than that among the SA replicas at a given pressure.  In some cases (exemplified in Figure [?]), SA eventually overtook PA in density, finding a higher density configuration than any reached by PA; in others, PA found the highest-density configuration.  Figure [?] shows an simulation run for which the densities of both SA and PA had plateaued at nearly identical densities, and the associated configurations of each highest-density replica.  It is not in principle to determine whether either configuration is going to lead to the ground state of the system; further simulations happened to yield (using SA) a higher-density configuration. For some configurations (mentioned in the Analytics section [??]), the ground state quickly approached density = 1 (for $N$ equal to a perfect square, e.g. 4, 16; or for $N$ equal to a sum-of-squares, e.g. 7, 10), and were provably optimal packings for that $N$; for other configurations, we are constrained merely to report our highest-density configuration as the best candidate thus far for a ground state for that $N$. In particular, the densities for $N=12,21,23$ consistently plateaued at their reported final values across several runs, and resulted in configurations that display obvious symmetry but are not necessarily ground states of the system. Results for various $N<=27$ are characterized in the Analytics section.
+- Appendix: Simulation details
+In both SA and PA, the number R of replicas employed was between 100 and 10,000.  The pressure was initially set to .1 [IN REDUCED UNITS? I should refer to $\beta P$, I think -- check Frenkel] and was increased by taking constant steps in inverse pressure until a maximum pressure of $p_{max}$ was reached; $p_{max}$ ranged from 60 to 300.
+
+All simulations were begun at an initial areal density $d$ of .1, with an square grid arrangement of unit squares, with a periodic box size $L$ sufficient to contain the squares and achieve the initial density.  
+
+During the equilibration procedure, the maximum value of translations, rotations, and volume changes were separately modified in order to achieve an acceptance ratio for each of $.4$. 
+
+The majority of the computational work during the equilibration procedure (and in the entire SA and PA algorithms) thus consists in checking for square overlaps.  For this, we relied on a fast algorithm for detecting polygon overlaps, the General Polygon Clipping Library by Alan Murta [REF], and the Python wrapper written for this by Joerg Raedler [REF].
+
+Rather than changing the volume of the entire system, the periodic box in the simulations were kept at a constant size, and the sizes of the individual squares were all scaled, in order to achieve the desired new volume.
+
+Configurations were visualized using the VPython library [REF].  
+
+
+
+* Analytical Results
+- diagrams showing the different configurations
+- 

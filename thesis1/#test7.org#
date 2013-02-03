@@ -1,0 +1,9 @@
+#+begin_ditaa blue.png -r -S
++---------+
+| cBLU    |
+|         |
+|    +----+
+|    |cPNK|
+|    |    |
++----+----+
+#+end_ditaa

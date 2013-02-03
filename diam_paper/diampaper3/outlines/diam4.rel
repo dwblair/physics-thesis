@@ -1,0 +1,84 @@
+;; RefTeX parse info file
+;; File: /home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex
+;; User: dwblair (Don Blair)
+
+(set reftex-docstruct-symbol '(
+
+
+(xr nil "\\\\\\\\\\\\")
+
+(index-tags)
+
+(is-multi nil)
+
+(bibview-cache ("OsSo04" . "Ossola & Alan D Sokal 2004, Dynamic Critical Behavior {S}wendsen , Nuclear Physics B 691:259"))
+
+(master-dir . "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/")
+
+(label-numbers)
+
+(bof "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex")
+
+(toc "toc" "    1 Introduction" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil 2 "1" "\\section{Introduction}" 571)
+
+("sec-1" "s" "\\subsection{Background to the Potts Model}  \\subsection{Tests of the Potts Model} \\label{sec-1.2} \\s" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil)
+
+(toc "toc" "      1.1 Background to the Potts Model" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil 3 "1.1" "\\subsection{Background to the Potts Model}" 608)
+
+("sec-1.1" "s" "\\subsection{Tests of the Potts Model}  \\subsection{This is all we need to know} \\label{sec-1.3} \\sub" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil)
+
+(toc "toc" "      1.2 Tests of the Potts Model" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil 3 "1.2" "\\subsection{Tests of the Potts Model}" 667)
+
+("sec-1.2" "s" "\\subsection{This is all we need to know}  \\subsection{Not much more syntax highlighting} \\label{sec-" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil)
+
+(toc "toc" "      1.3 This is all we need to know" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil 3 "1.3" "\\subsection{This is all we need to know}" 721)
+
+("sec-1.3" "s" "\\subsection{Not much more syntax highlighting}  \\subsubsection{Big test} \\label{sec-1.4.1} \\subsubse" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil)
+
+(toc "toc" "      1.4 Not much more syntax highlighting" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil 3 "1.4" "\\subsection{Not much more syntax highlighting}" 778)
+
+("sec-1.4" "s" "\\subsubsection{Big test}  \\subsubsection{Other test} \\label{sec-1.4.2} \\subsubsection{Finish the dam" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil)
+
+(toc "toc" "        1.4.1 Big test" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil 4 "1.4.1" "\\subsubsection{Big test}" 841)
+
+("sec-1.4.1" "s" "\\subsubsection{Other test}  \\subsubsection{Finish the damn outline} \\label{sec-1.4.3} Here is a test" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil)
+
+(toc "toc" "        1.4.2 Other test" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil 4 "1.4.2" "\\subsubsection{Other test}" 884)
+
+("sec-1.4.2" "s" "\\subsubsection{Finish the damn outline}  Here is a test \\cite{OsSo04}. $\\lb a + b \\rb$ The Potts Mod" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil)
+
+(toc "toc" "        1.4.3 Finish the damn outline" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil 4 "1.4.3" "\\subsubsection{Finish the damn outline}" 929)
+
+("sec-1.4.3" "s" "Here is a test \\cite{OsSo04}. $\\lb a + b \\rb$ The Potts Model, initially introduced as a generalizat" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil)
+
+(toc "toc" "    2 Methods" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil 2 "2" "\\section{Methods}" 3530)
+
+("sec-2" "s" "\\subsection{type 1}  \\subsection{type 2} \\label{sec-2.2} \\subsubsection{sub-sub} \\label{sec-2.2.1} \\" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil)
+
+(toc "toc" "      2.1 type 1" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil 3 "2.1" "\\subsection{type 1}" 3562)
+
+("sec-2.1" "s" "\\subsection{type 2}  \\subsubsection{sub-sub} \\label{sec-2.2.1} \\begin{figure}[htp] \\centering \\inclu" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil)
+
+(toc "toc" "      2.2 type 2" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil 3 "2.2" "\\subsection{type 2}" 3598)
+
+("sec-2.2" "s" "\\subsubsection{sub-sub}  \\begin{figure}[htp] \\centering \\includegraphics[width=.85\\textwidth]{boot} " "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil)
+
+(toc "toc" "        2.2.1 sub-sub" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil 4 "2.2.1" "\\subsubsection{sub-sub}" 3634)
+
+("sec-2.2.1" "s" "\\begin{figure}[htp] \\centering \\includegraphics[width=.85\\textwidth]{boot} \\caption{$d_{min}$ for D=" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil)
+
+("fig:1" "f" "$d_{min}$ for D=2, q=1." "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil)
+
+(toc "toc" "    3 Results" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil 2 "3" "\\section{Results}" 3812)
+
+("sec-3" "s" "\\subsection{$q=2$ and etc}  This is how it'll go. \\bibliographystyle{plain} \\bibliography{/home/dwbl" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil)
+
+(toc "toc" "      3.1 $q=2$ and etc" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil 3 "3.1" "\\subsection{$q=2$ and etc}" 3844)
+
+("sec-3.1" "s" "This is how it'll go. \\bibliographystyle{plain} \\bibliography{/home/dwblair/Dropbox/dwbdocs/physics/" "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex" nil)
+
+(bib "/home/dwblair/Dropbox/dwbdocs/physics/writing/bibfiles/dwbreferences.bib")
+
+(eof "/home/dwblair/Desktop/Link to writing/diameter/diam_paper/diampaper3/outlines/diam4.tex")
+))
+

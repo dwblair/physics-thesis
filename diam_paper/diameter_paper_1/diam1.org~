@@ -1,0 +1,45 @@
+* Intro
+** Motivation
+*** Determines efficiency of cluster algorithms
+*** Unexplored geometric property of random clusters
+*** Places bounds on communication of processes in a network
+*** Comparison to previous studies of the chemical distance
+** Potts Model
+*** The Model (refer to Sokal)
+*** Connection to Random Cluster Model
+** The chemical distance and the diameter
+*** Definitions
+*** [FIGURE] illustrating typical configuration
+*** Mean field expectations
+**** Upper critical dimensions for perc, Ising, three-state (with refs)
+**** Work of Nachmias and Peres
+*** d_min = 1.0 for q>5 (rationale??)
+** Swedsen Wang Algorithm
+*** See Sokal's description
+** Measuring the Chemical Distance and the diameter
+*** Methods in the literature
+*** Our methods
+** Simulation Details
+*** Range of L, 16 to 128
+*** Initial configuration random; discard first 10^5 iterations
+*** Compare discard interval with autocorrelation time
+*** Total run length for all systesm
+*** Each data set consists of several runs combined
+*** CPU time required in units of L^2 microseconds / iteration, type of processer
+*** run the system for shorter times at higher dimensions (??)
+** Data Analysis
+*** Fit to power-law Ansatz D=AL^p using the standard weighted least-squares method
+*** Fit points with lower cutoff of L >= L_{min} to minimize corrections to scaling
+*** Choose fit with smallest L_{min} for which goodness of fit is reasonable (Q value within a certain range)
+*** Error analysis
+**** Data is taken at intervals assumed to be statistically independent
+***** sigma = [fill in]
+**** blocking method is used for comparison
+***** brief blocking method description, references
+* Results
+** Results for D=2, q=1,2,3,4,5
+*** Table
+*** [FIGURE]: difference, fit and data for various q
+** Table of results for D=3, q=1,2,3,4,5
+** Preliminary results for D=6,4,8 for q=1,2,3 respectively
+*** comparison with mean field expectations

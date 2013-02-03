@@ -1,0 +1,25 @@
+\contentsline {FrontMatter}{\MakeUppercase {Acknowledgments}}{v}
+\contentsline {FrontMatter}{\MakeUppercase {\uppercase {Abstract}}}{vi}
+\contentsline {FrontMatter}{\MakeUppercase {List of Tables}}{ix}
+\contentsline {FrontMatter}{\MakeUppercase {List of Figures}}{x}
+\contentsline {Chapter}{\MakeUppercase {Introduction}}{1}
+\contentsline {Chapter}{\numberline {1.}\MakeUppercase {Packing Squares in a Torus}}{2}
+\contentsline {section}{\numberline {1.1}Introduction}{2}
+\contentsline {section}{\numberline {1.2}Analysis of Packings and Numerical Results}{4}
+\contentsline {subsection}{\numberline {1.2.1}Commensurate Bravais Lattice Solutions}{5}
+\contentsline {subsubsection}{\numberline {1.2.1.1}Density-one packings}{6}
+\contentsline {subsubsection}{\numberline {1.2.1.2}Lattice packings with vacancies}{8}
+\contentsline {subsubsection}{\numberline {1.2.1.3}Bricklayer packings with gaps}{8}
+\contentsline {subsection}{\numberline {1.2.2}Non-Bravais Lattice Packings}{9}
+\contentsline {subsubsection}{\numberline {1.2.2.1}Gapped bricklayer with domino bricks, $N=22$}{9}
+\contentsline {subsubsection}{\numberline {1.2.2.2}Lattice of ${\begingroup 1\endgroup \over 2}\times {\begingroup 1\endgroup \over 2}$ holes, $N=12$ and $23$}{9}
+\contentsline {subsubsection}{\numberline {1.2.2.3}Lattice of skew squares embedded in a square lattice, $N=21$}{10}
+\contentsline {subsection}{\numberline {1.2.3}Table of Results}{10}
+\contentsline {section}{\numberline {1.3}Numerical Methods}{12}
+\contentsline {section}{\numberline {1.4}Discussion}{13}
+\contentsline {Chapter}{\numberline {2.}\MakeUppercase {Sheep and Grass}}{23}
+\contentsline {section}{\numberline {2.1}Introduction}{23}
+\contentsline {Chapter}{\numberline {3.}\MakeUppercase {A Wonderfully Long Chapter Title That Is This Long In Order to Test the Chapter Heading Stuff}}{24}
+\contentsline {section}{\numberline {3.1}The antidisestablishmentarainism supercalifragilisticexpialidocious longlonglonglonglongword}{24}
+\contentsline {Appendix}{\numberline {A.}\MakeUppercase {THE FIRST APPENDIX TITLE}}{25}
+\contentsline {Appendix}{\numberline {B.}\MakeUppercase {THE SECOND APPENDIX TITLE}}{26}

@@ -1,0 +1,42 @@
+\section{Discussion}
+\label{sec:discussion}
+
+
+In this section we discuss the density and entropy of various of the packings discussed above. 
+
+\subsection{Frequency of $\rho=1$ as $N \rightarrow \infty$}
+
+We showed in Section XX [???] that $\rho=1$ packings are only possible for those values of $N$ that are expressible as the sum of two squares. 
+%First, it is clear that all density one packings must be arranged in rows: every square in a $\rho=1$ packing must have at least four other squares bordering it along a finite segment length, thus forcing all $N$ squares to share the same orientation.  Then it is clear that for such oriented configurations, all of the squares must be arranged in rows, since for any three squares that touch one another and are oriented in the same direction, two of out of the three squares must define a row. Finally: if all squares for $\rho=1$ packings are thus arranged in rows, the periodicity requirement of toroidal boundary conditions ensures that the number of squares $N$ in the packing can be expressed as $N=n_1^2+n_2^2$, via the Pythagorean theorem (see Figure \ref{fig:pythagoras}).  In this way, we see that $\rho=1$ packings are only possible when $N$ is a perfect square or expressible as a sum-of-squares; and as mentioned above, this means that $\rho=1$ appear with vanishing frequency as $N  \rightarrow \infty$.
+
+%Table \ref{table} indicates the values of $N$ that are either perfect squares or sums of two squares.  In the Comment column of the Table these values are indicated either by the forms $n_1^2$ or $n_1^2+ n_2^2$, respectively. 
+Though it appears that density one packings are relatively common from the Table, in fact we know that the frequency of numbers that are the sums of two square integers scales as $1/\sqrt{\ln N}$ for large $N$ \cite{Berndt1993} \cite{Landau1909}.
+% for more references on density of sums of squares, see http://mathworld.wolfram.com/SumofSquaresFunction.html 
+As a consequence of this, the frequency of density one packings also vanishes with increasing $N$.
+
+\subsection{Density of configurations as $N \rightarrow \infty$}
+Despite the relative scarcity of density one packings, a statistical argument yields $\rho \rightarrow 1$ as $N \rightarrow \infty$. We show this by first generating a lower bound on the packing density for every $N$ by simply removing squares from a nearby density one packing. More precisely, suppose $M$ is a sum of two square integers. Define a new packing for $N = M-k$ by removing $k$ squares. The resulting packing density gives a lower bound of $\rho=N/(N+k)$. Given a number of squares, $N$, however, determining $k$ requires knowledge of the nearest density one packing larger than $N$. For sufficiently large $N$, we can estimate that the distance to the next density one packing is of order $\sqrt{\ln N}$ larger than $N$. Therefore, a lower bound on the packing density of $N$ squares is $1-\sqrt{\ln N}/N$ for large $N$ which yields the result that the density approaches one asymptotically. This simple argument does not take into account fluctuations in the spacing of sums of two squares and it would be interesting to find a mathematically rigorous asymptotic lower bound on the packing density.  For squares in a square REFERENCE shows that this bound is SQUARES IN SQUARE BOUND.
+
+\subsection{Entropy of $\rho=1$ packings}
+
+%JM: I DID SOME EDITING OF THE FOLLOWING PARAGRAPH
+The entropy of $\rho=1$ packings depends on $N$ in the following way.  Because $\rho=1$ packings must always be arranged in rows (see above), the only contribution to the entropy comes from the freedom
+of row(s) to shift relative to the each other.  Thus the entropy will be proportional to the number of rows that can be  shifted independently.  In Figure \ref{fig:pythagoras} we see that the number of rows that can be shifted independently is proportional to the smallest integer that can be written in the form $g=a n_2 + b n_4$, where $n_2$ and $n_4$ are defined as above (and in Figure \ref{fig:Bezout}), and $a$ and $b$ are integers.  Bezout's Lemma \cite{Surhone} states that this integer linear combination can be made equal to, but not smaller than, $g$, where $g$ is the greatest common divisor of $n_2$ and $n_4$;  thus, the entropy of $\rho=1$ packings will be proportional to $d$.  
+
+\subsection{Entropy of gapped bricklayer solutions}
+
+As discussed previously in the Section XX [???], different rows of the gapped bricklayer solutions have a fixed shift given by $c = - (n_1 n_2 + n_3 n_4)/(n_2^2 + n_4^2)$. This has ramifications for the packing entropy, since we are no longer free to arbitrarily shift rows. In Fig. [??], the lattice vectors are shown on a schematic representation of a gapped bricklayer configuration. Two rows are locked with respect to each other when a linear combination of the torus primitive vectors $\mathbf{A}_1$ and $\mathbf{A}_2$ points between the two rows. In particular, if $|n_2|$ and $|n_4|$ are mutually prime, all rows are locked and the entropy of the configuration vanishes. Alternatively, the greatest common divisor of $|n_2|$ and $|n_4|$, $g=\textrm{gcd}(|n_2|,|n_4|)$, tells us that every $g^{th}$ row is locked. Thus, the entropy of a gapped bricklayer configuration is proportional to $(n_4-n_2)(1-1/g)$.  
+
+[INCLUDE DISCUSSION OF ``poor workmanship'' entropy of GB and refer to figure 3B]
+
+\subsection{Rotational invariance of $\rho=1$ packings as $N \rightarrow \infty$}
+
+Unlike squares packed into a square boundary, squares packed on a torus maintain rotational invariance in the thermodynamic limit.  This can be seen as follows: one can see in Figure \ref{fig:pythagoras} that any $N=n_1^2+n_2^2$ packing (which are, as seen above, the only possible packings for $\rho=1$) will orient the square lattice at an angle of $\tan^{-1}(n_2/n_1)$ relative to the torus lattice vectors.  One may approach the thermodynamic limit $N \rightarrow \infty$ by choosing a particular subsequence of integers $N_i=n_{1,i}^2+n_{2,i}^2$ such that 
+%JM: I MADE THIS A STATEMENT ABOUT THE LIMIT AND REMOVED THE NOTE
+$\frac{n_{1,i}}{n_{2,i}} \rightarrow r$; and the constant $r$ will thus pick out some particular orientation of the square lattice with respect to the underlying torus 
+%(note that if $r$ is irrational, the ratio $\frac{n_{1_i}}{n_{2_i}}$ approaches, but never equals, $r$). 
+Thus the thermodynamic limit of $\rho=1$ packings on the torus  preserves orientational symmetry.
+
+\subsection{Concluding remarks}
+
+Our study of the densest packings of $N$ unit squares in a torus has yielded definitive results for cases in which $N$ is the sum of two square integers or is a perfect square, and strong conjectures for other values of $N \le 27$.  The NP-hard status of this problem suggests that a pattern in the configurations for general $N$ will necessarily remain elusive.  In addition, several other questions arise, including: Are there finitely or infinitely many $N$ for which not all squares have the same orientation? Are there other best packings on a torus that include non-trivial packings in the square?

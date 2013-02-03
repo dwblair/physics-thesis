@@ -1,0 +1,238 @@
+This is pdfeTeX, Version 3.141592-1.20a-2.2 (Web2C 7.5.3) (format=pdflatex 2005.5.26)  3 APR 2007 10:58
+entering extended mode
+\write18 enabled.
+**diameterpaperdraft3.tex
+(./diameterpaperdraft3.tex
+LaTeX2e <2003/12/01>
+Babel <v3.8d> and hyphenation patterns for american, french, german, ngerman, d
+utch, italian, norsk, portuges, spanish, swedish, nohyphenation, loaded.
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/revtex4/revtex4.cls
+Document Class: revtex4 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for do
+cumentation)
+ Copyright (c) 2001 The American Physical Society.
+ mailto:revtex@aps.org
+ Licensed under the LPPL:
+http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
+ Arthur Ogawa <ogawa@teleport.com>
+ Based on work by David Carlisle <david@dcarlisle.demon.co.uk>.
+ltxutil: portions licensed from W. E. Baxter (web@superscript.com)
+Class revtex4 Info: Repairing broken LateX \@sect on input line 596.
+\intertabularlinepenalty=\count79
+\@tbpen=\count80
+\@arstrutbox@hline=\box26
+Class revtex4 Info: Repairing broken LaTeX \@xbitor on input line 1610.
+ltxgrid: portions licensed from W. E. Baxter (web@superscript.com)
+\c@linecount=\count81
+\output=\toks14
+\@protection@box=\box27
+\@topmark@saved=\toks15
+\footins@saved=\box28
+\pagesofar=\box29
+\footbox=\box30
+\pagegrid@col=\count82
+Class revtex4 Info: Incorporating package {textcase}  [1998/11/12 v0.06 Text on
+ly upper/lower case changing (DPC)]. on input line 3682.
+(/usr/local/teTeX/share/texmf.local/tex/latex/html/url.sty
+Package: url 1999/03/02  ver 1.4  Verb mode for urls, email addresses, and file
+ names
+)
+\c@affil=\count83
+\absbox=\box31
+\c@part=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\c@figure=\count90
+\c@table=\count91
+
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/natbib/natbib.sty
+Package: natbib 2003/06/06 7.1 (PWD)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 518.
+\c@NAT@ctr=\count92
+)
+\widetext@top=\box32
+\widetext@bot=\box33
+
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/revtex4/revsymb.sty
+Package: revsymb 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for documenta
+tion)
+LaTeX Info: Redefining \REV@mathfrak on input line 118.
+))
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/revtex4/aps.rtx
+File: aps.rtx 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for documentatio
+n)
+)
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/revtex4/12pt.rtx
+File: 12pt.rtx 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for documentati
+on)
+)
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/graphics/graphics.cfg
+File: graphics.cfg 2005/02/03 v1.3 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/graphics/pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+\Gread@gobject=\count93
+))
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks17
+\verbatim@line=\toks18
+\verbatim@in@stream=\read1
+)
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/graphics/color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/graphics/color.cfg
+File: color.cfg 2005/02/03 v1.3 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 125.
+)
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip45
+\subfigcapskip=\skip46
+\subfigcaptopadj=\dimen104
+\subfigbottomskip=\skip47
+\subfigcapmargin=\dimen105
+\subfiglabelskip=\skip48
+\c@subfigure=\count94
+\c@lofdepth=\count95
+\c@subtable=\count96
+\c@lotdepth=\count97
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip49
+\subfig@bottom=\skip50
+)
+(./diameterpaperdraft3.aux)
+\openout1 = `diameterpaperdraft3.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+Class revtex4 Info: Patching LaTeX tabular. on input line 13.
+Class revtex4 Info: cite was not loaded (OK!) on input line 13.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 13.
+
+(/usr/local/teTeX/share/texmf.tetex/tex/context/base/supp-pdf.tex
+(/usr/local/teTeX/share/texmf.tetex/tex/context/base/supp-mis.tex
+loading : Context Support Macros / Miscellaneous (2004.10.26)
+\protectiondepth=\count98
+\scratchcounter=\count99
+\scratchtoks=\toks19
+\scratchdimen=\dimen106
+\scratchskip=\skip51
+\scratchmuskip=\muskip10
+\scratchbox=\box34
+\scratchread=\read2
+\scratchwrite=\write3
+\zeropoint=\dimen107
+\onepoint=\dimen108
+\onebasepoint=\dimen109
+\minusone=\count100
+\thousandpoint=\dimen110
+\onerealpoint=\dimen111
+\emptytoks=\toks20
+\nextbox=\box35
+\nextdepth=\dimen112
+\everyline=\toks21
+\!!counta=\count101
+\!!countb=\count102
+\recursecounter=\count103
+)
+loading : Context Support Macros / PDF (2004.03.26)
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen113
+\MPnumerator=\count107
+\everyMPtoPDFconversion=\toks22
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 22.
+ [1{/usr/local/teTeX/share/texmf.local/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 30.
+
+[2] [3] [4] [5]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6] <figures/griddotschemdiamlabel.pdf, id=59, 342.5598pt x 301.125pt>
+File: figures/griddotschemdiamlabel.pdf Graphic file (type pdf)
+
+<use figures/griddotschemdiamlabel.pdf>
+<figures/diamfind.png, id=60, 493.845pt x 310.15875pt>
+File: figures/diamfind.png Graphic file (type png)
+
+<use figures/diamfind.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(./diameterpaperdraft3.bbl [7 <./figures/griddotschemdiamlabel.pdf>]) [8 <./fig
+ures/diamfind.png>] (./diameterpaperdraft3.aux) ) 
+Here is how much of TeX's memory you used:
+ 2630 strings out of 95217
+ 33517 string characters out of 1184538
+ 2086056 words of memory out of 4540891
+ 5748 multiletter control sequences out of 10000+50000
+ 9205 words of font info for 32 fonts, out of 2000000 for 2000
+ 58 hyphenation exceptions out of 1000
+ 25i,9n,24p,1729b,314s stack positions out of 1500i,500n,5000p,200000b,5000s
+ 77 PDF objects out of 300000
+ 0 named destinations out of 131072
+ 11 words of extra memory for PDF output out of 65536
+</usr/local/teTeX/share/texmf.
+tetex/fonts/type1/bluesky/cm/cmti10.pfb></usr/local/teTeX/share/texmf.tetex/fon
+ts/type1/bluesky/cm/cmr8.pfb></usr/local/teTeX/share/texmf.tetex/fonts/type1/bl
+uesky/cm/cmsy8.pfb></usr/local/teTeX/share/texmf.tetex/fonts/type1/bluesky/cm/c
+mex10.pfb></usr/local/teTeX/share/texmf.tetex/fonts/type1/bluesky/cm/cmmi6.pfb>
+</usr/local/teTeX/share/texmf.tetex/fonts/type1/bluesky/cm/cmsy10.pfb></usr/loc
+al/teTeX/share/texmf.tetex/fonts/type1/bluesky/cm/cmmi12.pfb></usr/local/teTeX/
+share/texmf.tetex/fonts/type1/bluesky/cm/cmbx10.pfb></usr/local/teTeX/share/tex
+mf.tetex/fonts/type1/bluesky/cm/cmmi8.pfb></usr/local/teTeX/share/texmf.tetex/f
+onts/type1/bluesky/cm/cmmi10.pfb></usr/local/teTeX/share/texmf.tetex/fonts/type
+1/bluesky/cm/cmr10.pfb></usr/local/teTeX/share/texmf.tetex/fonts/type1/bluesky/
+cm/cmti12.pfb></usr/local/teTeX/share/texmf.tetex/fonts/type1/bluesky/cm/cmr12.
+pfb></usr/local/teTeX/share/texmf.tetex/fonts/type1/bluesky/cm/cmbx12.pfb>
+Output written on diameterpaperdraft3.pdf (8 pages, 147263 bytes).

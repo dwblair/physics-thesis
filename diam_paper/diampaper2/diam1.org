@@ -1,0 +1,6 @@
+#+LATEX_CLASS: paperdraft
+##+TITLE: test
+##+AUTHOR: Pop
+#+OPTIONS: author:nil creator:nil toc:nil
+* this
+* the other

@@ -1,0 +1,208 @@
+\begin{thebibliography}{29}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Bernal}(1964)}]{Bernal1964}
+\bibinfo{author}{\bibfnamefont{J.~D.} \bibnamefont{Bernal}},
+  \bibinfo{journal}{Proceedings of the Royal Society: Series A}
+  \textbf{\bibinfo{volume}{280}}, \bibinfo{pages}{299} (\bibinfo{year}{1964}).
+
+\bibitem[{\citenamefont{Zallen}(1983)}]{Zallen1983}
+\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Zallen}},
+  \emph{\bibinfo{title}{{The Physics of Amorphous Solids}}}
+  (\bibinfo{publisher}{Wiley-VCH}, \bibinfo{address}{Berlin},
+  \bibinfo{year}{1983}).
+
+\bibitem[{\citenamefont{Torquato}(2002)}]{Torquato2002}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Torquato}},
+  \emph{\bibinfo{title}{{Random Heterogeneous Materials: Microstructure and
+  Macroscopic Properties}}} (\bibinfo{publisher}{Springer-Verlag},
+  \bibinfo{address}{New York}, \bibinfo{year}{2002}).
+
+\bibitem[{\citenamefont{Chaikin and Lubensky}(2000)}]{Chaikin2000}
+\bibinfo{author}{\bibfnamefont{P.~M.} \bibnamefont{Chaikin}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{T.~C.} \bibnamefont{Lubensky}},
+  \emph{\bibinfo{title}{{Principles of Condensed Matter Physics}}}
+  (\bibinfo{publisher}{Cambridge University Press},
+  \bibinfo{address}{Cambridge}, \bibinfo{year}{2000}).
+
+\bibitem[{\citenamefont{Mehta}(1994)}]{Mehta1994}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Mehta}},
+  \emph{\bibinfo{title}{{Granular Matter: An Interdisciplinary Approach}}}
+  (\bibinfo{publisher}{Springer-Verlag}, \bibinfo{address}{New York},
+  \bibinfo{year}{1994}).
+
+\bibitem[{\citenamefont{Cohn and Elkies}(2003)}]{COHNa}
+\bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Cohn}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Elkies}},
+  \bibinfo{journal}{Annals of Mathematics} \textbf{\bibinfo{volume}{157}},
+  \bibinfo{pages}{689} (\bibinfo{year}{2003}).
+
+\bibitem[{\citenamefont{Conway and Sloane}(1999)}]{Conway1999}
+\bibinfo{author}{\bibfnamefont{J.~H.} \bibnamefont{Conway}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{N.~J.~A.} \bibnamefont{Sloane}},
+  \emph{\bibinfo{title}{{Sphere Packings, Lattices, and Groups}}}
+  (\bibinfo{publisher}{Springer-Verlag}, \bibinfo{address}{New York},
+  \bibinfo{year}{1999}).
+
+\bibitem[{\citenamefont{Gevertz and Torquato}(2008)}]{Gevertz2008}
+\bibinfo{author}{\bibfnamefont{J.~L.} \bibnamefont{Gevertz}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Torquato}},
+  \bibinfo{journal}{PLoS Computational Biology} \textbf{\bibinfo{volume}{4}},
+  \bibinfo{pages}{e1000152} (\bibinfo{year}{2008}).
+
+\bibitem[{\citenamefont{Purohit et~al.}(2003)\citenamefont{Purohit, Kondev, and
+  Phillips}}]{Purohit2003}
+\bibinfo{author}{\bibfnamefont{P.~K.} \bibnamefont{Purohit}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Kondev}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Phillips}},
+  \bibinfo{journal}{Proceedings of the National Academy of Sciences}
+  \textbf{\bibinfo{volume}{100}}, \bibinfo{pages}{3173} (\bibinfo{year}{2003}).
+
+\bibitem[{\citenamefont{Johnson et~al.}(1974)\citenamefont{Johnson, Demers,
+  Ullman, Garey, and Graham}}]{Johnson1974}
+\bibinfo{author}{\bibfnamefont{D.~S.} \bibnamefont{Johnson}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Demers}},
+  \bibinfo{author}{\bibfnamefont{J.~D.} \bibnamefont{Ullman}},
+  \bibinfo{author}{\bibfnamefont{M.~R.} \bibnamefont{Garey}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{R.~L.} \bibnamefont{Graham}},
+  \bibinfo{journal}{SIAM Journal on Computing} \textbf{\bibinfo{volume}{3}},
+  \bibinfo{pages}{299} (\bibinfo{year}{1974}).
+
+\bibitem[{\citenamefont{Lodi}(2002)}]{Lodi2002}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Lodi}},
+  \bibinfo{journal}{European Journal of Operational Research}
+  \textbf{\bibinfo{volume}{141}}, \bibinfo{pages}{241} (\bibinfo{year}{2002}).
+
+\bibitem[{\citenamefont{Hales}(1998)}]{HALESa}
+\bibinfo{author}{\bibfnamefont{T.~C.} \bibnamefont{Hales}},
+  \bibinfo{journal}{Annals of Mathematics} \textbf{\bibinfo{volume}{162}},
+  \bibinfo{pages}{1065} (\bibinfo{year}{1998}).
+
+\bibitem[{\citenamefont{Pusey and van Megen}(1986)}]{Pusey1986}
+\bibinfo{author}{\bibfnamefont{P.~N.} \bibnamefont{Pusey}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{van Megen}},
+  \bibinfo{journal}{Nature} \textbf{\bibinfo{volume}{320}},
+  \bibinfo{pages}{340} (\bibinfo{year}{1986}).
+
+\bibitem[{\citenamefont{Donev et~al.}(2004)\citenamefont{Donev, Cisse, Sachs,
+  Variano, Stillinger, Connelly, Torquato, and Chaikin}}]{Donev2004}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Donev}},
+  \bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Cisse}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Sachs}},
+  \bibinfo{author}{\bibfnamefont{E.~A.} \bibnamefont{Variano}},
+  \bibinfo{author}{\bibfnamefont{F.~H.} \bibnamefont{Stillinger}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Connelly}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Torquato}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{P.~M.} \bibnamefont{Chaikin}},
+  \bibinfo{journal}{Science} \textbf{\bibinfo{volume}{303}},
+  \bibinfo{pages}{990} (\bibinfo{year}{2004}).
+
+\bibitem[{\citenamefont{Ras et~al.}(2011)\citenamefont{Ras, Schilling, and
+  Weigel}}]{Ras2011}
+\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Ras}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Schilling}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Weigel}}
+  (\bibinfo{year}{2011}), \eprint{arXiv:1110.4775}.
+
+\bibitem[{\citenamefont{Roan}(2006)}]{ROAN}
+\bibinfo{author}{\bibfnamefont{J.-R.} \bibnamefont{Roan}},
+  \bibinfo{journal}{Physical Review Letters} \textbf{\bibinfo{volume}{96}}
+  (\bibinfo{year}{2006}).
+
+\bibitem[{\citenamefont{Baker and Kudrolli}(2010)}]{BAKER}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Baker}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Kudrolli}},
+  \bibinfo{journal}{Physical Review E} \textbf{\bibinfo{volume}{82}}
+  (\bibinfo{year}{2010}).
+
+\bibitem[{\citenamefont{Stroobants et~al.}(1986)\citenamefont{Stroobants,
+  Lekkerkerker, and Frenkel}}]{STROOBANTS}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Stroobants}},
+  \bibinfo{author}{\bibfnamefont{H.~N.~W.} \bibnamefont{Lekkerkerker}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Frenkel}},
+  \bibinfo{journal}{Physical Review Letters} \textbf{\bibinfo{volume}{57}},
+  \bibinfo{pages}{1452} (\bibinfo{year}{1986}).
+
+\bibitem[{\citenamefont{Donev et~al.}(2006)\citenamefont{Donev, Burton,
+  Stillinger, and Torquato}}]{Donev2006}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Donev}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Burton}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Stillinger}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Torquato}},
+  \bibinfo{journal}{Physical Review B} \textbf{\bibinfo{volume}{73}},
+  \bibinfo{pages}{054109} (\bibinfo{year}{2006}).
+
+\bibitem[{\citenamefont{Zhao et~al.}(2011)\citenamefont{Zhao, Bruinsma, and
+  Mason}}]{Zhao2011}
+\bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Zhao}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Bruinsma}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Mason}},
+  \bibinfo{journal}{Proceedings of the National Academy of Sciences}
+  \textbf{\bibinfo{volume}{108}}, \bibinfo{pages}{2684} (\bibinfo{year}{2011}).
+
+\bibitem[{\citenamefont{Leung et~al.}(1990)\citenamefont{Leung, Tam, Wong,
+  Young, and Chin}}]{Leung1990}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Leung}},
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Tam}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Wong}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Young}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Chin}},
+  \bibinfo{journal}{Journal of Parallel and Distributed Computing}
+  \textbf{\bibinfo{volume}{10}}, \bibinfo{pages}{271} (\bibinfo{year}{1990}).
+
+\bibitem[{\citenamefont{Erdos}(1975)}]{ERDOS1975}
+\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Erdos}},
+  \bibinfo{journal}{Journal of Combinatorial Theory, Series A}
+  \textbf{\bibinfo{volume}{19}}, \bibinfo{pages}{119} (\bibinfo{year}{1975}).
+
+\bibitem[{\citenamefont{Friedman}(2002)}]{Friedman2002}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Friedman}},
+  \bibinfo{journal}{The Electronic Journal of Combinatorics}
+  \textbf{\bibinfo{volume}{7}} (\bibinfo{year}{2002}).
+
+\bibitem[{\citenamefont{Murta}()}]{Murta}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Murta}},
+  \emph{\bibinfo{title}{{GPC: General Polygon Clipper Library}}},
+  \bibinfo{note}{http://www.cs.man.ac.uk/~toby/alan/software/}.
+
+\bibitem[{\citenamefont{R\"{a}dler}()}]{Radler}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{R\"{a}dler}},
+  \emph{\bibinfo{title}{{The Polygon Python package}}},
+  \bibinfo{note}{http://www.j-raedler.de/projects/polygon/}.
+
+\bibitem[{\citenamefont{Scherer et~al.}(2000)\citenamefont{Scherer, Dubois, and
+  Sherwood}}]{Scherer2000}
+\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Scherer}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Dubois}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Sherwood}},
+  \bibinfo{journal}{Computing in Science \& Engineering}
+  \textbf{\bibinfo{volume}{2}}, \bibinfo{pages}{56} (\bibinfo{year}{2000}).
+
+\bibitem[{\citenamefont{Berndt}(1993)}]{Berndt1993}
+\bibinfo{author}{\bibfnamefont{B.~C.} \bibnamefont{Berndt}},
+  \emph{\bibinfo{title}{{Ramanujan's Notebooks, Part 4}}}
+  (\bibinfo{publisher}{Springer}, \bibinfo{year}{1993}).
+
+\bibitem[{\citenamefont{Landau}(1909)}]{Landau1909}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Landau}},
+  \emph{\bibinfo{title}{{Handbuch der lehre von der verteilung der primzahlen,
+  Volume 1}}} (\bibinfo{publisher}{B. G. Teubner}, \bibinfo{year}{1909}).
+
+\bibitem[{\citenamefont{Jones and Jones}(1998)}]{Jones1998}
+\bibinfo{author}{\bibfnamefont{G.~A.} \bibnamefont{Jones}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.~M.} \bibnamefont{Jones}},
+  \emph{\bibinfo{title}{{Elementary Number Theory}}}
+  (\bibinfo{publisher}{Springer}, \bibinfo{year}{1998}).
+
+\end{thebibliography}

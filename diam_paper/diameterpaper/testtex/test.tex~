@@ -1,0 +1,19 @@
+%\documentclass[12pt]{article}
+
+\documentclass[aps, preprint, groupedaddress]{revtex4}
+\usepackage{graphicx}
+
+\usepackage{verbatim} 
+\usepackage{color}      
+\usepackage{subfigure} 
+
+\newcommand{\lb}{{\langle}}
+\newcommand{\rb}{{\rangle}}
+
+\begin{document}
+
+Test tex. But really.
+
+There isn't much else to do.
+
+\end{document}

@@ -1,0 +1,604 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2007.5.18)  8 OCT 2008 01:40
+entering extended mode
+ %&-line parsing enabled.
+**\input diam3.tex
+(./diam3.tex (/usr/local/texlive/2007/texmf-dist/tex/latex/revtex/revtex4.cls
+Document Class: revtex4 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for do
+cumentation)
+ Copyright (c) 2001 The American Physical Society.
+ mailto:revtex@aps.org
+ Licensed under the LPPL:
+http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
+ Arthur Ogawa <ogawa@teleport.com>
+ Based on work by David Carlisle <david@dcarlisle.demon.co.uk>.
+ltxutil: portions licensed from W. E. Baxter (web@superscript.com)
+Class revtex4 Info: Repairing broken LateX \@sect on input line 596.
+\intertabularlinepenalty=\count79
+\@tbpen=\count80
+\@arstrutbox@hline=\box26
+Class revtex4 Info: Repairing broken LaTeX \@xbitor on input line 1610.
+ltxgrid: portions licensed from W. E. Baxter (web@superscript.com)
+\c@linecount=\count81
+\output=\toks14
+\@protection@box=\box27
+\@topmark@saved=\toks15
+\footins@saved=\box28
+\pagesofar=\box29
+\footbox=\box30
+\pagegrid@col=\count82
+Class revtex4 Info: Incorporating package {textcase}  [1998/11/12 v0.06 Text on
+ly upper/lower case changing (DPC)]. on input line 3682.
+(/usr/local/texlive/2007/texmf-dist/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2005/06/27  ver 3.2  Verb mode for urls, etc.
+)
+\c@affil=\count83
+\absbox=\box31
+\c@part=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\c@figure=\count90
+\c@table=\count91
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2007/02/05 8.0 (PWD)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 602.
+\c@NAT@ctr=\count92
+)
+\widetext@top=\box32
+\widetext@bot=\box33
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/revtex/revsymb.sty
+Package: revsymb 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documenta
+tion)
+LaTeX Info: Redefining \REV@mathfrak on input line 118.
+))
+(/usr/local/texlive/2007/texmf-dist/tex/latex/revtex/aps.rtx
+File: aps.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentatio
+n)
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/revtex/12pt.rtx
+File: 12pt.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentati
+on)
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2007/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
+\Gread@gobject=\count93
+))
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen104
+\epsfysize=\dimen105
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\@emptytoks=\toks17
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+LaTeX Info: Redefining \frak on input line 135.
+LaTeX Info: Redefining \Bbb on input line 137.
+))
+(/usr/local/texlive/2007/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2007/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks18
+\ex@=\dimen106
+))
+(/usr/local/texlive/2007/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen107
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count94
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count95
+\leftroot@=\count96
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count97
+\DOTSCASE@=\count98
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box34
+\strutbox@=\box35
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count99
+\c@MaxMatrixCols=\count100
+\dotsspace@=\muskip11
+\c@parentequation=\count101
+\dspbrk@lvl=\count102
+\tag@help=\toks19
+\row@=\count103
+\column@=\count104
+\maxfields@=\count105
+\andhelp@=\toks20
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks21
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 137.
+LaTeX Info: Redefining \bm on input line 203.
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/pdfsync/pdfsync.sty
+Package: pdfsync 2007/01/15 v1.0
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2007/02/07 v6.75r Hypertext links for LaTeX
+\@linkdim=\dimen115
+\Hy@linkcounter=\count106
+\Hy@pagecounter=\count107
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2007/02/07 v6.75r Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/local/texlive/2007/texmf/tex/latex/config/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2006/08/22 v2.4 Connects package keyval with LaTeX options (
+HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 2288.
+Package hyperref Info: Link nesting OFF on input line 2293.
+Package hyperref Info: Hyper index ON on input line 2296.
+Package hyperref Info: Plain pages OFF on input line 2303.
+Package hyperref Info: Backreferencing OFF on input line 2308.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 2444.
+LaTeX Info: Redefining \url on input line 2599.
+\Fld@menulength=\count108
+\Field@Width=\dimen116
+\Fld@charsize=\dimen117
+\Choice@toks=\toks23
+\Field@toks=\toks24
+Package hyperref Info: Hyper figures OFF on input line 3102.
+Package hyperref Info: Link nesting OFF on input line 3107.
+Package hyperref Info: Hyper index ON on input line 3110.
+Package hyperref Info: backreferencing OFF on input line 3117.
+Package hyperref Info: Link coloring OFF on input line 3122.
+\Hy@abspage=\count109
+\c@Item=\count110
+\c@Hfootnote=\count111
+)
+*hyperref using default driver hpdftex*
+(/usr/local/texlive/2007/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2007/02/07 v6.75r Hyperref driver for pdfTeX
+\Fld@listcount=\count112
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/pst-func/pst-func.sty
+(/usr/local/texlive/2007/texmf-dist/tex/latex/pstricks/pstricks.sty
+Package: pstricks 2006/08/10 v0.32 LaTeX wrapper for `PSTricks' (RN,HV)
+
+(/usr/local/texlive/2007/texmf-dist/tex/generic/pstricks/pstricks.tex
+`PSTricks' v1.15  <2006/12/22> (tvz)
+\pst@dima=\dimen118
+\pst@dimb=\dimen119
+\pst@dimc=\dimen120
+\pst@dimd=\dimen121
+\pst@dimg=\dimen122
+\pst@dimh=\dimen123
+\pst@hbox=\box36
+\pst@boxg=\box37
+\pst@cnta=\count113
+\pst@cntb=\count114
+\pst@cntc=\count115
+\pst@cntd=\count116
+\pst@cntg=\count117
+\pst@cnth=\count118
+\pst@toks=\toks25
+(/usr/local/texlive/2007/texmf-dist/tex/generic/pstricks/pstricks.con)
+\psunit=\dimen124
+\psxunit=\dimen125
+\psyunit=\dimen126
+\pslinewidth=\dimen127
+\pst@customdefs=\toks26
+\pslinearc=\dimen128
+\everypsbox=\toks27
+\psframesep=\dimen129
+\pslabelsep=\dimen130
+\psk@shift=\dimen131
+\pst@shift=\dimen132
+\theoverlaybox=\box38
+)
+File: pstricks.tex 2006/12/22 v1.15 `PSTricks' (tvz)
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2007/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Package option `override' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+Package: pst-func 2006/04/22 package wrapper for pst-func.tex (hv)
+
+(/usr/local/texlive/2007/texmf-dist/tex/generic/pst-func/pst-func.tex
+(/usr/local/texlive/2007/texmf-dist/tex/generic/pstricks/pst-plot.tex
+ v97 patch 2, 1999/12/12
+(/usr/local/texlive/2007/texmf-dist/tex/generic/multido/multido.tex
+ v1.41, 2004/05/18 <tvz>
+\multido@count=\count119
+\multidocount=\count120
+\multido@stuff=\toks28
+))
+(/usr/local/texlive/2007/texmf-dist/tex/generic/pstricks-add/pstricks-add.tex
+(/usr/local/texlive/2007/texmf-dist/tex/generic/pstricks/pst-node.tex
+ v97 patch 11, 2000/11/09
+\psrow=\count121
+\pscol=\count122
+\psmatrixcnt=\count123
+\psrowsep=\skip48
+\pscolsep=\skip49
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/xkeyval/pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2006/11/18 v2.5f package option processing (HA)
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/xkeyval/xkeyval.tex
+\XKV@toks=\toks29
+\XKV@depth=\count124
+File: xkeyval.tex 2006/11/18 v2.5f key=value parser (HA)
+)))
+`pstricks-add' v2.82, 2006/11/22 (dr,hv)
+\pst@dimm=\dimen133
+\pst@dimn=\dimen134
+\pst@dimo=\dimen135
+\pst@dimp=\dimen136
+\pst@cntm=\count125
+\pst@cntn=\count126
+\pst@cnto=\count127
+\pst@cntp=\count128
+\@zero=\count129
+\pstRadUnit=\dimen137
+\pstRadUnitInv=\dimen138
+\pst@braceWidth=\dimen139
+\pshooklength=\dimen140
+\pshookwidth=\dimen141
+\@digitcounter=\count130
+\psk@subticksize=\dimen142
+\pst@xticksizeA=\dimen143
+\pst@xticksizeB=\dimen144
+\pst@xticksizeC=\dimen145
+\pst@yticksizeA=\dimen146
+\pst@yticksizeB=\dimen147
+\pst@yticksizeC=\dimen148
+\psk@llx=\dimen149
+\psk@lly=\dimen150
+\psk@urx=\dimen151
+\psk@ury=\dimen152
+\pst@xunit=\dimen153
+\pst@yunit=\dimen154
+\linecnt=\count131
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/xkeyval/pst-xkey.tex)
+`PST-func' v0.46, 2006/09/06 (hv)
+\psk@zeroLineWidth=\dimen155
+)
+File: pst-func.tex 2006/09/06 v0.46 `PST-func' (hv)
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/pstricks-add/pstricks-add.sty
+Package: pstricks-add 2005/03/03 package wrapper for pstricks-add.tex (hv)
+
+(/usr/local/texlive/2007/texmf-dist/tex/generic/pstricks-add/pstricks-add.tex)
+File: pstricks-add.tex 2006/09/06 v0.46 `PSTricks-add' (hv,dr)
+) (/usr/local/texlive/2007/texmf-dist/tex/latex/pst-pdf/pst-pdf.sty
+Package: pst-pdf 2006/08/31 v1.1o PS graphics for pdfLaTeX (RN,HjG)
+\c@pspicture=\count132
+Package pst-pdf Info: MODE: 1 (pdfTeX mode) on input line 201.
+\ppf@temptoken=\toks30
+
+(/Applications/Aquamacs Emacs.app/Contents/Resources/site-lisp/edit-modes/aucte
+x/latex/preview.sty
+Package: preview 2008/02/03 11.85 (AUCTeX/preview-latex)
+\pr@snippet=\count133
+\pr@box=\box39
+\pr@output=\toks31
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+! Undefined control sequence.
+<argument> \collaboration@sw 
+                             {\expandafter \appdef \expandafter \AU@grp \exp...
+l.22 \author{Don Blair}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...twodef \expandafter \@tempa \@affil 
+                                                  \def \AFF@opr {\@affil@mat...
+l.22 \author{Don Blair}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \@affil@match has an extra }.
+<inserted text> 
+                \par 
+l.22 \author{Don Blair}
+                       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \@affil@match was complete.
+<to be read again> 
+                   \par 
+l.22 \author{Don Blair}
+                       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+<argument> ... {\@affil@match \@tempa }\@AFF@list 
+                                                  
+l.22 \author{Don Blair}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \expandafter \@firstoftwo \@affil 
+                                             
+l.22 \author{Don Blair}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \@affil 
+                   
+l.22 \author{Don Blair}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(./diam3.aux)
+\openout1 = `diam3.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+Class revtex4 Info: Patching LaTeX tabular. on input line 25.
+Class revtex4 Info: cite was not loaded (OK!) on input line 25.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 25.
+ (/usr/local/texlive/2007/texmf-dist/tex/context/base/supp-pdf.tex
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count134
+\scratchdimen=\dimen156
+\scratchbox=\box40
+\nofMPsegments=\count135
+\nofMParguments=\count136
+\MPscratchCnt=\count137
+\MPscratchDim=\dimen157
+\MPnumerator=\count138
+\everyMPtoPDFconversion=\toks32
+)
+Configuring pdfsync
+\PDFSYNC@ut=\write3
+\openout3 = `diam3.pdfsync'.
+
+\PDFSYNCf@li@=\count139
+\PDFSYNC@rder=\count140
+**** pdfsync.sty: Synchronizing at \everypar
+\PDFSYNCeveryp@r=\toks33
+**** pdfsync.sty: Synchronizing at \everymath
+\PDFSYNCeverym@th=\toks34
+**** pdfsync.sty: Synchronizing at \everyhbox
+\PDFSYNCeveryhb@x=\toks35
+**** pdfsync.sty: Synchronizing at \everyvbox
+\PDFSYNCeveryvb@x=\toks36
+**** pdfsync.sty: started
+Package hyperref Info: Link coloring OFF on input line 25.
+ (/usr/local/texlive/2007/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/oberdiek/refcount.sty
+Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
+)
+\c@section@level=\count141
+)
+LaTeX Info: Redefining \ref on input line 25.
+LaTeX Info: Redefining \pageref on input line 25.
+
+(./diam3.out) (./diam3.out)
+\@outlinefile=\write4
+\openout4 = `diam3.out'.
+
+
+Preview: Fontsize 12pt
+Preview: PDFoutput 1
+LaTeX Font Info:    Try loading font information for U+msa on input line 34.
+(/usr/local/texlive/2007/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 34.
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+)
+
+Class revtex4 Warning: No title.
+
+[1
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!{/usr/local/texlive/2007/texmf-var/fonts/map/pdftex/upd
+map/pdftex.map}]
+
+Package natbib Warning: Citation `SwWa86' on page 2 undefined on input line 46.
+
+
+
+Package natbib Warning: Citation `NeBa99' on page 2 undefined on input line 46.
+
+
+
+Package natbib Warning: Citation `FoKa' on page 2 undefined on input line 48.
+
+
+Package natbib Warning: Citation `NeBa99' on page 2 undefined on input line 53.
+
+
+
+Package natbib Warning: Citation `Met' on page 2 undefined on input line 53.
+
+[2]
+
+Package pst-pdf Warning: pspicture No. 1 undefined.
+
+
+LaTeX Warning: Reference `tab:dminD3d' on page 3 undefined on input line 85.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+No file diam3.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+
+Package pst-pdf Warning: File `diam3-pics.pdf' not found.
+(pst-pdf)                Use the following commands to create it:
+(pst-pdf)                ---------------------------------------------------- 
+(pst-pdf)                latex diam3.tex
+(pst-pdf)                dvips -o diam3-pics.ps diam3.dvi
+(pst-pdf)                ps2pdf diam3-pics.ps
+(pst-pdf)                ---------------------------------------------------- .
+
+
+[3] [4] [5] [6] (./diam3.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 8071 strings out of 94073
+ 105833 string characters out of 1162984
+ 231063 words of memory out of 1500000
+ 11214 multiletter control sequences out of 10000+50000
+ 22828 words of font info for 83 fonts, out of 1200000 for 2000
+ 645 hyphenation exceptions out of 8191
+ 40i,21n,54p,927b,431s stack positions out of 5000i,500n,6000p,200000b,5000s
+</usr/local/texlive/2007/texmf-dist/fonts/type1/bluesky/cm/cmbx10.pfb></usr/l
+ocal/texlive/2007/texmf-dist/fonts/type1/bluesky/cm/cmbx12.pfb></usr/local/texl
+ive/2007/texmf-dist/fonts/type1/bluesky/cm/cmmi10.pfb></usr/local/texlive/2007/
+texmf-dist/fonts/type1/bluesky/cm/cmmi12.pfb></usr/local/texlive/2007/texmf-dis
+t/fonts/type1/bluesky/cm/cmmi6.pfb></usr/local/texlive/2007/texmf-dist/fonts/ty
+pe1/bluesky/cm/cmmi8.pfb></usr/local/texlive/2007/texmf-dist/fonts/type1/bluesk
+y/cm/cmr10.pfb></usr/local/texlive/2007/texmf-dist/fonts/type1/bluesky/cm/cmr12
+.pfb></usr/local/texlive/2007/texmf-dist/fonts/type1/bluesky/cm/cmsy10.pfb></us
+r/local/texlive/2007/texmf-dist/fonts/type1/bluesky/cm/cmsy8.pfb></usr/local/te
+xlive/2007/texmf-dist/fonts/type1/bluesky/cm/cmti10.pfb></usr/local/texlive/200
+7/texmf-dist/fonts/type1/bluesky/cm/cmti12.pfb>
+Output written on diam3.pdf (6 pages, 87714 bytes).
+PDF statistics:
+ 136 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 131072)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
+

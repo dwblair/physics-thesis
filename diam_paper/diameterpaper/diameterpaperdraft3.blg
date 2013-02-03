@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.3)
+The top-level auxiliary file: diameterpaperdraft3.aux
+The style file: apsrev.bst
+Database file #1: ../bibfiles/dwbreferences.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 9 entries,
+            3411 wiz_defined-function locations,
+            1245 strings with 11394 characters,
+and the built_in function-call counts, 5558 in all, are:
+= -- 330
+> -- 147
+< -- 25
++ -- 108
+- -- 36
+* -- 725
+:= -- 629
+add.period$ -- 9
+call.type$ -- 9
+change.case$ -- 36
+chr.to.int$ -- 9
+cite$ -- 9
+duplicate$ -- 511
+empty$ -- 490
+format.name$ -- 101
+if$ -- 1057
+int.to.chr$ -- 1
+int.to.str$ -- 10
+missing$ -- 82
+newline$ -- 42
+num.names$ -- 27
+pop$ -- 142
+preamble$ -- 1
+purify$ -- 36
+quote$ -- 0
+skip$ -- 204
+stack$ -- 0
+substring$ -- 194
+swap$ -- 389
+text.length$ -- 18
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 52
+warning$ -- 0
+while$ -- 26
+width$ -- 0
+write$ -- 103

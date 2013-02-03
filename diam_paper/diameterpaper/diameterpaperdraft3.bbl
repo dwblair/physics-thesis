@@ -1,0 +1,72 @@
+\begin{thebibliography}{9}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Grassberger}(1983)}]{Gr83}
+\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Grassberger}},
+  \bibinfo{journal}{Math. Biosci.} \textbf{\bibinfo{volume}{63}},
+  \bibinfo{pages}{157} (\bibinfo{year}{1983}).
+
+\bibitem[{\citenamefont{Herrmann and Stanley}(1988)}]{HrSt88}
+\bibinfo{author}{\bibfnamefont{H.~J.} \bibnamefont{Herrmann}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{H.~E.} \bibnamefont{Stanley}},
+  \bibinfo{journal}{J. Phys. A: Math. Gen.} \textbf{\bibinfo{volume}{21}},
+  \bibinfo{pages}{L829} (\bibinfo{year}{1988}).
+
+\bibitem[{\citenamefont{Ziff}(1999)}]{Zi99}
+\bibinfo{author}{\bibfnamefont{R.~M.} \bibnamefont{Ziff}}, \bibinfo{journal}{J.
+  Phys. A: Math. Gen.} \textbf{\bibinfo{volume}{32}}, \bibinfo{pages}{L457}
+  (\bibinfo{year}{1999}).
+
+\bibitem[{\citenamefont{Swendsen and Wang}(1986)}]{SwWa86}
+\bibinfo{author}{\bibfnamefont{R.~H.} \bibnamefont{Swendsen}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.-S.} \bibnamefont{Wang}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{57}},
+  \bibinfo{pages}{2607} (\bibinfo{year}{1986}).
+
+\bibitem[{\citenamefont{Newman and Barkema}(1999)}]{NeBa99}
+\bibinfo{author}{\bibfnamefont{M.~E.~J.} \bibnamefont{Newman}}
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{G.~T.}
+  \bibnamefont{Barkema}}, \emph{\bibinfo{title}{Monte Carlo Methods in
+  Statistical Physics}} (\bibinfo{publisher}{Oxford},
+  \bibinfo{address}{Oxford}, \bibinfo{year}{1999}).
+
+\bibitem[{\citenamefont{Fortuin and Kasteleyn}(1972)}]{FoKa}
+\bibinfo{author}{\bibfnamefont{C.~M.} \bibnamefont{Fortuin}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{P.~M.} \bibnamefont{Kasteleyn}},
+  \bibinfo{journal}{Physica} \textbf{\bibinfo{volume}{57}},
+  \bibinfo{pages}{536} (\bibinfo{year}{1972}).
+
+\bibitem[{\citenamefont{Metropolis et~al.}(1953)\citenamefont{Metropolis,
+  Rosenbluth, Teller, and Teller}}]{Met}
+\bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Metropolis}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Rosenbluth}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Teller}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Teller}},
+  \bibinfo{journal}{J.Chem.Phys.} \textbf{\bibinfo{volume}{21}},
+  \bibinfo{pages}{1087} (\bibinfo{year}{1953}).
+
+\bibitem[{\citenamefont{Stauffer}(1992)}]{Stau96}
+\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Stauffer}},
+  \bibinfo{journal}{Physica A} \textbf{\bibinfo{volume}{186}},
+  \bibinfo{pages}{197} (\bibinfo{year}{1992}).
+
+\bibitem[{\citenamefont{Herrmann et~al.}(1984)\citenamefont{Herrmann, Hong, and
+  Stanley}}]{HrHoSt84}
+\bibinfo{author}{\bibfnamefont{H.~J.} \bibnamefont{Herrmann}},
+  \bibinfo{author}{\bibfnamefont{D.~C.} \bibnamefont{Hong}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{H.~E.} \bibnamefont{Stanley}},
+  \bibinfo{journal}{J. Phys. A: Math. Gen.} \textbf{\bibinfo{volume}{17}},
+  \bibinfo{pages}{L261} (\bibinfo{year}{1984}).
+
+\end{thebibliography}

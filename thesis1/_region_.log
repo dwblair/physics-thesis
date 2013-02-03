@@ -1,0 +1,6121 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.6.1)  6 JUL 2010 14:19
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**\nonstopmode\nofiles\PassOptionsToPackage{active,tightpage,auctex}{preview}\A
+tBeginDocument{\ifx\ifPreview\undefined\RequirePackage[displaymath,floats,graph
+ics,textmath,sections,footnotes]{preview}[2004/11/05]\fi} \input _region_.tex
+(./_region_.tex  !name(thesisdraft5.tex) (./umthesis.cls
+Document Class: umthesis 2003/10/16 20:20:51 1.25 U.Mass. dissertation class
+(/usr/share/texmf-texlive/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./umth12pt.clo
+File: umth12pt.clo 1997/09/08 16:03:30 1.3 U.Mass. thesis (size option)
+)
+\c@count@FrontMatter=\count88
+\c@count@Chapter=\count89
+\c@count@Appendix=\count90
+\c@count@BackMatter=\count91
+\umthesis@contentshangindent=\skip43
+\tablenumberwidth=\skip44
+
+(./umthstd.clo
+File: umthstd.clo 2003/10/16 20:56:33 1.12 U.Mass. thesis frontmatter option
+)
+\umthesis@basefootnotesep=\skip45
+\umthesis@baseskipfootins=\skip46
+) (/usr/share/texmf-texlive/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2009/09/04 v2.3d parameterised ToC, etc., typesetting
+
+
+Package tocloft Note: The document has chapter divisions.
+
+\cftparskip=\skip47
+\cftbeforetoctitleskip=\skip48
+\cftaftertoctitleskip=\skip49
+\cftbeforepartskip=\skip50
+\cftpartnumwidth=\skip51
+\cftpartindent=\skip52
+\cftbeforechapskip=\skip53
+\cftchapindent=\skip54
+\cftchapnumwidth=\skip55
+\cftbeforesecskip=\skip56
+\cftsecindent=\skip57
+\cftsecnumwidth=\skip58
+\cftbeforesubsecskip=\skip59
+\cftsubsecindent=\skip60
+\cftsubsecnumwidth=\skip61
+\cftbeforesubsubsecskip=\skip62
+\cftsubsubsecindent=\skip63
+\cftsubsubsecnumwidth=\skip64
+\cftbeforeparaskip=\skip65
+\cftparaindent=\skip66
+\cftparanumwidth=\skip67
+\cftbeforesubparaskip=\skip68
+\cftsubparaindent=\skip69
+\cftsubparanumwidth=\skip70
+\cftbeforeloftitleskip=\skip71
+\cftafterloftitleskip=\skip72
+\cftbeforefigskip=\skip73
+\cftfigindent=\skip74
+\cftfignumwidth=\skip75
+\c@lofdepth=\count92
+\c@lotdepth=\count93
+\cftbeforelottitleskip=\skip76
+\cftafterlottitleskip=\skip77
+\cftbeforetabskip=\skip78
+\cfttabindent=\skip79
+\cfttabnumwidth=\skip80
+)
+No file _region_.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+(/usr/share/texmf/tex/latex/preview/preview.sty
+Package: preview 2008/02/03 11.85 (AUCTeX/preview-latex)
+
+(/usr/share/texmf/tex/latex/preview/prtightpage.def
+\PreviewBorder=\dimen103
+)
+(/usr/share/texmf/tex/latex/preview/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count94
+\hfuzz=\dimen104
+(/usr/share/texmf/tex/latex/preview/prauctex.cfg))
+(/usr/share/texmf/tex/latex/preview/prfootnotes.def)
+\pr@snippet=\count95
+\pr@box=\box26
+\pr@output=\toks14
+
+Preview: Fontsize 12pt
+Preview: PDFoutput 1
+)  !name(thesisdraft5.tex) !offset(-3) 
+No file _region_.toc.
+! Preview: Snippet 1 started.
+<-><->
+      
+l.91 \chapter
+             {Melting A}
+Not a real error.
+
+Chapter 1.
+Preview: Tightpage -32891 -32891 32891 32891
+! Preview: Snippet 1 ended.(5963776+0x28417720).
+<-><->
+      
+l.91 \chapter{Melting A}
+                        
+Not a real error.
+
+[1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+! Preview: Snippet 2 started.
+<-><->
+      
+l.93 \section
+             {Background re: melting}
+Not a real error.
+
+! Preview: Snippet 2 ended.(655359+183500x28417720).
+<-><->
+      
+l.93 \section{Background re: melting}
+                                     
+Not a real error.
+
+[2
+
+]
+! Preview: Snippet 3 started.
+<-><->
+      
+l.95 \subsection
+                {Theories of melting, 3D, 2D, bulk}
+Not a real error.
+
+! Preview: Snippet 3 ended.(546132+152916x28417720).
+<-><->
+      
+l.95 ...section{Theories of melting, 3D, 2D, bulk}
+                                                  
+Not a real error.
+
+[3
+
+]
+! Preview: Snippet 4 started.
+<-><->
+      
+l.97 \subsubsection
+                   {3D crystallites w/ stable surfaces melt from within via ...
+
+Not a real error.
+
+! Preview: Snippet 4 ended.(589824+196608x28417720).
+<-><->
+      
+l.97 ...urfaces melt from within via Born melting}
+                                                  
+Not a real error.
+
+[4
+
+]
+! Preview: Snippet 5 started.
+<-><->
+      
+l.102 \paragraph
+                {or yet another structure.}
+Not a real error.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 102.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 102.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 102.
+! Preview: Snippet 5 ended.(546132+152916x11201562).
+<-><->
+      
+l.102 \paragraph{or yet another structure.}
+                                           
+Not a real error.
+
+[5
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 106.
+
+ (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 106.
+
+! Preview: Snippet 6 started.
+<-><->
+      
+l.109 \subsubsection
+                    {2D large crystallites melt by two-step process via hexa...
+
+Not a real error.
+
+! Preview: Snippet 6 ended.(546132+152916x28417720).
+<-><->
+      
+l.109 ...lt by two-step process via hexatic phase}
+                                                  
+Not a real error.
+
+[6
+
+]
+! Preview: Snippet 7 started.
+<-><->
+      
+l.111 \subsubsection
+                    {2D finite crystallites melt from perimeter}
+Not a real error.
+
+! Preview: Snippet 7 ended.(546132+152916x28417720).
+<-><->
+      
+l.111 ... finite crystallites melt from perimeter}
+                                                  
+Not a real error.
+
+[7
+
+]
+! Preview: Snippet 8 started.
+<-><->
+      
+l.113 \paragraph
+                {if melt from perimeter, dN/dt goes as $N^{1/2}$}
+Not a real error.
+
+! Preview: Snippet 8 ended.(678606+196608x18187617).
+<-><->
+      
+l.113 ... from perimeter, dN/dt goes as $N^{1/2}$}
+                                                  
+Not a real error.
+
+[8
+
+]
+! Preview: Snippet 9 started.
+<-><->
+      
+l.115 \subsection
+                 {Expectations for 2D finite crystallites}
+Not a real error.
+
+! Preview: Snippet 9 ended.(546132+152916x28417720).
+<-><->
+      
+l.115 ...{Expectations for 2D finite crystallites}
+                                                  
+Not a real error.
+
+[9
+
+]
+! Preview: Snippet 10 started.
+<-><->
+      
+l.117 \section
+              {Experiment of Savage et. al}
+Not a real error.
+
+! Preview: Snippet 10 ended.(655359+183500x28417720).
+<-><->
+      
+l.117 \section{Experiment of Savage et. al}
+                                           
+Not a real error.
+
+[10
+
+]
+! Preview: Snippet 11 started.
+<-><->
+      
+l.119 \subsection
+                 {Setup}
+Not a real error.
+
+! Preview: Snippet 11 ended.(539580+152916x28417720).
+<-><->
+      
+l.119 \subsection{Setup}
+                        
+Not a real error.
+
+[11
+
+]
+! Preview: Snippet 12 started.
+<-><->
+      
+l.121 \subsection
+                 {Tuneable Depletion potential}
+Not a real error.
+
+! Preview: Snippet 12 ended.(546132+152916x28417720).
+<-><->
+      
+l.121 \subsection{Tuneable Depletion potential}
+                                               
+Not a real error.
+
+[12
+
+]
+! Preview: Snippet 13 started.
+<-><->
+      
+l.123 \subsection
+                 {Results}
+Not a real error.
+
+! Preview: Snippet 13 ended.(546132+0x28417720).
+<-><->
+      
+l.123 \subsection{Results}
+                          
+Not a real error.
+
+[13
+
+]
+! Preview: Snippet 14 started.
+<-><->
+      
+l.125 \subsubsection
+                    {N vs. t}
+Not a real error.
+
+! Preview: Snippet 14 ended.(539580+0x28417720).
+<-><->
+      
+l.125 \subsubsection{N vs. t}
+                             
+Not a real error.
+
+[14
+
+]
+! Preview: Snippet 15 started.
+<-><->
+      
+l.127 \subsubsection
+                    {$< psi6 >^2$ vs. N}
+Not a real error.
+
+! Preview: Snippet 15 ended.(623265+152916x28417720).
+<-><->
+      
+l.127 \subsubsection{$< psi6 >^2$ vs. N}
+                                        
+Not a real error.
+
+[15
+
+]
+! Preview: Snippet 16 started.
+<-><->
+      
+l.129 \subsubsection
+                    {$C_6$ vs. N, by layer}
+Not a real error.
+
+! Preview: Snippet 16 ended.(546132+152916x28417720).
+<-><->
+      
+l.129 \subsubsection{$C_6$ vs. N, by layer}
+                                           
+Not a real error.
+
+[16
+
+]
+! Preview: Snippet 17 started.
+<-><->
+      
+l.131 \subsubsection
+                    {No dependence of fast-melting feature on initial cluste...
+
+Not a real error.
+
+! Preview: Snippet 17 ended.(2118996+0x28417720).
+<-><->
+      
+l.131 ... on initial cluster size or melting rate}
+                                                  
+Not a real error.
+
+[17
+
+]
+! Preview: Snippet 18 started.
+<-><->
+      
+l.133 \section
+              {Simulations}
+Not a real error.
+
+! Preview: Snippet 18 ended.(655359+0x28417720).
+<-><->
+      
+l.133 \section{Simulations}
+                           
+Not a real error.
+
+[18
+
+]
+! Preview: Snippet 19 started.
+<-><->
+      
+l.135 \subsection
+                 {Motivation}
+Not a real error.
+
+! Preview: Snippet 19 ended.(546132+0x28417720).
+<-><->
+      
+l.135 \subsection{Motivation}
+                             
+Not a real error.
+
+[19
+
+]
+! Preview: Snippet 20 started.
+<-><->
+      
+l.137 \subsubsection
+                    {Rule out any hydrodynamic effects causing fast-melting}
+Not a real error.
+
+! Preview: Snippet 20 ended.(546132+152916x28417720).
+<-><->
+      
+l.137 ...ydrodynamic effects causing fast-melting}
+                                                  
+Not a real error.
+
+[20
+
+]
+! Preview: Snippet 21 started.
+<-><->
+      
+l.139 \subsubsection
+                    {Determine whether range of potential plays role in fast...
+
+Not a real error.
+
+! Preview: Snippet 21 ended.(546132+152916x28417720).
+<-><->
+      
+l.139 ... of potential plays role in fast melting}
+                                                  
+Not a real error.
+
+[21
+
+]
+! Preview: Snippet 22 started.
+<-><->
+      
+l.141 \subsection
+                 {Justification for using Brownian dynamics}
+Not a real error.
+
+! Preview: Snippet 22 ended.(546132+152916x28417720).
+<-><->
+      
+l.141 ...ustification for using Brownian dynamics}
+                                                  
+Not a real error.
+
+[22
+
+]
+! Preview: Snippet 23 started.
+<-><->
+      
+l.143 \subsection
+                 {GROMACS Simulations}
+Not a real error.
+
+! Preview: Snippet 23 ended.(546132+0x28417720).
+<-><->
+      
+l.143 \subsection{GROMACS Simulations}
+                                      
+Not a real error.
+
+[23
+
+]
+! Preview: Snippet 24 started.
+<-><->
+      
+l.145 \subsubsection
+                    {Brownian dynamics option}
+Not a real error.
+
+! Preview: Snippet 24 ended.(546132+152916x28417720).
+<-><->
+      
+l.145 \subsubsection{Brownian dynamics option}
+                                              
+Not a real error.
+
+[24
+
+]
+! Preview: Snippet 25 started.
+<-><->
+      
+l.147 \subsubsection
+                    {Equation of motion:}
+Not a real error.
+
+! Preview: Snippet 25 ended.(546132+152916x28417720).
+<-><->
+      
+l.147 \subsubsection{Equation of motion:}
+                                         
+Not a real error.
+
+[25
+
+]
+! Preview: Snippet 26 started.
+<-><->
+      
+l.149 \paragraph
+                {$\frac{d^2 r_i}{dt^2}  = - \sum_j \frac{\partial{U(r_{ij})}...
+
+Not a real error.
+
+! Preview: Snippet 26 ended.(785533+271194x12790325).
+<-><->
+      
+l.149 ...}  - \Gamma  \frac{d r_i}{dt} + W_i (t)$}
+                                                  
+Not a real error.
+
+[26
+
+]
+! Preview: Snippet 27 started.
+<-><->
+      
+l.152 where $
+             r_i$ denotes the position of the center of mass of a particle $...
+
+Not a real error.
+
+! Preview: Snippet 27 ended.(338603+117964x569445).
+<-><->
+      
+l.152 where $r_i$
+                  denotes the position of the center of mass of a particle $...
+
+Not a real error.
+
+[27]
+! Preview: Snippet 28 started.
+<-><->
+      
+l.152 ...ion of the center of mass of a particle $
+                                                  i$, $\Gamma$ is the single...
+
+Not a real error.
+
+! Preview: Snippet 28 ended.(515577+0x262695).
+<-><->
+      
+l.152 ...n of the center of mass of a particle $i$
+                                                  , $\Gamma$ is the single-p...
+
+Not a real error.
+
+[28]
+! Preview: Snippet 29 started.
+<-><->
+      
+l.152 ...f the center of mass of a particle $i$, $
+                                                  \Gamma$ is the single-part...
+
+Not a real error.
+
+! Preview: Snippet 29 ended.(537395+0x481139).
+<-><->
+      
+l.152 ...enter of mass of a particle $i$, $\Gamma$
+                                                   is the single-particle fr...
+
+Not a real error.
+
+[29]
+! Preview: Snippet 30 started.
+<-><->
+      
+l.152 ...ingle-particle friction coefficient and $
+                                                  W_i$ is a Gaussian-distrib...
+
+Not a real error.
+
+! Preview: Snippet 30 ended.(537395+117964x949413).
+<-><->
+      
+l.152 ...e-particle friction coefficient and $W_i$
+                                                   is a Gaussian-distributed...
+
+Not a real error.
+
+[30]
+! Preview: Snippet 31 started.
+<-><->
+      
+l.152 ...amic interactions. For all simulations, $
+                                                  \Gamma=40.0$ in GROMACS un...
+
+Not a real error.
+
+! Preview: Snippet 31 ended.(537395+0x2885919).
+<-><->
+      
+l.152 ...tions. For all simulations, $\Gamma=40.0$
+                                                   in GROMACS units, and per...
+
+Not a real error.
+
+[31]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ’ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no “ in font cmr12!
+
+! Preview: Snippet 32 started.
+<-><->
+      
+l.153 \subsubsection
+                    {Interparticle 'depletion' potential}
+Not a real error.
+
+! Preview: Snippet 32 ended.(546132+152916x28417720).
+<-><->
+      
+l.153 ...tion{Interparticle 'depletion' potential}
+                                                  
+Not a real error.
+
+[32
+
+]
+! Preview: Snippet 33 started.
+<-><->
+      
+l.155 \paragraph
+                {Mimics that in experiment}
+Not a real error.
+
+! Preview: Snippet 33 ended.(546132+152916x11964327).
+<-><->
+      
+l.155 \paragraph{Mimics that in experiment}
+                                           
+Not a real error.
+
+[33
+
+]
+! Preview: Snippet 34 started.
+<-><->
+      
+l.157 \paragraph
+                {$U(r)=0$ for $r > r_0$}
+Not a real error.
+
+! Preview: Snippet 34 ended.(589824+196608x8292598).
+<-><->
+      
+l.157 \paragraph{$U(r)=0$ for $r > r_0$}
+                                        
+Not a real error.
+
+[34
+
+]
+! Preview: Snippet 35 started.
+<-><->
+      
+l.159 \paragraph
+                {$U(r)=4/(10r-9)^{12} -  400 a_0 (r-r_0)^2$ for $r \le r_0$}
+Not a real error.
+
+! Preview: Snippet 35 ended.(623265+196608x18093696).
+<-><->
+      
+l.159 ...2} -  400 a_0 (r-r_0)^2$ for $r \le r_0$}
+                                                  
+Not a real error.
+
+[35
+
+]
+! Preview: Snippet 36 started.
+<-><->
+      
+l.162 ...ody depletion potential. The parameters $
+                                                  a_0=1.0$ and $r_0=1.1$ wer...
+
+Not a real error.
+
+! Preview: Snippet 36 ended.(506811+117964x2735285).
+<-><->
+      
+l.162 ...etion potential. The parameters $a_0=1.0$
+                                                   and $r_0=1.1$ were chosen...
+
+Not a real error.
+
+[36]
+! Preview: Snippet 37 started.
+<-><->
+      
+l.162 ...potential. The parameters $a_0=1.0$ and $
+                                                  r_0=1.1$ were chosen to al...
+
+Not a real error.
+
+! Preview: Snippet 37 ended.(506811+117964x2678079).
+<-><->
+      
+l.162 ...l. The parameters $a_0=1.0$ and $r_0=1.1$
+                                                   were chosen to allow for ...
+
+Not a real error.
+
+[37]
+! Preview: Snippet 38 started.
+<-><->
+      
+l.162 ...tial has an effective particle diameter $
+                                                  \sigma=1.0$,  a width equa...
+
+Not a real error.
+
+! Preview: Snippet 38 ended.(506811+0x2485653).
+<-><->
+      
+l.162 ... effective particle diameter $\sigma=1.0$
+                                                  ,  a width equal to $0.1$ ...
+
+Not a real error.
+
+[38]
+! Preview: Snippet 39 started.
+<-><->
+      
+l.162 ...iameter $\sigma=1.0$,  a width equal to $
+                                                  0.1$ and an equilibrium in...
+
+Not a real error.
+
+! Preview: Snippet 39 ended.(506811+0x983940).
+<-><->
+      
+l.162 ...ter $\sigma=1.0$,  a width equal to $0.1$
+                                                   and an equilibrium inter-...
+
+Not a real error.
+
+[39]
+! Preview: Snippet 40 started.
+<-><->
+      
+l.162 ...d an equilibrium inter-particle spacing $
+                                                  a \approx 1.01637$
+Not a real error.
+
+! Preview: Snippet 40 ended.(506811+0x3976816).
+<-><->
+      
+l.162 ...nter-particle spacing $a \approx 1.01637$
+                                                  
+Not a real error.
+
+[40]
+! Preview: Snippet 41 started.
+<-><->
+      
+l.163 \subsubsection
+                    {Temperature}
+Not a real error.
+
+! Preview: Snippet 41 ended.(546132+152916x28417720).
+<-><->
+      
+l.163 \subsubsection{Temperature}
+                                 
+Not a real error.
+
+[41
+
+]
+! Preview: Snippet 42 started.
+<-><->
+      
+l.165 \subsubsection
+                    {Effective well depth: $3.5 k_B T$}
+Not a real error.
+
+! Preview: Snippet 42 ended.(546132+152916x28417720).
+<-><->
+      
+l.165 ...ection{Effective well depth: $3.5 k_B T$}
+                                                  
+Not a real error.
+
+[42
+
+]
+! Preview: Snippet 43 started.
+<-><->
+      
+l.167 \subsubsection
+                    {Time step: $2.5 \times 10^{-5}$ (in GROMACS time units)}
+Not a real error.
+
+! Preview: Snippet 43 ended.(623265+196608x28417720).
+<-><->
+      
+l.167 ... \times 10^{-5}$ (in GROMACS time units)}
+                                                  
+Not a real error.
+
+[43
+
+]
+! Preview: Snippet 44 started.
+<-><->
+      
+l.169 \subsubsection
+                    {$N=100$ particles}
+Not a real error.
+
+! Preview: Snippet 44 ended.(546132+152916x28417720).
+<-><->
+      
+l.169 \subsubsection{$N=100$ particles}
+                                       
+Not a real error.
+
+[44
+
+]
+! Preview: Snippet 45 started.
+<-><->
+      
+l.171 \subsubsection
+                    {periodic box of size $L = 18.0 \sigma$}
+Not a real error.
+
+! Preview: Snippet 45 ended.(546132+152916x28417720).
+<-><->
+      
+l.171 ...n{periodic box of size $L = 18.0 \sigma$}
+                                                  
+Not a real error.
+
+[45
+
+]
+! Preview: Snippet 46 started.
+<-><->
+      
+l.173 \subsubsection
+                    {particle area fraction of $24\%$}
+Not a real error.
+
+! Preview: Snippet 46 ended.(589824+152916x28417720).
+<-><->
+      
+l.173 ...section{particle area fraction of $24\%$}
+                                                  
+Not a real error.
+
+[46
+
+]
+! Preview: Snippet 47 started.
+<-><->
+      
+l.175 \subsection
+                 {Simulated Depletion Potential}
+Not a real error.
+
+! Preview: Snippet 47 ended.(546132+152916x28417720).
+<-><->
+      
+l.175 \subsection{Simulated Depletion Potential}
+                                                
+Not a real error.
+
+[47
+
+]
+! Preview: Snippet 48 started.
+<-><->
+      
+l.177 \subsubsection
+                    {A-O Model}
+Not a real error.
+
+! Preview: Snippet 48 ended.(546132+0x28417720).
+<-><->
+      
+l.177 \subsubsection{A-O Model}
+                               
+Not a real error.
+
+[48
+
+]
+! Preview: Snippet 49 started.
+<-><->
+      
+l.179 \subsubsection
+                    {Lennard-Jones repulsion, to avoid discontinuity in simu...
+
+Not a real error.
+
+! Preview: Snippet 49 ended.(546132+152916x28417720).
+<-><->
+      
+l.179 ...on, to avoid discontinuity in simulation}
+                                                  
+Not a real error.
+
+[49
+
+]
+! Preview: Snippet 50 started.
+<-><->
+      
+l.181 \subsubsection
+                    {Mimics that in experiment}
+Not a real error.
+
+! Preview: Snippet 50 ended.(546132+152916x28417720).
+<-><->
+      
+l.181 \subsubsection{Mimics that in experiment}
+                                               
+Not a real error.
+
+[50
+
+]
+! Preview: Snippet 51 started.
+<-><->
+      
+l.183 \subsubsection
+                    {$U(r)=0$ for $r > r_0$}
+Not a real error.
+
+! Preview: Snippet 51 ended.(589824+196608x28417720).
+<-><->
+      
+l.183 \subsubsection{$U(r)=0$ for $r > r_0$}
+                                            
+Not a real error.
+
+[51
+
+]
+! Preview: Snippet 52 started.
+<-><->
+      
+l.185 \subsubsection
+                    {$U(r)=4/(10r-9)^{12} -  400 a_0 (r-r_0)^2$ for $r \le r...
+
+Not a real error.
+
+! Preview: Snippet 52 ended.(623265+196608x28417720).
+<-><->
+      
+l.185 ...2} -  400 a_0 (r-r_0)^2$ for $r \le r_0$}
+                                                  
+Not a real error.
+
+[52
+
+]
+! Preview: Snippet 53 started.
+<-><->
+      
+l.188 ...ody depletion potential. The parameters $
+                                                  a_0=1.0$ and $r_0=1.1$ wer...
+
+Not a real error.
+
+! Preview: Snippet 53 ended.(506811+117964x2735285).
+<-><->
+      
+l.188 ...etion potential. The parameters $a_0=1.0$
+                                                   and $r_0=1.1$ were chosen...
+
+Not a real error.
+
+[53]
+! Preview: Snippet 54 started.
+<-><->
+      
+l.188 ...potential. The parameters $a_0=1.0$ and $
+                                                  r_0=1.1$ were chosen to al...
+
+Not a real error.
+
+! Preview: Snippet 54 ended.(506811+117964x2678079).
+<-><->
+      
+l.188 ...l. The parameters $a_0=1.0$ and $r_0=1.1$
+                                                   were chosen to allow for ...
+
+Not a real error.
+
+[54]
+! Preview: Snippet 55 started.
+<-><->
+      
+l.188 ...tial has an effective particle diameter $
+                                                  \sigma=1.0$,  a width equa...
+
+Not a real error.
+
+! Preview: Snippet 55 ended.(506811+0x2485653).
+<-><->
+      
+l.188 ... effective particle diameter $\sigma=1.0$
+                                                  ,  a width equal to $0.1$ ...
+
+Not a real error.
+
+[55]
+! Preview: Snippet 56 started.
+<-><->
+      
+l.188 ...iameter $\sigma=1.0$,  a width equal to $
+                                                  0.1$ and an equilibrium in...
+
+Not a real error.
+
+! Preview: Snippet 56 ended.(506811+0x983940).
+<-><->
+      
+l.188 ...ter $\sigma=1.0$,  a width equal to $0.1$
+                                                   and an equilibrium inter-...
+
+Not a real error.
+
+[56]
+! Preview: Snippet 57 started.
+<-><->
+      
+l.188 ...d an equilibrium inter-particle spacing $
+                                                  a \approx 1.01637$
+Not a real error.
+
+! Preview: Snippet 57 ended.(506811+0x3976816).
+<-><->
+      
+l.188 ...nter-particle spacing $a \approx 1.01637$
+                                                  
+Not a real error.
+
+[57]
+! Preview: Snippet 58 started.
+<-><->
+      
+l.189 \subsection
+                 {Simulated Lennard-Jones Potential}
+Not a real error.
+
+! Preview: Snippet 58 ended.(546132+0x28417720).
+<-><->
+      
+l.189 ...ection{Simulated Lennard-Jones Potential}
+                                                  
+Not a real error.
+
+[58
+
+]
+! Preview: Snippet 59 started.
+<-><->
+      
+l.191 \subsection
+                 {Results}
+Not a real error.
+
+! Preview: Snippet 59 ended.(546132+0x28417720).
+<-><->
+      
+l.191 \subsection{Results}
+                          
+Not a real error.
+
+[59
+
+]
+! Preview: Snippet 60 started.
+<-><->
+      
+l.193 \subsubsection
+                    {N vs. t}
+Not a real error.
+
+! Preview: Snippet 60 ended.(539580+0x28417720).
+<-><->
+      
+l.193 \subsubsection{N vs. t}
+                             
+Not a real error.
+
+[60
+
+]
+! Preview: Snippet 61 started.
+<-><->
+      
+l.195 \subsubsection
+                    {$< psi6 >^2$ vs. N}
+Not a real error.
+
+! Preview: Snippet 61 ended.(623265+152916x28417720).
+<-><->
+      
+l.195 \subsubsection{$< psi6 >^2$ vs. N}
+                                        
+Not a real error.
+
+[61
+
+]
+! Preview: Snippet 62 started.
+<-><->
+      
+l.197 \subsubsection
+                    {$C_6$ vs. N, by layer}
+Not a real error.
+
+! Preview: Snippet 62 ended.(546132+152916x28417720).
+<-><->
+      
+l.197 \subsubsection{$C_6$ vs. N, by layer}
+                                           
+Not a real error.
+
+[62
+
+]
+! Preview: Snippet 63 started.
+<-><->
+      
+l.199 \subsubsection
+                    {mean-square fluctuations in bond lengths}
+Not a real error.
+
+! Preview: Snippet 63 ended.(546132+152916x28417720).
+<-><->
+      
+l.199 ...mean-square fluctuations in bond lengths}
+                                                  
+Not a real error.
+
+[63
+
+]
+! Preview: Snippet 64 started.
+<-><->
+      
+l.201 \subsubsection
+                    {N vs. t for Lennard-Jones potential}
+Not a real error.
+
+! Preview: Snippet 64 ended.(546132+152916x28417720).
+<-><->
+      
+l.201 ...tion{N vs. t for Lennard-Jones potential}
+                                                  
+Not a real error.
+
+[64
+
+]
+! Preview: Snippet 65 started.
+<-><->
+      
+l.203 \subsubsection
+                    {Phase diagram showing lack of fluid phase with short-ra...
+
+Not a real error.
+
+! Preview: Snippet 65 ended.(546132+152916x28417720).
+<-><->
+      
+l.203 ...f fluid phase with short-range potential}
+                                                  
+Not a real error.
+
+[65
+
+]
+! Preview: Snippet 66 started.
+<-><->
+      
+l.205 \subsection
+                 {Discussion}
+Not a real error.
+
+! Preview: Snippet 66 ended.(546132+0x28417720).
+<-><->
+      
+l.205 \subsection{Discussion}
+                             
+Not a real error.
+
+[66
+
+]
+! Preview: Snippet 67 started.
+<-><->
+      
+l.207 \chapter
+              {Melting B}
+Not a real error.
+
+Chapter 2.
+! Preview: Snippet 67 ended.(5963776+0x28417720).
+<-><->
+      
+l.207 \chapter{Melting B}
+                         
+Not a real error.
+
+[67
+
+
+]
+! Preview: Snippet 68 started.
+<-><->
+      
+l.209 \section
+              {Background}
+Not a real error.
+
+! Preview: Snippet 68 ended.(655359+183500x28417720).
+<-><->
+      
+l.209 \section{Background}
+                          
+Not a real error.
+
+[68
+
+]
+! Preview: Snippet 69 started.
+<-><->
+      
+l.211 \subsection
+                 {Colloids: macroscopic system analogous to atomic system}
+Not a real error.
+
+! Preview: Snippet 69 ended.(546132+152916x28417720).
+<-><->
+      
+l.211 ...scopic system analogous to atomic system}
+                                                  
+Not a real error.
+
+[69
+
+]
+! Preview: Snippet 70 started.
+<-><->
+      
+l.213 \subsubsection
+                    {similarites:}
+Not a real error.
+
+! Preview: Snippet 70 ended.(546132+0x28417720).
+<-><->
+      
+l.213 \subsubsection{similarites:}
+                                  
+Not a real error.
+
+[70
+
+]
+! Preview: Snippet 71 started.
+<-><->
+      
+l.215 \paragraph
+                {some phase behavior and phase transitions}
+Not a real error.
+
+! Preview: Snippet 71 ended.(546132+152916x18152111).
+<-><->
+      
+l.215 ...ome phase behavior and phase transitions}
+                                                  
+Not a real error.
+
+[71
+
+]
+! Preview: Snippet 72 started.
+<-><->
+      
+l.217 \paragraph
+                {can investiage atomic behavior via analogy}
+Not a real error.
+
+! Preview: Snippet 72 ended.(546132+152916x18153837).
+<-><->
+      
+l.217 ...n investiage atomic behavior via analogy}
+                                                  
+Not a real error.
+
+[72
+
+]
+! Preview: Snippet 73 started.
+<-><->
+      
+l.219 \subsubsection
+                    {differences:}
+Not a real error.
+
+! Preview: Snippet 73 ended.(546132+0x28417720).
+<-><->
+      
+l.219 \subsubsection{differences:}
+                                  
+Not a real error.
+
+[73
+
+]
+! Preview: Snippet 74 started.
+<-><->
+      
+l.221 \paragraph
+                {novel phases and phase behavior}
+Not a real error.
+
+! Preview: Snippet 74 ended.(546132+152916x14180536).
+<-><->
+      
+l.221 \paragraph{novel phases and phase behavior}
+                                                 
+Not a real error.
+
+[74
+
+]
+! Preview: Snippet 75 started.
+<-><->
+      
+l.223 \paragraph
+                {superheated metastable states}
+Not a real error.
+
+! Preview: Snippet 75 ended.(546132+152916x13247922).
+<-><->
+      
+l.223 \paragraph{superheated metastable states}
+                                               
+Not a real error.
+
+[75
+
+]
+! Preview: Snippet 76 started.
+<-><->
+      
+l.225 \paragraph
+                {interparticle potential readily modified}
+Not a real error.
+
+! Preview: Snippet 76 ended.(546132+152916x16607005).
+<-><->
+      
+l.225 ...interparticle potential readily modified}
+                                                  
+Not a real error.
+
+[76
+
+]
+! Preview: Snippet 77 started.
+<-><->
+      
+l.232 \subsection
+                 {Experiment by Savage et. al: novel melting kinetics}
+Not a real error.
+
+! Preview: Snippet 77 ended.(546132+152916x28417720).
+<-><->
+      
+l.232 ...by Savage et. al: novel melting kinetics}
+                                                  
+Not a real error.
+
+[77
+
+]
+! Preview: Snippet 78 started.
+<-><->
+      
+l.234 \subsubsection
+                    {system: hard spheres with short-range attraction (relat...
+
+Not a real error.
+
+! Preview: Snippet 78 ended.(2162688+196608x28417720).
+<-><->
+      
+l.234 ...-range attraction (relative to diameter)}
+                                                  
+Not a real error.
+
+[78
+
+]
+! Preview: Snippet 79 started.
+<-><->
+      
+l.236 \subsubsection
+                    {experiment details}
+Not a real error.
+
+! Preview: Snippet 79 ended.(546132+152916x28417720).
+<-><->
+      
+l.236 \subsubsection{experiment details}
+                                        
+Not a real error.
+
+[79
+
+]
+! Preview: Snippet 80 started.
+<-><->
+      
+l.238 \subsubsection
+                    {two-stage melting process}
+Not a real error.
+
+! Preview: Snippet 80 ended.(546132+152916x28417720).
+<-><->
+      
+l.238 \subsubsection{two-stage melting process}
+                                               
+Not a real error.
+
+[80
+
+]
+! Preview: Snippet 81 started.
+<-><->
+      
+l.240 \paragraph
+                {first melts from perimeter until reaches critical size}
+Not a real error.
+
+! Preview: Snippet 81 ended.(546132+152916x21504096).
+<-><->
+      
+l.240 ...om perimeter until reaches critical size}
+                                                  
+Not a real error.
+
+[81
+
+]
+! Preview: Snippet 82 started.
+<-><->
+      
+l.242 \paragraph
+                {then breaks up into dense amorphous phase, which is unstabl...
+
+Not a real error.
+
+! Preview: Snippet 82 ended.(1245180+152916x28417720).
+<-><->
+      
+l.242 ...which is unstable and rapidly evaporates}
+                                                  
+Not a real error.
+
+[82
+
+]
+! Preview: Snippet 83 started.
+<-><->
+      
+l.244 \paragraph
+                {crossover occurs at typical 'magic size'}
+Not a real error.
+
+! Preview: Snippet 83 ended.(546132+152916x16521540).
+<-><->
+      
+l.244 ...crossover occurs at typical 'magic size'}
+                                                  
+Not a real error.
+
+[83
+
+]
+! Preview: Snippet 84 started.
+<-><->
+      
+l.246 \paragraph
+                {experiments: magic size \~{} 20-30 particles}
+Not a real error.
+
+! Preview: Snippet 84 ended.(546132+152916x17501482).
+<-><->
+      
+l.246 ...riments: magic size \~{} 20-30 particles}
+                                                  
+Not a real error.
+
+[84
+
+]
+! Preview: Snippet 85 started.
+<-><->
+      
+l.248 \paragraph
+                {simulations: magic size \~{} 40-50 particles}
+Not a real error.
+
+! Preview: Snippet 85 ended.(546132+152916x17150502).
+<-><->
+      
+l.248 ...lations: magic size \~{} 40-50 particles}
+                                                  
+Not a real error.
+
+[85
+
+]
+! Preview: Snippet 86 started.
+<-><->
+      
+l.250 \paragraph
+                {little dependence on temperature in experiment}
+Not a real error.
+
+! Preview: Snippet 86 ended.(546132+152916x20184175).
+<-><->
+      
+l.250 ... dependence on temperature in experiment}
+                                                  
+Not a real error.
+
+[86
+
+]
+! Preview: Snippet 87 started.
+<-><->
+      
+l.252 \paragraph
+                {(?) no dependence on temp in simulation?}
+Not a real error.
+
+! Preview: Snippet 87 ended.(589824+196608x18034596).
+<-><->
+      
+l.252 ...(?) no dependence on temp in simulation?}
+                                                  
+Not a real error.
+
+[87
+
+]
+! Preview: Snippet 88 started.
+<-><->
+      
+l.254 \subsubsection
+                    {Several possible explanations are ruled out:}
+Not a real error.
+
+! Preview: Snippet 88 ended.(546132+152916x28417720).
+<-><->
+      
+l.254 ...ral possible explanations are ruled out:}
+                                                  
+Not a real error.
+
+[88
+
+]
+! Preview: Snippet 89 started.
+<-><->
+      
+l.256 \paragraph
+                {'fast melting' behavior means rate not limited by thermal b...
+
+Not a real error.
+
+! Preview: Snippet 89 ended.(1245180+0x28417720).
+<-><->
+      
+l.256 ...not limited by thermal breaking of bonds}
+                                                  
+Not a real error.
+
+[89
+
+]
+! Preview: Snippet 90 started.
+<-><->
+      
+l.260 \item (since this would go as $
+                                     N^(1/2)$\\
+Not a real error.
+
+! Preview: Snippet 90 ended.(678606+196608x2402698).
+<-><->
+      
+l.260 \item (since this would go as $N^(1/2)$
+                                             \\
+Not a real error.
+
+[90]
+! Preview: Snippet 91 started.
+<-><->
+      
+l.263 \paragraph
+                {density decreases as crystallites shrink: melting kinetics ...
+
+Not a real error.
+
+! Preview: Snippet 91 ended.(1245180+152916x28417720).
+<-><->
+      
+l.263 ...kinetics not governed by surface tension}
+                                                  
+Not a real error.
+
+[91
+
+]
+! Preview: Snippet 92 started.
+<-><->
+      
+l.272 \paragraph
+                {melting behavior not history dependent}
+Not a real error.
+
+! Preview: Snippet 92 ended.(546132+152916x16987842).
+<-><->
+      
+l.272 ...h{melting behavior not history dependent}
+                                                  
+Not a real error.
+
+[92
+
+]
+! Preview: Snippet 93 started.
+<-><->
+      
+l.281 \paragraph
+                {not classical nucleation of liquid within solid below criti...
+
+Not a real error.
+
+! Preview: Snippet 93 ended.(546132+152916x28832204).
+<-><->
+      
+l.281 ...within solid below critical crystal size}
+                                                  
+Not a real error.
+
+[93
+
+]
+! Preview: Snippet 94 started.
+<-><->
+      
+l.292 \subsection
+                 {Our hypothesis:  thermally-activated defects enhance melti...
+
+Not a real error.
+
+! Preview: Snippet 94 ended.(546132+152916x28417720).
+<-><->
+      
+l.292 ...y-activated defects enhance melting rate}
+                                                  
+Not a real error.
+
+[94
+
+]
+! Preview: Snippet 95 started.
+<-><->
+      
+l.294 \subsubsection
+                    {thermal introduction of disclinations favorable after c...
+
+Not a real error.
+
+! Preview: Snippet 95 ended.(546132+0x28417720).
+<-><->
+      
+l.294 ...clinations favorable after critical size}
+                                                  
+Not a real error.
+
+[95
+
+]
+! Preview: Snippet 96 started.
+<-><->
+      
+l.296 \subsubsection
+                    {presence of disclinations leads to concentration of str...
+
+Not a real error.
+
+! Preview: Snippet 96 ended.(546132+152916x28417720).
+<-><->
+      
+l.296 ...nations leads to concentration of stress}
+                                                  
+Not a real error.
+
+[96
+
+]
+! Preview: Snippet 97 started.
+<-><->
+      
+l.298 \subsubsection
+                    {stress can be released through propagation of cracks}
+Not a real error.
+
+! Preview: Snippet 97 ended.(546132+152916x28417720).
+<-><->
+      
+l.298 ...e released through propagation of cracks}
+                                                  
+Not a real error.
+
+[97
+
+]
+! Preview: Snippet 98 started.
+<-><->
+      
+l.300 \subsubsection
+                    {cracks propagate or not depending on range of potential}
+Not a real error.
+
+! Preview: Snippet 98 ended.(546132+152916x28417720).
+<-><->
+      
+l.300 ...e or not depending on range of potential}
+                                                  
+Not a real error.
+
+[98
+
+]
+! Preview: Snippet 99 started.
+<-><->
+      
+l.302 \subsubsection
+                    {short-range, 'brittle' potential allow cracks to propag...
+
+Not a real error.
+
+! Preview: Snippet 99 ended.(546132+152916x28417720).
+<-><->
+      
+l.302 ...tle' potential allow cracks to propagate}
+                                                  
+Not a real error.
+
+[99
+
+]
+! Preview: Snippet 100 started.
+<-><->
+      
+l.304 \subsubsection
+                    {longer-range, 'ductile' potential doesn't}
+Not a real error.
+
+! Preview: Snippet 100 ended.(546132+152916x28417720).
+<-><->
+      
+l.304 ...onger-range, 'ductile' potential doesn't}
+                                                  
+Not a real error.
+
+[100
+
+]
+! Preview: Snippet 101 started.
+<-><->
+      
+l.306 \subsubsection
+                    {(?) is notion of a 'crack' in a liquid droplet sensible?}
+Not a real error.
+
+! Preview: Snippet 101 ended.(589824+196608x28417720).
+<-><->
+      
+l.306 ... a 'crack' in a liquid droplet sensible?}
+                                                  
+Not a real error.
+
+[101
+
+]
+! Preview: Snippet 102 started.
+<-><->
+      
+l.308 \subsection
+                 {Evidence for hypothesis}
+Not a real error.
+
+! Preview: Snippet 102 ended.(546132+152916x28417720).
+<-><->
+      
+l.308 \subsection{Evidence for hypothesis}
+                                          
+Not a real error.
+
+[102
+
+]
+! Preview: Snippet 103 started.
+<-><->
+      
+l.310 \subsubsection
+                    {Disclinations are implicated in breakup}
+Not a real error.
+
+! Preview: Snippet 103 ended.(546132+152916x28417720).
+<-><->
+      
+l.310 ...{Disclinations are implicated in breakup}
+                                                  
+Not a real error.
+
+[103
+
+]
+! Preview: Snippet 104 started.
+<-><->
+      
+l.312 \paragraph
+                {GROMACS BD simulations, using depletion-like potential (fro...
+
+Not a real error.
+
+! Preview: Snippet 104 ended.(1376256+196608x28417720).
+<-><->
+      
+l.312 ...g depletion-like potential (from Part A)}
+                                                  
+Not a real error.
+
+[104
+
+]
+! Preview: Snippet 105 started.
+<-><->
+      
+l.314 \paragraph
+                {exhibit fast-melting (from Part A)}
+Not a real error.
+
+! Preview: Snippet 105 ended.(589824+196608x14923460).
+<-><->
+      
+l.314 ...graph{exhibit fast-melting (from Part A)}
+                                                  
+Not a real error.
+
+[105
+
+]
+! Preview: Snippet 106 started.
+<-><->
+      
+l.316 \paragraph
+                {order parameter decreases sharply (Part A)}
+Not a real error.
+
+! Preview: Snippet 106 ended.(589824+196608x18563715).
+<-><->
+      
+l.316 ...der parameter decreases sharply (Part A)}
+                                                  
+Not a real error.
+
+[106
+
+]
+! Preview: Snippet 107 started.
+<-><->
+      
+l.318 \paragraph
+                {ave disclination 'charge' reaches +1 at the magic size}
+Not a real error.
+
+! Preview: Snippet 107 ended.(546132+152916x22181389).
+<-><->
+      
+l.318 ...on 'charge' reaches +1 at the magic size}
+                                                  
+Not a real error.
+
+[107
+
+]
+! Preview: Snippet 108 started.
+<-><->
+      
+l.320 \subsubsection
+                    {Disclinations and two-stage melting affected by range o...
+
+Not a real error.
+
+! Preview: Snippet 108 ended.(546132+152916x28417720).
+<-><->
+      
+l.320 ...e melting affected by range of potential}
+                                                  
+Not a real error.
+
+[108
+
+]
+! Preview: Snippet 109 started.
+<-><->
+      
+l.322 \paragraph
+                {Own BD simulations with screened Coulomb potential}
+Not a real error.
+
+! Preview: Snippet 109 ended.(546132+152916x22713869).
+<-><->
+      
+l.322 ...ulations with screened Coulomb potential}
+                                                  
+Not a real error.
+
+[109
+
+]
+! Preview: Snippet 110 started.
+<-><->
+      
+l.324 \paragraph
+                {Tune range of potential, short- and long-range (lambda valu...
+
+Not a real error.
+
+! Preview: Snippet 110 ended.(589824+196608x26398994).
+<-><->
+      
+l.324 ..., short- and long-range (lambda values?)}
+                                                  
+Not a real error.
+
+[110
+
+]
+! Preview: Snippet 111 started.
+<-><->
+      
+l.326 \paragraph
+                {Short-range: x percent fast melting; long-range: y percent ...
+
+Not a real error.
+
+! Preview: Snippet 111 ended.(1245180+152916x28417720).
+<-><->
+      
+l.326 ...long-range: y percent fast melting; x>>y}
+                                                  
+Not a real error.
+
+[111
+
+]
+! Preview: Snippet 112 started.
+<-><->
+      
+l.328 \subsection
+                 {Background Theory}
+Not a real error.
+
+! Preview: Snippet 112 ended.(546132+152916x28417720).
+<-><->
+      
+l.328 \subsection{Background Theory}
+                                    
+Not a real error.
+
+[112
+
+]
+! Preview: Snippet 113 started.
+<-><->
+      
+l.330 \subsubsection
+                    {Energy cost for creating a disclination}
+Not a real error.
+
+! Preview: Snippet 113 ended.(546132+152916x28417720).
+<-><->
+      
+l.330 ...{Energy cost for creating a disclination}
+                                                  
+Not a real error.
+
+[113
+
+]
+! Preview: Snippet 114 started.
+<-><->
+      
+l.332 \paragraph
+                {Assume flate 2D membrane w/ Young's modulus Y, etc}
+Not a real error.
+
+! Preview: Snippet 114 ended.(589824+196608x23218952).
+<-><->
+      
+l.332 ...te 2D membrane w/ Young's modulus Y, etc}
+                                                  
+Not a real error.
+
+[114
+
+]
+! Preview: Snippet 115 started.
+<-><->
+      
+l.334 \paragraph
+                {Ref (10), (11)}
+Not a real error.
+
+! Preview: Snippet 115 ended.(589824+196608x6888108).
+<-><->
+      
+l.334 \paragraph{Ref (10), (11)}
+                                
+Not a real error.
+
+[115
+
+]
+! Preview: Snippet 116 started.
+<-><->
+      
+l.336 \subsubsection
+                    {Griffith criterion for spontaneous crack propagation}
+Not a real error.
+
+! Preview: Snippet 116 ended.(546132+152916x28417720).
+<-><->
+      
+l.336 ...terion for spontaneous crack propagation}
+                                                  
+Not a real error.
+
+[116
+
+]
+! Preview: Snippet 117 started.
+<-><->
+      
+l.338 \paragraph
+                {Assume crack of length, l}
+Not a real error.
+
+! Preview: Snippet 117 ended.(546132+152916x11394437).
+<-><->
+      
+l.338 \paragraph{Assume crack of length, l}
+                                           
+Not a real error.
+
+[117
+
+]
+! Preview: Snippet 118 started.
+<-><->
+      
+l.340 \paragraph
+                {Potential energy of the sheet, $V$}
+Not a real error.
+
+! Preview: Snippet 118 ended.(546132+152916x13929215).
+<-><->
+      
+l.340 ...graph{Potential energy of the sheet, $V$}
+                                                  
+Not a real error.
+
+[118
+
+]
+! Preview: Snippet 119 started.
+<-><->
+      
+l.342 \paragraph
+                {surface enrgy per unit length, $V_o$}
+Not a real error.
+
+! Preview: Snippet 119 ended.(546132+152916x14182083).
+<-><->
+      
+l.342 ...aph{surface enrgy per unit length, $V_o$}
+                                                  
+Not a real error.
+
+[119
+
+]
+! Preview: Snippet 120 started.
+<-><->
+      
+l.344 \paragraph
+                {Crack of length $\ell$}
+Not a real error.
+
+! Preview: Snippet 120 ended.(546132+152916x8178346).
+<-><->
+      
+l.344 \paragraph{Crack of length $\ell$}
+                                        
+Not a real error.
+
+[120
+
+]
+! Preview: Snippet 121 started.
+<-><->
+      
+l.346 \paragraph
+                {Crack is perpendicular to circumferential component $\sigma...
+
+Not a real error.
+
+! Preview: Snippet 121 ended.(1245180+0x28417720).
+<-><->
+      
+l.346 ...e disclination induced mechanical stress}
+                                                  
+Not a real error.
+
+[121
+
+]
+! Preview: Snippet 122 started.
+<-><->
+      
+l.348 \paragraph
+                {Potential energy of the sheet: $V =-\frac{\pi \ell^2 {\sigm...
+
+Not a real error.
+
+! Preview: Snippet 122 ended.(805435+271194x23319183).
+<-><->
+      
+l.348 ...2 (1-\nu^2)}{4 Y} + 2 \gamma \ell + V_0$}
+                                                  
+Not a real error.
+
+[122
+
+]
+! Preview: Snippet 123 started.
+<-><->
+      
+l.350 \paragraph
+                {$\nu$ is the Poisson Ratio}
+Not a real error.
+
+! Preview: Snippet 123 ended.(546132+0x10038568).
+<-><->
+      
+l.350 \paragraph{$\nu$ is the Poisson Ratio}
+                                            
+Not a real error.
+
+[123
+
+]
+! Preview: Snippet 124 started.
+<-><->
+      
+l.352 \paragraph
+                {$Y$ is the Young's modulus}
+Not a real error.
+
+! Preview: Snippet 124 ended.(546132+152916x11534833).
+<-><->
+      
+l.352 \paragraph{$Y$ is the Young's modulus}
+                                            
+Not a real error.
+
+[124
+
+]
+! Preview: Snippet 125 started.
+<-><->
+      
+l.354 \paragraph
+                {$\gamma$ is the surface energy per unit length}
+Not a real error.
+
+! Preview: Snippet 125 ended.(546132+152916x16455104).
+<-><->
+      
+l.354 ...a$ is the surface energy per unit length}
+                                                  
+Not a real error.
+
+[125
+
+]
+! Preview: Snippet 126 started.
+<-><->
+      
+l.358 \paragraph
+                {$V_0$ is the elastic energy in the absence of any cracks, o...
+
+Not a real error.
+
+! Preview: Snippet 126 ended.(546132+152916x28023561).
+<-><->
+      
+l.358 ... absence of any cracks, or applied stres}
+                                                  
+Not a real error.
+
+[126
+
+]
+! Preview: Snippet 127 started.
+<-><->
+      
+l.360 \subsubsection
+                    {Minimize $V$, get:}
+Not a real error.
+
+! Preview: Snippet 127 ended.(546132+152916x28417720).
+<-><->
+      
+l.360 \subsubsection{Minimize $V$, get:}
+                                        
+Not a real error.
+
+[127
+
+]
+! Preview: Snippet 128 started.
+<-><->
+      
+l.362 \paragraph
+                {$\ell_c = \frac{ 4 Y \gamma}{\pi {\sigma_{\theta \theta}}^2...
+
+Not a real error.
+
+! Preview: Snippet 128 ended.(696136+402266x6541961).
+<-><->
+      
+l.362 ...i {\sigma_{\theta \theta}}^2 (1-\nu^2)}$}
+                                                  
+Not a real error.
+
+[128
+
+]
+! Preview: Snippet 129 started.
+<-><->
+      
+l.364 \paragraph
+                {Cracks with length $\ell \ge \ell_c$ will grow to lower the...
+
+Not a real error.
+
+! Preview: Snippet 129 ended.(546132+152916x23432273).
+<-><->
+      
+l.364 ... \ell_c$ will grow to lower their energy}
+                                                  
+Not a real error.
+
+[129
+
+]
+! Preview: Snippet 130 started.
+<-><->
+      
+l.366 \paragraph
+                {Cracks with length $\ell < \ell_c$ will heal}
+Not a real error.
+
+! Preview: Snippet 130 ended.(546132+152916x14705053).
+<-><->
+      
+l.366 ...ks with length $\ell < \ell_c$ will heal}
+                                                  
+Not a real error.
+
+[130
+
+]
+! Preview: Snippet 131 started.
+<-><->
+      
+l.368 \subsubsection
+                    {'Hoop stress': $\sigma_{\theta \theta}$}
+Not a real error.
+
+! Preview: Snippet 131 ended.(546132+152916x28417720).
+<-><->
+      
+l.368 ...{'Hoop stress': $\sigma_{\theta \theta}$}
+                                                  
+Not a real error.
+
+[131
+
+]
+! Preview: Snippet 132 started.
+<-><->
+      
+l.370 \paragraph
+                {Hoop stress causes cracks to open up}
+Not a real error.
+
+! Preview: Snippet 132 ended.(546132+152916x15999802).
+<-><->
+      
+l.370 ...aph{Hoop stress causes cracks to open up}
+                                                  
+Not a real error.
+
+[132
+
+]
+! Preview: Snippet 133 started.
+<-><->
+      
+l.372 \paragraph
+                {Obtain it from Airy stress function $\chi(r)$  \cite{seung}...
+
+Not a real error.
+
+
+LaTeX Warning: Citation `seung' on page 2 undefined on input line 372.
+
+! Preview: Snippet 133 ended.(2852999+0x28417720).
+<-><->
+      
+l.372 ...a two dimensional membrane of radius $R$}
+                                                  
+Not a real error.
+
+[133
+
+]
+! Preview: Snippet 134 started.
+<-><->
+      
+l.374 \paragraph
+                {$\chi(r) =  \frac{Y s}{8 \pi} r^2   \left ( \ln \frac{r}{R}...
+
+Not a real error.
+
+! Preview: Snippet 134 ended.(786437+393222x9263402).
+<-><->
+      
+l.374 ... \ln \frac{r}{R} - \frac{1}{2} \right )$}
+                                                  
+Not a real error.
+
+[134
+
+]
+! Preview: Snippet 135 started.
+<-><->
+      
+l.376 \paragraph
+                {The hoop stress is the circumferential component of the str...
+
+Not a real error.
+
+! Preview: Snippet 135 ended.(1037651+0x28417720).
+<-><->
+      
+l.376 ... component of the stress tensor $\sigma$}
+                                                  
+Not a real error.
+
+[135
+
+]
+! Preview: Snippet 136 started.
+<-><->
+      
+l.378 \paragraph
+                {Given by $\sigma_{\theta \theta}= \frac{\partial^2 \chi}{\p...
+
+Not a real error.
+
+! Preview: Snippet 136 ended.(786437+393222x14129026).
+<-><->
+      
+l.378 ...12} \left(1 + \ln \frac{r}{R} \right )$.}
+                                                  
+Not a real error.
+
+[136
+
+]
+! Preview: Snippet 137 started.
+<-><->
+      
+l.380 \subsubsection
+                    {When critical crack length is \~{}= a lattice spacing, ...
+
+Not a real error.
+
+! Preview: Snippet 137 ended.(2118996+152916x28417720).
+<-><->
+      
+l.380 ...le disclination can rupture crystallite.}
+                                                  
+Not a real error.
+
+[137
+
+]
+! Preview: Snippet 138 started.
+<-><->
+      
+l.383 ...the rapid melting at the critical size, $
+                                                  N_c$.
+Not a real error.
+
+! Preview: Snippet 138 ended.(537395+117964x890667).
+<-><->
+      
+l.383 ...rapid melting at the critical size, $N_c$
+                                                  .
+Not a real error.
+
+[138]
+! Preview: Snippet 139 started.
+<-><->
+      
+l.384 \subsubsection
+                    {Substituting  $\sigma_{\theta \theta}$ in expression fo...
+
+Not a real error.
+
+! Preview: Snippet 139 ended.(546132+152916x28417720).
+<-><->
+      
+l.384 ...ression for criticla crack size, we get:}
+                                                  
+Not a real error.
+
+[139
+
+]
+! Preview: Snippet 140 started.
+<-><->
+      
+l.386 \paragraph
+                {$\ell_c = \frac{ 4 Y \gamma 144}{\pi (1-\nu^2) Y^2 (1+ \ln ...
+
+Not a real error.
+
+! Preview: Snippet 140 ended.(696136+476802x11003654).
+<-><->
+      
+l.386 ...R})^2} \approx \frac{576 \gamma}{\pi Y}$}
+                                                  
+Not a real error.
+
+[140
+
+]
+! Preview: Snippet 141 started.
+<-><->
+      
+l.388 \paragraph
+                {assuming $\nu^2 << 1$ and $r \sim R$}
+Not a real error.
+
+! Preview: Snippet 141 ended.(623265+152916x12177921).
+<-><->
+      
+l.388 ...aph{assuming $\nu^2 << 1$ and $r \sim R$}
+                                                  
+Not a real error.
+
+[141
+
+]
+! Preview: Snippet 142 started.
+<-><->
+      
+l.390 \paragraph
+                {So, when $Y >> \gamma$, the prob'l'y of the crystallite rup...
+
+Not a real error.
+
+! Preview: Snippet 142 ended.(546132+152916x27987915).
+<-><->
+      
+l.390 ...of the crystallite rupturing is greater.}
+                                                  
+Not a real error.
+
+[142
+
+]
+! Preview: Snippet 143 started.
+<-><->
+      
+l.392 \subsubsection
+                    {Estimation of $Y$ and $\gamma$ for our system}
+Not a real error.
+
+! Preview: Snippet 143 ended.(546132+152916x28417720).
+<-><->
+      
+l.392 ...ation of $Y$ and $\gamma$ for our system}
+                                                  
+Not a real error.
+
+[143
+
+]
+! Preview: Snippet 144 started.
+<-><->
+      
+l.394 \paragraph
+                {$Y = - \frac{2}{\sqrt{3}} U^{''}(r)|_{r=a}$}
+Not a real error.
+
+! Preview: Snippet 144 ended.(688874+390593x7911147).
+<-><->
+      
+l.394 ...= - \frac{2}{\sqrt{3}} U^{''}(r)|_{r=a}$}
+                                                  
+Not a real error.
+
+[144
+
+]
+! Preview: Snippet 145 started.
+<-><->
+      
+l.396 \paragraph
+                {where $a$ is equilibrium separation between the particles f...
+
+Not a real error.
+
+! Preview: Snippet 145 ended.(1245180+0x28417720).
+<-><->
+      
+l.396 ...etween the particles forming the cluster}
+                                                  
+Not a real error.
+
+[145
+
+]
+! Preview: Snippet 146 started.
+<-><->
+      
+l.398 \paragraph
+                {consider a hexagonal cluster with each side of dimension $M...
+
+Not a real error.
+
+! Preview: Snippet 146 ended.(546132+152916x25015084).
+<-><->
+      
+l.398 ...luster with each side of dimension $M a$}
+                                                  
+Not a real error.
+
+[146
+
+]
+! Preview: Snippet 147 started.
+<-><->
+      
+l.400 \paragraph
+                {distance of an interfacial line from the center of mass of ...
+
+Not a real error.
+
+! Preview: Snippet 147 ended.(1092264+152916x28417720).
+<-><->
+      
+l.400 ...l to the interfacial energy of this line}
+                                                  
+Not a real error.
+
+[147
+
+]
+! Preview: Snippet 148 started.
+<-><->
+      
+l.402 \paragraph
+                {Therefore, $\gamma M  \frac{\sqrt{3}}{2} a  =  6 M U(a)$ be...
+
+Not a real error.
+
+! Preview: Snippet 148 ended.(849854+271194x19950227).
+<-><->
+      
+l.402 ...es  $\gamma  = \frac{4\sqrt{3} U(a)}{a}$}
+                                                  
+Not a real error.
+
+[148
+
+]
+! Preview: Snippet 149 started.
+<-><->
+      
+l.404 \paragraph
+                {So, critical length  $\ell_c \approx  \frac{- 576 \times 6}...
+
+Not a real error.
+
+! Preview: Snippet 149 ended.(760216+402266x14138625).
+<-><->
+      
+l.404 ...76 \times 6}{\pi a} \frac{U(a)}{U''(a)}$}
+                                                  
+Not a real error.
+
+[149
+
+]
+! Preview: Snippet 150 started.
+<-><->
+      
+l.406 \subsubsection
+                    {Resulting predictions:}
+Not a real error.
+
+! Preview: Snippet 150 ended.(546132+152916x28417720).
+<-><->
+      
+l.406 \subsubsection{Resulting predictions:}
+                                            
+Not a real error.
+
+[150
+
+]
+! Preview: Snippet 151 started.
+<-><->
+      
+l.408 \paragraph
+                {for the 'depletion' potential, $l_c=0.35 a$}
+Not a real error.
+
+! Preview: Snippet 151 ended.(546132+152916x16114240).
+<-><->
+      
+l.408 ... the 'depletion' potential, $l_c=0.35 a$}
+                                                  
+Not a real error.
+
+[151
+
+]
+! Preview: Snippet 152 started.
+<-><->
+      
+l.410 \paragraph
+                {for screened coloumb, for the potential in Eq.(\ref{potenti...
+
+Not a real error.
+
+
+LaTeX Warning: Reference `potential-brittleductile' on page 2 undefined on inpu
+t line 410.
+
+! Preview: Snippet 152 ended.(1677377+60072x28417720).
+<-><->
+      
+l.410 ...igma+2\lambda}$ where $a=\lambda+\sigma$}
+                                                  
+Not a real error.
+
+[152
+
+]
+! Preview: Snippet 153 started.
+<-><->
+      
+l.412 \paragraph
+                {when  $\sigma=1$ and $\lambda=0.2$,  the critical crack len...
+
+Not a real error.
+
+! Preview: Snippet 153 ended.(546132+152916x29016374).
+<-><->
+      
+l.412 ...gth  is very large: $l_c \approx 30.6 a$}
+                                                  
+Not a real error.
+
+[153
+
+]
+! Preview: Snippet 154 started.
+<-><->
+      
+l.414 \paragraph
+                {when $\lambda=0.014$, the critical crack length is a fracti...
+
+Not a real error.
+
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 414.
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 414.
+! Preview: Snippet 154 ended.(1288872+196608x28417720).
+<-><->
+      
+l.414 ...pacing, \{\it viz\}, $l_c \approx 0.21a$}
+                                                  
+Not a real error.
+
+[154
+
+]
+! Preview: Snippet 155 started.
+<-><->
+      
+l.416 \paragraph
+                {Only a single net disclination required to rupture cluster ...
+
+Not a real error.
+
+! Preview: Snippet 155 ended.(1245180+152916x28417720).
+<-><->
+      
+l.416 ...upture cluster for short-range potential}
+                                                  
+Not a real error.
+
+[155
+
+]
+! Preview: Snippet 156 started.
+<-><->
+      
+l.418 \subsubsection
+                    {the energy required to introduce a disclination at the ...
+
+Not a real error.
+
+
+LaTeX Warning: Reference `potential-brittleductile' on page 2 undefined on inpu
+t line 418.
+
+! Preview: Snippet 156 ended.(2118996+196608x28417720).
+<-><->
+      
+l.418 ...ial in Eq.\ref{potential-brittleductile}}
+                                                  
+Not a real error.
+
+[156
+
+]
+! Preview: Snippet 157 started.
+<-><->
+      
+l.420 \subsubsection
+                    {cost of introducing a disclination is $\propto 1/\lambd...
+
+Not a real error.
+
+! Preview: Snippet 157 ended.(623265+196608x28417720).
+<-><->
+      
+l.420 ...to 1/\lambda^2$ for  $\sigma >> \lambda$}
+                                                  
+Not a real error.
+
+[157
+
+]
+! Preview: Snippet 158 started.
+<-><->
+      
+l.422 \subsubsection
+                    {this cost increases reapidly with decreasing potential ...
+
+Not a real error.
+
+! Preview: Snippet 158 ended.(546132+152916x28417720).
+<-><->
+      
+l.422 ...reapidly with decreasing potential range}
+                                                  
+Not a real error.
+
+[158
+
+]
+! Preview: Snippet 159 started.
+<-><->
+      
+l.424 \subsubsection
+                    {suggests the existence of a lower bound on the range of...
+
+Not a real error.
+
+! Preview: Snippet 159 ended.(2118996+0x28417720).
+<-><->
+      
+l.424 ... for thermal activation of disclinations}
+                                                  
+Not a real error.
+
+[159
+
+]
+! Preview: Snippet 160 started.
+<-><->
+      
+l.426 \subsubsection
+                    {These two competing effects imply that the crossover in...
+
+Not a real error.
+
+! Preview: Snippet 160 ended.(3691860+152916x28417720).
+<-><->
+      
+l.426 ...the inter-particle interaction potential}
+                                                  
+Not a real error.
+
+[160
+
+]
+! Preview: Snippet 161 started.
+<-><->
+      
+l.428 \section
+              {Methods}
+Not a real error.
+
+! Preview: Snippet 161 ended.(655359+0x28417720).
+<-><->
+      
+l.428 \section{Methods}
+                       
+Not a real error.
+
+[161
+
+]
+! Preview: Snippet 162 started.
+<-><->
+      
+l.430 \subsection
+                 {Re-analyze data from GROMACS, Part A}
+Not a real error.
+
+! Preview: Snippet 162 ended.(546132+152916x28417720).
+<-><->
+      
+l.430 ...ion{Re-analyze data from GROMACS, Part A}
+                                                  
+Not a real error.
+
+[162
+
+]
+! Preview: Snippet 163 started.
+<-><->
+      
+l.432 \subsection
+                 {New Brownian Dynamics Simulation Code}
+Not a real error.
+
+! Preview: Snippet 163 ended.(546132+152916x28417720).
+<-><->
+      
+l.432 ...on{New Brownian Dynamics Simulation Code}
+                                                  
+Not a real error.
+
+[163
+
+]
+! Preview: Snippet 164 started.
+<-><->
+      
+l.434 \subsubsection
+                    {Screened Coloumb Potential}
+Not a real error.
+
+! Preview: Snippet 164 ended.(546132+0x28417720).
+<-><->
+      
+l.434 \subsubsection{Screened Coloumb Potential}
+                                                
+Not a real error.
+
+[164
+
+]
+! Preview: Snippet 165 started.
+<-><->
+      
+l.436 \paragraph
+                {$U(r)=\frac{U_0 (r-\sigma)}{\lambda} e^{-(r-\sigma)/\lambda}$}
+
+Not a real error.
+
+! Preview: Snippet 165 ended.(760216+271194x9355867).
+<-><->
+      
+l.436 ...igma)}{\lambda} e^{-(r-\sigma)/\lambda}$}
+                                                  
+Not a real error.
+
+[165
+
+]
+! Preview: Snippet 166 started.
+<-><->
+      
+l.438 \subsubsection
+                    {Equation of motion: $\frac{d^2 r_i}{dt^2}  = - \sum_j \...
+
+Not a real error.
+
+! Preview: Snippet 166 ended.(785533+271194x28417720).
+<-><->
+      
+l.438 ...}  - \Gamma  \frac{d r_i}{dt} + W_i (t)$}
+                                                  
+Not a real error.
+
+[166
+
+]
+! Preview: Snippet 167 started.
+<-><->
+      
+l.441 where $
+             r_i$ denotes the position of the center of mass of a particle $...
+
+Not a real error.
+
+! Preview: Snippet 167 ended.(338603+117964x569445).
+<-><->
+      
+l.441 where $r_i$
+                  denotes the position of the center of mass of a particle $...
+
+Not a real error.
+
+[167]
+! Preview: Snippet 168 started.
+<-><->
+      
+l.441 ...ion of the center of mass of a particle $
+                                                  i$, $\Gamma$ is the single...
+
+Not a real error.
+
+! Preview: Snippet 168 ended.(515577+0x262695).
+<-><->
+      
+l.441 ...n of the center of mass of a particle $i$
+                                                  , $\Gamma$ is the single-p...
+
+Not a real error.
+
+[168]
+! Preview: Snippet 169 started.
+<-><->
+      
+l.441 ...f the center of mass of a particle $i$, $
+                                                  \Gamma$ is the single-part...
+
+Not a real error.
+
+! Preview: Snippet 169 ended.(537395+0x481139).
+<-><->
+      
+l.441 ...enter of mass of a particle $i$, $\Gamma$
+                                                   is the single-particle fr...
+
+Not a real error.
+
+[169]
+! Preview: Snippet 170 started.
+<-><->
+      
+l.441 ...ingle-particle friction coefficient and $
+                                                  W_i$ is a Gaussian-distrib...
+
+Not a real error.
+
+! Preview: Snippet 170 ended.(537395+117964x949413).
+<-><->
+      
+l.441 ...e-particle friction coefficient and $W_i$
+                                                   is a Gaussian-distributed...
+
+Not a real error.
+
+[170]
+! Preview: Snippet 171 started.
+<-><->
+      
+l.441 ...amic interactions. For all simulations, $
+                                                  \Gamma=40.0$ in GROMACS un...
+
+Not a real error.
+
+! Preview: Snippet 171 ended.(537395+0x2885919).
+<-><->
+      
+l.441 ...tions. For all simulations, $\Gamma=40.0$
+                                                   in GROMACS units, and per...
+
+Not a real error.
+
+[171]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ’ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no “ in font cmr12!
+
+! Preview: Snippet 172 started.
+<-><->
+      
+l.442 \subsubsection
+                    {Random number generator: Gaussian distr.}
+Not a real error.
+
+! Preview: Snippet 172 ended.(546132+152916x28417720).
+<-><->
+      
+l.442 ...Random number generator: Gaussian distr.}
+                                                  
+Not a real error.
+
+[172
+
+]
+! Preview: Snippet 173 started.
+<-><->
+      
+l.444 \subsubsection
+                    {Cell method for nearest neighbor determination}
+Not a real error.
+
+! Preview: Snippet 173 ended.(546132+152916x28417720).
+<-><->
+      
+l.444 ...ethod for nearest neighbor determination}
+                                                  
+Not a real error.
+
+[173
+
+]
+! Preview: Snippet 174 started.
+<-><->
+      
+l.446 \subsubsection
+                    {Periodic boundary conditions}
+Not a real error.
+
+! Preview: Snippet 174 ended.(546132+152916x28417720).
+<-><->
+      
+l.446 \subsubsection{Periodic boundary conditions}
+                                                  
+Not a real error.
+
+[174
+
+]
+! Preview: Snippet 175 started.
+<-><->
+      
+l.448 \subsection
+                 {Analysis methods}
+Not a real error.
+
+! Preview: Snippet 175 ended.(546132+152916x28417720).
+<-><->
+      
+l.448 \subsection{Analysis methods}
+                                   
+Not a real error.
+
+[175
+
+]
+! Preview: Snippet 176 started.
+<-><->
+      
+l.450 \subsubsection
+                    {Criterion for 'break in slope'}
+Not a real error.
+
+! Preview: Snippet 176 ended.(546132+152916x28417720).
+<-><->
+      
+l.450 ...ubsection{Criterion for 'break in slope'}
+                                                  
+Not a real error.
+
+[176
+
+]
+! Preview: Snippet 177 started.
+<-><->
+      
+l.452 \subsubsection
+                    {Finding the 'melting temperature'}
+Not a real error.
+
+! Preview: Snippet 177 ended.(546132+152916x28417720).
+<-><->
+      
+l.452 ...ection{Finding the 'melting temperature'}
+                                                  
+Not a real error.
+
+[177
+
+]
+! Preview: Snippet 178 started.
+<-><->
+      
+l.454 \subsubsection
+                    {Generating 'equilibrium' initial configurations}
+Not a real error.
+
+! Preview: Snippet 178 ended.(546132+152916x28417720).
+<-><->
+      
+l.454 ...ing 'equilibrium' initial configurations}
+                                                  
+Not a real error.
+
+[178
+
+]
+! Preview: Snippet 179 started.
+<-><->
+      
+l.456 \subsubsection
+                    {Determining the disclination charge}
+Not a real error.
+
+! Preview: Snippet 179 ended.(546132+152916x28417720).
+<-><->
+      
+l.456 ...tion{Determining the disclination charge}
+                                                  
+Not a real error.
+
+[179
+
+]
+! Preview: Snippet 180 started.
+<-><->
+      
+l.458 \paragraph
+                {Voronoi, Delaunay code}
+Not a real error.
+
+! Preview: Snippet 180 ended.(546132+152916x10797057).
+<-><->
+      
+l.458 \paragraph{Voronoi, Delaunay code}
+                                        
+Not a real error.
+
+[180
+
+]
+! Preview: Snippet 181 started.
+<-><->
+      
+l.460 \section
+              {Results / Figures}
+Not a real error.
+
+! Preview: Snippet 181 ended.(707788+235929x28417720).
+<-><->
+      
+l.460 \section{Results / Figures}
+                                 
+Not a real error.
+
+[181
+
+]
+! Preview: Snippet 182 started.
+<-><->
+      
+l.462 \subsection
+                 {N vs t}
+Not a real error.
+
+! Preview: Snippet 182 ended.(539580+0x28417720).
+<-><->
+      
+l.462 \subsection{N vs t}
+                         
+Not a real error.
+
+[182
+
+]
+! Preview: Snippet 183 started.
+<-><->
+      
+l.464 \subsection
+                 {Order vs. N}
+Not a real error.
+
+! Preview: Snippet 183 ended.(546132+0x28417720).
+<-><->
+      
+l.464 \subsection{Order vs. N}
+                              
+Not a real error.
+
+[183
+
+]
+! Preview: Snippet 184 started.
+<-><->
+      
+l.466 \subsection
+                 {Breakdown by layers}
+Not a real error.
+
+! Preview: Snippet 184 ended.(546132+152916x28417720).
+<-><->
+      
+l.466 \subsection{Breakdown by layers}
+                                      
+Not a real error.
+
+[184
+
+]
+! Preview: Snippet 185 started.
+<-><->
+      
+l.468 \subsection
+                 {Average disclination charge}
+Not a real error.
+
+! Preview: Snippet 185 ended.(546132+152916x28417720).
+<-><->
+      
+l.468 \subsection{Average disclination charge}
+                                              
+Not a real error.
+
+[185
+
+]
+! Preview: Snippet 186 started.
+<-><->
+      
+l.470 \subsection
+                 {Phase diagram for various ranges of potential}
+Not a real error.
+
+! Preview: Snippet 186 ended.(546132+152916x28417720).
+<-><->
+      
+l.470 ... diagram for various ranges of potential}
+                                                  
+Not a real error.
+
+[186
+
+]
+! Preview: Snippet 187 started.
+<-><->
+      
+l.472 \section
+              {Discussion}
+Not a real error.
+
+! Preview: Snippet 187 ended.(655359+0x28417720).
+<-><->
+      
+l.472 \section{Discussion}
+                          
+Not a real error.
+
+[187
+
+]
+! Preview: Snippet 188 started.
+<-><->
+      
+l.474 \chapter
+              {Diameter of Random Clusters}
+Not a real error.
+
+Chapter 3.
+! Preview: Snippet 188 ended.(5963776+0x28417720).
+<-><->
+      
+l.474 \chapter{Diameter of Random Clusters}
+                                           
+Not a real error.
+
+[188
+
+
+]
+! Preview: Snippet 189 started.
+<-><->
+      
+l.476 \section
+              {Introduction}
+Not a real error.
+
+! Preview: Snippet 189 ended.(655359+0x28417720).
+<-><->
+      
+l.476 \section{Introduction}
+                            
+Not a real error.
+
+[189
+
+]
+! Preview: Snippet 190 started.
+<-><->
+      
+l.478 \subsection
+                 {Potts Model \cite{Wu82}}
+Not a real error.
+
+
+LaTeX Warning: Citation `Wu82' on page 2 undefined on input line 478.
+
+! Preview: Snippet 190 ended.(589824+196608x28417720).
+<-><->
+      
+l.478 \subsection{Potts Model \cite{Wu82}}
+                                          
+Not a real error.
+
+[190
+
+]
+! Preview: Snippet 191 started.
+<-><->
+      
+l.480 \subsubsection
+                    {Generalization of Ising Model to $q$ spin states}
+Not a real error.
+
+! Preview: Snippet 191 ended.(546132+152916x28417720).
+<-><->
+      
+l.480 ...zation of Ising Model to $q$ spin states}
+                                                  
+Not a real error.
+
+[191
+
+]
+! Preview: Snippet 192 started.
+<-><->
+      
+l.482 \subsubsection
+                    {Applications}
+Not a real error.
+
+! Preview: Snippet 192 ended.(546132+152916x28417720).
+<-><->
+      
+l.482 \subsubsection{Applications}
+                                  
+Not a real error.
+
+[192
+
+]
+! Preview: Snippet 193 started.
+<-><->
+      
+l.484 \paragraph
+                {Conformal Field Theory}
+Not a real error.
+
+! Preview: Snippet 193 ended.(546132+152916x10946788).
+<-><->
+      
+l.484 \paragraph{Conformal Field Theory}
+                                        
+Not a real error.
+
+[193
+
+]
+! Preview: Snippet 194 started.
+<-><->
+      
+l.486 \paragraph
+                {Percolation Theory}
+Not a real error.
+
+! Preview: Snippet 194 ended.(546132+152916x9028950).
+<-><->
+      
+l.486 \paragraph{Percolation Theory}
+                                    
+Not a real error.
+
+[194
+
+]
+! Preview: Snippet 195 started.
+<-><->
+      
+l.488 \paragraph
+                {Knot Theory}
+Not a real error.
+
+! Preview: Snippet 195 ended.(546132+152916x6619591).
+<-><->
+      
+l.488 \paragraph{Knot Theory}
+                             
+Not a real error.
+
+[195
+
+]
+! Preview: Snippet 196 started.
+<-><->
+      
+l.490 \paragraph
+                {Mathematical Biology}
+Not a real error.
+
+! Preview: Snippet 196 ended.(546132+152916x10117122).
+<-><->
+      
+l.490 \paragraph{Mathematical Biology}
+                                      
+Not a real error.
+
+[196
+
+]
+! Preview: Snippet 197 started.
+<-><->
+      
+l.492 \paragraph
+                {Complex Networks}
+Not a real error.
+
+! Preview: Snippet 197 ended.(546132+152916x8943300).
+<-><->
+      
+l.492 \paragraph{Complex Networks}
+                                  
+Not a real error.
+
+[197
+
+]
+! Preview: Snippet 198 started.
+<-><->
+      
+l.494 \paragraph
+                {SLE}
+Not a real error.
+
+! Preview: Snippet 198 ended.(539580+0x3176677).
+<-><->
+      
+l.494 \paragraph{SLE}
+                     
+Not a real error.
+
+[198
+
+]
+! Preview: Snippet 199 started.
+<-><->
+      
+l.496 \subsubsection
+                    {$H=-K \displaystyle\sum_{\lb i,j r} \delta_{\sigma_i, \...
+
+Not a real error.
+
+! Preview: Snippet 199 ended.(720900+1026734x28417720).
+<-><->
+      
+l.496 ...{\lb i,j r} \delta_{\sigma_i, \sigma_j}$}
+                                                  
+Not a real error.
+
+[199
+
+]
+! Preview: Snippet 200 started.
+<-><->
+      
+l.498 \subsubsection
+                    {Rich phase diagram}
+Not a real error.
+
+! Preview: Snippet 200 ended.(546132+152916x28417720).
+<-><->
+      
+l.498 \subsubsection{Rich phase diagram}
+                                        
+Not a real error.
+
+[200
+
+]
+! Preview: Snippet 201 started.
+<-><->
+      
+l.500 \subsubsection
+                    {Mapped onto Random Cluster model for $q \ge 0$}
+Not a real error.
+
+! Preview: Snippet 201 ended.(546132+152916x28417720).
+<-><->
+      
+l.500 ... onto Random Cluster model for $q \ge 0$}
+                                                  
+Not a real error.
+
+[201
+
+]
+! Preview: Snippet 202 started.
+<-><->
+      
+l.502 \paragraph
+                {$q = 1 \to$ Percolation}
+Not a real error.
+
+! Preview: Snippet 202 ended.(546132+152916x9043129).
+<-><->
+      
+l.502 \paragraph{$q = 1 \to$ Percolation}
+                                         
+Not a real error.
+
+[202
+
+]
+! Preview: Snippet 203 started.
+<-><->
+      
+l.504 \paragraph
+                {$q = 2 \to$ Ising}
+Not a real error.
+
+! Preview: Snippet 203 ended.(546132+152916x6521268).
+<-><->
+      
+l.504 \paragraph{$q = 2 \to$ Ising}
+                                   
+Not a real error.
+
+[203
+
+]
+! Preview: Snippet 204 started.
+<-><->
+      
+l.506 \subsubsection
+                    {For $q \le 4$, the model exhibits For $q \le 4$, the mo...
+
+Not a real error.
+
+! Preview: Snippet 204 ended.(3691860+152916x28417720).
+<-><->
+      
+l.506 ...r phase transition at the critical point}
+                                                  
+Not a real error.
+
+[204
+
+]
+! Preview: Snippet 205 started.
+<-><->
+      
+l.508 \subsubsection
+                    {For $q>4$, the transition is first order \cite{Bax}}
+Not a real error.
+
+
+LaTeX Warning: Citation `Bax' on page 2 undefined on input line 508.
+
+! Preview: Snippet 205 ended.(589824+196608x28417720).
+<-><->
+      
+l.508 ...the transition is first order \cite{Bax}}
+                                                  
+Not a real error.
+
+[205
+
+]
+! Preview: Snippet 206 started.
+<-><->
+      
+l.510 \subsection
+                 {Chemical Distance}
+Not a real error.
+
+! Preview: Snippet 206 ended.(546132+0x28417720).
+<-><->
+      
+l.510 \subsection{Chemical Distance}
+                                    
+Not a real error.
+
+[206
+
+]
+! Preview: Snippet 207 started.
+<-><->
+      
+l.512 \subsubsection
+                    {Until recently, only studied for Potts $q=1$}
+Not a real error.
+
+! Preview: Snippet 207 ended.(546132+152916x28417720).
+<-><->
+      
+l.512 ...l recently, only studied for Potts $q=1$}
+                                                  
+Not a real error.
+
+[207
+
+]
+! Preview: Snippet 208 started.
+<-><->
+      
+l.514 \subsubsection
+                    {Scaling: $< l > \propto r^{d_{min}}$}
+Not a real error.
+
+! Preview: Snippet 208 ended.(649479+152916x28417720).
+<-><->
+      
+l.514 ...ion{Scaling: $< l > \propto r^{d_{min}}$}
+                                                  
+Not a real error.
+
+[208
+
+]
+! Preview: Snippet 209 started.
+<-><->
+      
+l.516 \subsubsection
+                    {We extend study to $q=1,2,3,4$ 2D Potts Model}
+Not a real error.
+
+! Preview: Snippet 209 ended.(546132+152916x28417720).
+<-><->
+      
+l.516 ...tend study to $q=1,2,3,4$ 2D Potts Model}
+                                                  
+Not a real error.
+
+[209
+
+]
+! Preview: Snippet 210 started.
+<-><->
+      
+l.518 \subsubsection
+                    {Use S-W algorithm to generate bonds, clusters}
+Not a real error.
+
+! Preview: Snippet 210 ended.(546132+152916x28417720).
+<-><->
+      
+l.518 ...-W algorithm to generate bonds, clusters}
+                                                  
+Not a real error.
+
+[210
+
+]
+! Preview: Snippet 211 started.
+<-><->
+      
+l.520 \subsubsection
+                    {Bondscorrespond to spin correlations via Random Cluster...
+
+Not a real error.
+
+! Preview: Snippet 211 ended.(546132+152916x28417720).
+<-><->
+      
+l.520 ...in correlations via Random Cluster Model}
+                                                  
+Not a real error.
+
+[211
+
+]
+! Preview: Snippet 212 started.
+<-><->
+      
+l.522 \subsection
+                 {Diameter}
+Not a real error.
+
+! Preview: Snippet 212 ended.(546132+0x28417720).
+<-><->
+      
+l.522 \subsection{Diameter}
+                           
+Not a real error.
+
+[212
+
+]
+! Preview: Snippet 213 started.
+<-><->
+      
+l.524 \subsubsection
+                    {$w$, which we define as the longest of all the shortest...
+
+Not a real error.
+
+! Preview: Snippet 213 ended.(2118996+0x28417720).
+<-><->
+      
+l.524 ...hortest paths between sites on a cluster}
+                                                  
+Not a real error.
+
+[213
+
+]
+! Preview: Snippet 214 started.
+<-><->
+      
+l.526 \subsubsection
+                    {Applications / connections}
+Not a real error.
+
+! Preview: Snippet 214 ended.(589824+196608x28417720).
+<-><->
+      
+l.526 \subsubsection{Applications / connections}
+                                                
+Not a real error.
+
+[214
+
+]
+! Preview: Snippet 215 started.
+<-><->
+      
+l.528 \paragraph
+                {maximum transport time}
+Not a real error.
+
+! Preview: Snippet 215 ended.(546132+152916x11354934).
+<-><->
+      
+l.528 \paragraph{maximum transport time}
+                                        
+Not a real error.
+
+[215
+
+]
+! Preview: Snippet 216 started.
+<-><->
+      
+l.530 \paragraph
+                {correlation lengths}
+Not a real error.
+
+! Preview: Snippet 216 ended.(546132+152916x8797209).
+<-><->
+      
+l.530 \paragraph{correlation lengths}
+                                     
+Not a real error.
+
+[216
+
+]
+! Preview: Snippet 217 started.
+<-><->
+      
+l.532 \paragraph
+                {scaling: $< w > \propto r^{w_{min}}$}
+Not a real error.
+
+! Preview: Snippet 217 ended.(546132+152916x9587632).
+<-><->
+      
+l.532 ...aph{scaling: $< w > \propto r^{w_{min}}$}
+                                                  
+Not a real error.
+
+[217
+
+]
+! Preview: Snippet 218 started.
+<-><->
+      
+l.534 \subsubsection
+                    {hypothesis: $d_{min}$ equal to $w_{min}$}
+Not a real error.
+
+! Preview: Snippet 218 ended.(546132+152916x28417720).
+<-><->
+      
+l.534 ...hypothesis: $d_{min}$ equal to $w_{min}$}
+                                                  
+Not a real error.
+
+[218
+
+]
+! Preview: Snippet 219 started.
+<-><->
+      
+l.536 \subsubsection
+                    {Algorithm}
+Not a real error.
+
+! Preview: Snippet 219 ended.(546132+152916x28417720).
+<-><->
+      
+l.536 \subsubsection{Algorithm}
+                               
+Not a real error.
+
+[219
+
+]
+! Preview: Snippet 220 started.
+<-><->
+      
+l.538 \paragraph
+                {Finding all-pairs shortest paths goes as $O(N^2)$}
+Not a real error.
+
+! Preview: Snippet 220 ended.(623265+196608x19252232).
+<-><->
+      
+l.538 ...ll-pairs shortest paths goes as $O(N^2)$}
+                                                  
+Not a real error.
+
+[220
+
+]
+! Preview: Snippet 221 started.
+<-><->
+      
+l.540 \paragraph
+                {We suggest a novel, more efficient algorithm}
+Not a real error.
+
+! Preview: Snippet 221 ended.(546132+152916x18764960).
+<-><->
+      
+l.540 ...uggest a novel, more efficient algorithm}
+                                                  
+Not a real error.
+
+[221
+
+]
+! Preview: Snippet 222 started.
+<-><->
+      
+l.542 \subsubsection
+                    {Mean Field predictions}
+Not a real error.
+
+! Preview: Snippet 222 ended.(546132+152916x28417720).
+<-><->
+      
+l.542 \subsubsection{Mean Field predictions}
+                                            
+Not a real error.
+
+[222
+
+]
+! Preview: Snippet 223 started.
+<-><->
+      
+l.544 \paragraph
+                {At or above critical dim, MFT should apply}
+Not a real error.
+
+! Preview: Snippet 223 ended.(546132+152916x18666294).
+<-><->
+      
+l.544 ... or above critical dim, MFT should apply}
+                                                  
+Not a real error.
+
+[223
+
+]
+! Preview: Snippet 224 started.
+<-><->
+      
+l.546 \paragraph
+                {underlying graph of connected sites that form the critical ...
+
+Not a real error.
+
+! Preview: Snippet 224 ended.(1245180+152916x28417720).
+<-><->
+      
+l.546 ...imated by a complete graph of n vertices}
+                                                  
+Not a real error.
+
+[224
+
+]
+! Preview: Snippet 225 started.
+<-><->
+      
+l.548 \paragraph
+                {complete graph:  simple graph in which every pair of vertic...
+
+Not a real error.
+
+! Preview: Snippet 225 ended.(1245180+152916x28417720).
+<-><->
+      
+l.548 ...pair of vertices is connected by an edge}
+                                                  
+Not a real error.
+
+[225
+
+]
+! Preview: Snippet 226 started.
+<-><->
+      
+l.550 \paragraph
+                {Shown by Nachmias \cite{Nachmiasa} that diam of complete gr...
+
+Not a real error.
+
+
+LaTeX Warning: Citation `Nachmiasa' on page 2 undefined on input line 550.
+
+! Preview: Snippet 226 ended.(1465038+196608x28417720).
+<-><->
+      
+l.550 ...icality scales as $w(n) \propto n^{1/3}$}
+                                                  
+Not a real error.
+
+[226
+
+]
+! Preview: Snippet 227 started.
+<-><->
+      
+l.552 \subsubsection
+                    {We simulate $q=2, D=4$ Potts to assess MFT predictions}
+Not a real error.
+
+! Preview: Snippet 227 ended.(546132+152916x28417720).
+<-><->
+      
+l.552 ...=2, D=4$ Potts to assess MFT predictions}
+                                                  
+Not a real error.
+
+[227
+
+]
+! Preview: Snippet 228 started.
+<-><->
+      
+l.554 \paragraph
+                {Since the mapping of the complete (linear) graph to the Pot...
+
+Not a real error.
+
+! Preview: Snippet 228 ended.(2949120+196608x28417720).
+<-><->
+      
+l.554 ...}$ should equal $4/3$ for $q=2$ in $4D$.}
+                                                  
+Not a real error.
+
+[228
+
+]
+! Preview: Snippet 229 started.
+<-><->
+      
+l.556 \section
+              {Methods}
+Not a real error.
+
+! Preview: Snippet 229 ended.(655359+0x28417720).
+<-><->
+      
+l.556 \section{Methods}
+                       
+Not a real error.
+
+[229
+
+]
+! Preview: Snippet 230 started.
+<-><->
+      
+l.558 \subsection
+                 {Swendesen-Wang Algorithm}
+Not a real error.
+
+! Preview: Snippet 230 ended.(546132+152916x28417720).
+<-><->
+      
+l.558 \subsection{Swendesen-Wang Algorithm}
+                                           
+Not a real error.
+
+[230
+
+]
+! Preview: Snippet 231 started.
+<-><->
+      
+l.560 \subsubsection
+                    {SW algorithm \cite{SwWA} used to generate statistics fo...
+
+Not a real error.
+
+
+LaTeX Warning: Citation `SwWA' on page 2 undefined on input line 560.
+
+! Preview: Snippet 231 ended.(2162688+152916x28417720).
+<-><->
+      
+l.560 ...dels, create the bond-paths studied here}
+                                                  
+Not a real error.
+
+[231
+
+]
+! Preview: Snippet 232 started.
+<-><->
+      
+l.562 \subsubsection
+                    {Based on work of Fortuin and Kasteleyn \cite{FoKa}}
+Not a real error.
+
+
+LaTeX Warning: Citation `FoKa' on page 2 undefined on input line 562.
+
+! Preview: Snippet 232 ended.(589824+196608x28417720).
+<-><->
+      
+l.562 ...ork of Fortuin and Kasteleyn \cite{FoKa}}
+                                                  
+Not a real error.
+
+[232
+
+]
+! Preview: Snippet 233 started.
+<-><->
+      
+l.564 \subsubsection
+                    {Procedure:}
+Not a real error.
+
+! Preview: Snippet 233 ended.(546132+0x28417720).
+<-><->
+      
+l.564 \subsubsection{Procedure:}
+                                
+Not a real error.
+
+[233
+
+]
+! Preview: Snippet 234 started.
+<-><->
+      
+l.566 \paragraph
+                {Introduce bonds with probability $p(\sigma_i,\sigma_j) = \d...
+
+Not a real error.
+
+! Preview: Snippet 234 ended.(643653+274353x23401222).
+<-><->
+      
+l.566 ... \delta_{\sigma_i, \sigma_j} (1-e^{-K})$}
+                                                  
+Not a real error.
+
+[234
+
+]
+! Preview: Snippet 235 started.
+<-><->
+      
+l.568 \paragraph
+                {Create clusters of bonded spins}
+Not a real error.
+
+! Preview: Snippet 235 ended.(546132+152916x13748091).
+<-><->
+      
+l.568 \paragraph{Create clusters of bonded spins}
+                                                 
+Not a real error.
+
+[235
+
+]
+! Preview: Snippet 236 started.
+<-><->
+      
+l.570 \paragraph
+                {Choose one of $q$ possible spin states and assign to all si...
+
+Not a real error.
+
+! Preview: Snippet 236 ended.(546132+152916x29440231).
+<-><->
+      
+l.570 ...s and assign to all sites in the cluster}
+                                                  
+Not a real error.
+
+[236
+
+]
+! Preview: Snippet 237 started.
+<-><->
+      
+l.572 \subsubsection
+                    {Reduces critical slowing relative to algorithms that fl...
+
+Not a real error.
+
+
+LaTeX Warning: Citation `NeBa99' on page 2 undefined on input line 572.
+
+
+LaTeX Warning: Citation `Met' on page 2 undefined on input line 572.
+
+! Preview: Snippet 237 ended.(2118996+196608x28417720).
+<-><->
+      
+l.572 ...}, e.g. Metropolis algoirithm \cite{Met}}
+                                                  
+Not a real error.
+
+[237
+
+]
+! Preview: Snippet 238 started.
+<-><->
+      
+l.574 \subsubsection
+                    {Bonds introduced in SW algorithm correspond to correlat...
+
+Not a real error.
+
+! Preview: Snippet 238 ended.(2118996+152916x28417720).
+<-><->
+      
+l.574 ...m correspond to correlations among spins}
+                                                  
+Not a real error.
+
+[238
+
+]
+! Preview: Snippet 239 started.
+<-><->
+      
+l.576 \subsubsection
+                    {We study paths along bonds in these clusters}
+Not a real error.
+
+! Preview: Snippet 239 ended.(546132+152916x28417720).
+<-><->
+      
+l.576 ...tudy paths along bonds in these clusters}
+                                                  
+Not a real error.
+
+[239
+
+]
+! Preview: Snippet 240 started.
+<-><->
+      
+l.578 \subsection
+                 {Determining the Chem Distance and Diameter}
+Not a real error.
+
+! Preview: Snippet 240 ended.(546132+152916x28417720).
+<-><->
+      
+l.578 ...termining the Chem Distance and Diameter}
+                                                  
+Not a real error.
+
+[240
+
+]
+! Preview: Snippet 241 started.
+<-><->
+      
+l.580 \subsubsection
+                    {Review of Previous methods}
+Not a real error.
+
+! Preview: Snippet 241 ended.(546132+0x28417720).
+<-><->
+      
+l.580 \subsubsection{Review of Previous methods}
+                                                
+Not a real error.
+
+[241
+
+]
+! Preview: Snippet 242 started.
+<-><->
+      
+l.582 \paragraph
+                {Stanley, Grassberger \cite{Gr99}, Leath, Paul \cite{Paul200...
+
+Not a real error.
+
+
+LaTeX Warning: Citation `Gr99' on page 2 undefined on input line 582.
+
+
+LaTeX Warning: Citation `Paul2001' on page 2 undefined on input line 582.
+
+! Preview: Snippet 242 ended.(589824+196608x18952012).
+<-><->
+      
+l.582 ...Gr99}, Leath, Paul \cite{Paul2001}, etc.}
+                                                  
+Not a real error.
+
+[242
+
+]
+! Preview: Snippet 243 started.
+<-><->
+      
+l.584 \paragraph
+                {Memory considerations, two seeds, etc.}
+Not a real error.
+
+! Preview: Snippet 243 ended.(546132+152916x16735896).
+<-><->
+      
+l.584 ...h{Memory considerations, two seeds, etc.}
+                                                  
+Not a real error.
+
+[243
+
+]
+! Preview: Snippet 244 started.
+<-><->
+      
+l.586 \subsubsection
+                    {Leath growth \cite{Leath}}
+Not a real error.
+
+
+LaTeX Warning: Citation `Leath' on page 2 undefined on input line 586.
+
+! Preview: Snippet 244 ended.(589824+196608x28417720).
+<-><->
+      
+l.586 \subsubsection{Leath growth \cite{Leath}}
+                                               
+Not a real error.
+
+[244
+
+]
+! Preview: Snippet 245 started.
+<-><->
+      
+l.588 \paragraph
+                {using a random number generator, one assigns all the bonds ...
+
+Not a real error.
+
+! Preview: Snippet 245 ended.(2610515+152916x28417720).
+<-><->
+      
+l.588 ...' or ``unoccupied'' with probability $p$}
+                                                  
+Not a real error.
+
+[245
+
+]
+! Preview: Snippet 246 started.
+<-><->
+      
+l.590 \paragraph
+                {If a bond is assigned ``occupied'' status, the site to whic...
+
+Not a real error.
+
+! Preview: Snippet 246 ended.(1245180+152916x28417720).
+<-><->
+      
+l.590 ...`growth site'', and is added to cluster.}
+                                                  
+Not a real error.
+
+[246
+
+]
+! Preview: Snippet 247 started.
+<-><->
+      
+l.592 \paragraph
+                {All the sites thus added to the cluster in this round form ...
+
+Not a real error.
+
+! Preview: Snippet 247 ended.(1092264+0x28417720).
+<-><->
+      
+l.592 ...ll'' of distance $l$ from the seed site.}
+                                                  
+Not a real error.
+
+[247
+
+]
+! Preview: Snippet 248 started.
+<-><->
+      
+l.594 \paragraph
+                {This process is then continued for subsequent generations o...
+
+Not a real error.
+
+! Preview: Snippet 248 ended.(4390908+0x28417720).
+<-><->
+      
+l.594 ...th rounds generates no new growth sites.}
+                                                  
+Not a real error.
+
+[248
+
+]
+! Preview: Snippet 249 started.
+<-><->
+      
+l.596 \paragraph
+                {(Note: sites not added to the cluster in a particular round...
+
+Not a real error.
+
+! Preview: Snippet 249 ended.(2905428+196608x28417720).
+<-><->
+      
+l.596 ...er considered as possible growth sites.)}
+                                                  
+Not a real error.
+
+[249
+
+]
+! Preview: Snippet 250 started.
+<-><->
+      
+l.598 \subsubsection
+                    {Leath growth most appropriate for what we're measuring}
+Not a real error.
+
+! Preview: Snippet 250 ended.(546132+152916x28417720).
+<-><->
+      
+l.598 ...ost appropriate for what we're measuring}
+                                                  
+Not a real error.
+
+[250
+
+]
+! Preview: Snippet 251 started.
+<-><->
+      
+l.600 \paragraph
+                {Can't use two-seed method; we must find all possible paths}
+Not a real error.
+
+! Preview: Snippet 251 ended.(546132+152916x24582283).
+<-><->
+      
+l.600 ... method; we must find all possible paths}
+                                                  
+Not a real error.
+
+[251
+
+]
+! Preview: Snippet 252 started.
+<-><->
+      
+l.602 \subsection
+                 {Procedure for $q>1$}
+Not a real error.
+
+! Preview: Snippet 252 ended.(546132+152916x28417720).
+<-><->
+      
+l.602 \subsection{Procedure for $q>1$}
+                                      
+Not a real error.
+
+[252
+
+]
+! Preview: Snippet 253 started.
+<-><->
+      
+l.604 \subsubsection
+                    {Generate a new cluster configuration using the Swendsen...
+
+Not a real error.
+
+! Preview: Snippet 253 ended.(5264724+152916x28417720).
+<-><->
+      
+l.604 ...rmine the largest cluster in the system.}
+                                                  
+Not a real error.
+
+[253
+
+]
+! Preview: Snippet 254 started.
+<-><->
+      
+l.606 \subsubsection
+                    {Choose a random site $s$ on this cluster as the seed si...
+
+Not a real error.
+
+! Preview: Snippet 254 ended.(546132+0x28417720).
+<-><->
+      
+l.606 ...te $s$ on this cluster as the seed site.}
+                                                  
+Not a real error.
+
+[254
+
+]
+! Preview: Snippet 255 started.
+<-><->
+      
+l.608 \subsubsection
+                    {Beginning with the seed site $s$, determine all sites i...
+
+Not a real error.
+
+! Preview: Snippet 255 ended.(3691860+196608x28417720).
+<-><->
+      
+l.608 ...e bonds that were determined in step 1).}
+                                                  
+Not a real error.
+
+[255
+
+]
+! Preview: Snippet 256 started.
+<-><->
+      
+l.610 \subsubsection
+                    {The chemical shell reached in the final step of this gr...
+
+Not a real error.
+
+! Preview: Snippet 256 ended.(5264724+0x28417720).
+<-><->
+      
+l.610 ...ur statistics for the chemical distance.}
+                                                  
+Not a real error.
+
+[256
+
+]
+! Preview: Snippet 257 started.
+<-><->
+      
+l.612 \subsubsection
+                    {All the $i$ sites at the end of this growth process who...
+
+Not a real error.
+
+! Preview: Snippet 257 ended.(3691860+152916x28417720).
+<-><->
+      
+l.612 ...external perimeter sites of the cluster.}
+                                                  
+Not a real error.
+
+[257
+
+]
+! Preview: Snippet 258 started.
+<-><->
+      
+l.614 \subsubsection
+                    {A similar Leath growth process is preformed using each ...
+
+Not a real error.
+
+! Preview: Snippet 258 ended.(3691860+0x28417720).
+<-><->
+      
+l.614 ...ach of these growth processes is stored.}
+                                                  
+Not a real error.
+
+[258
+
+]
+! Preview: Snippet 259 started.
+<-><->
+      
+l.616 \subsubsection
+                    {The diameter for the largest cluster is then $max\{{she...
+
+Not a real error.
+
+! Preview: Snippet 259 ended.(589824+252677x28417720).
+<-><->
+      
+l.616 ...uster is then $max\{{shell_{final}}_i\}$}
+                                                  
+Not a real error.
+
+[259
+
+]
+! Preview: Snippet 260 started.
+<-><->
+      
+l.618 \subsubsection
+                    {This method for finding the diameter is an improvement ...
+
+Not a real error.
+
+! Preview: Snippet 260 ended.(6837588+0x28417720).
+<-><->
+      
+l.618 ...r sites on the largest critical cluster.}
+                                                  
+Not a real error.
+
+[260
+
+]
+! Preview: Snippet 261 started.
+<-><->
+      
+l.620 \subsection
+                 {Procedure for $q>1$}
+Not a real error.
+
+! Preview: Snippet 261 ended.(546132+152916x28417720).
+<-><->
+      
+l.620 \subsection{Procedure for $q>1$}
+                                      
+Not a real error.
+
+[261
+
+]
+! Preview: Snippet 262 started.
+<-><->
+      
+l.622 \subsubsection
+                    {For $q=1$, it is possible to grow a cluster from a seed...
+
+Not a real error.
+
+! Preview: Snippet 262 ended.(546132+152916x28417720).
+<-><->
+      
+l.622 ...ible to grow a cluster from a seed site.}
+                                                  
+Not a real error.
+
+[262
+
+]
+! Preview: Snippet 263 started.
+<-><->
+      
+l.624 \subsubsection
+                    {Diameter must have its endpoints on perimeter sites}
+Not a real error.
+
+! Preview: Snippet 263 ended.(546132+152916x28417720).
+<-><->
+      
+l.624 ...st have its endpoints on perimeter sites}
+                                                  
+Not a real error.
+
+[263
+
+]
+! Preview: Snippet 264 started.
+<-><->
+      
+l.626 \subsubsection
+                    {Any ``pins'', or singly-connected paths on the external...
+
+Not a real error.
+
+! Preview: Snippet 264 ended.(3691860+152916x28417720).
+<-><->
+      
+l.626 ...liminated as possible diameter endpoints}
+                                                  
+Not a real error.
+
+[264
+
+]
+! Preview: Snippet 265 started.
+<-><->
+      
+l.628 \subsubsection
+                    {Straightforward to show that the existence of such a ``...
+
+Not a real error.
+
+! Preview: Snippet 265 ended.(3691860+152916x28417720).
+<-><->
+      
+l.628 ...thin the ``body'' of the cluster as well}
+                                                  
+Not a real error.
+
+[265
+
+]
+! Preview: Snippet 266 started.
+<-><->
+      
+l.630 \subsubsection
+                    {'Proof' of / argument for the algorithm:}
+Not a real error.
+
+! Preview: Snippet 266 ended.(589824+196608x28417720).
+<-><->
+      
+l.630 ...'Proof' of / argument for the algorithm:}
+                                                  
+Not a real error.
+
+[266
+
+]
+! Preview: Snippet 267 started.
+<-><->
+      
+l.632 \paragraph
+                {$P$: the set of all sites on the pin $P$}
+Not a real error.
+
+! Preview: Snippet 267 ended.(546132+152916x14841439).
+<-><->
+      
+l.632 ...$P$: the set of all sites on the pin $P$}
+                                                  
+Not a real error.
+
+[267
+
+]
+! Preview: Snippet 268 started.
+<-><->
+      
+l.634 \paragraph
+                {$p_{tip}$: the site that is the outermost tip of a given pi...
+
+Not a real error.
+
+! Preview: Snippet 268 ended.(2949120+196608x28417720).
+<-><->
+      
+l.634 ...site with more than 2 nearest neighbors)}
+                                                  
+Not a real error.
+
+[268
+
+]
+! Preview: Snippet 269 started.
+<-><->
+      
+l.636 \paragraph
+                {Imagine that we were to include as a candidate site in $S$ ...
+
+Not a real error.
+
+! Preview: Snippet 269 ended.(5831828+219909x28417720).
+<-><->
+      
+l.636 ...$ that are closer than $p_{tip}$ to $S$.}
+                                                  
+Not a real error.
+
+[269
+
+]
+! Preview: Snippet 270 started.
+<-><->
+      
+l.638 \paragraph
+                {(?) Similar considerations [PROVE THIS?] allow us to additi...
+
+Not a real error.
+
+! Preview: Snippet 270 ended.(4545285+196608x28417720).
+<-><->
+      
+l.638 ...tach}}$\$ (i.e., the length of the pin).}
+                                                  
+Not a real error.
+
+[270
+
+]
+! Preview: Snippet 271 started.
+<-><->
+      
+l.640 \paragraph
+                {Initiate, for every site i$s$ in $S$, a ``Leath growth'' se...
+
+Not a real error.
+
+! Preview: Snippet 271 ended.(2818044+152916x28833109).
+<-><->
+      
+l.640 ...en all cluster sites have been examined.}
+                                                  
+Not a real error.
+
+[271
+
+]
+! Preview: Snippet 272 started.
+<-><->
+      
+l.642 \paragraph
+                {The maximum chemical distance found across all such searche...
+
+Not a real error.
+
+! Preview: Snippet 272 ended.(1083527+0x28417720).
+<-><->
+      
+l.642 ...nd across all such searches is then $D$.}
+                                                  
+Not a real error.
+
+[272
+
+]
+! Preview: Snippet 273 started.
+<-><->
+      
+l.644 \paragraph
+                {We thus need only consider a relatively small proportion [q...
+
+Not a real error.
+
+! Preview: Snippet 273 ended.(4434600+152916x28417720).
+<-><->
+      
+l.644 ... order to determine the diameter exactly}
+                                                  
+Not a real error.
+
+[273
+
+]
+! Preview: Snippet 274 started.
+<-><->
+      
+l.646 \paragraph
+                {Note that this method does not work for periodic boundary c...
+
+Not a real error.
+
+! Preview: Snippet 274 ended.(2818044+152916x28417720).
+<-><->
+      
+l.646 ... to touch the boundaries of the lattice.}
+                                                  
+Not a real error.
+
+[274
+
+]
+! Preview: Snippet 275 started.
+<-><->
+      
+l.648 \subsubsection
+                    {Procedure}
+Not a real error.
+
+! Preview: Snippet 275 ended.(546132+0x28417720).
+<-><->
+      
+l.648 \subsubsection{Procedure}
+                               
+Not a real error.
+
+[275
+
+]
+! Preview: Snippet 276 started.
+<-><->
+      
+l.650 \paragraph
+                {Choose a growth seed site in the center of the lattice}
+Not a real error.
+
+! Preview: Snippet 276 ended.(546132+152916x22139062).
+<-><->
+      
+l.650 ...h seed site in the center of the lattice}
+                                                  
+Not a real error.
+
+[276
+
+]
+! Preview: Snippet 277 started.
+<-><->
+      
+l.652 \paragraph
+                {Perform a Leath growth from this site until the cluster die...
+
+Not a real error.
+
+! Preview: Snippet 277 ended.(2818044+152916x28417720).
+<-><->
+      
+l.652 ...orders $L_{max}$, begin again at step 1.}
+                                                  
+Not a real error.
+
+[277
+
+]
+! Preview: Snippet 278 started.
+<-><->
+      
+l.654 \paragraph
+                {Identify all the perimeter sites in the cluster by choosing...
+
+Not a real error.
+
+! Preview: Snippet 278 ended.(4434600+152916x28417720).
+<-><->
+      
+l.654 ... shell will be external perimeter sites.}
+                                                  
+Not a real error.
+
+[278
+
+]
+! Preview: Snippet 279 started.
+<-><->
+      
+l.656 \paragraph
+                {Identify all the ``pins'' among these perimeter sites by pe...
+
+Not a real error.
+
+! Preview: Snippet 279 ended.(4390908+152916x28417720).
+<-><->
+      
+l.656 ...rom consideration as diameter endpoints.}
+                                                  
+Not a real error.
+
+[279
+
+]
+! Preview: Snippet 280 started.
+<-><->
+      
+l.658 \paragraph
+                {Beginning from the point of attachment of the pin to the bo...
+
+Not a real error.
+
+! Preview: Snippet 280 ended.(5963772+152916x28417720).
+<-><->
+      
+l.658 ...rom consideration as diameter endpoints.}
+                                                  
+Not a real error.
+
+[280
+
+]
+! Preview: Snippet 281 started.
+<-><->
+      
+l.660 \paragraph
+                {Perform Leath growths from all of the remaining perimeter s...
+
+Not a real error.
+
+! Preview: Snippet 281 ended.(2818044+0x28417720).
+<-><->
+      
+l.660 ...lls is then the diameter of the cluster.}
+                                                  
+Not a real error.
+
+[281
+
+]
+! Preview: Snippet 282 started.
+<-><->
+      
+l.662 \subsubsection
+                    {Comparison with 'regular' Leath growth method}
+Not a real error.
+
+! Preview: Snippet 282 ended.(546132+152916x28417720).
+<-><->
+      
+l.662 ...rison with 'regular' Leath growth method}
+                                                  
+Not a real error.
+
+[282
+
+]
+! Preview: Snippet 283 started.
+<-><->
+      
+l.664 \paragraph
+                {We compared this method to the method described for $q>1$, ...
+
+Not a real error.
+
+! Preview: Snippet 283 ended.(2861736+152916x28417720).
+<-><->
+      
+l.664 ...ely $X\%$ in our runs with $L_{max}=XX$.}
+                                                  
+Not a real error.
+
+[283
+
+]
+! Preview: Snippet 284 started.
+<-><->
+      
+l.666 \subsubsection
+                    {Label update procedure}
+Not a real error.
+
+! Preview: Snippet 284 ended.(546132+152916x28417720).
+<-><->
+      
+l.666 \subsubsection{Label update procedure}
+                                            
+Not a real error.
+
+[284
+
+]
+! Preview: Snippet 285 started.
+<-><->
+      
+l.669 ...ch site a label.  Because resetting all $
+                                                  N$ labels is costly, we in...
+
+Not a real error.
+
+! Preview: Snippet 285 ended.(537395+0x698774).
+<-><->
+      
+l.669 ... site a label.  Because resetting all $N$
+                                                   labels is costly, we inst...
+
+Not a real error.
+
+[285]
+! Preview: Snippet 286 started.
+<-><->
+      
+l.670 \subsection
+                 {Simulation Details}
+Not a real error.
+
+! Preview: Snippet 286 ended.(546132+0x28417720).
+<-><->
+      
+l.670 \subsection{Simulation Details}
+                                     
+Not a real error.
+
+[286
+
+]
+! Preview: Snippet 287 started.
+<-><->
+      
+l.672 \subsubsection
+                    {Overview}
+Not a real error.
+
+! Preview: Snippet 287 ended.(546132+0x28417720).
+<-><->
+      
+l.672 \subsubsection{Overview}
+                              
+Not a real error.
+
+[287
+
+]
+! Preview: Snippet 288 started.
+<-><->
+      
+l.674 \paragraph
+                {We used the Swendsen-Wang algorithm to simulate Potts Model...
+
+Not a real error.
+
+! Preview: Snippet 288 ended.(4390908+152916x28417720).
+<-><->
+      
+l.674 ...lations began in a random configuration.}
+                                                  
+Not a real error.
+
+[288
+
+]
+! Preview: Snippet 289 started.
+<-><->
+      
+l.676 \subsubsection
+                    {Values of $p_{add}$ used}
+Not a real error.
+
+! Preview: Snippet 289 ended.(546132+152916x28417720).
+<-><->
+      
+l.676 \subsubsection{Values of $p_{add}$ used}
+                                              
+Not a real error.
+
+[289
+
+]
+! Preview: Snippet 290 started.
+<-><->
+      
+l.678 \paragraph
+                {For $q=1$ in 2D, $p_{add}$ is known exactly (REF).  For $q=...
+
+Not a real error.
+
+! Preview: Snippet 290 ended.(2949120+196608x28417720).
+<-><->
+      
+l.678 ...ely. For $q=2$ in 4D, $p_{add}=X$ (REF).}
+                                                  
+Not a real error.
+
+[290
+
+]
+! Preview: Snippet 291 started.
+<-><->
+      
+l.680 \subsubsection
+                    {Thermalization}
+Not a real error.
+
+! Preview: Snippet 291 ended.(546132+0x28417720).
+<-><->
+      
+l.680 \subsubsection{Thermalization}
+                                    
+Not a real error.
+
+[291
+
+]
+! Preview: Snippet 292 started.
+<-><->
+      
+l.682 \paragraph
+                {For $q>1$, the simulations require some time to achieve an ...
+
+Not a real error.
+
+! Preview: Snippet 292 ended.(6030765+152916x28417720).
+<-><->
+      
+l.682 ...e largest cluster for that value of $L$.}
+                                                  
+Not a real error.
+
+[292
+
+]
+! Preview: Snippet 293 started.
+<-><->
+      
+l.684 \paragraph
+                {A table of integrated autocorrelation times for the largest...
+
+Not a real error.
+
+! Preview: Snippet 293 ended.(1288872+196608x28417720).
+<-><->
+      
+l.684 ...ystem sizes measured is provided (Table)}
+                                                  
+Not a real error.
+
+[293
+
+]
+! Preview: Snippet 294 started.
+<-><->
+      
+l.686 \subsubsection
+                    {Run times}
+Not a real error.
+
+! Preview: Snippet 294 ended.(546132+0x28417720).
+<-><->
+      
+l.686 \subsubsection{Run times}
+                               
+Not a real error.
+
+[294
+
+]
+! Preview: Snippet 295 started.
+<-><->
+      
+l.688 \paragraph
+                {In 2D, our simulations were run for a length of $X \tau_{in...
+
+Not a real error.
+
+! Preview: Snippet 295 ended.(1312173+219909x28417720).
+<-><->
+      
+l.688 ...  \tau_{int,m}$ for measurements of $l$.}
+                                                  
+Not a real error.
+
+[295
+
+]
+! Preview: Snippet 296 started.
+<-><->
+      
+l.690 \paragraph
+                {For our 4D, $q=2$ measurements, simulations were run for a ...
+
+Not a real error.
+
+! Preview: Snippet 296 ended.(1245180+219909x28417720).
+<-><->
+      
+l.690 ...au_{int,m}$ for our measurements of $l$.}
+                                                  
+Not a real error.
+
+[296
+
+]
+! Preview: Snippet 297 started.
+<-><->
+      
+l.692 \paragraph
+                {Some of our simulations consisted of a single, long run; ot...
+
+Not a real error.
+
+! Preview: Snippet 297 ended.(2818044+152916x28417720).
+<-><->
+      
+l.692 ...t initial random number generator seeds.}
+                                                  
+Not a real error.
+
+[297
+
+]
+! Preview: Snippet 298 started.
+<-><->
+      
+l.694 \subsubsection
+                    {Random Number Generator}
+Not a real error.
+
+! Preview: Snippet 298 ended.(546132+0x28417720).
+<-><->
+      
+l.694 \subsubsection{Random Number Generator}
+                                             
+Not a real error.
+
+[298
+
+]
+! Preview: Snippet 299 started.
+<-><->
+      
+l.696 \paragraph
+                {Random numbers for the simluations were generated using the...
+
+Not a real error.
+
+! Preview: Snippet 299 ended.(2905428+196608x28417720).
+<-><->
+      
+l.696 ... period of at least $X$ (determine this)}
+                                                  
+Not a real error.
+
+[299
+
+]
+! Preview: Snippet 300 started.
+<-><->
+      
+l.698 \subsubsection
+                    {Tests of the algorithm}
+Not a real error.
+
+! Preview: Snippet 300 ended.(546132+152916x28417720).
+<-><->
+      
+l.698 \subsubsection{Tests of the algorithm}
+                                            
+Not a real error.
+
+[300
+
+]
+! Preview: Snippet 301 started.
+<-><->
+      
+l.700 \paragraph
+                {As a check on our simulation methods, we also measured the ...
+
+Not a real error.
+
+! Preview: Snippet 301 ended.(4390908+152916x28417720).
+<-><->
+      
+l.700 ... the latest from the literature was good}
+                                                  
+Not a real error.
+
+[301
+
+]
+! Preview: Snippet 302 started.
+<-><->
+      
+l.702 \subsubsection
+                    {CPU Time}
+Not a real error.
+
+! Preview: Snippet 302 ended.(546132+152916x28417720).
+<-><->
+      
+l.702 \subsubsection{CPU Time}
+                              
+Not a real error.
+
+[302
+
+]
+! Preview: Snippet 303 started.
+<-><->
+      
+l.704 \paragraph
+                {The CPU time for simulations measuring the diameter $w$ was...
+
+Not a real error.
+
+! Preview: Snippet 303 ended.(2861736+0x28417720).
+<-><->
+      
+l.704 ... L^2 \mu s /$ iteration, when run on the}
+                                                  
+Not a real error.
+
+[303
+
+]
+! Preview: Snippet 304 started.
+<-><->
+      
+l.706 \subsection
+                 {Data Analysis}
+Not a real error.
+
+! Preview: Snippet 304 ended.(546132+152916x28417720).
+<-><->
+      
+l.706 \subsection{Data Analysis}
+                                
+Not a real error.
+
+[304
+
+]
+! Preview: Snippet 305 started.
+<-><->
+      
+l.708 \subsubsection
+                    {Blocking Method}
+Not a real error.
+
+! Preview: Snippet 305 ended.(546132+152916x28417720).
+<-><->
+      
+l.708 \subsubsection{Blocking Method}
+                                     
+Not a real error.
+
+[305
+
+]
+! Preview: Snippet 306 started.
+<-><->
+      
+l.710 \paragraph
+                {We used the 'blocking' method \cite{NeBa99} to extract the ...
+
+Not a real error.
+
+
+LaTeX Warning: Citation `NeBa99' on page 3 undefined on input line 710.
+
+! Preview: Snippet 306 ended.(1332564+0x28417720).
+<-><->
+      
+l.710 ...ance and diameter from our measurements.}
+                                                  
+Not a real error.
+
+[306
+
+]
+! Preview: Snippet 307 started.
+<-><->
+      
+l.712 \paragraph
+                {This method works by clustering the measurements of the qua...
+
+Not a real error.
+
+! Preview: Snippet 307 ended.(4390908+152916x28417720).
+<-><->
+      
+l.712 ...andard deviation in these block averages}
+                                                  
+Not a real error.
+
+[307
+
+]
+! Preview: Snippet 308 started.
+<-><->
+      
+l.714 \paragraph
+                {$\sigma=\sqrt{ \frac{< m^2 > - < m >  ^2}{n-1}}$, where $n$...
+
+Not a real error.
+
+! Preview: Snippet 308 ended.(838789+367083x20542018).
+<-><->
+      
+l.714 ...-1}}$, where $n$ is the number of blocks}
+                                                  
+Not a real error.
+
+[308
+
+]
+! Preview: Snippet 309 started.
+<-><->
+      
+l.716 \subsubsection
+                    {Fitting Methods}
+Not a real error.
+
+! Preview: Snippet 309 ended.(546132+152916x28417720).
+<-><->
+      
+l.716 \subsubsection{Fitting Methods}
+                                     
+Not a real error.
+
+[309
+
+]
+! Preview: Snippet 310 started.
+<-><->
+      
+l.718 \paragraph
+                {For $q=1,2,3$, we attempted fits using the Ans\"{a}tze $y=a...
+
+Not a real error.
+
+! Preview: Snippet 310 ended.(4494255+152916x28417720).
+<-><->
+      
+l.718 ... a reasonable goodness-of-fit value, $Q$}
+                                                  
+Not a real error.
+
+[310
+
+]
+! Preview: Snippet 311 started.
+<-><->
+      
+l.720 \paragraph
+                {The fitting form $y=aL^b$ provided the best fits for all va...
+
+Not a real error.
+
+! Preview: Snippet 311 ended.(649479+152916x26500003).
+<-><->
+      
+l.720 ...ded the best fits for all values of $q$.}
+                                                  
+Not a real error.
+
+[311
+
+]
+! Preview: Snippet 312 started.
+<-><->
+      
+l.722 \paragraph
+                {For $q=4$, we also attempted a fit of the form $y=A+B \log ...
+
+Not a real error.
+
+! Preview: Snippet 312 ended.(1348527+152916x28417720).
+<-><->
+      
+l.722 ... not as good as the Ans\"{a}tz $y=aL^b$.}
+                                                  
+Not a real error.
+
+[312
+
+]
+! Preview: Snippet 313 started.
+<-><->
+      
+l.724 \subsection
+                 {Results and Discussion}
+Not a real error.
+
+! Preview: Snippet 313 ended.(546132+0x28417720).
+<-><->
+      
+l.724 \subsection{Results and Discussion}
+                                         
+Not a real error.
+
+[313
+
+]
+! Preview: Snippet 314 started.
+<-><->
+      
+l.726 \subsubsection
+                    {Comparison, chem dist and diameter}
+Not a real error.
+
+! Preview: Snippet 314 ended.(546132+152916x28417720).
+<-><->
+      
+l.726 ...ction{Comparison, chem dist and diameter}
+                                                  
+Not a real error.
+
+[314
+
+]
+! Preview: Snippet 315 started.
+<-><->
+      
+l.728 \subsubsection
+                    {Comparison of results with those of Deng et. al}
+Not a real error.
+
+! Preview: Snippet 315 ended.(546132+152916x28417720).
+<-><->
+      
+l.728 ...son of results with those of Deng et. al}
+                                                  
+Not a real error.
+
+[315
+
+]
+! Preview: Snippet 316 started.
+<-><->
+      
+l.730 \paragraph
+                {Our numerical results appear to match the conjecture of Den...
+
+Not a real error.
+
+
+LaTeX Warning: Citation `Deng2010' on page 3 undefined on input line 730.
+
+! Preview: Snippet 316 ended.(4434600+152916x28417720).
+<-><->
+      
+l.730 ...seem to support Deng et. al's conjecture}
+                                                  
+Not a real error.
+
+[316
+
+]
+! Preview: Snippet 317 started.
+<-><->
+      
+l.732 \subsubsection
+                    {Discussion of systematic errors}
+Not a real error.
+
+! Preview: Snippet 317 ended.(546132+152916x28417720).
+<-><->
+      
+l.732 ...bsection{Discussion of systematic errors}
+                                                  
+Not a real error.
+
+[317
+
+]
+! Preview: Snippet 318 started.
+<-><->
+      
+l.734 \chapter
+              {Phase Transitions in Computational Complexity}
+Not a real error.
+
+Chapter 4.
+! Preview: Snippet 318 ended.(7143424+0x28417720).
+<-><->
+      
+l.734 ... Transitions in Computational Complexity}
+                                                  
+Not a real error.
+
+[318
+
+
+]
+! Preview: Snippet 319 started.
+<-><->
+      
+l.736 \section
+              {Background}
+Not a real error.
+
+! Preview: Snippet 319 ended.(655359+183500x28417720).
+<-><->
+      
+l.736 \section{Background}
+                          
+Not a real error.
+
+[319
+
+]
+! Preview: Snippet 320 started.
+<-><->
+      
+l.738 \subsection
+                 {Constraint Satisfaction Problems (CSP)}
+Not a real error.
+
+! Preview: Snippet 320 ended.(589824+196608x28417720).
+<-><->
+      
+l.738 ...n{Constraint Satisfaction Problems (CSP)}
+                                                  
+Not a real error.
+
+[320
+
+]
+! Preview: Snippet 321 started.
+<-><->
+      
+l.740 \subsubsection
+                    {Examples}
+Not a real error.
+
+! Preview: Snippet 321 ended.(546132+152916x28417720).
+<-><->
+      
+l.740 \subsubsection{Examples}
+                              
+Not a real error.
+
+[321
+
+]
+! Preview: Snippet 322 started.
+<-><->
+      
+l.742 \paragraph
+                {kSAT}
+Not a real error.
+
+! Preview: Snippet 322 ended.(546132+0x3741013).
+<-><->
+      
+l.742 \paragraph{kSAT}
+                      
+Not a real error.
+
+[322
+
+]
+! Preview: Snippet 323 started.
+<-><->
+      
+l.744 \paragraph
+                {Graph-coloring}
+Not a real error.
+
+! Preview: Snippet 323 ended.(546132+152916x7402384).
+<-><->
+      
+l.744 \paragraph{Graph-coloring}
+                                
+Not a real error.
+
+[323
+
+]
+! Preview: Snippet 324 started.
+<-><->
+      
+l.746 \paragraph
+                {Spin models}
+Not a real error.
+
+! Preview: Snippet 324 ended.(546132+152916x6282264).
+<-><->
+      
+l.746 \paragraph{Spin models}
+                             
+Not a real error.
+
+[324
+
+]
+! Preview: Snippet 325 started.
+<-><->
+      
+l.748 \paragraph
+                {error-correcting codes}
+Not a real error.
+
+! Preview: Snippet 325 ended.(546132+152916x10076073).
+<-><->
+      
+l.748 \paragraph{error-correcting codes}
+                                        
+Not a real error.
+
+[325
+
+]
+! Preview: Snippet 326 started.
+<-><->
+      
+l.750 \subsubsection
+                    {Observation of threshold behavior in CSP}
+Not a real error.
+
+! Preview: Snippet 326 ended.(546132+0x28417720).
+<-><->
+      
+l.750 ...Observation of threshold behavior in CSP}
+                                                  
+Not a real error.
+
+[326
+
+]
+! Preview: Snippet 327 started.
+<-><->
+      
+l.752 \subsubsection
+                    {Difficulties in tackling phase behavior of CSP}
+Not a real error.
+
+! Preview: Snippet 327 ended.(546132+152916x28417720).
+<-><->
+      
+l.752 ...ulties in tackling phase behavior of CSP}
+                                                  
+Not a real error.
+
+[327
+
+]
+! Preview: Snippet 328 started.
+<-><->
+      
+l.754 \subsection
+                 {Proposal: study complexity of percolation model}
+Not a real error.
+
+! Preview: Snippet 328 ended.(546132+152916x28417720).
+<-><->
+      
+l.754 ...l: study complexity of percolation model}
+                                                  
+Not a real error.
+
+[328
+
+]
+! Preview: Snippet 329 started.
+<-><->
+      
+l.756 \section
+              {Percolation}
+Not a real error.
+
+! Preview: Snippet 329 ended.(655359+0x28417720).
+<-><->
+      
+l.756 \section{Percolation}
+                           
+Not a real error.
+
+[329
+
+]
+! Preview: Snippet 330 started.
+<-><->
+      
+l.758 \subsection
+                 {The Model}
+Not a real error.
+
+! Preview: Snippet 330 ended.(546132+0x28417720).
+<-><->
+      
+l.758 \subsection{The Model}
+                            
+Not a real error.
+
+[330
+
+]
+! Preview: Snippet 331 started.
+<-><->
+      
+l.760 \subsection
+                 {Background / applications}
+Not a real error.
+
+! Preview: Snippet 331 ended.(589824+196608x28417720).
+<-><->
+      
+l.760 \subsection{Background / applications}
+                                            
+Not a real error.
+
+[331
+
+]
+! Preview: Snippet 332 started.
+<-><->
+      
+l.762 \section
+              {PRAM}
+Not a real error.
+
+! Preview: Snippet 332 ended.(647495+0x28417720).
+<-><->
+      
+l.762 \section{PRAM}
+                    
+Not a real error.
+
+[332
+
+]
+! Preview: Snippet 333 started.
+<-><->
+      
+l.764 \subsection
+                 {Applications in comp sci}
+Not a real error.
+
+! Preview: Snippet 333 ended.(546132+152916x28417720).
+<-><->
+      
+l.764 \subsection{Applications in comp sci}
+                                           
+Not a real error.
+
+[333
+
+]
+! Preview: Snippet 334 started.
+<-><->
+      
+l.766 \subsection
+                 {PRIORITY CRCW}
+Not a real error.
+
+! Preview: Snippet 334 ended.(539580+0x28417720).
+<-><->
+      
+l.766 \subsection{PRIORITY CRCW}
+                                
+Not a real error.
+
+[334
+
+]
+! Preview: Snippet 335 started.
+<-><->
+      
+l.768 \section
+              {Parallel Algorithm for Percolation}
+Not a real error.
+
+! Preview: Snippet 335 ended.(655359+183500x28417720).
+<-><->
+      
+l.768 \section{Parallel Algorithm for Percolation}
+                                                  
+Not a real error.
+
+[335
+
+]
+! Preview: Snippet 336 started.
+<-><->
+      
+l.770 \section
+              {Results}
+Not a real error.
+
+! Preview: Snippet 336 ended.(655359+0x28417720).
+<-><->
+      
+l.770 \section{Results}
+                       
+Not a real error.
+
+[336
+
+]
+! Preview: Snippet 337 started.
+<-><->
+      
+l.772 \subsection
+                 {D$_2$ vs. p for several system sizes L}
+Not a real error.
+
+! Preview: Snippet 337 ended.(546132+152916x28417720).
+<-><->
+      
+l.772 ...n{D$_2$ vs. p for several system sizes L}
+                                                  
+Not a real error.
+
+[337
+
+]
+! Preview: Snippet 338 started.
+<-><->
+      
+l.774 \subsection
+                 {log(D$_2$) vs. log(L)}
+Not a real error.
+
+! Preview: Snippet 338 ended.(589824+196608x28417720).
+<-><->
+      
+l.774 \subsection{log(D$_2$) vs. log(L)}
+                                        
+Not a real error.
+
+[338
+
+]
+! Preview: Snippet 339 started.
+<-><->
+      
+l.776 \subsection
+                 {Distribution of cluster sizes}
+Not a real error.
+
+! Preview: Snippet 339 ended.(546132+0x28417720).
+<-><->
+      
+l.776 \subsection{Distribution of cluster sizes}
+                                                
+Not a real error.
+
+[339
+
+]
+! Preview: Snippet 340 started.
+<-><->
+      
+l.778 \subsubsection
+                    {logarithmic or power law? (power law --> algorithm will...
+
+Not a real error.
+
+! Preview: Snippet 340 ended.(589824+196608x28417720).
+<-><->
+      
+l.778 ...power law --> algorithm will often fail)}
+                                                  
+Not a real error.
+
+[340
+
+]
+No file _region_.bbl.
+\setcounter{count@FrontMatter}{0}
+\setcounter{count@Chapter}{4}
+\setcounter{count@Appendix}{0}
+\setcounter{count@BackMatter}{0}
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 898 strings out of 495061
+ 11788 string characters out of 1182622
+ 64340 words of memory out of 3000000
+ 4118 multiletter control sequences out of 15000+50000
+ 8496 words of font info for 30 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 27i,6n,26p,1053b,188s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/sh
+are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/typ
+e1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/am
+sfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
+ti12.pfb>
+Output written on _region_.pdf (340 pages, 331433 bytes).
+PDF statistics:
+ 1144 PDF objects out of 1200 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

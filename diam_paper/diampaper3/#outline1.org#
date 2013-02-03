@@ -1,0 +1,13 @@
+* intro and background
+** brief definition of quantities
+** expected scaling
+** mean field expectation
+** special method for q=1 
+* results / figures
+** definition of chemical distance
+** definition of diameter
+** example cluster
+** explanation of new diameter method
+** scaling of chemical distance in 2D, potts q=1,2,3,4
+** scaling of diameter in 2D, potts q=1,2,3,4
+** scaling of chemical distance in 4D, potts q=2

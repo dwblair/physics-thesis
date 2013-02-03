@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: squares_torus.aux
+The style file: apsrev.bst
+Database file #1: squares.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty year in ROAN; set to ????
+Warning--empty year in BAKER; set to ????
+Warning--empty year in STROOBANTS; set to ????
+Warning--missing publisher in Surhone
+Warning--empty year in Surhone; set to ????
+You've used 25 entries,
+            3411 wiz_defined-function locations,
+            1365 strings with 15241 characters,
+and the built_in function-call counts, 16142 in all, are:
+= -- 903
+> -- 533
+< -- 78
++ -- 428
+- -- 132
+* -- 2232
+:= -- 1797
+add.period$ -- 25
+call.type$ -- 25
+change.case$ -- 100
+chr.to.int$ -- 25
+cite$ -- 30
+duplicate$ -- 1479
+empty$ -- 1396
+format.name$ -- 327
+if$ -- 3016
+int.to.chr$ -- 1
+int.to.str$ -- 26
+missing$ -- 228
+newline$ -- 90
+num.names$ -- 75
+pop$ -- 403
+preamble$ -- 1
+purify$ -- 100
+quote$ -- 0
+skip$ -- 564
+stack$ -- 0
+substring$ -- 437
+swap$ -- 1134
+text.length$ -- 64
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 136
+warning$ -- 5
+while$ -- 64
+width$ -- 0
+write$ -- 288
+(There were 5 warnings)

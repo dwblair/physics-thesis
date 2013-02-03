@@ -1,0 +1,32 @@
+%\documentclass[pre,preprint,showpacs,nofootinbib]{revtex4}
+\documentclass[pre,twocolumn,showpacs]{revtex4}
+%\documentclass[article]{revtex4}
+\usepackage{graphicx}
+\usepackage{epsfig}
+%\usepackage{dcolumn}
+\usepackage{amssymb,amsmath}
+\usepackage{bm}
+\usepackage{pdfsync}
+
+\begin{document}
+
+\title{The Diameter and Chemical Distance of Random Clusters}
+
+\author{Don Blair}
+\author{Jon Machta}
+
+\affiliation{Department of Physics, University of Massachusetts, Amherst, MA 01003.}
+\date{\today}
+
+
+\begin{abstract}
+ We report numerical results for the fractal dimension of the diameter (the ``longest shortest path'' between vertices along bonds) and the chemical distance of 2D and 3D Potts clusters for $q=1,2,3,4$.  We find that the fractal dimension of the diameter and of the chemical distance of Potts clusters are equal within numerical error, and we suggest a possible relationship between $D_{min}$ and the dynamical exponent, $z$.
+\end{abstract}
+
+\maketitle 
+
+Here it is. Yeah. dlkjsd 
+
+\end{document}
+
+

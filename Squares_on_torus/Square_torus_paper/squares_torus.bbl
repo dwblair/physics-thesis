@@ -1,0 +1,226 @@
+\begin{thebibliography}{25}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Bernal}(2007)}]{Bernal2007}
+\bibinfo{author}{\bibfnamefont{J.~D.} \bibnamefont{Bernal}}
+  (\bibinfo{year}{2007}), \urlprefix\url{http://www.jstor.org/pss/2415872}.
+
+\bibitem[{\citenamefont{Zallen}(1983)}]{Zallen1983}
+\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Zallen}},
+  \emph{\bibinfo{title}{{The Physics of Amorphous Solids}}}
+  (\bibinfo{publisher}{Wiley-VCH Verlag GmbH \& Co. KGaA},
+  \bibinfo{address}{Weinheim, FRG}, \bibinfo{year}{1983}), ISBN
+  \bibinfo{isbn}{9783527602797}.
+
+\bibitem[{\citenamefont{Torquato et~al.}(2002)\citenamefont{Torquato, Author,
+  Haslach, Jr, and Reviewer}}]{Torquato2002}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Torquato}},
+  \bibinfo{author}{\bibnamefont{Author}},
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Haslach}},
+  \bibinfo{author}{\bibnamefont{Jr}}, \bibnamefont{and}
+  \bibinfo{author}{\bibnamefont{Reviewer}}, \bibinfo{journal}{Applied Mechanics
+  Reviews} \textbf{\bibinfo{volume}{55}}, \bibinfo{pages}{B62}
+  (\bibinfo{year}{2002}),
+  \urlprefix\url{http://link.aip.org/link/?AMR/55/B62/1}.
+
+\bibitem[{\citenamefont{Chaikin and Lubensky}(2000)}]{Chaikin2000}
+\bibinfo{author}{\bibfnamefont{P.~M.} \bibnamefont{Chaikin}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{T.~C.} \bibnamefont{Lubensky}},
+  \emph{\bibinfo{title}{{Principles of condensed matter physics}}}
+  (\bibinfo{publisher}{Cambridge University Press}, \bibinfo{year}{2000}), ISBN
+  \bibinfo{isbn}{0521794501},
+  \urlprefix\url{http://books.google.com/books?hl=en\&lr=\&id=P9YjNjzr9OIC\&pg%
+is=1}.
+
+\bibitem[{\citenamefont{Mehta}(1994)}]{Mehta1994}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Mehta}},
+  \emph{\bibinfo{title}{{Granular matter: an interdisciplinary approach}}}
+  (\bibinfo{publisher}{Springer}, \bibinfo{year}{1994}), ISBN
+  \bibinfo{isbn}{0387940650},
+  \urlprefix\url{http://books.google.com/books?hl=en\&lr=\&id=QcHoQ254wfIC\&pg%
+is=1}.
+
+\bibitem[{\citenamefont{Cohn and Elkies}(2008)}]{Cohn2008}
+\bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Cohn}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Elkies}}
+  (\bibinfo{year}{2008}), \urlprefix\url{http://www.jstor.org/pss/3597215}.
+
+\bibitem[{\citenamefont{Conway et~al.}(1999)\citenamefont{Conway, Sloane, and
+  Bannai}}]{Conway1999}
+\bibinfo{author}{\bibfnamefont{J.~H.} \bibnamefont{Conway}},
+  \bibinfo{author}{\bibfnamefont{N.~J.~A.} \bibnamefont{Sloane}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Bannai}},
+  \emph{\bibinfo{title}{{Sphere packings, lattices, and groups, Volume 290}}}
+  (\bibinfo{publisher}{Springer}, \bibinfo{year}{1999}), ISBN
+  \bibinfo{isbn}{0387985859},
+  \urlprefix\url{http://books.google.com/books?hl=en\&lr=\&id=upYwZ6cQumoC\&pg%
+is=1}.
+
+\bibitem[{\citenamefont{Gevertz and Torquato}(2008)}]{Gevertz2008}
+\bibinfo{author}{\bibfnamefont{J.~L.} \bibnamefont{Gevertz}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Torquato}},
+  \bibinfo{journal}{PLoS computational biology} \textbf{\bibinfo{volume}{4}},
+  \bibinfo{pages}{e1000152} (\bibinfo{year}{2008}), ISSN
+  \bibinfo{issn}{1553-7358},
+  \urlprefix\url{http://dx.plos.org/10.1371/journal.pcbi.1000152}.
+
+\bibitem[{\citenamefont{Purohit et~al.}(2003)\citenamefont{Purohit, Kondev, and
+  Phillips}}]{Purohit2003}
+\bibinfo{author}{\bibfnamefont{P.~K.} \bibnamefont{Purohit}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Kondev}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Phillips}},
+  \bibinfo{journal}{Proceedings of the National Academy of Sciences of the
+  United States of America} \textbf{\bibinfo{volume}{100}},
+  \bibinfo{pages}{3173} (\bibinfo{year}{2003}), ISSN \bibinfo{issn}{0027-8424},
+  \urlprefix\url{http://www.pnas.org/cgi/content/abstract/100/6/3173}.
+
+\bibitem[{\citenamefont{Johnson et~al.}(1974)\citenamefont{Johnson, Demers,
+  Ullman, Garey, and Graham}}]{Johnson1974}
+\bibinfo{author}{\bibfnamefont{D.~S.} \bibnamefont{Johnson}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Demers}},
+  \bibinfo{author}{\bibfnamefont{J.~D.} \bibnamefont{Ullman}},
+  \bibinfo{author}{\bibfnamefont{M.~R.} \bibnamefont{Garey}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{R.~L.} \bibnamefont{Graham}},
+  \bibinfo{journal}{SIAM Journal on Computing} \textbf{\bibinfo{volume}{3}},
+  \bibinfo{pages}{299} (\bibinfo{year}{1974}), ISSN \bibinfo{issn}{00975397},
+  \urlprefix\url{http://scitation.aip.org/journals/doc/SMJCAT-ft/vol\_3/iss\_4%
+/299\_1.html}.
+
+\bibitem[{\citenamefont{Lodi}(2002)}]{Lodi2002}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Lodi}},
+  \bibinfo{journal}{European Journal of Operational Research}
+  \textbf{\bibinfo{volume}{141}}, \bibinfo{pages}{241} (\bibinfo{year}{2002}),
+  ISSN \bibinfo{issn}{03772217},
+  \urlprefix\url{http://dx.doi.org/10.1016/S0377-2217(02)00123-6}.
+
+\bibitem[{\citenamefont{Hales}(2011)}]{Hales2011}
+\bibinfo{author}{\bibfnamefont{T.~C.} \bibnamefont{Hales}}
+  (\bibinfo{year}{2011}), \urlprefix\url{http://www.jstor.org/pss/20159940}.
+
+\bibitem[{\citenamefont{Donev et~al.}(2004)\citenamefont{Donev, Cisse, Sachs,
+  Variano, Stillinger, Connelly, Torquato, and Chaikin}}]{Donev2004}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Donev}},
+  \bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Cisse}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Sachs}},
+  \bibinfo{author}{\bibfnamefont{E.~A.} \bibnamefont{Variano}},
+  \bibinfo{author}{\bibfnamefont{F.~H.} \bibnamefont{Stillinger}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Connelly}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Torquato}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{P.~M.} \bibnamefont{Chaikin}},
+  \bibinfo{journal}{Science (New York, N.Y.)} \textbf{\bibinfo{volume}{303}},
+  \bibinfo{pages}{990} (\bibinfo{year}{2004}), ISSN \bibinfo{issn}{1095-9203},
+  \urlprefix\url{http://www.sciencemag.org/content/303/5660/990.abstract}.
+
+\bibitem[{\citenamefont{ROAN}()}]{ROAN}
+\bibinfo{author}{\bibfnamefont{J.-R.} \bibnamefont{ROAN}},
+  \bibinfo{journal}{Physical review letters} \textbf{\bibinfo{volume}{96}}
+  (????), ISSN \bibinfo{issn}{0031-9007},
+  \urlprefix\url{http://cat.inist.fr/?aModele=afficheN\&cpsidt=17937471}.
+
+\bibitem[{\citenamefont{BAKER and KUDROLLI}()}]{BAKER}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{BAKER}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{KUDROLLI}},
+  \bibinfo{journal}{Physical review. E, Statistical, nonlinear, and soft matter
+  physics} \textbf{\bibinfo{volume}{82}} (????), ISSN
+  \bibinfo{issn}{1539-3755},
+  \urlprefix\url{http://cat.inist.fr/?aModele=afficheN\&cpsidt=23812640}.
+
+\bibitem[{\citenamefont{Jansson et~al.}(2006)\citenamefont{Jansson, Haspang,
+  Jensen, Hersen, and Bohr}}]{Jansson2006}
+\bibinfo{author}{\bibfnamefont{T.~R.~N.} \bibnamefont{Jansson}},
+  \bibinfo{author}{\bibfnamefont{M.~P.} \bibnamefont{Haspang}},
+  \bibinfo{author}{\bibfnamefont{K.~H.} \bibnamefont{Jensen}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Hersen}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Bohr}},
+  \bibinfo{journal}{Physical Review Letters} \textbf{\bibinfo{volume}{96}},
+  \bibinfo{pages}{174502} (\bibinfo{year}{2006}),
+  \urlprefix\url{http://arxiv.org/abs/physics/0511251}.
+
+\bibitem[{\citenamefont{STROOBANTS et~al.}()\citenamefont{STROOBANTS,
+  LEKKERKERKER, and FRENKEL}}]{STROOBANTS}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{STROOBANTS}},
+  \bibinfo{author}{\bibfnamefont{H.~N.~W.} \bibnamefont{LEKKERKERKER}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{FRENKEL}},
+  \bibinfo{journal}{Physical review letters} \textbf{\bibinfo{volume}{57}},
+  \bibinfo{pages}{1452} (????), ISSN \bibinfo{issn}{0031-9007},
+  \urlprefix\url{http://cat.inist.fr/?aModele=afficheN\&cpsidt=8211900}.
+
+\bibitem[{\citenamefont{Donev et~al.}(2006)\citenamefont{Donev, Burton,
+  Stillinger, Torquato, and Carlo}}]{Donev2006b}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Donev}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Burton}},
+  \bibinfo{author}{\bibfnamefont{F.~H.} \bibnamefont{Stillinger}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Torquato}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.~M.} \bibnamefont{Carlo}}, pp.
+  \bibinfo{pages}{1--11} (\bibinfo{year}{2006}).
+
+\bibitem[{\citenamefont{Zhao et~al.}(2011)\citenamefont{Zhao, Bruinsma, and
+  Mason}}]{Zhao2011}
+\bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Zhao}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Bruinsma}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Mason}},
+  \bibinfo{journal}{Proceedings of the National Academy of Sciences}
+  \textbf{\bibinfo{volume}{108}}, \bibinfo{pages}{2684} (\bibinfo{year}{2011}),
+  \urlprefix\url{http://www.pnas.org/content/108/7/2684.short}.
+
+\bibitem[{\citenamefont{Leung et~al.}(1990)\citenamefont{Leung, Tam, Wong,
+  Young, and Chin}}]{Leung1990}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Leung}},
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Tam}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Wong}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Young}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Chin}},
+  \bibinfo{journal}{Journal of Parallel and Distributed Computing}
+  \textbf{\bibinfo{volume}{10}}, \bibinfo{pages}{271} (\bibinfo{year}{1990}),
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/074373159090019L}.
+
+\bibitem[{\citenamefont{ERDOS}(1975)}]{ERDOS1975}
+\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{ERDOS}},
+  \bibinfo{journal}{Journal of Combinatorial Theory, Series A}
+  \textbf{\bibinfo{volume}{19}}, \bibinfo{pages}{119} (\bibinfo{year}{1975}),
+  ISSN \bibinfo{issn}{00973165},
+  \urlprefix\url{http://dx.doi.org/10.1016/0097-3165(75)90099-0}.
+
+\bibitem[{\citenamefont{Friedman}(2002)}]{Friedman2002}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Friedman}},
+  \bibinfo{journal}{The Electronic Journal of Combinatorics}
+  \textbf{\bibinfo{volume}{7}} (\bibinfo{year}{2002}),
+  \urlprefix\url{http://www.emis.ams.org/journals/EJC/Surveys/ds7.html}.
+
+\bibitem[{\citenamefont{Berndt}(1993)}]{Berndt1993}
+\bibinfo{author}{\bibfnamefont{B.~C.} \bibnamefont{Berndt}},
+  \emph{\bibinfo{title}{{Ramanujan's Notebooks, Part 4}}}
+  (\bibinfo{publisher}{Springer}, \bibinfo{year}{1993}), ISBN
+  \bibinfo{isbn}{0387941096},
+  \urlprefix\url{http://books.google.com/books?hl=en\&lr=\&id=tX5UUCempn8C\&pg%
+is=1}.
+
+\bibitem[{\citenamefont{Landau}(1909)}]{Landau1909}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Landau}},
+  \emph{\bibinfo{title}{{Handbuch der lehre von der verteilung der primzahlen,
+  Volume 1}}} (\bibinfo{publisher}{B. G. Teubner}, \bibinfo{year}{1909}),
+  \urlprefix\url{http://books.google.com/books?hl=en\&lr=\&id=81m4AAAAIAAJ\&pg%
+is=1}.
+
+\bibitem[{\citenamefont{Surhone et~al.}()\citenamefont{Surhone, Tennoe, and
+  Henssonow}}]{Surhone}
+\bibinfo{author}{\bibfnamefont{L.~M.} \bibnamefont{Surhone}},
+  \bibinfo{author}{\bibfnamefont{M.~T.} \bibnamefont{Tennoe}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{S.~F.}
+  \bibnamefont{Henssonow}}, \emph{\bibinfo{title}{{Bezout's Identity
+  [Brossura]}}} (????), ISBN \bibinfo{isbn}{6131308322},
+  \urlprefix\url{http://www.amazon.it/Bezouts-Identity-Lambert-M-Surhone/dp/61%
+31308322}.
+
+\end{thebibliography}

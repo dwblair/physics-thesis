@@ -1,0 +1,420 @@
+\documentclass[preprint,aps]{revtex4}
+\usepackage{graphicx}
+
+\newcommand{\ax}{{\bf a}_1}
+\newcommand{\ay}{{\bf a}_2}
+\newcommand{\Ax}{{\bf A}_1}
+\newcommand{\Ay}{{\bf A}_2}
+
+\begin{document}
+\title{Packing Squares in a Torus}
+
+\author{D. Blair}
+\email[]{dwblair@physics.umass.edu}
+\affiliation{Department of Physics,
+University of Massachusetts,
+Amherst, MA 01003-3720, USA}
+
+\author{J. Machta}
+\email[]{machta@physics.umass.edu}
+\affiliation{Department of Physics,
+University of Massachusetts,
+Amherst, MA 01003-3720, USA}
+\affiliation{Santa Fe Institute, 1399 Hyde Park Rd, Santa Fe, NM 87501, USA}
+
+\author{C. Santangelo}
+\email[]{csantangelo@physics.umass.edu}
+\affiliation{Department of Physics,
+University of Massachusetts,
+Amherst, MA 01003-3720, USA}
+
+\begin{abstract}
+The densest packings of $N$ unit squares in a torus are studied using analytical methods as well as simulated annealing.  A rich array of dense packing solutions are found: density-one packings when $N$ is the sum of two square integers; a family of ``gapped bricklayer'' Bravais lattice solutions with density $N/(N+1)$; and some surprising non-Bravais lattice configurations, including lattices of holes as well as a configuration for $N=23$ in which not all squares share the same orientation.  The entropy of some of these configurations and the frequency and orientation of density-one solutions as $N \rightarrow \infty$ are discussed.
+
+\end{abstract} 
+\maketitle
+
+%\input{squares_torus_intro.tex}
+\section{Introduction}
+
+Understanding the dense packings of hard particles has yielded essential insights into the structure of materials \cite{Bernal1964,Zallen1983,Torquato2002,Chaikin2000}, granular media \cite{Torquato2002,Mehta1994}, number theory \cite{COHNa,Conway1999}, biology 
+%\cite{Liang2001}
+\cite{Gevertz2008,Purohit2003}, and computer science \cite{Johnson1974,Lodi2002}. This understanding has been hard won: hundreds of years can elapse between a conjecture and its proof. This is best exemplified by sphere packing, for which a proof Kepler's conjecture had not been found until 1998 \cite{HALESa}.
+%Note: for references in this above paragraph, see paper by Torguato and Jiao
+
+% Note: I changed this from 1999 to 1998, given http://en.wikipedia.org/wiki/Thomas_Callister_Hales and other sources
+Recent experimental advances have allowed the development of (nearly) hard colloids that, for entropic reasons, manifest the densest sphere packing \cite{Pusey1986}. The attempt to obtain a deep understanding of liquid crystal mesophases has prompted study of the dense packing of anisotropic particles. This has led to recent explorations of the packing of ellipsoids \cite{Donev2004,Ras2011}, polyhedra \cite{ROAN,BAKER}, and polygons \cite{STROOBANTS}.
+
+One of the simplest regular polygons one can pack in two dimensions is the square. On the plane, the densest packing is, in this case, trivial -- a square lattice of squares. Monte Carlo simulations of squares at finite pressure, however, have also found a tetratic phase \cite{Donev2006}, and experiments with hard colloidal squares have found, rather than the tetratic phase, a rhombic crystal having a different symmetry than the square \cite{Zhao2011}. Even the dense packing of a finite number of squares can be more complicated than naive considerations would indicate -- in fact, the problem of packing squares in another square has been shown to be NP-hard \cite{Leung1990}. Indeed, the densest known packings can be quite complex \cite{ERDOS1975,Friedman2002} when the number of squares is not a perfect square integer. Higher packing densities than that of a simple, square lattice with vacancies can be achieved through configurations in which some of the squares are rotated and shifted with respect to the square lattice \cite{Friedman2002}.
+
+In this paper, we study an even simpler problem than packing squares in a square: finding the densest packings of squares in a torus -- that is, a larger square with periodic boundary conditions. Even with the additional translation symmetry afforded by packing squares in a torus rather than in a square, the resulting dense packings in the torus can still be far from simple. As in many other mathematical packing problems, the strategy here is to search for the smallest area torus that can accommodate a fixed number of squares $N$.  We use a combination of analytic and Monte Carlo simulated annealing techniques to accomplish this, and our results can be summarized as follows: we find that whenever $N$ can be expressed as the sum of two square integers -- $N=n_1^2+n_2^2$ -- the densest possible configuration is a density-one packing with squares arranged in rows that are oriented at an angle of tan$^{-1}(n_2/n_1)$ relative to the underlying torus.  For other $N$, we find a surprisingly rich collection of dense packing structures. For $N$ = 6,11,14, and 27, we believe that the densest possible packing is a commensurate Bravais Lattice packing with density $N/(N+1)$ and resembles a bricklayer pattern with periodic gaps.  For $N=$ 12,21,22 and 23, we find that the densest configurations are non-Bravais lattice packings, including both regular lattices of holes and of rotated squares. These results are summarized in Table I within Section II.
+
+In Section II, we present a summary analysis of the various structures we found for $N$ up to 27, including both commensurate Bravais lattice solutions and non-Bravais lattice solutions.  The packing motifs we found through analytic and numerical means are illustrated in this section via drawn figures as well as images generated by our numerical simulations. In Section III, we provide details of our numerical experiments for the hard square system. Section IV is a discussion of our results, including an analysis of the entropy of densest packings, and the rotational invariance of density-one packings as $N$ goes to infinity. 
+
+
+%\input{square_torus_analytics.tex}
+
+\section{Analysis of Packings}
+\label{sec:analytics}
+
+In this section we give an analytic treatment of square packings on a torus.  We first describe a set of solutions in which the squares lie on a Bravais lattice, and then turn to more complicated cases. The density-one solutions are optimal by construction, and all of the other solutions are conjectured to be optimal. The numerical results of Sec. \ref{sec:numerical} guided us to the conjectured solutions, and the fact that long simulated annealing runs consistently produced these solutions gives us some confidence that they are optimal.  Our conjectures for configurations containing $N \leq 27$ squares are summarized in Table \ref{table}.
+
+\subsection{Commensurate Bravais Lattice Solutions}
+Here we consider a class of Bravais lattice configurations that includes all of the density-one packings and other solutions we have found for  $N \leq 27$.   In all of these packings, the squares are lined up in rows; and for the purposes of this analysis, we assume that these rows are aligned along the x-axis. Thus, one of the primitive vectors of the lattice of squares is $\ax=\hat{{\bf x}}$, and the second primitive vector is taken to have the form $\ay=c \hat{{\bf x}} + d \hat{{\bf y}}$, with $-1< c <1$ and  $|d|\geq 1$.  Note that the primitive vectors of the torus, $\Ax$ and $\Ay$, need not be aligned with the primitive vectors of the squares.     The requirement that the squares pack periodically on the torus is equivalent to saying that the lattice of squares is commensurate with the larger square lattice of the torus.  That is, there exist  integers $n_1$, $n_2$, $n_3$ and $n_4$ such that the torus primitive vectors $\Ax$ and $\Ay$ are given by
+\begin{eqnarray} 
+\label{eqn:Ana}
+\Ax&=& n_1 \ax + n_2 \ay \nonumber \\ 
+\Ay&=&n_3 \ax + n_4 \ay.
+\end{eqnarray}
+In addition, we require that the torus primitive vectors are of equal length,
+\begin{equation}
+\label{eqn:normal}
+|\Ax|=|\Ay| ,
+\end{equation}
+and orthogonal,
+\begin{equation}
+\label{eqn:ortho}
+\Ax \cdot \Ay = 0 .
+\end{equation}
+
+These conditions are uniquely solved by
+\begin{eqnarray}\label{eq:gap}
+c &=& - \frac{n_1 n_2 + n_3 n_4}{n_2^2 + n_4^2}\\
+d &=& \frac{n_1 n_4 - n_2 n_3}{n_2^2 + n_4^2} \nonumber
+\end{eqnarray}
+The number of squares $N$ packed on the torus is the number of lattice points of the square lattice in a unit cell of the torus lattice
+\begin{equation}
+\label{eqn:N}
+N = |n_1 n_4 - n_2 n_3|,
+\end{equation}
+and the areal density of the squares $\rho$ is given by
+\begin{equation}
+\label{ }
+\rho=N/|\Ax \times \Ay| = 1/|d|.
+\end{equation}
+
+\subsubsection{Density-one packings}
+\label{sec:densityOnePackings}
+There are two classes of density-one packings.  The first is the perfect square packing, for which $c=0$, $d=1$, $n_1=n_4=\sqrt{N}$ and $n_2=n_3=0$.  This simple packing is shown in Fig. \ref{fig:N9} for the case of $N=9$.  Note that, on the torus, each of the $n_1$ rows (or columns, but not both) may be arbitrarily displaced relative to the other rows (columns) without disturbing the density of the packing or its periodicity; the perfect square packings thus have finite entropy.
+
+\begin{figure}[h]
+%\label{fig:N9}
+\label{fig:N9}
+\scalebox{.5}{\includegraphics{figures/3x3.pdf}}
+\caption{\label{fig:N9} An example of a perfect square packing with density one: $N=9$.}
+\end{figure}
+
+There is a more general class of density-one packings, in which the lattice of squares may be tilted with respect to the primitive vectors of the torus. Setting $d=1$ and $c=0$ in Eq. (\ref{eq:gap}), we find $N=n_2^2 + n_4^2$, $n_1=-n_4$, and $n_2 = n_3$, the square lattice being oriented at an angle of $\tan^{-1}(n_2/n_1)$ relative to the torus lattice vectors.   Clearly, these density-one, tilted square lattice solutions are optimal for all $N$ that are sums of two square integers.  Note that the perfect square solution corresponds to the special case $n_2 = n_3 = 0$.  Fig. \ref{fig:bravais} shows the case $N=10$ ($n_1=3$ and $n_2=1$).
+
+\begin{figure}[H]
+\scalebox{.4}{\includegraphics{figures/bravais1.pdf}}
+\caption{\label{fig:bravais} An example of a packing for which $N$ is equal to the sum of two squares: $N=10$; all such packings are density one.}
+\end{figure}
+%\begin{figure}[H]
+
+We thus find that if N is the sum of two squares, there exists a density-one packing. The converse of this is also true: $N$ is a sum of two squares for all density-one packings of squares in the torus. To prove this, first note that every square in a density-one packing must have at least four other squares bordering it along a finite segment length, forcing all $N$ squares to share the same orientation.  Now consider three squares in mutual contact with each other -- a configuration that must exist if the packing has no gaps. Two of those squares must be aligned in a row, as shown in Fig. \ref{fig:aligned}. In order to eliminate gaps in the packing, these three squares define a set of rows that the entire packing must respect. Note that periodic boundary conditions allows us to draw the torus vectors so that they begin on the corner of a square and end on the corresponding corner of another square.  Thus, $n_2$ and $n_4$ are both integers. A right triangle can be constructed with $n_2$ as one side and $A_1$ as its hypotenuse; another right triangle can be drawn with $n_4$ as its base, and $A_2$ as its hypotenuse. (See Fig. \ref{fig:aligned}). These triangles are identical by inspection.  $|A_1|^2$ and $|A_2|^2$ are therfore each equal to $n_2^2 + n_4^2$, via the Pythogorean theorem.
+
+\begin{figure}[H]
+\scalebox{.4}{\includegraphics{figures/alignedBlocks3.pdf}}
+\caption{\label{fig:aligned}}
+\end{figure}
+
+
+%Finally, we note that the above constraints result in some, but not all, of the rows to be locked;
+%Finally, we note that the above
+%The periodic boundary conditions on a set of rows now ensures that $N$ can be [????] expressed as $n_2^2 + n_4^2$ via the Pythagorean theorem (see Fig. \ref{fig:gb}).
+
+\subsubsection{Density-one packings with vacancies}
+\label{sec:vacancies}
+The simplest way to produce candidates for a densest packing for $N=n_2^2 + n_4^2$ is to remove $k$ squares from a density-one packing; indeed, our numerical results suggest that for several values of $N$, the densest packing is a density-one packing with one missing square.  This is indicated in the Comment column in the Table using the notation $n_1^2-1$ or $n_1^2+ n_2^2-1$, depending on whether they are generated by removing $1$ square from $N$ a square integer, or a sum of two square integers respectively. Examples include $N=3$, $7$ and $15$. Note that these configurations have finite entropy since the hole(s) in the lattice can be distributed arbitrarily.
+
+%Although for small $N$, the density of sums of two squares together with perfect squares is relatively high,  it is known RAMANUJAN ETC REFERENCE that these values of $N$ have vanishing density among all positive integers. In particular the density of sums of two squares less than $n$ behaves asymptotically as $1/\sqrt{\log(n)}$. One interesting consequence of this is that $\rho=1$ packings appear with vanishing frequency as $N  \rightarrow \infty$. 
+
+%Unlike the perfect square packings, the sum of two squares packing must have all the rows of squares aligned and do not have finite entropy.
+
+\subsubsection{Bricklayer packings with gaps}
+\label{sec:bricklayer}
+Next we consider Bravais lattice solutions that have density less than one -- that is, $d < 1$.  Because these solutions have rows that are shifted relative to one another ($c\neq 0$), we call these ``gapped bricklayer configurations.''  An example is shown in Fig. \ref{fig:gb}(a).  Equations (\ref{eq:gap}) allow us to ennumerate all gapped bricklayer configurations. Since the packing density of these configurations is $(n_2^2 + n_4^2)/N$, the highest packing density we can find within this class of configurations with density less than unity must have the form $n_2^2 + n_4^2 = N-1$.  This requires that $N$ be one more than a sum of two squares. The first several are gapped bricklayer configurations are seen for $N=$ 2,3,6,11,14,18,26, and 27.  Based on the numerics we believe that for $N=6$, 11, 14 and 27, the gapped bricklayer packing is the densest possible packing. These are indicated in the Table with the abbreviation ``GB'' in the Comment column. Associated (non-unique) lattice vectors are shown in the rightmost columns of the Table for the GB packings.  There are also gapped bricklayer solutions for density $(N-2)/N$ when $N$ is two more than a sum of two squares, though we have not found any candidate densest packing solutions of this form for $N \leq 27$. Unlike the bravais lattice packings with density one, different rows of the gapped bricklayer solutions have a fixed shift given by $c = - (n_1 n_2 + n_3 n_4)/(n_2^2 + n_4^2)$, where the denominator is the closest sum of two squares below $N$. 
+
+\begin{figure}[H]
+\scalebox{.48}{\includegraphics{figures/gappedCombo1.pdf}}
+\caption{\label{fig:gb}Schematic (a) of a ``gapped bricklayer'' configuration, with density $\rho = (N-1)/N$. Results of simulated annealing for $N=11$ are shown in (b) ($n_1=3, n_2=1, n_3=-2, n_4=3$).  The finite entropy of this configuration is revealed by the displacements of the squares perpendicular to the rows.}
+\end{figure}
+
+
+\subsection{Non-Bravais Lattice Packings}
+
+Here, we consider special cases suggested by our numerical simulations that do not correspond to Bravais lattice packings.
+Note: if the Comment column of the Table simply repeats a value of $N$, it indicates a special case for which the squares are not on a Bravais lattice and for which there is not an obvious pattern that can be extrapolated easily to optimal packings for higher values of $N$.
+
+\subsubsection{Gapped bricklayer with domino bricks, $N=22$}
+The conjectured best packing for $N=22$ is shown in Fig. \ref{fig:n22}. This packing is in fact a gapped bricklayer configuration, except that the unit cell or brick is composed of two squares stacked in the $\hat{{\bf y}}$ direction (the direction perpendicular to the rows).  The configuration is otherwise identical to the $N=11$ gapped bricklayer and has density $\rho= 10/11$.
+
+\begin{figure}[H]
+%\scalebox{.45}{\includegraphics{figures/N22.pdf}}
+\scalebox{.7}{\includegraphics{figures/n22Edit.pdf}}
+\caption{\label{fig:n22}Simulation results for $N=22$: the conjectured best packing is a ``gapped bricklayer with domino bricks''.}
+\end{figure}
+
+\subsubsection{Lattice of $\frac{1}{2}\times\frac{1}{2}$ holes, $N=12$ and $23$}
+The conjectured best configurations for $N=12$ and 23 are shown in Figs.\ \ref{fig:n12} and \ref{fig:n23}, respectively.  In both cases the motif can be described as a lattice of $\frac{1}{2}\times\frac{1}{2}$ holes.  The torus lattice vectors, Eq.\ \ref{eqn:Ana} with $\ax=\hat{{\bf x}}$ and $\ay=\hat{{\bf y}}$, for $N=12$ are described by $n_1=n_2=-n_3=n_4=5/2$ and the torus lattice vectors for $N=23$ are described by $n_1=n_4=9/2$, and $-n_2=n_3=2$.  It is straightforward to verify that these motifs are in fact packings on the torus and have the density $N/(n_2^2 + n_4^2)=N/(N+k/4)$ where $k$ is the number of holes in the unit cell.  For $N=12$, evidently $k=2$ and for $N=23$, $k=5$. 
+
+\begin{figure}[H]
+\scalebox{.7}{\includegraphics{figures/n12edit.pdf}}
+\caption{\label{fig:n12}Simulation results for $N=12$: a lattice of $\frac{1}{2} \times \frac{1}{2}$ holes.}
+\end{figure}
+
+\begin{figure}[H]
+\scalebox{.65}{\includegraphics{figures/N23.pdf}}
+\caption{\label{fig:n23}Simulation results for $N=23$: a lattice of $\frac{1}{2} \times \frac{1}{2}$ holes.}
+\end{figure}
+
+
+
+
+\subsubsection{Lattice of skew squares embedded in a square lattice, $N=21$}
+The conjectured densest packing for  $N=21$, shown in Fig.\ \ref{fig:n21}, does not follow any of the motifs described heretofore. The unit cell consists of a $4 \times 4$ square with motif of 5 squares attached to its side.  This 5-square pattern is also the best packing of 5 squares in a square \cite{Friedman2002}.  A simple calculation yields the density, $\rho= 21/(4^2+(2+1/\sqrt{2})^2)$. This packing has one square per unit cell tilted at 45$^{\circ}$ relative to all other squares.  This is the only example that we found for which not all of the squares in the motif are oriented in the same way. It was also the most difficult configuration for our simulated annealing algorithm to find. Figure \ref{fig:n21} shows a typical simulation result (which clearly has not yet fully converged).
+
+\begin{figure}[H]
+\scalebox{.5}{\includegraphics{figures/N21.pdf}}
+\caption{\label{fig:n21}Simulation results for $N=21$: a lattice of skew squares embedded in a square lattice.  The $5$-square pattern (which includes a skew square in its center) is the proved best packing of 5 squares in a square \cite{Friedman2002}. Note that the simulation results have not yet converged to the conjectured best packing.} \end{figure}
+
+
+\subsection{Table of Results}
+
+To summarize: the perfect square, sum of two squares and gapped bricklayer configurations cover most of the case we have found for $N \leq 27$.  The Table gives densest packing configurations (if $\rho=1$) and conjectured densest packing configurations (if $\rho<1$), for each value of  $N$ less than 28.  The column ``$\rho$'' is the density of the configuration. The Comment column describes the type of lattice.   For example, $3^2$ indicates a perfect square and $5^2-1$ indicates a perfect square with one square missing.  Similarly $3^2+1^2$ refers to the sum of two squares and ``GB'' stands for ``gapped bricklayer.''  If a single number is in the Comment column it refers to one of the special cases discussed above.  The four columns ``$n_1$, $n_2$, $n_3$, $n_4$'' are shown if the configuration of squares is itself a Bravais lattice; these integers are the coefficients of the lattice vectors of the torus, in terms of the lattice vectors of the squares as defined in Eq. (\ref{eqn:Ana}).  Only those columns needed to specify the lattice are filled in.
+
+\vspace{.3in}
+\begin{table}
+\label{table}
+\caption{Exact and conjectured densest packed configurations of squares on a torus.  Refer to the text for the meaning of the columns.}
+  \begin{tabular}{|c | c|c | c| c | r | c | c | c |}
+\hline
+% after \\ : \hline or \cline{col1-col2} \cline{col3-col4} ...
+  $N$ &$\rho$&Comment& $n_1$ & $n_2$ & $n_3$ & $n_4$  \\ \hline \hline
+   1 &1&  $1^2$ & 1&  &   &    \\ \hline 
+   2 &1&  $1^2+1^2$ &1& 1 &  &  \\ \hline
+   3 &$3/4=0.75$&  $2^2 -1$ &2&  & &   \\ \hline
+   4 &1&  $2^2$ &2& & &   \\ \hline
+   5 &1&  $2^2+1^2$ &2& 1 &    & \\ \hline
+   6 &$5/6=0.8\bar{3}$& GB &2& -1 &2 & 2   \\ \hline
+   7 &$7/8=0.875$& $2^2+2^2 -1$ &2& 2 & &     \\ \hline
+   8 &1& $2^2+2^2 $ &2& 2 & &     \\ \hline
+   9 &1&  $3^2$ &3& & &  \\ \hline
+   10 &1&  $3^2+1^2$ &3& 1 &    & \\ \hline
+   11 &$10/11=0.\overline{90}$& GB &3& 1 &-2 & 3   \\ \hline
+   12 &$24/25=0.96$& 12 && & &    \\ \hline
+   13 &1&  $3^2+2^2$ &3& 2 &    & \\ \hline
+   14 &$13/14=0.9\overline{285714}$& GB &4& -2 &1 & 3   \\ \hline
+   15 &$15/16=0.9375$&  $4^2 -1$ &4&  & &   \\ \hline
+   16 &1&  $4^2$ &4& & &   \\ \hline
+   17 &1&  $4^2+1^2$ &4& 1 &    & \\ \hline
+   18 &1&  $3^2+3^2$ &3& 3 &    & \\ \hline
+   19 &$19/20=0.95$&  $4^2 +2^2 -1$ &4& 2 & &   \\ \hline
+   20 &1&  $4^2+2^2$ &4& 2 &    & \\ \hline
+   21 &$21/(4^2+(2+1/\sqrt{2})^2)=0.900189 \ldots$&  $21$ & &  &   &    \\ \hline 
+   22 &$10/11=0.\overline{90}$& 22 &3& 1 &-2 & 3  \\ \hline
+   23 &$92/97=0.94845 \ldots$&  $23$ & &  &   &    \\ \hline
+   24 &$24/25=0.96$&  $5^2 -1$ &5&  & &   \\ \hline
+   25 &$1$&  $5^2$ &5&  & &   \\ \hline
+   26 &1&  $5^2+1^2$ &5& 1 &    & \\ \hline
+   27 &$26/27=0.\overline{962}$& GB &5&1 &-2 & 5  \\ \hline
+
+\hline
+\end{tabular}
+\end{table}
+
+\section{Numerical Methods}
+\label{sec:numerical}
+
+%\subsection{New Mat}
+%\subsection{Overview}
+%Rintoul and Torquato, ``Computer Simulations of dense hard-sphere systems'' \cite{Rintoul1996a}
+For all $N \leq 27$ squares on the flat torus, we searched for densest packings of $N$ squares on the torus via Monte Carlo simulations in the NPT ensemble.  Our approach was to employ a simulated annealing (SA) algorithm in which the system was taken from an initial, low-pressure, easy-to-equilibrate state to a final, high-pressure state, via an annealing schedule consisting of a series of steps in inverse pressure.  Between each pressure increase a Metropolis algorithm appropriate to the hard square NPT ensemble was used to equilibrate the system.  Although SA quickly falls out of equilibrium at higher pressures as the energy landscape becomes rough, it appears to be an an effective algorithm for finding ground states of the system.  
+
+%Population annealing: \cite{Hukushima2003}
+
+%We used two related approaches to finding ground states: simulated annealing (SA) [REF??] and population annealing (PA) \cite{Machta2010a}.  SA and PA are Monte Carlo techniques that can been used to find ground states of systems with rough energy landscapes and multiple metastable states.  In both SA and PA, the system is taken from an initial,  low-pressure, easy-to-equilibrate state to a final, higher-pressure state via a series of steps in inverse pressure -- an annealing schedule. Between these pressure increases, an equilibration procedure -- in our case, a Metropolis algorithm appropriate to a hard-particle NPT ensemble, described in Section [??] -- is used in an attempt to equilibrate the system.  In SA, the system quickly falls out of equilibrium at higher pressures as the energy landscape becomes rough; nevertheless, SA remains an effective algorithm for finding ground states of a system, and is used widely in [examples].  PA [Machta and Ellis REF, Machta REF] is a way of keeping the system close to equilibrium by adding an additional step to the annealing procedure.  In PA, a collection of identical systems, or replicas, are simulated in parallel.  As in SA, all replicas are taken through a compression schedule; but in PA, after each compression, the collection of replicas is 'resampled':  some replicas are copied, and others are destroyed, in order to achieve a distribution of replica volumes that approximates the expected equilibrium Boltzman distribution at the current pressure.  Details of this procedure are described below in section [??].  We simulated several replicas using both SA and PA, and took the highest density configuration for a given $N$ found using either procedure as our best candidate for the ground state of the system.
+
+%\subsection{Algorithm Details}
+The equilibration procedure we used in our simulated annealing algorithm was a Metropolis procedure consisting of three types of Monte Carlo moves:  translations and rotations of individual squares, and changes in the volume of the entire system.  At each step of the equilibration procedure, a square is selected at random; then, one of the three types of moves is selected at random, with probabilities .495, .495, and .01, for translation, rotation, and volume change, respectively.  Once a square and a move type is selected, the move is attempted.  If the move results in any overlaps among the $N$ squares, the move is rejected.  If it does not, then for translations or rotations, the move is accepted; for volume change $dV$, the move is accepted with probability $p_{acc}=\min[1,\exp(-\beta P dV)]$.  In practice, rather than changing the volume of the entire system, the periodic box in the simulations was kept at a constant size, and the sizes of the individual squares were all rescaled, in order to achieve the desired new volume. The equilibration procedure consists of $s$ such Monte Carlo steps; in our simluations $s$ was typically between 200 and 400 steps.  
+
+We repeated this simulation 1,000 times and reported the highest density found among these runs.  In order to determine the highest-density packing for $N$ that did not correspond to a perfect square or a sum of squares, more extensive runs were conducted -- in some cases, as long as 72 hours on a 2GHz processor.  The fact that significantly different initial configurations as well as different initial random seeds generated the same final, high-density configurations signalled that a good candidate for a densest packing of the system had been found.  For all simulations, the pressure was initially set to $\beta P=.01$, and was increased via constant steps in inverse pressure until a maximum pressure of $\beta P_{max}=3000$ was reached. (During subsequent explorations of the phase behavior of the system, this pressure was later deemed excessive, but nevertheless produced reasonable results for the purposes of determing the ground state of the system.) All simulations were begun at an initial areal density $\rho$ of 0.1, with a square array of unit squares. Before each equilibration procedure began, a trial run was conducted in which the maximum value of translations, rotations, and volume changes were independently optimized in order to achieve an acceptance ratio for each of $0.4$. 
+
+The majority of the computational work during the equilibration procedure consisted in checking for square overlaps.  For this, we relied on a fast algorithm for detecting polygon overlaps by Alan Murta \cite{Murta}, and an associated Python wrapper by Joerg Raedler \cite{Radler}.
+%the General Polygon Clipping Library by Alan Murta (http://www.cs.man.ac.uk/~toby/alan/software/), and the Python wrapper written for this by Joerg Raedler (http://www.j-raedler.de/projects/polygon/).
+
+Configurations were visualized using the VPython library \cite{Scherer2000}.
+
+
+%\subsubsection{Population Annealing}
+
+%As described above, SA consisted in taking a system (or several replicas of a system) through an annealing schedule of constant steps in inverse pressure, followed by $s$ equilibration moves after each pressure increase, until reaching a pressure at which the density appears to plateau. PA also involvs constant steps in inverse pressure, but after each pressure increase from the current pressure $P$ to the new pressure $P'$, the collection of $R$ replicas is 'resampled' so that the number of copies of a replica $j$ in the population reflect its expected equilibrium weight in the population, $w_j=\exp[-(P'-P)V_j]$. Copies of each replica $j$ are thus made in order to approximate the expected number of copies of replica $j$ in the population, 
+%\begin{equation}
+%p_j=\exp[-(P'-P)V_j]/Q,
+%\end{equation}
+
+%where 
+
+%\begin{equation}
+%Q=\Sigma_{j=1}^R exp[-(P'-P)V_j]/R
+%\end{equation}
+
+%Thus the appropriate number of copies of each replica can be generated by sampling from the multinomial distribution using $R$ trials [REF].  This is accomplished via a simple algorithm [REF, wikipedia, Multinomial Distribution ]: 
+
+
+%\begin{enumerate}
+%\item Initialize: $Q$
+%\item For $i$ in range $(0,R)$:
+%\begin{enumerate}
+%\item $p_i=exp[-(P'-P)V_i]$
+%\item $Q=Q+p_j$
+%\end{enumerate}
+%\item For $i$ in range $(0,R)$:
+%\begin{enumerate}
+%\item $p_i=p_i/Q$
+%\item $X_i=\mathcal{R}(0,1)$
+%\end{enumerate}
+%\item Sort $X$ in ascending order
+%\item Initialize: $p_{sum}$, TempReplicas, and $C$
+%\item For $i$ in range $R$:
+%\begin{enumerate}
+%\item $p_{sum}=p_{sum}+p_i$
+%\begin{enumerate}
+%\item While ($C<R$) and ($p_{sum} \ge X_i$) do:
+%\begin{enumerate}
+%\item $C=C+1$
+%\item TempReplicas[count]=Replica[i]
+%\end{enumerate}
+%\end{enumerate}
+%\end{enumerate}
+%\item For $i$ in range $(0,R)$:
+%\begin{enumerate}
+%\item Replica[i]=TempReplica[i]
+%\end{enumerate}
+%\end{enumerate}
+
+%Where $\mathcal{R}(0,1)$ is a random number between $0$ and $1$.
+
+%$\underset{x}{\operatorname{argmax}} $
+
+% 1. Sort the replicas in descending order by volume; 2. For i in range(0,R):pick a random number $X$ from (0,1); choose replica $j= arg min (j'=1 to k) (\Sigma p_i >= X)$ to replace replica $i$ with a copy of replica $j$.  
+
+
+%\begin{pseudocode}{Repopulate}
+%\FOR i \GETS 0 \TO R \DO
+%test of this line\\
+%test of this line
+%\end{pseudocode}
+
+%\subsection{Results}
+
+%A detailed analysis of the configurations found via simulation is found in Section~\ref{sec:analytics}.  For both SA and PA, our Monte Carlo simulations yielded a collection of replicas of varying densities at each pressure.  As the simulations for each $N$ progressed, we selected the highest-density configuration at each pressure using SA or PA as the candidate ground state for that $N$; the highest density reached in this manner was our best candidate for a ground state for $N$.  In Figure [?], we plot density $\rho$ vs. pressure $P$ for $N=12$ using both SA and PA.  This plot highlights a general trend:  for all values of $N$, the highest density among the PA replicas initially increased faster than that among the SA replicas at a given pressure.  In some cases (exemplified in Figure [?]), SA eventually overtook PA in density, finding a higher density configuration than any reached by PA; in others, PA found the highest-density configuration.  Figure [?] shows a simulation run for which the densities of both SA and PA had plateaued at nearly identical densities, and the associated configurations of each highest-density replica.  [SOME WORDS HERE RE: HOW EXTENSIVE OUR SIMULATIONS WERE IN CPU HOURS, HOW MUCH OF PARAMETER SPACE WE EXPLORED, AND HOUR HIGH CONFIDENCE THAT WE HAVE FOUND THE GROUND STATES FOR $N \leq 27$.  For some configurations (mentioned in Section~\ref{sec:analytics}), the ground state quickly approached density = 1 (for $N$ equal to a perfect square, e.g. 4, 16; or for $N$ equal to a sum-of-squares, e.g. 7, 10), and were provably optimal packings for that $N$; for other configurations, we are constrained merely to report our highest-density configuration as the best candidate thus far for a ground state for that $N$. In particular, the densities for $N=12,21,23$ consistently plateaued at their reported final values across several runs, and resulted in configurations that display obvious symmetry but are not necessarily ground states of the system. Results for various $N \leq 27$ are characterized in Section~\ref{sec:analytics}.
+
+
+%\input{square_torus_analytics.tex}
+%\input{square_torus_discussion.tex}
+\section{Discussion}
+\label{sec:discussion}
+
+In this paper, we have presented an analysis of the densest packing solutions for $N$ unit squares in the torus.  For $N \leq 27$, the majority of these packings are Bravais lattice solutions, manifested either as the ``sum of two square integers'', or ``gapped bricklayer configurations'' described above. A few were non-Bravais lattice solutions, such as those $N=21$ and $N=23$. In this section, we discuss the frequency and entropy of the various types of packings we found, and pose some questions for further study.
+
+We showed in Section \ref{sec:densityOnePackings} that density-one packings are only possible for those values of $N$ that are expressible as the sum of two squares. 
+%First, it is clear that all density one packings must be arranged in rows: every square in a $\rho=1$ packing must have at least four other squares bordering it along a finite segment length, thus forcing all $N$ squares to share the same orientation.  Then it is clear that for such oriented configurations, all of the squares must be arranged in rows, since for any three squares that touch one another and are oriented in the same direction, two of out of the three squares must define a row. Finally: if all squares for $\rho=1$ packings are thus arranged in rows, the periodicity requirement of toroidal boundary conditions ensures that the number of squares $N$ in the packing can be expressed as $N=n_1^2+n_2^2$, via the Pythagorean theorem (see Figure \ref{fig:pythagoras}).  In this way, we see that $\rho=1$ packings are only possible when $N$ is a perfect square or expressible as a sum-of-squares; and as mentioned above, this means that $\rho=1$ appear with vanishing frequency as $N  \rightarrow \infty$.
+%Table \ref{table} indicates the values of $N$ that are either perfect squares or sums of two squares.  In the Comment column of the Table these values are indicated either by the forms $n_1^2$ or $n_1^2+ n_2^2$, respectively. 
+Though it appears that density-one packings are relatively common from the Table, in fact it is known that the frequency of numbers that are equal to the sum of two square integers scales as $1/\sqrt{\ln N}$ for large $N$ \cite{Berndt1993,Landau1909}.
+% for more references on density of sums of squares, see http://mathworld.wolfram.com/SumofSquaresFunction.html 
+Thus the frequency of density-one packings also vanishes with increasing $N$.
+
+%\subsection{Density of configurations as $N \rightarrow \infty$}
+
+Despite the relative scarcity of density-one packings, we argue that the packing density approaches one as $N \rightarrow \infty$. Suppose $M$ is a sum of two square integers. Construct a new packing for $N = M-k$ by removing $k$ squares. The resulting packing density gives a lower bound of $\rho=N/(N+k)$. Given a number of squares, $N$, however, determining $k$ requires knowledge of the nearest density-one packing larger than $N$. For sufficiently large $N$, we can estimate that the distance to the next density-one packing is of order $\sqrt{\ln N}$ larger than $N$. Therefore, an estimated lower bound on the packing density of $N$ squares is $1-\sqrt{\ln N}/N$ for large $N$, which yields the result that the density approaches one asymptotically. This argument does not take into account fluctuations in the spacing of sums of two squares, and it would be interesting to find a mathematically rigorous asymptotic lower bound on the packing density.
+%For squares in a square REFERENCE shows that this bound is SQUARES IN SQUARE BOUND.
+
+%\subsection{Entropy of $\rho=1$ packings}
+
+%JM: I DID SOME EDITING OF THE FOLLOWING PARAGRAPH
+%The entropy of density $=1$ packings depends on $N$ in the following way.  Because $\rho=1$ packings must always be arranged in rows (see above), the only contribution to the entropy comes from the freedom of row(s) to shift relative to the each other.  Thus the entropy will be proportional to the number of rows that can be  shifted independently.  In Figure \ref{fig:pythagoras} we see that the number of rows that can be shifted independently is proportional to the smallest integer that can be written in the form $g=a n_2 + b n_4$, where $n_2$ and $n_4$ are defined as above (and in Figure \ref{fig:Bezout}), and $a$ and $b$ are integers.  Bezout's Lemma \cite{Jones1998} states that this integer linear combination can be made equal to, but not smaller than, $g$, where $g$ is the greatest common divisor of $n_2$ and $n_4$;  thus, the entropy of $\rho=1$ packings will be proportional to $d$.  
+
+%\subsection{Entropy of gapped bricklayer solutions}
+
+%The main contributions to the entropy of the various Bravais and non-Bravais lattice configurations for $N \leq 27$ are readily assessed. As discussed previously in the Section \ref{sec:bricklayer}, for commensurate Bravais lattice configurations, different rows of the solutions have a fixed shift given by $c = - (n_1 n_2 + n_3 n_4)/(n_2^2 + n_4^2)$. This has ramifications for the packing entropy, since we may now no longer arbitrarily shift rows. In Fig. \ref{fig:gb} (a), the lattice vectors are shown on a schematic representation of a gapped bricklayer configuration. 
+%Two rows are locked with respect to each other when a linear combination of the torus primitive vectors $\mathbf{A}_1= n_1 \ax + n_2 \ay$ and $\mathbf{A}_2= n_3 \ax + n_4 \ay$ (Equations \ref{eqn:Ana}) points between the two rows (see Fig. \ref{fig:aligned} (b)). Bezout's Lemma \cite{Jones1998} states that this integer linear combination can be made equal to, but not smaller than, $g$, where $g$ is the greatest common divisor of $n_2$ and $n_4$. 
+%The greatest common divisor of $|n_2|$ and $|n_4|$, $g=\textrm{gcd}(|n_2|,|n_4|)$, tells us that every $g^{th}$ row is locked. 
+%Choosing $\mathbf{A}_2$ such that $|n_4|>|n_2|$, we find that the entropy of such commensurate Bravais lattice configurations is proportional to $|n_4|/g$.  (Note that if $|n_2|$ and $|n_4|$ are mutually prime, all rows are locked and this contribution to the entropy of the configuration vanishes.) Two special cases of Bravais lattice configurations exhibit additional entropy contributions:  (a) gapped bricklayer configurations (Section \ref{sec:bricklayer}) allow squares within a row to shift perpendicular to the row axis (see Figures \ref{fig:gb} and \ref{fig:n22}), and this ``poor workmanship'' contribution to the entropy will be roughly proportional to the free volume of the configuration; (b) density-one configurations with vacancies ($n_2^2+n_4^2-k$), discussed in Section \ref{sec:vacancies}, also possess finite entropy, since the hole(s) created by the $k$ missing squares may be moved throughout the lattice, or split along a row; and for $k>1$, holes can appear in different rows.
+%In contrast, the unusual, non-Bravais lattice packings of the  $N=12$ and $N=23$ exhibit no entropy.
+
+The main contributions to the entropy of the various Bravais and non-Bravais lattice configurations for $N \leq 27$ are readily assessed. 
+ For a Bravais lattice packing, there are no non-trivial continuous symmetries and thus there is no entropy.  However, one can construct density-one packings from the Bravais lattice packings by shifting rows relative to one another.  For example, if $N$ is a perfect square then each row can be arbitrarily shifted and, ignoring overall shifts of the lattice, the entropy is proportional  ($\sqrt{N}-1$).  Note that either rows or columns may be shifted but not both for density-one packings.  More generally, rows are free to shift unless the contraints of periodicity forbid it.  Periodicity forbids two rows from shifting relative to one another if some linear combination of torus lattice vectors connects the rows.  Suppose that rows are aligned in the $\hat{\bf x}$-direction.  Then, two rows are constrained to their relative positions in the Bravais lattice configuration if there are integers $a$ and $b$ such that $a \mathbf{A}_1 + b \mathbf{A}_2$ connects the two rows. Thus, rows separated by $a n_2 + b n_4$ are locked (see Eq.\ \ref{eqn:Ana} and Fig.\  \ref{fig:aligned} (b)).
+% As discussed previously in the Section \ref{sec:bricklayer}, for commensurate Bravais lattice configurations, different rows of the solutions have a fixed shift given by $c = - (n_1 n_2 + n_3 n_4)/(n_2^2 + n_4^2)$. This has ramifications for the packing entropy, since we may now no longer arbitrarily shift rows. In Fig. \ref{fig:gb} (a), the lattice vectors are shown on a schematic representation of a gapped bricklayer configuration. 
+%Two rows are locked with respect to each other when a linear combination of the torus primitive vectors $\mathbf{A}_1= n_1 \ax + n_2 \ay$ and $\mathbf{A}_2= n_3 \ax + n_4 \ay$ (Equations \ref{eqn:Ana}) points between the two rows (see Fig. \ref{fig:aligned} (b)). 
+Bezout's Lemma \cite{Jones1998} states that this integer linear combination can be made equal to, but not smaller than, $g$, where $g$ is the greatest common divisor of $n_2$ and $n_4$ (assuming that both $n_2$ and $n_4$ are nonzero). Thus, the set of rows can be divided into $g$ groups, each of which can be arbitrarily shifted, and the entropy is proportional to $g-1$.
+%The greatest common divisor of $|n_2|$ and $|n_4|$, $g=\textrm{gcd}(|n_2|,|n_4|)$, tells us that every $g^{th}$ row is locked. 
+%Choosing $\mathbf{A}_2$ such that $|n_4|>|n_2|$, we find that the entropy of such commensurate Bravais lattice configurations is proportional to $|n_4|/g$.  
+Note that if $|n_2|$ and $|n_4|$ are mutually prime, all rows are locked and this contribution to the entropy of the configuration vanishes. There are two other sources of entropy for packing related to Bravais lattice packings. The gapped bricklayer configurations (Section \ref{sec:bricklayer}) allow squares within a row to shift perpendicular to the row axis (see Figures \ref{fig:gb} and \ref{fig:n22}), and this ``poor workmanship'' contribution to the entropy will be roughly proportional to the free volume of the configuration.  The density-one configurations with vacancies ($n_2^2+n_4^2-k$), discussed in Section \ref{sec:vacancies}, also possess finite entropy, since the hole(s) created by the $k$ missing squares may be moved throughout the lattice, or split along a row; and for $k>1$, holes can appear in different rows.
+In contrast, the unusual, non-Bravais lattice packings of the  $N=12$ and $N=23$ exhibit no entropy.
+
+
+
+%[INCLUDE DISCUSSION OF ``poor workmanship'' entropy of GB and refer to figure 3B]
+
+%\subsection{Rotational invariance of density $=1$ packings as $N \rightarrow \infty$}
+
+
+
+The above entropies have implications for which configurations are most likely to be seen at finite pressure. For example, $N=25$ admits of two classes of configuration:  a density-one packing with rows aligned along the torus ($N=5^2$) or with rows oriented at an angle with respect to the torus ($N=3^2+4^2$).  As we have seen, the $N=5^2$ has four rows that are free to slide while $N=3^2 + 4^2$ is a locked configuration with no entropy; this implies that the $N=5^2$ packings will be much more likely to appear at finite pressure.
+
+Unlike squares packed into a square boundary, squares packed on a torus maintain rotational invariance in the thermodynamic limit.  This can be seen as follows: one can see in Figure \ref{fig:bravais} that any $N=n_1^2+n_2^2$ packing (which are, as seen above, the only possible packings with density one) will orient the square lattice at an angle of $\tan^{-1}(n_2/n_1)$ relative to the torus lattice vectors.  To take the thermodynamic limit with a particular square lattice orientation $\Theta$ with respect to the underlying torus, it is sufficient to choose a particular subsequence of integers $N_i=n_{1,i}^2+n_{2,i}^2$ such that 
+%JM: I MADE THIS A STATEMENT ABOUT THE LIMIT AND REMOVED THE NOTE
+$\tan^{-1}(n_2/n_1) \rightarrow \Theta$.
+%(note that if $r$ is irrational, the ratio $\frac{n_{1_i}}{n_{2_i}}$ approaches, but never equals, $r$). 
+The thermodynamic limit of density-one packings on the torus thus preserves orientational symmetry.
+
+%\subsection{Concluding remarks}
+
+Our study of the densest packings of $N$ unit squares in a torus has yielded definitive results for cases in which $N$ is the sum of two square integers or is a perfect square, and strong conjectures for other values of $N \le 27$.  This work raises many interesting questions: How common are densest packings that have squares with different orientations, such as occurs for $N=21$?  Are there other densest packings on a torus similar to the configuration for $N=12$?  Which motifs, if any, dominate for large $N$?  Are the $1/2 \times 1/2$ motifs of $N=12$ and $N=23$ exhibited for other $N$? What role do these dense packing configurations play in the thermodynamic phases observed in finite-temperature simulations and experiments with square colloids?
+
+%As our study has demonstrated, dense packings of regular shapes may exhibit frustration when restricted to finite areas, even in the absence of Gaussian curvature; whether this type of frustration plays a role in the packings of colloids on a spherical droplet or other finite-area surface remains open. 
+
+%\input{list_of_figures.tex}
+
+%\begin{figure}[h]
+%\label{fig:N9}
+%\scalebox{.5}{\includegraphics{figures/3x3.pdf}}
+%\caption{\label{fig:N9} An example of a perfect square packing with density one: $N=9$.}
+%\end{figure}
+
+%\begin{figure}[H]
+%\scalebox{.4}{\includegraphics{figures/bravais1.pdf}}
+%\caption{\label{fig:bravais}An example of a packing for which $N$ is equal to the sum of two squares: $N=10$; all such packings are density one.}
+%\end{figure}
+%\begin{figure}[H]
+
+%\begin{figure}[H]
+%\scalebox{.4}{\includegraphics{figures/alignedBlocks3.pdf}}
+%\caption{\label{fig:aligned}}
+%\end{figure}
+
+%\begin{figure}[H]
+%\scalebox{.3}{\includegraphics{figures/pythagoras.pdf}}
+%\caption{\label{fig:pythagoras}}
+%\end{figure}
+
+
+%\begin{figure}[H]
+%\scalebox{.4}{\includegraphics{figures/Bezout1.pdf}}
+%\caption{\label{fig:Bezout}}
+%\end{figure}
+
+\begin{acknowledgements}
+We would like to thank James Hanna and Narayanan Menon for useful discussions of some of the issues addressed in this paper.  J.M. acknowledges support from NSF grant DMR-0907235. C.D.S. acknowledges support from NSF grant DMR-0846582, and was partially supported by the NSF-funded Center for Hierarchical Manufacturing, CMMI-1025020. D.B. is grateful for use of the Hoffman2 computing cluster at UCLA.
+\end{acknowledgements}
+
+\bibliographystyle{apsrev}
+\bibliography{squaresFinal}
+
+%NOTE: for bibliography, the method is to export from mendeley to the file, then change url to url2, and isbn to isbn2
+
+\end{document}
+
+ 

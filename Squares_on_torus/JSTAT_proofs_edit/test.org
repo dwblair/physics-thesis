@@ -1,0 +1,57 @@
+Please find below our reply to the editor's queries, and then some additional changes.
+
+Responses to editor's queries:
+
+Query 1: Caption for Figure 3, page 6: "Figure 3. (a) Any three squares in mutual contact without gaps force two two of the squares to define a row.  (b) Figure illustrating that N must be equal to the sum of two squares for all density-one packings of squares in the torus (see discussion in Section 2.1.1.)"
+
+Query 2: The change made by the editor is correct -- thanks.
+
+Query 3:  "Check details for any journal references that do not have a blue link..."
+By reference:
+[17] Correct. May add the hyperlink: http://pre.aps.org/abstract/PRE/v82/i6/e061304
+[20] Correct. May add the hyperlink: http://www.man.poznan.pl/cmst/www.old/papers/10_2/CMST10-12.pdf?ref=Sex%C5%9Ehop.Com
+[24] Correct. May add the hyperlink: http://www.combinatorics.org/Surveys/ds7.html
+[28] Correct.
+[29] Correct.
+
+Query 4:  "For author 16,17,24, please provide page / article number..."
+[16] article number: 248301
+[17] article number: 061304
+[24] article number: DS#7
+
+Query 5. "Author [25,26]: year?"
+These references refers to software libraries that are being maintained on an ongoing basis.  If a year is necessary, then perhaps the current year (2012) would be appropriate.
+
+Our own, additional edits:
+
+1. We'd prefer to have the phrase "density-1" changed back to "density-one", as per the original text.
+
+2. Please rename Section 2, which is currently titled "Analysis of packings", to "Analysis of packings and numerical results".
+
+3. We noticed that we are inconsistent in the text in how we refer to the (only) table in the document.  Since there is only one table, can we please everywhere refer to the table as "the table", and remove the "1" -- including in the table caption.  For example, in the middle and bottom of page 3, "table 1" becomes "the table"
+
+4. Section 2.2.2: the number "23" in the title should not be italicized.
+
+5. At the end of section 2.2.3: please remove the parentheses, and instead insert a comma. 
+Old version: "Figure 9 shows a typical simulation result (which clearly has not yet fully converged)."
+New version: "Figure 9 shows a typical simulation result, which clearly has not yet fully converged."
+
+6. Section 2.3, first sentence: Please remove the extra space after the "To summarize".
+
+7. Bottom of page 13:
+
+The additional subscript "i" that appears in the expression for "N_i" should also appear in the tan^{-1} expression.  
+
+Old version: $\tan^{-1}(n_2/n_1) \rightarrow \Theta$
+New version:  $\tan^{-1}(n_{2,i}/n_{1,i}) \rightarrow \Theta$
+
+Also, in the last sentence, the word "orientational" should be replaced by "rotational":
+Old version: "The thermodynamic limit of density-one packings on the torus thus preserves orientational symmetry."
+New version: "The thermodynamic limit of density-one packings on the torus thus preserves rotational symmetry."
+
+8. Page 14: Please delete the sentence "Are there other densest packing on a torus similar ... N=12", as it is redundant.
+
+9. Ref [15] was also published in Physical Review Letters, and thus should not refer to the arXiv link, but instead to:
+
+Ras T, Schilling R and Weigel, M, 2011 Phys. Rev. Lett. 107 215503
+with hyperlink: http://prl.aps.org/abstract/PRL/v107/i21/e215503
